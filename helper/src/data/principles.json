@@ -1,0 +1,15 @@
+[
+  { "id": 1, "name": "Edge", "color": "#D6DE4A" },
+  { "id": 2, "name": "Forge", "color": "#FF8E3F" },
+  { "id": 3, "name": "Grail", "color": "#FF614F" },
+  { "id": 4, "name": "Heart", "color": "#FF7F8C" },
+  { "id": 5, "name": "Knock", "color": "#B54EFC" },
+  { "id": 6, "name": "Lantern", "color": "#FFE300" },
+  { "id": 7, "name": "Moon", "color": "#CBBDD6" },
+  { "id": 8, "name": "Moth", "color": "#F2EAC3" },
+  { "id": 9, "name": "Nectar", "color": "#2CD391" },
+  { "id": 10, "name": "Rose", "color": "#EF64FF" },
+  { "id": 11, "name": "Scale", "color": "#CB9F4D" },
+  { "id": 12, "name": "Sky", "color": "#2C69E1" },
+  { "id": 13, "name": "Winter", "color": "#BDEFFF" }
+]

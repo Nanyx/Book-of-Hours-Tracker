@@ -1,0 +1,2534 @@
+{
+  "types": [
+    { "id": 1, "name": "Codex" },
+    { "id": 2, "name": "Tablet" },
+    { "id": 3, "name": "Scroll" },
+    { "id": 4, "name": "Film Reel" },
+    { "id": 5, "name": "Record" }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "name": "The Ascendant",
+      "type": 1,
+      "mastery": 1,
+      "mystery": 10,
+      "memory": 21,
+      "skill": 13
+    },
+    {
+      "id": 2,
+      "name": "As The Sun His Course",
+      "type": 1,
+      "mastery": 1,
+      "mystery": 8,
+      "memory": 21,
+      "skill": 48
+    },
+    {
+      "id": 3,
+      "name": "The Book of Thrones",
+      "type": 1,
+      "mastery": 1,
+      "mystery": 12,
+      "memory": 21,
+      "skill": 3
+    },
+    {
+      "id": 4,
+      "name": "Book of True Blood",
+      "type": 1,
+      "mastery": 1,
+      "mystery": 14,
+      "memory": 27,
+      "skill": 27
+    },
+    {
+      "id": 5,
+      "name": "A Child's Treasury of Golden Afternoons",
+      "type": 1,
+      "mastery": 1,
+      "mystery": 10,
+      "memory": 56,
+      "skill": 47
+    },
+    {
+      "id": 6,
+      "name": "De Bellis Murorum",
+      "type": 1,
+      "mastery": 1,
+      "mystery": 6,
+      "memory": 21,
+      "skill": 8
+    },
+    {
+      "id": 7,
+      "name": "The Deeds of the Scarred Captain",
+      "type": 1,
+      "mastery": 1,
+      "mystery": 12,
+      "memory": 27,
+      "skill": 47
+    },
+    {
+      "id": 8,
+      "name": "De Horis book 2",
+      "type": 1,
+      "mastery": 1,
+      "mystery": 4,
+      "memory": 25,
+      "skill": 7
+    },
+    {
+      "id": 9,
+      "name": "De Horis book 3",
+      "type": 1,
+      "mastery": 1,
+      "mystery": 4,
+      "memory": 21,
+      "skill": 8
+    },
+    {
+      "id": 10,
+      "name": "Exorcism for Girls",
+      "type": 1,
+      "mastery": 1,
+      "mystery": 6,
+      "memory": 27,
+      "skill": 48
+    },
+    {
+      "id": 11,
+      "name": "The High Traditions of the Noble Endeavour",
+      "type": 1,
+      "mastery": 1,
+      "mystery": 6,
+      "memory": 25,
+      "skill": 7
+    },
+    {
+      "id": 12,
+      "name": "How the End will Begin",
+      "type": 1,
+      "mastery": 1,
+      "mystery": 14,
+      "memory": 27,
+      "skill": 38
+    },
+    {
+      "id": 13,
+      "name": "The Iron Book",
+      "type": 1,
+      "mastery": 1,
+      "mystery": 8,
+      "memory": 25,
+      "skill": 7
+    },
+    {
+      "id": 14,
+      "name": "The Leonine Tantra",
+      "type": 3,
+      "mastery": 1,
+      "mystery": 8,
+      "memory": 27,
+      "skill": 13
+    },
+    {
+      "id": 15,
+      "name": "THE OPEN HEAD",
+      "type": 4,
+      "mastery": 1,
+      "mystery": 8,
+      "memory": 32,
+      "skill": 8
+    },
+    {
+      "id": 16,
+      "name": "The Sevenfold Slaying of the Seven-Coiled",
+      "type": 1,
+      "mastery": 1,
+      "mystery": 16,
+      "memory": 27,
+      "skill": 8
+    },
+    {
+      "id": 17,
+      "name": "Seven Shards",
+      "type": 1,
+      "mastery": 1,
+      "mystery": 10,
+      "memory": 29,
+      "skill": 7
+    },
+    {
+      "id": 18,
+      "name": "The Sky in the Scar",
+      "type": 1,
+      "mastery": 1,
+      "mystery": 10,
+      "memory": 52,
+      "skill": 48
+    },
+    {
+      "id": 19,
+      "name": "The Sun's Lament",
+      "type": 1,
+      "mastery": 1,
+      "mystery": 4,
+      "memory": 27,
+      "skill": 38
+    },
+    {
+      "id": 20,
+      "name": "The Victory of Crowns",
+      "type": 1,
+      "mastery": 1,
+      "mystery": 4,
+      "memory": 21,
+      "skill": 47
+    },
+    {
+      "id": 21,
+      "name": "The War of the Roads, 1451-1551",
+      "type": 1,
+      "mastery": 1,
+      "mystery": 4,
+      "memory": 25,
+      "skill": 27
+    },
+    {
+      "id": 22,
+      "name": "The Wound-Wounds",
+      "type": 1,
+      "mastery": 1,
+      "mystery": 18,
+      "memory": 31,
+      "skill": 8
+    },
+
+    {
+      "id": 23,
+      "name": "The Admonitory Automata Project",
+      "type": 4,
+      "mastery": 2,
+      "mystery": 10,
+      "memory": 25,
+      "skill": 25
+    },
+    {
+      "id": 24,
+      "name": "The Amalgam of the Red Rose",
+      "type": 1,
+      "mastery": 2,
+      "mystery": 8,
+      "memory": 25,
+      "skill": 27
+    },
+    {
+      "id": 25,
+      "name": "Ambrosial!",
+      "type": 1,
+      "mastery": 2,
+      "mystery": 8,
+      "memory": 23,
+      "skill": 53
+    },
+    {
+      "id": 26,
+      "name": "Amiranis Beteli",
+      "type": 2,
+      "mastery": 2,
+      "mystery": 10,
+      "memory": 55,
+      "skill": 4
+    },
+    {
+      "id": 27,
+      "name": "The Book of Cinders",
+      "type": 1,
+      "mastery": 2,
+      "mystery": 6,
+      "memory": 25,
+      "skill": 36
+    },
+    {
+      "id": 28,
+      "name": "The Book of Dissolution",
+      "type": 1,
+      "mastery": 2,
+      "mystery": 12,
+      "memory": 25,
+      "skill": 59
+    },
+    {
+      "id": 29,
+      "name": "The Burning Woman",
+      "type": 1,
+      "mastery": 2,
+      "mystery": 14,
+      "memory": 25,
+      "skill": 59
+    },
+    {
+      "id": 30,
+      "name": "The Carmine Petal: Revised",
+      "type": 1,
+      "mastery": 2,
+      "mystery": 12,
+      "memory": 25,
+      "skill": 7
+    },
+    {
+      "id": 31,
+      "name": "The Carmine Petal: Unexpurgated",
+      "type": 1,
+      "mastery": 2,
+      "mystery": 18,
+      "memory": 25,
+      "skill": 7
+    },
+    {
+      "id": 32,
+      "name": "A Descent of the Shell",
+      "type": 1,
+      "mastery": 2,
+      "mystery": 14,
+      "memory": 25,
+      "skill": 34
+    },
+    {
+      "id": 33,
+      "name": "Glimmerings",
+      "type": 1,
+      "mastery": 2,
+      "mystery": 10,
+      "memory": 2,
+      "skill": 49
+    },
+    {
+      "id": 34,
+      "name": "The Incandescent Tantra",
+      "type": 3,
+      "mastery": 2,
+      "mystery": 8,
+      "memory": 25,
+      "skill": 59
+    },
+    {
+      "id": 35,
+      "name": "Journal of Walter Dewulf",
+      "type": 1,
+      "mastery": 2,
+      "mystery": 6,
+      "memory": 25,
+      "skill": 9
+    },
+    {
+      "id": 36,
+      "name": "The Manner in which the Alchemist was Spared",
+      "type": 1,
+      "mastery": 2,
+      "mystery": 14,
+      "memory": 25,
+      "skill": 1
+    },
+    {
+      "id": 37,
+      "name": "The Messenger Awaiting Her Destination",
+      "type": 1,
+      "mastery": 2,
+      "mystery": 16,
+      "memory": 20,
+      "skill": 9
+    },
+    {
+      "id": 38,
+      "name": "My Deeds, My Powers, My Achievements and the Injustices Perpetrated Against Me",
+      "type": 1,
+      "mastery": 2,
+      "mystery": 16,
+      "memory": 25,
+      "skill": 59
+    },
+    {
+      "id": 39,
+      "name": "Old Coppernose and the Softer Metal",
+      "type": 1,
+      "mastery": 2,
+      "mystery": 8,
+      "memory": 25,
+      "skill": 4
+    },
+    {
+      "id": 40,
+      "name": "On Matthias and the Amethyst Imago: Transformation",
+      "type": 1,
+      "mastery": 2,
+      "mystery": 6,
+      "memory": 23,
+      "skill": 53
+    },
+    {
+      "id": 41,
+      "name": "A Shape in Smoke",
+      "type": 1,
+      "mastery": 2,
+      "mystery": 8,
+      "memory": 32,
+      "skill": 36
+    },
+    {
+      "id": 42,
+      "name": "Skin of Silver",
+      "type": 1,
+      "mastery": 2,
+      "mystery": 10,
+      "memory": 27,
+      "skill": 7
+    },
+    {
+      "id": 43,
+      "name": "Sunset Passages",
+      "type": 1,
+      "mastery": 2,
+      "mystery": 4,
+      "memory": 32,
+      "skill": 43
+    },
+    {
+      "id": 44,
+      "name": "The Temptations of Architecture",
+      "type": 1,
+      "mastery": 2,
+      "mystery": 10,
+      "memory": 8,
+      "skill": 9
+    },
+    {
+      "id": 45,
+      "name": "The Vinzant Inscriptions",
+      "type": 1,
+      "mastery": 2,
+      "mystery": 6,
+      "memory": 25,
+      "skill": 59
+    },
+    {
+      "id": 46,
+      "name": "Vinzant's Minglings",
+      "type": 1,
+      "mastery": 2,
+      "mystery": 4,
+      "memory": 25,
+      "skill": 4
+    },
+
+    {
+      "id": 47,
+      "name": "Calicite Supplications",
+      "type": 1,
+      "mastery": 3,
+      "mystery": 8,
+      "memory": 24,
+      "skill": 60
+    },
+    {
+      "id": 48,
+      "name": "A Catalogue of Uncharted Pleasures",
+      "type": 1,
+      "mastery": 3,
+      "mystery": 12,
+      "memory": 24,
+      "skill": 28
+    },
+    {
+      "id": 49,
+      "name": "COLOURS IN THE LIVER",
+      "type": 4,
+      "mastery": 3,
+      "mystery": 6,
+      "memory": 32,
+      "skill": 39
+    },
+    {
+      "id": 50,
+      "name": "The Devoured Tantra",
+      "type": 1,
+      "mastery": 3,
+      "mystery": 6,
+      "memory": 9,
+      "skill": 2
+    },
+    {
+      "id": 51,
+      "name": "The Dream of the Conspiracy of the Lower Skies",
+      "type": 1,
+      "mastery": 3,
+      "mystery": 16,
+      "memory": 28,
+      "skill": 58
+    },
+    {
+      "id": 52,
+      "name": "The Geminiad II",
+      "type": 1,
+      "mastery": 3,
+      "mystery": 10,
+      "memory": 24,
+      "skill": 32
+    },
+    {
+      "id": 53,
+      "name": "An Impertinent Vitulation",
+      "type": 1,
+      "mastery": 3,
+      "mystery": 6,
+      "memory": 24,
+      "skill": 24
+    },
+    {
+      "id": 54,
+      "name": "A Journey to the Grove",
+      "type": 1,
+      "mastery": 3,
+      "mystery": 10,
+      "memory": 24,
+      "skill": 28
+    },
+    {
+      "id": 55,
+      "name": "The Intimations of Skin",
+      "type": 1,
+      "mastery": 3,
+      "mystery": 8,
+      "memory": 1,
+      "skill": 6
+    },
+    {
+      "id": 56,
+      "name": "Medusan Commentaries",
+      "type": 1,
+      "mastery": 3,
+      "mystery": 21,
+      "memory": 27,
+      "skill": 32
+    },
+    {
+      "id": 57,
+      "name": "On Matthias and the Amethyst Imago: Pursuit",
+      "type": 1,
+      "mastery": 3,
+      "mystery": 6,
+      "memory": 28,
+      "skill": 6
+    },
+    {
+      "id": 58,
+      "name": "On Thirstlies, Ivories and Lovelies",
+      "type": 1,
+      "mastery": 3,
+      "mystery": 10,
+      "memory": 23,
+      "skill": 39
+    },
+    {
+      "id": 59,
+      "name": "One Thousand Threads",
+      "type": 1,
+      "mastery": 3,
+      "mystery": 12,
+      "memory": 27,
+      "skill": 60
+    },
+    {
+      "id": 60,
+      "name": "The Orchid Transfigurations: a Birth",
+      "type": 1,
+      "mastery": 3,
+      "mystery": 8,
+      "memory": 24,
+      "skill": 39
+    },
+    {
+      "id": 61,
+      "name": "The Orchid Transfigurations: a Feast",
+      "type": 1,
+      "mastery": 3,
+      "mystery": 4,
+      "memory": 30,
+      "skill": 6
+    },
+    {
+      "id": 62,
+      "name": "The Rose of Nuriel",
+      "type": 1,
+      "mastery": 3,
+      "mystery": 10,
+      "memory": 24,
+      "skill": 58
+    },
+    {
+      "id": 63,
+      "name": "The Skeleton Songs",
+      "type": 1,
+      "mastery": 3,
+      "mystery": 4,
+      "memory": 1,
+      "skill": 39
+    },
+    {
+      "id": 64,
+      "name": "Snare of the Tree: Collected Proverbs of Aunt Mopsy",
+      "type": 1,
+      "mastery": 3,
+      "mystery": 8,
+      "memory": 9,
+      "skill": 2
+    },
+    {
+      "id": 65,
+      "name": "The Sun Disfigured",
+      "type": 3,
+      "mastery": 3,
+      "mystery": 8,
+      "memory": 54,
+      "skill": 2
+    },
+    {
+      "id": 66,
+      "name": "The Thirsting Tantra",
+      "type": 1,
+      "mastery": 3,
+      "mystery": 8,
+      "memory": 24,
+      "skill": 28
+    },
+    {
+      "id": 67,
+      "name": "The Tripled Heart",
+      "type": 1,
+      "mastery": 3,
+      "mystery": 4,
+      "memory": 30,
+      "skill": 60
+    },
+    {
+      "id": 68,
+      "name": "The Wind's Ruin",
+      "type": 1,
+      "mastery": 3,
+      "mystery": 4,
+      "memory": 1,
+      "skill": 2
+    },
+    {
+      "id": 69,
+      "name": "The Wonderful Shape",
+      "type": 1,
+      "mastery": 3,
+      "mystery": 10,
+      "memory": 24,
+      "skill": 60
+    },
+    {
+      "id": 70,
+      "name": "Twenty-Six Enticements, Seven Torments",
+      "type": 1,
+      "mastery": 3,
+      "mystery": 14,
+      "memory": 23,
+      "skill": 39
+    },
+
+    {
+      "id": 71,
+      "name": "A True and Complete Accounting of the Asclepian Mysteries of the Roots of the House",
+      "type": 1,
+      "mastery": 4,
+      "mystery": 4,
+      "memory": 23,
+      "skill": 62
+    },
+    {
+      "id": 72,
+      "name": "Apollo and Marsyas",
+      "type": 1,
+      "mastery": 4,
+      "mystery": 4,
+      "memory": 33,
+      "skill": 57
+    },
+    {
+      "id": 73,
+      "name": "The Book of the Extinguished Heart",
+      "type": 1,
+      "mastery": 4,
+      "mystery": 16,
+      "memory": 2,
+      "skill": 37
+    },
+    {
+      "id": 74,
+      "name": "The Ceaseless Tantra",
+      "type": 1,
+      "mastery": 4,
+      "mystery": 6,
+      "memory": 23,
+      "skill": 62
+    },
+    {
+      "id": 75,
+      "name": "Commandments For the Preservation of All That Exists",
+      "type": 1,
+      "mastery": 4,
+      "mystery": 14,
+      "memory": 24,
+      "skill": 54
+    },
+    {
+      "id": 76,
+      "name": "The Flayed Tantra",
+      "type": 3,
+      "mastery": 4,
+      "mystery": 8,
+      "memory": 33,
+      "skill": 26
+    },
+    {
+      "id": 77,
+      "name": "The Geminiad I",
+      "type": 1,
+      "mastery": 4,
+      "mystery": 10,
+      "memory": 22,
+      "skill": 62
+    },
+    {
+      "id": 78,
+      "name": "The Instruments of the Heart",
+      "type": 1,
+      "mastery": 4,
+      "mystery": 10,
+      "memory": 3,
+      "skill": 10
+    },
+    {
+      "id": 79,
+      "name": "Lake Fucino Recordings",
+      "type": 5,
+      "mastery": 4,
+      "mystery": 12,
+      "memory": 1,
+      "skill": 10
+    },
+    {
+      "id": 80,
+      "name": "Notes on Bindings",
+      "type": 1,
+      "mastery": 4,
+      "mystery": 10,
+      "memory": 22,
+      "skill": 54
+    },
+    {
+      "id": 81,
+      "name": "Nyn's Cages (Avignon Text)",
+      "type": 1,
+      "mastery": 4,
+      "mystery": 16,
+      "memory": 29,
+      "skill": 37
+    },
+    {
+      "id": 82,
+      "name": "The Orchid Transfigurations: Noon",
+      "type": 1,
+      "mastery": 4,
+      "mystery": 4,
+      "memory": 22,
+      "skill": 26
+    },
+    {
+      "id": 83,
+      "name": "The Other Line",
+      "type": 1,
+      "mastery": 4,
+      "mystery": 4,
+      "memory": 9,
+      "skill": 33
+    },
+    {
+      "id": 84,
+      "name": "Rapt in the King",
+      "type": 1,
+      "mastery": 4,
+      "mystery": 8,
+      "memory": 48,
+      "skill": 10
+    },
+    {
+      "id": 85,
+      "name": "Those Who Do Not Sleep",
+      "type": 1,
+      "mastery": 4,
+      "mystery": 12,
+      "memory": 33,
+      "skill": 57
+    },
+    {
+      "id": 86,
+      "name": "The Time of Division",
+      "type": 1,
+      "mastery": 4,
+      "mystery": 14,
+      "memory": 20,
+      "skill": 57
+    },
+    {
+      "id": 87,
+      "name": "Two Wombs, One Heart",
+      "type": 1,
+      "mastery": 4,
+      "mystery": 8,
+      "memory": 24,
+      "skill": 54
+    },
+    {
+      "id": 88,
+      "name": "Velletri Interviews",
+      "type": 5,
+      "mastery": 4,
+      "mystery": 6,
+      "memory": 26,
+      "skill": 11
+    },
+    {
+      "id": 89,
+      "name": "Warming Draughts to Uplift the Heart",
+      "type": 1,
+      "mastery": 4,
+      "mystery": 8,
+      "memory": 23,
+      "skill": 17
+    },
+
+    {
+      "id": 90,
+      "name": "Advice on Containment",
+      "type": 1,
+      "mastery": 5,
+      "mystery": 4,
+      "memory": 20,
+      "skill": 15
+    },
+    {
+      "id": 91,
+      "name": "An Almanac of Entrances",
+      "type": 1,
+      "mastery": 5,
+      "mystery": 10,
+      "memory": 8,
+      "skill": 12
+    },
+    {
+      "id": 92,
+      "name": "By Their Marks Shall Ye Know them",
+      "type": 1,
+      "mastery": 5,
+      "mystery": 6,
+      "memory": 20,
+      "skill": 57
+    },
+    {
+      "id": 93,
+      "name": "Cardea's Delights",
+      "type": 1,
+      "mastery": 5,
+      "mystery": 8,
+      "memory": 20,
+      "skill": 58
+    },
+    {
+      "id": 94,
+      "name": "Deaths and their Evasions",
+      "type": 1,
+      "mastery": 5,
+      "mystery": 14,
+      "memory": 26,
+      "skill": 12
+    },
+    {
+      "id": 95,
+      "name": "The Elations of Limentinus",
+      "type": 1,
+      "mastery": 5,
+      "mystery": 6,
+      "memory": 20,
+      "skill": 58
+    },
+    {
+      "id": 96,
+      "name": "The Gospel of Zacchaeus",
+      "type": 1,
+      "mastery": 5,
+      "mystery": 8,
+      "memory": 26,
+      "skill": 19
+    },
+    {
+      "id": 97,
+      "name": "The Grand Passage of the Hours",
+      "type": 1,
+      "mastery": 5,
+      "mystery": 12,
+      "memory": 20,
+      "skill": 9
+    },
+    {
+      "id": 98,
+      "name": "The Locksmith's Dream: Trespasses",
+      "type": 1,
+      "mastery": 5,
+      "mystery": 6,
+      "memory": 23,
+      "skill": 12
+    },
+    {
+      "id": 99,
+      "name": "A Manual for Departure",
+      "type": 1,
+      "mastery": 5,
+      "mystery": 14,
+      "memory": 8,
+      "skill": 9
+    },
+    {
+      "id": 100,
+      "name": "OGHKOR OGHKOR TISSILAK OGHKOR",
+      "type": 1,
+      "mastery": 5,
+      "mystery": 12,
+      "memory": 20,
+      "skill": 58
+    },
+    {
+      "id": 101,
+      "name": "On Imperfections",
+      "type": 1,
+      "mastery": 5,
+      "mystery": 10,
+      "memory": 20,
+      "skill": 15
+    },
+    {
+      "id": 102,
+      "name": "On the Matter and the Deeds of Serpents",
+      "type": 1,
+      "mastery": 5,
+      "mystery": 12,
+      "memory": 8,
+      "skill": 12
+    },
+    {
+      "id": 103,
+      "name": "On the Winding Stair",
+      "type": 1,
+      "mastery": 5,
+      "mystery": 8,
+      "memory": 20,
+      "skill": 9
+    },
+    {
+      "id": 104,
+      "name": "The Raptures of Forculus",
+      "type": 1,
+      "mastery": 5,
+      "mystery": 4,
+      "memory": 20,
+      "skill": 58
+    },
+    {
+      "id": 105,
+      "name": "The Road to Janus",
+      "type": 1,
+      "mastery": 5,
+      "mystery": 18,
+      "memory": 20,
+      "skill": 9
+    },
+    {
+      "id": 106,
+      "name": "Towards a Fundamental Aesthetic",
+      "type": 1,
+      "mastery": 5,
+      "mystery": 10,
+      "memory": 51,
+      "skill": 15
+    },
+    {
+      "id": 107,
+      "name": "A Tower Falls",
+      "type": 5,
+      "mastery": 5,
+      "mystery": 16,
+      "memory": 9,
+      "skill": 33
+    },
+    {
+      "id": 108,
+      "name": "The Twin-Serpent Tantra",
+      "type": 1,
+      "mastery": 5,
+      "mystery": 8,
+      "memory": 20,
+      "skill": 12
+    },
+    {
+      "id": 109,
+      "name": "The Treatise on Underplaces",
+      "type": 1,
+      "mastery": 5,
+      "mystery": 4,
+      "memory": 27,
+      "skill": 19
+    },
+    {
+      "id": 110,
+      "name": "Travelling at Night, vol 1",
+      "type": 1,
+      "mastery": 5,
+      "mystery": 4,
+      "memory": 23,
+      "skill": 12
+    },
+    {
+      "id": 111,
+      "name": "Travelling at Night, vol 3",
+      "type": 1,
+      "mastery": 5,
+      "mystery": 4,
+      "memory": 20,
+      "skill": 9
+    },
+    {
+      "id": 112,
+      "name": "Xenodicene Odes",
+      "type": 1,
+      "mastery": 5,
+      "mystery": 21,
+      "memory": 9,
+      "skill": 33
+    },
+
+    {
+      "id": 113,
+      "name": "The Alloy of the White Rose",
+      "type": 1,
+      "mastery": 6,
+      "mystery": 10,
+      "memory": 32,
+      "skill": 34
+    },
+    {
+      "id": 114,
+      "name": "Bancroft Diaries",
+      "type": 1,
+      "mastery": 6,
+      "mystery": 4,
+      "memory": 25,
+      "skill": 36
+    },
+    {
+      "id": 115,
+      "name": "The Chandler's Wish",
+      "type": 1,
+      "mastery": 6,
+      "mystery": 12,
+      "memory": 25,
+      "skill": 22
+    },
+    {
+      "id": 116,
+      "name": "Gospel of Nicodemus",
+      "type": 1,
+      "mastery": 6,
+      "mystery": 6,
+      "memory": 32,
+      "skill": 43
+    },
+    {
+      "id": 117,
+      "name": "The High Mysteries of the Innermost Chamber of our Church Solar",
+      "type": 1,
+      "mastery": 6,
+      "mystery": 14,
+      "memory": 32,
+      "skill": 43
+    },
+    {
+      "id": 118,
+      "name": "In the Malleary",
+      "type": 1,
+      "mastery": 6,
+      "mystery": 4,
+      "memory": 25,
+      "skill": 1
+    },
+    {
+      "id": 119,
+      "name": "The Known-Unknown Tantra",
+      "type": 1,
+      "mastery": 6,
+      "mystery": 6,
+      "memory": 32,
+      "skill": 61
+    },
+    {
+      "id": 120,
+      "name": "Letters To My Successor",
+      "type": 1,
+      "mastery": 6,
+      "mystery": 8,
+      "memory": 32,
+      "skill": 22
+    },
+    {
+      "id": 121,
+      "name": "A Light in the Inkwell",
+      "type": 1,
+      "mastery": 6,
+      "mystery": 8,
+      "memory": 32,
+      "skill": 22
+    },
+    {
+      "id": 122,
+      "name": "The Locksmith's Dream: a Light through the Keyhole",
+      "type": 1,
+      "mastery": 6,
+      "mystery": 4,
+      "memory": 32,
+      "skill": 34
+    },
+    {
+      "id": 123,
+      "name": "The Locksmith's Dream: Incursus",
+      "type": 1,
+      "mastery": 6,
+      "mystery": 6,
+      "memory": 9,
+      "skill": 16
+    },
+    {
+      "id": 124,
+      "name": "Opus Magnum Caeruleum",
+      "type": 1,
+      "mastery": 6,
+      "mystery": 14,
+      "memory": 25,
+      "skill": 36
+    },
+    {
+      "id": 125,
+      "name": "Prophecies of Glory",
+      "type": 1,
+      "mastery": 6,
+      "mystery": 8,
+      "memory": 32,
+      "skill": 61
+    },
+    {
+      "id": 126,
+      "name": "Quirinic Meditations",
+      "type": 1,
+      "mastery": 6,
+      "mystery": 21,
+      "memory": 21,
+      "skill": 3
+    },
+    {
+      "id": 127,
+      "name": "The Rose of Waznei",
+      "type": 1,
+      "mastery": 6,
+      "mystery": 8,
+      "memory": 32,
+      "skill": 3
+    },
+    {
+      "id": 128,
+      "name": "The Sky, the Soul",
+      "type": 1,
+      "mastery": 6,
+      "mystery": 12,
+      "memory": 25,
+      "skill": 36
+    },
+    {
+      "id": 129,
+      "name": "Sunrise Awakenings",
+      "type": 1,
+      "mastery": 6,
+      "mystery": 4,
+      "memory": 32,
+      "skill": 3
+    },
+    {
+      "id": 130,
+      "name": "The Sun's Design",
+      "type": 2,
+      "mastery": 6,
+      "mystery": 10,
+      "memory": 60,
+      "skill": 61
+    },
+    {
+      "id": 131,
+      "name": "Unhatched Hymns",
+      "type": 1,
+      "mastery": 6,
+      "mystery": 10,
+      "memory": 4,
+      "skill": 43
+    },
+    {
+      "id": 132,
+      "name": "The Watchful Tantra",
+      "type": 3,
+      "mastery": 6,
+      "mystery": 8,
+      "memory": 32,
+      "skill": 34
+    },
+    {
+      "id": 133,
+      "name": "Wainscot Histories",
+      "type": 1,
+      "mastery": 6,
+      "mystery": 6,
+      "memory": 21,
+      "skill": 3
+    },
+
+    {
+      "id": 134,
+      "name": "The Account of Kanishk at the Spider's Door",
+      "type": 1,
+      "mastery": 7,
+      "mystery": 6,
+      "memory": 26,
+      "skill": 47
+    },
+    {
+      "id": 135,
+      "name": "The Black Book of Brittany",
+      "type": 1,
+      "mastery": 7,
+      "mystery": 12,
+      "memory": 2,
+      "skill": 20
+    },
+    {
+      "id": 136,
+      "name": "Black Nephrite",
+      "type": 1,
+      "mastery": 7,
+      "mystery": 6,
+      "memory": 27,
+      "skill": 63
+    },
+    {
+      "id": 137,
+      "name": "Codex Acephali",
+      "type": 1,
+      "mastery": 7,
+      "mystery": 10,
+      "memory": 31,
+      "skill": 51
+    },
+    {
+      "id": 138,
+      "name": "Collected Hush House Lectures",
+      "type": 1,
+      "mastery": 7,
+      "mystery": 4,
+      "memory": 30,
+      "skill": 48
+    },
+    {
+      "id": 139,
+      "name": "The Crossing to Noon",
+      "type": 1,
+      "mastery": 7,
+      "mystery": 8,
+      "memory": 19,
+      "skill": 45
+    },
+    {
+      "id": 140,
+      "name": "The Deaths of the Moon",
+      "type": 1,
+      "mastery": 7,
+      "mystery": 8,
+      "memory": 19,
+      "skill": 51
+    },
+    {
+      "id": 141,
+      "name": "Enchiridion Tragularis",
+      "type": 1,
+      "mastery": 7,
+      "mystery": 14,
+      "memory": 30,
+      "skill": 46
+    },
+    {
+      "id": 142,
+      "name": "An Exorcist's Field Manual",
+      "type": 1,
+      "mastery": 7,
+      "mystery": 6,
+      "memory": 21,
+      "skill": 13
+    },
+    {
+      "id": 143,
+      "name": "EXPERIMENT BEYOND SIGHT",
+      "type": 4,
+      "mastery": 7,
+      "mystery": 8,
+      "memory": 32,
+      "skill": 11
+    },
+    {
+      "id": 144,
+      "name": "An Investigation of A Foundered Country",
+      "type": 5,
+      "mastery": 7,
+      "mystery": 4,
+      "memory": 26,
+      "skill": 18
+    },
+    {
+      "id": 145,
+      "name": "The Kerisham Portolan",
+      "type": 1,
+      "mastery": 7,
+      "mystery": 6,
+      "memory": 28,
+      "skill": 45
+    },
+    {
+      "id": 146,
+      "name": "The Larquebine Codex",
+      "type": 1,
+      "mastery": 7,
+      "mystery": 6,
+      "memory": 19,
+      "skill": 45
+    },
+    {
+      "id": 147,
+      "name": "Malachite Supplications",
+      "type": 1,
+      "mastery": 7,
+      "mystery": 8,
+      "memory": 23,
+      "skill": 60
+    },
+    {
+      "id": 148,
+      "name": "The Moon's Egg",
+      "type": 1,
+      "mastery": 7,
+      "mystery": 4,
+      "memory": 9,
+      "skill": 31
+    },
+    {
+      "id": 149,
+      "name": "The Morphy Codex",
+      "type": 1,
+      "mastery": 7,
+      "mystery": 6,
+      "memory": 1,
+      "skill": 60
+    },
+    {
+      "id": 150,
+      "name": "Nix Abolix",
+      "type": 1,
+      "mastery": 7,
+      "mystery": 16,
+      "memory": 27,
+      "skill": 63
+    },
+    {
+      "id": 151,
+      "name": "Observations on the Peacock Door",
+      "type": 1,
+      "mastery": 7,
+      "mystery": 10,
+      "memory": 21,
+      "skill": 48
+    },
+    {
+      "id": 152,
+      "name": "A Pale Lady and a Prince of Wines",
+      "type": 1,
+      "mastery": 7,
+      "mystery": 4,
+      "memory": 19,
+      "skill": 45
+    },
+    {
+      "id": 153,
+      "name": "The Queen's Turn",
+      "type": 1,
+      "mastery": 7,
+      "mystery": 10,
+      "memory": 19,
+      "skill": 18
+    },
+    {
+      "id": 154,
+      "name": "The Sea Does Not Regret",
+      "type": 1,
+      "mastery": 7,
+      "mystery": 6,
+      "memory": 19,
+      "skill": 31
+    },
+    {
+      "id": 155,
+      "name": "The Secret Colours",
+      "type": 1,
+      "mastery": 7,
+      "mystery": 14,
+      "memory": 32,
+      "skill": 48
+    },
+    {
+      "id": 156,
+      "name": "The Three and the Three (Kerisham Manuscript)",
+      "type": 1,
+      "mastery": 7,
+      "mystery": 10,
+      "memory": 30,
+      "skill": 11
+    },
+    {
+      "id": 157,
+      "name": "The Three and the Three (St Chiavi Manuscript)",
+      "type": 1,
+      "mastery": 7,
+      "mystery": 18,
+      "memory": 61,
+      "skill": 11
+    },
+    {
+      "id": 158,
+      "name": "The Three and the Three (Vatican Manuscript)",
+      "type": 1,
+      "mastery": 7,
+      "mystery": 14,
+      "memory": 30,
+      "skill": 11
+    },
+    {
+      "id": 159,
+      "name": "To a Pale Lady",
+      "type": 1,
+      "mastery": 7,
+      "mystery": 8,
+      "memory": 19,
+      "skill": 31
+    },
+    {
+      "id": 160,
+      "name": "The Twelve Letters On Consequence",
+      "type": 1,
+      "mastery": 7,
+      "mystery": 4,
+      "memory": 31,
+      "skill": 35
+    },
+    {
+      "id": 161,
+      "name": "The Viennese Conundra",
+      "type": 1,
+      "mastery": 7,
+      "mystery": 4,
+      "memory": 27,
+      "skill": 63
+    },
+    {
+      "id": 162,
+      "name": "The Voyages of Ferninshun of Oreol",
+      "type": 1,
+      "mastery": 7,
+      "mystery": 18,
+      "memory": 19,
+      "skill": 45
+    },
+    {
+      "id": 163,
+      "name": "The World Despoil'd",
+      "type": 1,
+      "mastery": 7,
+      "mystery": 6,
+      "memory": 22,
+      "skill": 26
+    },
+    {
+      "id": 164,
+      "name": "What Does Not Bark",
+      "type": 1,
+      "mastery": 7,
+      "mystery": 4,
+      "memory": 33,
+      "skill": 11
+    },
+
+    {
+      "id": 165,
+      "name": "The Book of Masks",
+      "type": 1,
+      "mastery": 8,
+      "mystery": 14,
+      "memory": 23,
+      "skill": 62
+    },
+    {
+      "id": 166,
+      "name": "The Carbonek Schism",
+      "type": 1,
+      "mastery": 8,
+      "mystery": 6,
+      "memory": 29,
+      "skill": 42
+    },
+    {
+      "id": 167,
+      "name": "The Debate of Seven Cups",
+      "type": 1,
+      "mastery": 8,
+      "mystery": 10,
+      "memory": 23,
+      "skill": 52
+    },
+    {
+      "id": 168,
+      "name": "An Echo of Silence",
+      "type": 1,
+      "mastery": 8,
+      "mystery": 10,
+      "memory": 23,
+      "skill": 52
+    },
+    {
+      "id": 169,
+      "name": "The Fire-Circle Tantra",
+      "type": 3,
+      "mastery": 8,
+      "mystery": 8,
+      "memory": 30,
+      "skill": 52
+    },
+    {
+      "id": 170,
+      "name": "Five Creations",
+      "type": 1,
+      "mastery": 8,
+      "mystery": 14,
+      "memory": 28,
+      "skill": 39
+    },
+    {
+      "id": 171,
+      "name": "From History to Eternity",
+      "type": 1,
+      "mastery": 8,
+      "mystery": 10,
+      "memory": 30,
+      "skill": 22
+    },
+    {
+      "id": 172,
+      "name": "The Geminiad III",
+      "type": 1,
+      "mastery": 8,
+      "mystery": 12,
+      "memory": 1,
+      "skill": 39
+    },
+    {
+      "id": 173,
+      "name": "Inaam, Kapigiginlupir, Garkie, Cryppys",
+      "type": 1,
+      "mastery": 8,
+      "mystery": 14,
+      "memory": 25,
+      "skill": 59
+    },
+    {
+      "id": 174,
+      "name": "Kitling Ripe and the Moldywarp's Grave (and Other Stories)",
+      "type": 1,
+      "mastery": 8,
+      "mystery": 6,
+      "memory": 23,
+      "skill": 39
+    },
+    {
+      "id": 175,
+      "name": "Kopralith Omphalos",
+      "type": 2,
+      "mastery": 8,
+      "mystery": 10,
+      "memory": 53,
+      "skill": 62
+    },
+    {
+      "id": 176,
+      "name": "On Matthias and the Amethyst Imago: Loss",
+      "type": 1,
+      "mastery": 8,
+      "mystery": 6,
+      "memory": 26,
+      "skill": 52
+    },
+    {
+      "id": 177,
+      "name": "Plantagenet Mysteries",
+      "type": 1,
+      "mastery": 8,
+      "mystery": 21,
+      "memory": 25,
+      "skill": 59
+    },
+    {
+      "id": 178,
+      "name": "The Rose of Hypatia",
+      "type": 1,
+      "mastery": 8,
+      "mystery": 8,
+      "memory": 22,
+      "skill": 62
+    },
+    {
+      "id": 179,
+      "name": "The Serenity of the Black Wood",
+      "type": 1,
+      "mastery": 8,
+      "mystery": 12,
+      "memory": 9,
+      "skill": 42
+    },
+    {
+      "id": 180,
+      "name": "The Shaven Lock Tantra",
+      "type": 1,
+      "mastery": 8,
+      "mystery": 12,
+      "memory": 23,
+      "skill": 41
+    },
+    {
+      "id": 181,
+      "name": "The Six Letters on Necessity",
+      "type": 1,
+      "mastery": 8,
+      "mystery": 4,
+      "memory": 25,
+      "skill": 59
+    },
+    {
+      "id": 183,
+      "name": "The Songs of the Carapace Cross",
+      "type": 1,
+      "mastery": 8,
+      "mystery": 16,
+      "memory": 20,
+      "skill": 12
+    },
+    {
+      "id": 184,
+      "name": "White Jade Tablet",
+      "type": 2,
+      "mastery": 8,
+      "mystery": 14,
+      "memory": 23,
+      "skill": 41
+    },
+
+    {
+      "id": 185,
+      "name": "The Bee-Keeper's Ends",
+      "type": 1,
+      "mastery": 9,
+      "mystery": 8,
+      "memory": 23,
+      "skill": 23
+    },
+    {
+      "id": 186,
+      "name": "The Berrybook",
+      "type": 1,
+      "mastery": 9,
+      "mystery": 8,
+      "memory": 24,
+      "skill": 24
+    },
+    {
+      "id": 187,
+      "name": "Cucurbit Prisoner Records 1927",
+      "type": 1,
+      "mastery": 9,
+      "mystery": 12,
+      "memory": 23,
+      "skill": 23
+    },
+    {
+      "id": 188,
+      "name": "De Horis book 1",
+      "type": 1,
+      "mastery": 9,
+      "mystery": 4,
+      "memory": 23,
+      "skill": 41
+    },
+    {
+      "id": 189,
+      "name": "De Ratio Quercuum",
+      "type": 1,
+      "mastery": 9,
+      "mystery": 8,
+      "memory": 48,
+      "skill": 41
+    },
+    {
+      "id": 190,
+      "name": "Fekri's Herbary",
+      "type": 1,
+      "mastery": 9,
+      "mystery": 6,
+      "memory": 24,
+      "skill": 17
+    },
+    {
+      "id": 191,
+      "name": "Green Jasper Tablet",
+      "type": 1,
+      "mastery": 9,
+      "mystery": 10,
+      "memory": 23,
+      "skill": 41
+    },
+    {
+      "id": 192,
+      "name": "Honey: the Comprehensive Guide",
+      "type": 1,
+      "mastery": 9,
+      "mystery": 6,
+      "memory": 21,
+      "skill": 23
+    },
+    {
+      "id": 193,
+      "name": "Kitling Ripe's Tasty Treats",
+      "type": 1,
+      "mastery": 9,
+      "mystery": 4,
+      "memory": 24,
+      "skill": 53
+    },
+    {
+      "id": 194,
+      "name": "The Most Sorrowful End of the Lady Nonna",
+      "type": 1,
+      "mastery": 9,
+      "mystery": 4,
+      "memory": 23,
+      "skill": 17
+    },
+    {
+      "id": 195,
+      "name": "Serpent-Root",
+      "type": 2,
+      "mastery": 9,
+      "mystery": 10,
+      "memory": 59,
+      "skill": 41
+    },
+    {
+      "id": 196,
+      "name": "The Shadow in the Stair",
+      "type": 1,
+      "mastery": 9,
+      "mystery": 6,
+      "memory": 23,
+      "skill": 5
+    },
+    {
+      "id": 197,
+      "name": "Three Flowers Hath the Tree",
+      "type": 1,
+      "mastery": 9,
+      "mystery": 4,
+      "memory": 28,
+      "skill": 24
+    },
+    {
+      "id": 198,
+      "name": "The Writing on the Wall",
+      "type": 1,
+      "mastery": 9,
+      "mystery": 10,
+      "memory": 62,
+      "skill": 53
+    },
+
+    {
+      "id": 199,
+      "name": "Book of Miah",
+      "type": 1,
+      "mastery": 10,
+      "mystery": 10,
+      "memory": 30,
+      "skill": 44
+    },
+    {
+      "id": 200,
+      "name": "The Book of the Centipede",
+      "type": 1,
+      "mastery": 10,
+      "mystery": 6,
+      "memory": 30,
+      "skill": 44
+    },
+    {
+      "id": 201,
+      "name": "The Concursum Diaries",
+      "type": 1,
+      "mastery": 10,
+      "mystery": 8,
+      "memory": 30,
+      "skill": 30
+    },
+    {
+      "id": 202,
+      "name": "The History of Inks",
+      "type": 1,
+      "mastery": 10,
+      "mystery": 14,
+      "memory": 30,
+      "skill": 21
+    },
+    {
+      "id": 203,
+      "name": "Isaac of Karth's History of the Shadowless Kings",
+      "type": 1,
+      "mastery": 10,
+      "mystery": 14,
+      "memory": 9,
+      "skill": 44
+    },
+    {
+      "id": 204,
+      "name": "Just Verse",
+      "type": 1,
+      "mastery": 10,
+      "mystery": 6,
+      "memory": 20,
+      "skill": 33
+    },
+    {
+      "id": 205,
+      "name": "Letters from a Fugitive",
+      "type": 1,
+      "mastery": 10,
+      "mystery": 6,
+      "memory": 9,
+      "skill": 30
+    },
+    {
+      "id": 206,
+      "name": "A Novel Method for Invocation & Contrition",
+      "type": 1,
+      "mastery": 10,
+      "mystery": 14,
+      "memory": 9,
+      "skill": 33
+    },
+    {
+      "id": 207,
+      "name": "The Radical Measure (Glossed)",
+      "type": 1,
+      "mastery": 10,
+      "mystery": 12,
+      "memory": 20,
+      "skill": 33
+    },
+    {
+      "id": 208,
+      "name": "The Radical Measure",
+      "type": 1,
+      "mastery": 10,
+      "mystery": 10,
+      "memory": 20,
+      "skill": 33
+    },
+    {
+      "id": 209,
+      "name": "The Red Book of Brittany",
+      "type": 1,
+      "mastery": 10,
+      "mystery": 12,
+      "memory": 24,
+      "skill": 21
+    },
+    {
+      "id": 210,
+      "name": "A Tower Rises",
+      "type": 5,
+      "mastery": 10,
+      "mystery": 18,
+      "memory": 9,
+      "skill": 33
+    },
+    {
+      "id": 211,
+      "name": "The Turquoise Hand",
+      "type": 1,
+      "mastery": 10,
+      "mystery": 10,
+      "memory": 58,
+      "skill": 32
+    },
+    {
+      "id": 212,
+      "name": "Where Has She Gone?",
+      "type": 1,
+      "mastery": 10,
+      "mystery": 16,
+      "memory": 30,
+      "skill": 44
+    },
+
+    {
+      "id": 213,
+      "name": "Ascite Supplications",
+      "type": 1,
+      "mastery": 11,
+      "mystery": 8,
+      "memory": 23,
+      "skill": 44
+    },
+    {
+      "id": 214,
+      "name": "Cucurbit Prisoner Records 1928",
+      "type": 1,
+      "mastery": 11,
+      "mystery": 12,
+      "memory": 19,
+      "skill": 18
+    },
+    {
+      "id": 215,
+      "name": "Echidnalia",
+      "type": 1,
+      "mastery": 11,
+      "mystery": 21,
+      "memory": 23,
+      "skill": 55
+    },
+    {
+      "id": 216,
+      "name": "The Encircling Tantra",
+      "type": 1,
+      "mastery": 11,
+      "mystery": 6,
+      "memory": 27,
+      "skill": 19
+    },
+    {
+      "id": 217,
+      "name": "The Hissing Key",
+      "type": 1,
+      "mastery": 11,
+      "mystery": 8,
+      "memory": 29,
+      "skill": 46
+    },
+    {
+      "id": 218,
+      "name": "Hunting Journals of Bryan Dewulf",
+      "type": 1,
+      "mastery": 11,
+      "mystery": 8,
+      "memory": 27,
+      "skill": 14
+    },
+    {
+      "id": 219,
+      "name": "It Is Written",
+      "type": 1,
+      "mastery": 11,
+      "mystery": 8,
+      "memory": 9,
+      "skill": 21
+    },
+    {
+      "id": 220,
+      "name": "Key of Night",
+      "type": 1,
+      "mastery": 11,
+      "mystery": 6,
+      "memory": 27,
+      "skill": 32
+    },
+    {
+      "id": 221,
+      "name": "Medusa's Lament",
+      "type": 1,
+      "mastery": 11,
+      "mystery": 14,
+      "memory": 27,
+      "skill": 19
+    },
+    {
+      "id": 222,
+      "name": "One Hundred And Eight",
+      "type": 1,
+      "mastery": 11,
+      "mystery": 4,
+      "memory": 9,
+      "skill": 32
+    },
+    {
+      "id": 223,
+      "name": "The Queens of the Rivers",
+      "type": 1,
+      "mastery": 11,
+      "mystery": 4,
+      "memory": 28,
+      "skill": 30
+    },
+    {
+      "id": 224,
+      "name": "Recordings from the Althiban Abyss",
+      "type": 5,
+      "mastery": 11,
+      "mystery": 4,
+      "memory": 27,
+      "skill": 55
+    },
+    {
+      "id": 225,
+      "name": "The Republic of Teeth",
+      "type": 1,
+      "mastery": 11,
+      "mystery": 6,
+      "memory": 30,
+      "skill": 46
+    },
+    {
+      "id": 226,
+      "name": "Singlefoot Songs",
+      "type": 1,
+      "mastery": 11,
+      "mystery": 6,
+      "memory": 4,
+      "skill": 18
+    },
+    {
+      "id": 227,
+      "name": "Stolen Histories",
+      "type": 1,
+      "mastery": 11,
+      "mystery": 4,
+      "memory": 27,
+      "skill": 5
+    },
+    {
+      "id": 228,
+      "name": "The Tantra of Worms",
+      "type": 1,
+      "mastery": 11,
+      "mystery": 8,
+      "memory": 27,
+      "skill": 5
+    },
+    {
+      "id": 229,
+      "name": "Ud Rocashaas",
+      "type": 1,
+      "mastery": 11,
+      "mystery": 10,
+      "memory": 23,
+      "skill": 55
+    },
+
+    {
+      "id": 230,
+      "name": "Against the Sisterhood of the Knot and the Foulness of their Depraved Customs",
+      "type": 1,
+      "mastery": 12,
+      "mystery": 6,
+      "memory": 30,
+      "skill": 50
+    },
+    {
+      "id": 231,
+      "name": "Against Vitruvius",
+      "type": 1,
+      "mastery": 12,
+      "mystery": 6,
+      "memory": 20,
+      "skill": 25
+    },
+    {
+      "id": 232,
+      "name": "The Book of the White Cat",
+      "type": 1,
+      "mastery": 12,
+      "mystery": 16,
+      "memory": 32,
+      "skill": 61
+    },
+    {
+      "id": 233,
+      "name": "Damascene Traditions of the House of Lethe",
+      "type": 1,
+      "mastery": 12,
+      "mystery": 8,
+      "memory": 23,
+      "skill": 42
+    },
+    {
+      "id": 234,
+      "name": "De motu corporum vetitorum",
+      "type": 1,
+      "mastery": 12,
+      "mystery": 10,
+      "memory": 33,
+      "skill": 29
+    },
+    {
+      "id": 235,
+      "name": "Each Flame His Fuel",
+      "type": 1,
+      "mastery": 12,
+      "mystery": 14,
+      "memory": 32,
+      "skill": 16
+    },
+    {
+      "id": 236,
+      "name": "Eva's Treasury",
+      "type": 1,
+      "mastery": 12,
+      "mystery": 6,
+      "memory": 25,
+      "skill": 1
+    },
+    {
+      "id": 237,
+      "name": "The Fallen Cross",
+      "type": 1,
+      "mastery": 12,
+      "mystery": 6,
+      "memory": 31,
+      "skill": 29
+    },
+    {
+      "id": 238,
+      "name": "The Focus of Amber",
+      "type": 1,
+      "mastery": 12,
+      "mystery": 16,
+      "memory": 32,
+      "skill": 16
+    },
+    {
+      "id": 239,
+      "name": "The Humours of a Gentleman",
+      "type": 1,
+      "mastery": 12,
+      "mystery": 4,
+      "memory": 28,
+      "skill": 50
+    },
+    {
+      "id": 240,
+      "name": "In The Mountains As Upon The Plain There May Not Be A Path Where None Has Passed",
+      "type": 1,
+      "mastery": 12,
+      "mystery": 18,
+      "memory": 28,
+      "skill": 50
+    },
+    {
+      "id": 241,
+      "name": "The Invisible Opera (Unfinished Recording)",
+      "type": 5,
+      "mastery": 12,
+      "mystery": 12,
+      "memory": 3,
+      "skill": 56
+    },
+    {
+      "id": 242,
+      "name": "Journal of Thomas Dewulf",
+      "type": 1,
+      "mastery": 12,
+      "mystery": 4,
+      "memory": 19,
+      "skill": 29
+    },
+    {
+      "id": 243,
+      "name": "The Lion and the Glass",
+      "type": 1,
+      "mastery": 12,
+      "mystery": 12,
+      "memory": 32,
+      "skill": 16
+    },
+    {
+      "id": 244,
+      "name": "The Locksmith's Dream: Portions and Proportions",
+      "type": 1,
+      "mastery": 12,
+      "mystery": 4,
+      "memory": 9,
+      "skill": 25
+    },
+    {
+      "id": 245,
+      "name": "The Locksmith's Dream: Stolen Reflections",
+      "type": 1,
+      "mastery": 12,
+      "mystery": 4,
+      "memory": 32,
+      "skill": 61
+    },
+    {
+      "id": 246,
+      "name": "The Mirror of Melancthe",
+      "type": 1,
+      "mastery": 12,
+      "mystery": 12,
+      "memory": 22,
+      "skill": 49
+    },
+    {
+      "id": 247,
+      "name": "On Resonance",
+      "type": 1,
+      "mastery": 12,
+      "mystery": 6,
+      "memory": 25,
+      "skill": 4
+    },
+    {
+      "id": 248,
+      "name": "On What is Contained By Silver",
+      "type": 1,
+      "mastery": 12,
+      "mystery": 6,
+      "memory": 20,
+      "skill": 16
+    },
+    {
+      "id": 249,
+      "name": "Opening the Sky",
+      "type": 5,
+      "mastery": 12,
+      "mystery": 10,
+      "memory": 3,
+      "skill": 56
+    },
+    {
+      "id": 250,
+      "name": "The Origins of Hours",
+      "type": 1,
+      "mastery": 12,
+      "mystery": 16,
+      "memory": 9,
+      "skill": 42
+    },
+    {
+      "id": 251,
+      "name": "The Other Eye of the Serpent",
+      "type": 1,
+      "mastery": 12,
+      "mystery": 10,
+      "memory": 20,
+      "skill": 1
+    },
+    {
+      "id": 252,
+      "name": "Perugian Diaries",
+      "type": 1,
+      "mastery": 12,
+      "mystery": 4,
+      "memory": 3,
+      "skill": 56
+    },
+    {
+      "id": 253,
+      "name": "Seven Faces of Icarus",
+      "type": 1,
+      "mastery": 12,
+      "mystery": 4,
+      "memory": 27,
+      "skill": 14
+    },
+    {
+      "id": 254,
+      "name": "A Seventh Voice",
+      "type": 1,
+      "mastery": 12,
+      "mystery": 8,
+      "memory": 9,
+      "skill": 33
+    },
+    {
+      "id": 255,
+      "name": "Shuritic Book of Suns",
+      "type": 3,
+      "mastery": 12,
+      "mystery": 10,
+      "memory": 57,
+      "skill": 43
+    },
+    {
+      "id": 256,
+      "name": "Sunset Celia and the End of Days",
+      "type": 1,
+      "mastery": 12,
+      "mystery": 10,
+      "memory": 25,
+      "skill": 42
+    },
+    {
+      "id": 257,
+      "name": "Travelling at Night, vol 2",
+      "type": 1,
+      "mastery": 12,
+      "mystery": 6,
+      "memory": 22,
+      "skill": 49
+    },
+    {
+      "id": 258,
+      "name": "A True History of Valentine Dewulf",
+      "type": 1,
+      "mastery": 12,
+      "mystery": 6,
+      "memory": 27,
+      "skill": 14
+    },
+
+    {
+      "id": 259,
+      "name": "Annals of St Brandans",
+      "type": 1,
+      "mastery": 13,
+      "mystery": 4,
+      "memory": 31,
+      "skill": 20
+    },
+    {
+      "id": 260,
+      "name": "The Barrowchild's Elegies",
+      "type": 1,
+      "mastery": 13,
+      "mystery": 10,
+      "memory": 31,
+      "skill": 40
+    },
+    {
+      "id": 261,
+      "name": "Chione at Abydos",
+      "type": 1,
+      "mastery": 13,
+      "mystery": 6,
+      "memory": 31,
+      "skill": 51
+    },
+    {
+      "id": 262,
+      "name": "Ettery After",
+      "type": 1,
+      "mastery": 13,
+      "mystery": 8,
+      "memory": 29,
+      "skill": 20
+    },
+    {
+      "id": 263,
+      "name": "Exercises in the Continuity of Self",
+      "type": 1,
+      "mastery": 13,
+      "mystery": 8,
+      "memory": 29,
+      "skill": 40
+    },
+    {
+      "id": 264,
+      "name": "The Five Letters On Memory",
+      "type": 1,
+      "mastery": 13,
+      "mystery": 6,
+      "memory": 31,
+      "skill": 40
+    },
+    {
+      "id": 265,
+      "name": "In Memory of Gods",
+      "type": 1,
+      "mastery": 13,
+      "mystery": 12,
+      "memory": 29,
+      "skill": 38
+    },
+    {
+      "id": 266,
+      "name": "An Introduction to Histories",
+      "type": 1,
+      "mastery": 13,
+      "mystery": 4,
+      "memory": 29,
+      "skill": 51
+    },
+    {
+      "id": 267,
+      "name": "The Ivory Book",
+      "type": 1,
+      "mastery": 13,
+      "mystery": 8,
+      "memory": 31,
+      "skill": 37
+    },
+    {
+      "id": 268,
+      "name": "Lady Eva's Repose",
+      "type": 1,
+      "mastery": 13,
+      "mystery": 4,
+      "memory": 31,
+      "skill": 40
+    },
+    {
+      "id": 269,
+      "name": "Musgrave's Sketches",
+      "type": 1,
+      "mastery": 13,
+      "mystery": 8,
+      "memory": 2,
+      "skill": 49
+    },
+    {
+      "id": 270,
+      "name": "Naenian Sketches",
+      "type": 1,
+      "mastery": 13,
+      "mystery": 21,
+      "memory": 29,
+      "skill": 49
+    },
+    {
+      "id": 271,
+      "name": "Nyn's Cages (Bruges Text, Illuminated)",
+      "type": 1,
+      "mastery": 13,
+      "mystery": 10,
+      "memory": 29,
+      "skill": 37
+    },
+    {
+      "id": 272,
+      "name": "Oblations in Iron",
+      "type": 1,
+      "mastery": 13,
+      "mystery": 6,
+      "memory": 29,
+      "skill": 20
+    },
+    {
+      "id": 273,
+      "name": "On the White",
+      "type": 1,
+      "mastery": 13,
+      "mystery": 6,
+      "memory": 31,
+      "skill": 37
+    },
+    {
+      "id": 274,
+      "name": "Operations of a Certain Finality",
+      "type": 1,
+      "mastery": 13,
+      "mystery": 8,
+      "memory": 29,
+      "skill": 35
+    },
+    {
+      "id": 275,
+      "name": "A Second Glory",
+      "type": 1,
+      "mastery": 13,
+      "mystery": 12,
+      "memory": 29,
+      "skill": 51
+    },
+    {
+      "id": 276,
+      "name": "The Scar in the Sky",
+      "type": 1,
+      "mastery": 13,
+      "mystery": 14,
+      "memory": 31,
+      "skill": 37
+    },
+    {
+      "id": 277,
+      "name": "Those Indignities Perpetrated By the Deceitful Fraternity of Obliviates",
+      "type": 1,
+      "mastery": 13,
+      "mystery": 6,
+      "memory": 21,
+      "skill": 38
+    },
+    {
+      "id": 278,
+      "name": "Towards a Fundamental Aesthetic: Second Edition",
+      "type": 1,
+      "mastery": 13,
+      "mystery": 10,
+      "memory": 50,
+      "skill": 49
+    },
+    {
+      "id": 279,
+      "name": "The White Book of Brittany",
+      "type": 1,
+      "mastery": 13,
+      "mystery": 10,
+      "memory": 29,
+      "skill": 38
+    },
+    {
+      "id": 280,
+      "name": "The World Does Not Weep",
+      "type": 1,
+      "mastery": 13,
+      "mystery": 10,
+      "memory": 29,
+      "skill": 35
+    }
+  ]
+}

@@ -1,0 +1,882 @@
+{
+  "lessons": [
+    {
+      "id": 1,
+      "name": "Anbary & Lapidary",
+      "principles": {
+        "primary": 12,
+        "secondary": 2
+      },
+      "wisdoms": [
+        { "wisdom": 1, "elements": 3 },
+        { "wisdom": 2, "elements": 8 }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Applebright Euphonies",
+      "principles": {
+        "primary": 12,
+        "secondary": 3
+      },
+      "wisdoms": [
+        { "wisdom": 7, "elements": 4 },
+        { "wisdom": 3, "elements": 6 }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Auroral Contemplations",
+      "principles": {
+        "primary": 6,
+        "secondary": 1
+      },
+      "wisdoms": [
+        { "wisdom": 3, "elements": 8 },
+        { "wisdom": 5, "elements": 3 }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Bells & Brazieries",
+      "principles": {
+        "primary": 2,
+        "secondary": 12
+      },
+      "wisdoms": [
+        { "wisdom": 1, "elements": 6 },
+        { "wisdom": 2, "elements": 9 }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Coil & Chasm",
+      "principles": {
+        "primary": 11,
+        "secondary": 9
+      },
+      "wisdoms": [
+        { "wisdom": 5, "elements": 2 },
+        { "wisdom": 6, "elements": 4 }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Desires & Dissolutions",
+      "principles": {
+        "primary": 3,
+        "secondary": 7
+      },
+      "wisdoms": [
+        { "wisdom": 7, "elements": 4 },
+        { "wisdom": 1, "elements": 6 }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Disciplines of the Hammer",
+      "principles": {
+        "primary": 1,
+        "secondary": 2
+      },
+      "wisdoms": [
+        { "wisdom": 3, "elements": 6 },
+        { "wisdom": 5, "elements": 2 }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Disciplines of the Scar",
+      "principles": {
+        "primary": 1,
+        "secondary": 6
+      },
+      "wisdoms": [
+        { "wisdom": 4, "elements": 5 },
+        { "wisdom": 3, "elements": 8 }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Door & Wall",
+      "principles": {
+        "primary": 5,
+        "secondary": 2
+      },
+      "wisdoms": [
+        { "wisdom": 1, "elements": 3 },
+        { "wisdom": 5, "elements": 2 }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Drums & Dances",
+      "principles": {
+        "primary": 4,
+        "secondary": 9
+      },
+      "wisdoms": [
+        { "wisdom": 7, "elements": 7 },
+        { "wisdom": 1, "elements": 6 }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Edicts Inviolable",
+      "principles": {
+        "primary": 4,
+        "secondary": 7
+      },
+      "wisdoms": [
+        { "wisdom": 1, "elements": 6 },
+        { "wisdom": 8, "elements": 1 }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Edicts Liminal",
+      "principles": {
+        "primary": 8,
+        "secondary": 5
+      },
+      "wisdoms": [
+        { "wisdom": 5, "elements": 3 },
+        { "wisdom": 6, "elements": 4 }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Edicts Martial",
+      "principles": {
+        "primary": 7,
+        "secondary": 1
+      },
+      "wisdoms": [
+        { "wisdom": 1, "elements": 6 },
+        { "wisdom": 3, "elements": 8 }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Furs & Feathers",
+      "principles": {
+        "primary": 12,
+        "secondary": 11
+      },
+      "wisdoms": [
+        { "wisdom": 7, "elements": 7 },
+        { "wisdom": 5, "elements": 3 }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Glassblowing & Vesselcrafting",
+      "principles": {
+        "primary": 5,
+        "secondary": 12
+      },
+      "wisdoms": [
+        { "wisdom": 4, "elements": 9 },
+        { "wisdom": 2, "elements": 8 }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Glaziery & Lightsmithing",
+      "principles": {
+        "primary": 6,
+        "secondary": 12
+      },
+      "wisdoms": [
+        { "wisdom": 3, "elements": 6 },
+        { "wisdom": 2, "elements": 8 }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Herbs & Infusions",
+      "principles": {
+        "primary": 4,
+        "secondary": 9
+      },
+      "wisdoms": [
+        { "wisdom": 7, "elements": 4 },
+        { "wisdom": 8, "elements": 7 }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Hill & Hollow",
+      "principles": {
+        "primary": 7,
+        "secondary": 11
+      },
+      "wisdoms": [
+        { "wisdom": 9, "elements": 1 },
+        { "wisdom": 8, "elements": 7 }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Horns & Ivories",
+      "principles": {
+        "primary": 11,
+        "secondary": 5
+      },
+      "wisdoms": [
+        { "wisdom": 7, "elements": 4 },
+        { "wisdom": 6, "elements": 2 }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Inks of Containment",
+      "principles": {
+        "primary": 13,
+        "secondary": 7
+      },
+      "wisdoms": [
+        { "wisdom": 1, "elements": 6 },
+        { "wisdom": 8, "elements": 7 }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Inks of Power",
+      "principles": {
+        "primary": 10,
+        "secondary": 11
+      },
+      "wisdoms": [
+        { "wisdom": 1, "elements": 6 },
+        { "wisdom": 4, "elements": 5 }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Inks of Revelation",
+      "principles": {
+        "primary": 6,
+        "secondary": 8
+      },
+      "wisdoms": [
+        { "wisdom": 4, "elements": 9 },
+        { "wisdom": 2, "elements": 8 }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Insects & Nectars",
+      "principles": {
+        "primary": 9,
+        "secondary": 7
+      },
+      "wisdoms": [
+        { "wisdom": 7, "elements": 4 },
+        { "wisdom": 5, "elements": 3 }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Leaves & Thorns",
+      "principles": {
+        "primary": 9,
+        "secondary": 3
+      },
+      "wisdoms": [
+        { "wisdom": 9, "elements": 1 },
+        { "wisdom": 7, "elements": 7 }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Lockworks & Clockworks",
+      "principles": {
+        "primary": 5,
+        "secondary": 12
+      },
+      "wisdoms": [
+        { "wisdom": 2, "elements": 9 },
+        { "wisdom": 6, "elements": 2 }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Maggephene Mysteries",
+      "principles": {
+        "primary": 7,
+        "secondary": 4
+      },
+      "wisdoms": [
+        { "wisdom": 4, "elements": 5 },
+        { "wisdom": 8, "elements": 7 }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Meniscate Reflections",
+      "principles": {
+        "primary": 2,
+        "secondary": 1
+      },
+      "wisdoms": [
+        { "wisdom": 3, "elements": 8 },
+        { "wisdom": 8, "elements": 7 }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Orchids & Narcotics",
+      "principles": {
+        "primary": 3,
+        "secondary": 9
+      },
+      "wisdoms": [
+        { "wisdom": 7, "elements": 4 },
+        { "wisdom": 6, "elements": 2 }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Ouranoscopy",
+      "principles": {
+        "primary": 12,
+        "secondary": 7
+      },
+      "wisdoms": [
+        { "wisdom": 1, "elements": 3 },
+        { "wisdom": 4, "elements": 5 }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Path & Pilgrim",
+      "principles": {
+        "primary": 10,
+        "secondary": 11
+      },
+      "wisdoms": [
+        { "wisdom": 9, "elements": 1 },
+        { "wisdom": 5, "elements": 3 }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Pearl & Tide",
+      "principles": {
+        "primary": 10,
+        "secondary": 7
+      },
+      "wisdoms": [
+        { "wisdom": 7, "elements": 7 },
+        { "wisdom": 5, "elements": 3 }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Pentiments & Precursors",
+      "principles": {
+        "primary": 11,
+        "secondary": 3
+      },
+      "wisdoms": [
+        { "wisdom": 9, "elements": 1 },
+        { "wisdom": 6, "elements": 4 }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Preliminal Meter",
+      "principles": {
+        "primary": 5,
+        "secondary": 10
+      },
+      "wisdoms": [
+        { "wisdom": 3, "elements": 8},
+        { "wisdom": 2, "elements": 9 }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Purifications & Exaltations",
+      "principles": {
+        "primary": 12,
+        "secondary": 6
+      },
+      "wisdoms": [
+        { "wisdom": 3, "elements": 6 },
+        { "wisdom": 2, "elements": 8 }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Putrefactions & Calcinations",
+      "principles": {
+        "primary": 13,
+        "secondary": 7
+      },
+      "wisdoms": [
+        { "wisdom": 2, "elements": 9 },
+        { "wisdom": 6, "elements": 4 }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Pyroglyphics",
+      "principles": {
+        "primary": 2,
+        "secondary": 6
+      },
+      "wisdoms": [
+        { "wisdom": 3, "elements": 6 },
+        { "wisdom": 2, "elements": 9 }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Quenchings & Quellings",
+      "principles": {
+        "primary": 13,
+        "secondary": 4
+      },
+      "wisdoms": [
+        { "wisdom": 4, "elements": 5 },
+        { "wisdom": 8, "elements": 7 }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Ragged Crossroads",
+      "principles": {
+        "primary": 1,
+        "secondary": 13
+      },
+      "wisdoms": [
+        { "wisdom": 3, "elements": 8 },
+        { "wisdom": 6, "elements": 2 }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Resurgences & Emergences",
+      "principles": {
+        "primary": 8,
+        "secondary": 3
+      },
+      "wisdoms": [
+        { "wisdom": 7, "elements": 7 },
+        { "wisdom": 8, "elements": 1 }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Rhyme & Remembrance",
+      "principles": {
+        "primary": 13,
+        "secondary": 7
+      },
+      "wisdoms": [
+        { "wisdom": 9, "elements": 5 },
+        { "wisdom": 6, "elements": 4 }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Rites of the Roots",
+      "principles": {
+        "primary": 9,
+        "secondary": 8
+      },
+      "wisdoms": [
+        { "wisdom": 7, "elements": 4 },
+        { "wisdom": 8, "elements": 7 }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Sacra Limiae",
+      "principles": {
+        "primary": 8,
+        "secondary": 12
+      },
+      "wisdoms": [
+        { "wisdom": 1, "elements": 6 },
+        { "wisdom": 4, "elements": 5 }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Sacra Solis Invicti",
+      "principles": {
+        "primary": 6,
+        "secondary": 12
+      },
+      "wisdoms": [
+        { "wisdom": 1, "elements": 3 },
+        { "wisdom": 3, "elements": 8 }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Sand Stories",
+      "principles": {
+        "primary": 10,
+        "secondary": 7
+      },
+      "wisdoms": [
+        { "wisdom": 9, "elements": 5 },
+        { "wisdom": 6, "elements": 2 }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Sea Stories",
+      "principles": {
+        "primary": 7,
+        "secondary": 3
+      },
+      "wisdoms": [
+        { "wisdom": 9, "elements": 1 },
+        { "wisdom": 5, "elements": 2 }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Serpents & Venoms",
+      "principles": {
+        "primary": 11,
+        "secondary": 7
+      },
+      "wisdoms": [
+        { "wisdom": 4, "elements": 5 },
+        { "wisdom": 6, "elements": 2 }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Sharps",
+      "principles": {
+        "primary": 1,
+        "secondary": 7
+      },
+      "wisdoms": [
+        { "wisdom": 4, "elements": 9 },
+        { "wisdom": 6, "elements": 2 }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Sickle & Eclipse",
+      "principles": {
+        "primary": 1,
+        "secondary": 7
+      },
+      "wisdoms": [
+        { "wisdom": 5, "elements": 2 },
+        { "wisdom": 8, "elements": 1 }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Sights & Sensations",
+      "principles": {
+        "primary": 12,
+        "secondary": 13
+      },
+      "wisdoms": [
+        { "wisdom": 4, "elements": 9 },
+        { "wisdom": 8, "elements": 3 }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Sky Stories",
+      "principles": {
+        "primary": 12,
+        "secondary": 10
+      },
+      "wisdoms": [
+        { "wisdom": 9, "elements": 5 },
+        { "wisdom": 1, "elements": 3 }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Snow Stories",
+      "principles": {
+        "primary": 13,
+        "secondary": 7
+      },
+      "wisdoms": [
+        { "wisdom": 9, "elements": 5 },
+        { "wisdom": 4, "elements": 9 }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Solutions & Separations",
+      "principles": {
+        "primary": 8,
+        "secondary": 5
+      },
+      "wisdoms": [
+        { "wisdom": 2, "elements": 9 },
+        { "wisdom": 6, "elements": 2 }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Spices & Savours",
+      "principles": {
+        "primary": 9,
+        "secondary": 2
+      },
+      "wisdoms": [
+        { "wisdom": 7, "elements": 7 },
+        { "wisdom": 2, "elements": 9 }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Stitching & Binding",
+      "principles": {
+        "primary": 12,
+        "secondary": 4
+      },
+      "wisdoms": [
+        { "wisdom": 2, "elements": 9 },
+        { "wisdom": 8, "elements": 1 }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Stone Stories",
+      "principles": {
+        "primary": 11,
+        "secondary": 9
+      },
+      "wisdoms": [
+        { "wisdom": 9, "elements": 5 },
+        { "wisdom": 8, "elements": 1 }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Strings & Songs",
+      "principles": {
+        "primary": 12,
+        "secondary": 4
+      },
+      "wisdoms": [
+        { "wisdom": 9, "elements": 1 },
+        { "wisdom": 5, "elements": 2 }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Surgeries & Exsanguinations",
+      "principles": {
+        "primary": 4,
+        "secondary": 5
+      },
+      "wisdoms": [
+        { "wisdom": 4, "elements": 9 },
+        { "wisdom": 8, "elements": 1 }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "The Great Signs and the Great Scars",
+      "principles": {
+        "primary": 3,
+        "secondary": 5
+      },
+      "wisdoms": [
+        { "wisdom": 1, "elements": 3 },
+        { "wisdom": 4, "elements": 5 }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Transformations & Liberations",
+      "principles": {
+        "primary": 2,
+        "secondary": 8
+      },
+      "wisdoms": [
+        { "wisdom": 3, "elements": 6 },
+        { "wisdom": 2, "elements": 8 }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Tridesma Hiera",
+      "principles": {
+        "primary": 7,
+        "secondary": 3
+      },
+      "wisdoms": [
+        { "wisdom": 7, "elements": 4 },
+        { "wisdom": 8, "elements": 7 }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Watchman's Paradoxes",
+      "principles": {
+        "primary": 6,
+        "secondary": 12
+      },
+      "wisdoms": [
+        { "wisdom": 3, "elements": 8 },
+        { "wisdom": 5, "elements": 3 }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Weaving & Knotworking",
+      "principles": {
+        "primary": 4,
+        "secondary": 8
+      },
+      "wisdoms": [
+        { "wisdom": 9, "elements": 1 },
+        { "wisdom": 7, "elements": 7 }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Wolf Stories",
+      "principles": {
+        "primary": 7,
+        "secondary": 11
+      },
+      "wisdoms": [
+        { "wisdom": 9, "elements": 5 },
+        { "wisdom": 6, "elements": 4 }
+      ]
+    }
+  ],
+  "langages": [
+    {
+      "id": 1,
+      "name": "Cracktrack",
+      "principles": {
+        "primary": 9,
+        "secondary": 11
+      },
+      "wisdoms": [
+        { "wisdom": 3, "elements": 8 },
+        { "wisdom": 8, "elements": 1 }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Deep Mandaic",
+      "principles": {
+        "primary": 2,
+        "secondary": 6
+      },
+      "wisdoms": [
+        { "wisdom": 1, "elements": 6 },
+        { "wisdom": 2, "elements": 8 }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Ericapaean",
+      "principles": {
+        "primary": 6,
+        "secondary": 13
+      },
+      "wisdoms": [
+        { "wisdom": 4, "elements": 5 },
+        { "wisdom": 3, "elements": 8 }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Fucine",
+      "principles": {
+        "primary": 4,
+        "secondary": 5
+      },
+      "wisdoms": [
+        { "wisdom": 4, "elements": 5 },
+        { "wisdom": 2, "elements": 9 }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Hyksos",
+      "principles": {
+        "primary": 3,
+        "secondary": 1
+      },
+      "wisdoms": [
+        { "wisdom": 5, "elements": 2 },
+        { "wisdom": 6, "elements": 4 }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Kernewek Henavek",
+      "principles": {
+        "primary": 11,
+        "secondary": 2
+      },
+      "wisdoms": [
+        { "wisdom": 7, "elements": 7 },
+        { "wisdom": 2, "elements": 9 }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Killasimi",
+      "principles": {
+        "primary": 13,
+        "secondary": 7
+      },
+      "wisdoms": [
+        { "wisdom": 7, "elements": 7 },
+        { "wisdom": 6, "elements": 4 }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Ramsund",
+      "principles": {
+        "primary": 8,
+        "secondary": 12
+      },
+      "wisdoms": [
+        { "wisdom": 9, "elements": 5 },
+        { "wisdom": 8, "elements": 1 }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Sabazine",
+      "principles": {
+        "primary": 8,
+        "secondary": 6
+      },
+      "wisdoms": [
+        { "wisdom": 9, "elements": 5 },
+        { "wisdom": 1, "elements": 3 }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Vak",
+      "principles": {
+        "primary": 5,
+        "secondary": 10
+      },
+      "wisdoms": [
+        { "wisdom": 9, "elements": 1 },
+        { "wisdom": 5, "elements": 3 }
+      ]
+    }
+  ]
+}

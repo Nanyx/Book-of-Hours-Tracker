@@ -1,0 +1,642 @@
+{
+  "weather": [
+    { 
+      "id": 1, "name": "Clouds", "principles": [
+        { "principle": 7, "lv": 1 },
+        { "principle": 8, "lv": 1 }
+      ] 
+    },
+    { 
+      "id": 2, "name": "Rain", "principles": [
+        { "principle": 9, "lv": 2 },
+        { "principle": 3, "lv": 2 }
+      ] 
+    },
+    { 
+      "id": 3, "name": "Sunny", "principles": [
+        { "principle": 6, "lv": 2 },
+        { "principle": 12, "lv": 2 }
+      ] 
+    },
+    { 
+      "id": 4, "name": "Fog", "principles": [
+        { "principle": 5, "lv": 3 },
+        { "principle": 7, "lv": 3 }
+      ] 
+    },
+    { 
+      "id": 5, "name": "Hail", "principles": [
+        { "principle": 1, "lv": 3 },
+        { "principle": 12, "lv": 3 }
+      ] 
+    },
+    { 
+      "id": 6, "name": "Snow", "principles": [
+        { "principle": 12, "lv": 3 },
+        { "principle": 13, "lv": 3 }
+      ] 
+    },
+    { 
+      "id": 7, "name": "Gale", "principles": [
+        { "principle": 4, "lv": 3 },
+        { "principle": 12, "lv": 3 }
+      ] 
+    },
+    { 
+      "id": 8, "name": "Storm", "principles": [
+        { "principle": 4, "lv": 4 },
+        { "principle": 12, "lv": 4 }
+      ] 
+    },
+    { 
+      "id": 9, "name": "Nume-Brume", "principles": [
+        { "principle": 5, "lv": 5 },
+        { "principle": 7, "lv": 5 },
+        { "principle": 10, "lv": 5 },
+        { "principle": 13, "lv": 5 }
+      ] 
+    }
+  ],
+  "list": [
+    { 
+      "id": 1, "name": "Beguiling Melody", "principles": [
+        { "principle": 3, "lv": 2 },
+        { "principle": 12, "lv": 2 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": false
+    },
+    { 
+      "id": 2, "name": "Bittersweet Certainty", "principles": [
+        { "principle": 6, "lv": 1 },
+        { "principle": 13, "lv": 2 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": false
+    },
+    { 
+      "id": 3, "name": "Cheerful Ditty", "principles": [
+        { "principle": 4, "lv": 2 },
+        { "principle": 12, "lv": 1 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": false
+    },
+    { 
+      "id": 4, "name": "Savage Hymn", "principles": [
+        { "principle": 11, "lv": 2 },
+        { "principle": 12, "lv": 2 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": false
+    },
+    { 
+      "id": 5, "name": "Wistful Air", "principles": [
+        { "principle": 10, "lv": 2 },
+        { "principle": 12, "lv": 2 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": false
+    },
+    { 
+      "id": 6, "name": "Thunderskin's Paean", "principles": [
+        { "principle": 3, "lv": 1 },
+        { "principle": 11, "lv": 1 },
+        { "principle": 4, "lv": 4 }
+      ],
+      "isPermanent": false,
+      "isEvolve": true,
+      "isNumen": false
+    },
+    { 
+      "id": 7, "name": "Torgue's Cleansing", "principles": [
+        { "principle": 1, "lv": 2 },
+        { "principle": 0, "lv": 0 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": false
+    },
+    { 
+      "id": 8, "name": "Secret Threshold", "principles": [
+        { "principle": 5, "lv": 2 },
+        { "principle": 10, "lv": 1 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": false
+    },
+    { 
+      "id": 9, "name": "Confounding Parable", "principles": [
+        { "principle": 7, "lv": 2 },
+        { "principle": 10, "lv": 2 },
+        { "principle": 12, "lv": 2 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": false
+    },
+    { 
+      "id": 10, "name": "Nameday Riddle", "principles": [
+        { "principle": 8, "lv": 3 },
+        { "principle": 5, "lv": 2 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": false
+    },
+    { 
+      "id": 11, "name": "Winning Move", "principles": [
+        { "principle": 1, "lv": 3 }
+      ],
+      "isPermanent": false,
+      "isEvolve": true,
+      "isNumen": false
+    },
+    { 
+      "id": 12, "name": "Old Moment", "principles": [
+        { "principle": 6, "lv": 2 },
+        { "principle": 8, "lv": 2 },
+        { "principle": 11, "lv": 4 }
+      ],
+      "isPermanent": false,
+      "isEvolve": true,
+      "isNumen": false
+    },
+    { 
+      "id": 13, "name": "Scent", "principles": [
+        { "principle": 9, "lv": 1 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": false
+    },
+    { 
+      "id": 14, "name": "Sight", "principles": [
+        { "principle": 6, "lv": 1 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": false
+    },
+    { 
+      "id": 15, "name": "Taste", "principles": [
+        { "principle": 3, "lv": 1 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": false
+    },
+    { 
+      "id": 16, "name": "Touch", "principles": [
+        { "principle": 2, "lv": 1 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": false
+    },
+    { 
+      "id": 17, "name": "Sound", "principles": [
+        { "principle": 4, "lv": 1 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": false
+    },
+    { 
+      "id": 18, "name": "Loss", "principles": [
+        { "principle": 1, "lv": 1 },
+        { "principle": 13, "lv": 1 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": false
+    },
+    { 
+      "id": 19, "name": "Salt", "principles": [
+        { "principle": 5, "lv": 1 },
+        { "principle": 7, "lv": 1 },
+        { "principle": 13, "lv": 1 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": false
+    },
+    { 
+      "id": 20, "name": "Pattern", "principles": [
+        { "principle": 5, "lv": 2 },
+        { "principle": 2, "lv": 1 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": false
+    },
+    { 
+      "id": 21, "name": "Contradiction", "principles": [
+        { "principle": 1, "lv": 2 },
+        { "principle": 7, "lv": 1 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": false
+    },
+    { 
+      "id": 22, "name": "Solace", "principles": [
+        { "principle": 4, "lv": 2 },
+        { "principle": 12, "lv": 1 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": false
+    },
+    { 
+      "id": 23, "name": "Impulse", "principles": [
+        { "principle": 8, "lv": 2 },
+        { "principle": 9, "lv": 1 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": false
+    },
+    { 
+      "id": 24, "name": "Satisfaction", "principles": [
+        { "principle": 3, "lv": 2 },
+        { "principle": 4, "lv": 1 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": false
+    },
+    { 
+      "id": 25, "name": "Foresight", "principles": [
+        { "principle": 2, "lv": 2 },
+        { "principle": 6, "lv": 1 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": false
+    },
+    { 
+      "id": 26, "name": "A Stolen Secret", "principles": [
+        { "principle": 7, "lv": 2 },
+        { "principle": 5, "lv": 1 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": false
+    },
+    { 
+      "id": 27, "name": "Fear", "principles": [
+        { "principle": 11, "lv": 2 },
+        { "principle": 1, "lv": 1 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": false
+    },
+    { 
+      "id": 28, "name": "Gossip", "principles": [
+        { "principle": 10, "lv": 2 },
+        { "principle": 3, "lv": 1 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": false
+    },
+    { 
+      "id": 29, "name": "Hindsight", "principles": [
+        { "principle": 13, "lv": 2 },
+        { "principle": 11, "lv": 1 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": false
+    },
+    { 
+      "id": 30, "name": "Intuition", "principles": [
+        { "principle": 7, "lv": 2 },
+        { "principle": 10, "lv": 2 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": false
+    },
+    { 
+      "id": 31, "name": "Regret", "principles": [
+        { "principle": 13, "lv": 2 },
+        { "principle": 2, "lv": 1 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": false
+    },
+    { 
+      "id": 32, "name": "Revelation", "principles": [
+        { "principle": 6, "lv": 2 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": false
+    },
+    { 
+      "id": 33, "name": "Storm", "principles": [
+        { "principle": 4, "lv": 2 },
+        { "principle": 12, "lv": 2 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": false
+    },
+    { 
+      "id": 34, "name": "Wild Surmise", "principles": [
+        { "principle": 6, "lv": 3 },
+        { "principle": 8, "lv": 3 },
+        { "principle": 12, "lv": 3 }
+      ],
+      "isPermanent": false,
+      "isEvolve": true,
+      "isNumen": false
+    },
+    { 
+      "id": 35, "name": "Wind-Rumour", "principles": [
+        { "principle": 4, "lv": 1 },
+        { "principle": 12, "lv": 2 }
+      ],
+      "isPermanent": false,
+      "isEvolve": true,
+      "isNumen": false
+    },
+    { 
+      "id": 36, "name": "Old Wound", "principles": [
+        { "principle": 1, "lv": 1 },
+        { "principle": 7, "lv": 2 },
+        { "principle": 13, "lv": 3 }
+      ],
+      "isPermanent": true,
+      "isEvolve": false,
+      "isNumen": false
+    },
+    { 
+      "id": 37, "name": "Enduring Reflection", "principles": [
+        { "principle": 10, "lv": 3 },
+        { "principle": 5, "lv": 1 },
+        { "principle": 4, "lv": 1 }
+      ],
+      "isPermanent": true,
+      "isEvolve": true,
+      "isNumen": false
+    },
+    { 
+      "id": 38, "name": "Ascendant Harmony", "principles": [
+        { "principle": 6, "lv": 2 },
+        { "principle": 12, "lv": 4 }
+      ],
+      "isPermanent": true,
+      "isEvolve": true,
+      "isNumen": false
+    },
+    { 
+      "id": 39, "name": "Hive's Lament", "principles": [
+        { "principle": 8, "lv": 2 },
+        { "principle": 9, "lv": 4 }
+      ],
+      "isPermanent": true,
+      "isEvolve": true,
+      "isNumen": false
+    },
+    { 
+      "id": 40, "name": "Curious Hunch", "principles": [
+        { "principle": 4, "lv": 3 },
+        { "principle": 5, "lv": 4 },
+        { "principle": 6, "lv": 3 },
+        { "principle": 7, "lv": 3 }
+      ],
+      "isPermanent": true,
+      "isEvolve": true,
+      "isNumen": false
+    },
+    { 
+      "id": 41, "name": "Wormwood Dream", "principles": [
+        { "principle": 1, "lv": 3 },
+        { "principle": 7, "lv": 6 },
+        { "principle": 13, "lv": 6 }
+      ],
+      "isPermanent": true,
+      "isEvolve": true,
+      "isNumen": false
+    },
+    { 
+      "id": 42, "name": "Horizon-Sight", "principles": [
+        { "principle": 10, "lv": 4 }
+      ],
+      "isPermanent": true,
+      "isEvolve": true,
+      "isNumen": false
+    },
+    { 
+      "id": 43, "name": "Didumos", "principles": [
+        { "principle": 12, "lv": 6 },
+        { "principle": 5, "lv": 3 },
+        { "principle": 6, "lv": 3 },
+        { "principle": 13, "lv": 3 }
+      ],
+      "isPermanent": true,
+      "isEvolve": true,
+      "isNumen": false
+    },
+    { 
+      "id": 44, "name": "Invincible Audacity", "principles": [
+        { "principle": 1, "lv": 6 },
+        { "principle": 6, "lv": 3 },
+        { "principle": 2, "lv": 3 }
+      ],
+      "isPermanent": true,
+      "isEvolve": true,
+      "isNumen": false
+    },
+    { 
+      "id": 45, "name": "Wind-in-Waiting", "principles": [
+        { "principle": 3, "lv": 3 },
+        { "principle": 8, "lv": 3 },
+        { "principle": 11, "lv": 3 },
+        { "principle": 12, "lv": 6 }
+      ],
+      "isPermanent": true,
+      "isEvolve": true,
+      "isNumen": false
+    },
+    { 
+      "id": 46, "name": "Forbidden Epic", "principles": [
+        { "principle": 1, "lv": 6 },
+        { "principle": 7, "lv": 4 },
+        { "principle": 10, "lv": 4 }
+      ],
+      "isPermanent": true,
+      "isEvolve": true,
+      "isNumen": false
+    },
+    { 
+      "id": 47, "name": "Earthquake Name", "principles": [
+        { "principle": 11, "lv": 6 },
+        { "principle": 2, "lv": 3 }
+      ],
+      "isPermanent": true,
+      "isEvolve": true,
+      "isNumen": false
+    },
+    { 
+      "id": 48, "name": "Earth-Sign", "principles": [
+        { "principle": 9, "lv": 2 },
+        { "principle": 11, "lv": 2 }
+      ],
+      "isPermanent": true,
+      "isEvolve": true,
+      "isNumen": false
+    },
+    { 
+      "id": 49, "name": "Occult Scrap", "principles": [
+        { "principle": 5, "lv": 2 },
+        { "principle": 8, "lv": 2 },
+        { "principle": 10, "lv": 2 }
+      ],
+      "isPermanent": true,
+      "isEvolve": true,
+      "isNumen": false
+    },
+    { 
+      "id": 50, "name": "A Final Understanding", "principles": [
+        { "principle": 10, "lv": 5 },
+        { "principle": 12, "lv": 5 },
+        { "principle": 13, "lv": 5 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": true
+    },
+    { 
+      "id": 51, "name": "Inescapable Confinement", "principles": [
+        { "principle": 5, "lv": 5 },
+        { "principle": 11, "lv": 5 },
+        { "principle": 13, "lv": 5 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": true
+    },
+    { 
+      "id": 52, "name": "Back Into Balance", "principles": [
+        { "principle": 4, "lv": 5 },
+        { "principle": 12, "lv": 5 },
+        { "principle": 13, "lv": 5 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": true
+    },
+    { 
+      "id": 53, "name": "Weaving the World", "principles": [
+        { "principle": 4, "lv": 5 },
+        { "principle": 7, "lv": 5 },
+        { "principle": 9, "lv": 5 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": true
+    },
+    { 
+      "id": 54, "name": "The Sun's Weakness", "principles": [
+        { "principle": 3, "lv": 5 },
+        { "principle": 6, "lv": 5 },
+        { "principle": 8, "lv": 5 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": true
+    },
+    { 
+      "id": 55, "name": "The Bells of Ys", "principles": [
+        { "principle": 1, "lv": 5 },
+        { "principle": 2, "lv": 5 },
+        { "principle": 10, "lv": 5 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": true
+    },
+    { 
+      "id": 56, "name": "Merciless Alteration", "principles": [
+        { "principle": 1, "lv": 5 },
+        { "principle": 2, "lv": 5 },
+        { "principle": 3, "lv": 5 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": true
+    },
+    { 
+      "id": 57, "name": "The Great Counterfeit", "principles": [
+        { "principle": 6, "lv": 5 },
+        { "principle": 7, "lv": 5 },
+        { "principle": 9, "lv": 5 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": true
+    },
+    { 
+      "id": 58, "name": "That Old Lost Music", "principles": [
+        { "principle": 12, "lv": 5 },
+        { "principle": 10, "lv": 5 },
+        { "principle": 11, "lv": 5 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": true
+    },
+    { 
+      "id": 59, "name": "Loopholes", "principles": [
+        { "principle": 5, "lv": 5 },
+        { "principle": 7, "lv": 5 },
+        { "principle": 8, "lv": 5 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": true
+    },
+    { 
+      "id": 60, "name": "The Paths of the Sun", "principles": [
+        { "principle": 2, "lv": 5 },
+        { "principle": 6, "lv": 5 },
+        { "principle": 5, "lv": 5 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": true
+    },
+    { 
+      "id": 61, "name": "Three Rules", "principles": [
+        { "principle": 4, "lv": 5 },
+        { "principle": 8, "lv": 5 },
+        { "principle": 11, "lv": 5 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": true
+    },
+    { 
+      "id": 62, "name": "An Irresistible Feast", "principles": [
+        { "principle": 1, "lv": 5 },
+        { "principle": 3, "lv": 5 },
+        { "principle": 9, "lv": 5 }
+      ],
+      "isPermanent": false,
+      "isEvolve": false,
+      "isNumen": true
+    }
+  ]
+}

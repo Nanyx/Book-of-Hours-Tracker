@@ -1,0 +1,3671 @@
+{
+  "aspects": [
+    {
+      "id": 1,
+      "name": "Beast"
+    },
+    {
+      "id": 2,
+      "name": "Beverage"
+    },
+    {
+      "id": 3,
+      "name": "Comfort"
+    },
+    {
+      "id": 4,
+      "name": "Co-op"
+    },
+    {
+      "id": 5,
+      "name": "Device"
+    },
+    {
+      "id": 6,
+      "name": "Evolve"
+    },
+    {
+      "id": 7,
+      "name": "Fabric"
+    },
+    {
+      "id": 8,
+      "name": "Fruit"
+    },
+    {
+      "id": 9,
+      "name": "Fuel"
+    },
+    {
+      "id": 10,
+      "name": "Glass"
+    },
+    {
+      "id": 11,
+      "name": "Great Ink"
+    },
+    {
+      "id": 12,
+      "name": "Inert"
+    },
+    {
+      "id": 13,
+      "name": "Ink"
+    },
+    {
+      "id": 14,
+      "name": "Instrument"
+    },
+    {
+      "id": 15,
+      "name": "Lens"
+    },
+    {
+      "id": 16,
+      "name": "Liquid"
+    },
+    {
+      "id": 17,
+      "name": "Mark"
+    },
+    {
+      "id": 18,
+      "name": "Material"
+    },
+    {
+      "id": 19,
+      "name": "Memory"
+    },
+    {
+      "id": 20,
+      "name": "Omen"
+    },
+    {
+      "id": 21,
+      "name": "Persistent"
+    },
+    {
+      "id": 22,
+      "name": "Pigment"
+    },
+    {
+      "id": 23,
+      "name": "Remains"
+    },
+    {
+      "id": 24,
+      "name": "Restorative"
+    },
+    {
+      "id": 25,
+      "name": "Sound"
+    },
+    {
+      "id": 26,
+      "name": "Sustenance"
+    },
+    {
+      "id": 27,
+      "name": "Thing"
+    },
+    {
+      "id": 28,
+      "name": "Tool"
+    },
+    {
+      "id": 29,
+      "name": "Woven"
+    },
+    {
+      "id": 30,
+      "name": "Metal"
+    }
+  ],
+  "levels": [
+    {
+      "id": 1,
+      "name": "Prentice"
+    },
+    {
+      "id": 2,
+      "name": "Scholar"
+    },
+    {
+      "id": 3,
+      "name": "Keeper"
+    }
+  ],
+  "crafts": [
+    {
+      "id": 1,
+      "name": "Labhitic Tincture",
+      "aspects": [
+        27,
+        18
+      ],
+      "principles": [
+        {
+          "principle": 1,
+          "lv": 2
+        },
+        {
+          "principle": 6,
+          "lv": 1
+        }
+      ],
+      "req": [
+        {
+          "principle": 1,
+          "lv": 1,
+          "skills": [
+            7,
+            13,
+            38,
+            48
+          ],
+          "add": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Torgue's Cleansing",
+      "aspects": [
+        19
+      ],
+      "principles": [
+        {
+          "principle": 1,
+          "lv": 2
+        }
+      ],
+      "req": [
+        {
+          "principle": 1,
+          "lv": 1,
+          "skills": [
+            3,
+            8,
+            27,
+            47
+          ],
+          "add": []
+        },
+        {
+          "principle": 12,
+          "lv": 1,
+          "skills": [
+            34
+          ],
+          "add": []
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Perinculate",
+      "aspects": [
+        27,
+        16,
+        13
+      ],
+      "principles": [
+        {
+          "principle": 1,
+          "lv": 4
+        },
+        {
+          "principle": 11,
+          "lv": 4
+        }
+      ],
+      "req": [
+        {
+          "principle": 1,
+          "lv": 2,
+          "skills": [
+            8,
+            13,
+            48
+          ],
+          "add": [
+            "Leaf"
+          ]
+        },
+        {
+          "principle": 11,
+          "lv": 2,
+          "skills": [
+            21
+          ],
+          "add": [
+            "Leaf"
+          ]
+        },
+        {
+          "principle": 13,
+          "lv": 2,
+          "skills": [
+            35
+          ],
+          "add": [
+            "Leaf"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Winning Move",
+      "aspects": [
+        19,
+        6
+      ],
+      "principles": [
+        {
+          "principle": 1,
+          "lv": 3
+        }
+      ],
+      "req": [
+        {
+          "principle": 1,
+          "lv": 2,
+          "skills": [
+            3,
+            7,
+            27,
+            38,
+            47
+          ],
+          "add": [
+            "Memory"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Serpent-Milk",
+      "aspects": [
+        27,
+        16,
+        2,
+        24
+      ],
+      "principles": [
+        {
+          "principle": 1,
+          "lv": 6
+        },
+        {
+          "principle": 5,
+          "lv": 2
+        },
+        {
+          "principle": 11,
+          "lv": 3
+        }
+      ],
+      "req": [
+        {
+          "principle": 1,
+          "lv": 3,
+          "skills": [
+            8,
+            27,
+            47,
+            48
+          ],
+          "add": [
+            "Perinculate"
+          ]
+        },
+        {
+          "principle": 11,
+          "lv": 3,
+          "skills": [
+            46
+          ],
+          "add": [
+            "Perinculate"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Invincible Audacity",
+      "aspects": [
+        19,
+        21,
+        6
+      ],
+      "principles": [
+        {
+          "principle": 1,
+          "lv": 6
+        },
+        {
+          "principle": 2,
+          "lv": 2
+        },
+        {
+          "principle": 6,
+          "lv": 3
+        }
+      ],
+      "req": [
+        {
+          "principle": 1,
+          "lv": 3,
+          "skills": [
+            3,
+            7,
+            13
+          ],
+          "add": [
+            "Winning Move"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Bitterblack Salts",
+      "aspects": [
+        27,
+        18,
+        22
+      ],
+      "principles": [
+        {
+          "principle": 2,
+          "lv": 1
+        }
+      ],
+      "req": [
+        {
+          "principle": 2,
+          "lv": 1,
+          "skills": [
+            1,
+            4,
+            7,
+            9,
+            59
+          ],
+          "add": []
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Westcott's Compounds",
+      "aspects": [
+        27,
+        18
+      ],
+      "principles": [
+        {
+          "principle": 2,
+          "lv": 2
+        },
+        {
+          "principle": 3,
+          "lv": 1
+        },
+        {
+          "principle": 6,
+          "lv": 1
+        },
+        {
+          "principle": 8,
+          "lv": 1
+        },
+        {
+          "principle": 9,
+          "lv": 1
+        }
+      ],
+      "req": [
+        {
+          "principle": 2,
+          "lv": 1,
+          "skills": [
+            27,
+            36,
+            53
+          ],
+          "add": []
+        },
+        {
+          "principle": 8,
+          "lv": 1,
+          "skills": [
+            42,
+            52
+          ],
+          "add": []
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Iotic Essence",
+      "aspects": [
+        27,
+        16,
+        22,
+        9
+      ],
+      "principles": [
+        {
+          "principle": 2,
+          "lv": 5
+        },
+        {
+          "principle": 6,
+          "lv": 3
+        }
+      ],
+      "req": [
+        {
+          "principle": 2,
+          "lv": 2,
+          "skills": [
+            1,
+            27,
+            36,
+            53,
+            59
+          ],
+          "add": [
+            "Liquid"
+          ]
+        },
+        {
+          "principle": 2,
+          "lv": 3,
+          "skills": [
+            7,
+            27,
+            59
+          ],
+          "add": [
+            "Bitterblack Salts",
+            "Xanthotic Essence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Orichalcum Wire",
+      "aspects": [
+        27,
+        18,
+        30
+      ],
+      "principles": [
+        {
+          "principle": 2,
+          "lv": 4
+        },
+        {
+          "principle": 6,
+          "lv": 1
+        }
+      ],
+      "req": [
+        {
+          "principle": 2,
+          "lv": 2,
+          "skills": [
+            4,
+            7,
+            9
+          ],
+          "add": [
+            "Metal"
+          ]
+        },
+        {
+          "principle": 5,
+          "lv": 2,
+          "skills": [
+            15
+          ],
+          "add": [
+            "Metal"
+          ]
+        },
+        {
+          "principle": 12,
+          "lv": 2,
+          "skills": [
+            25
+          ],
+          "add": [
+            "Metal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Azoth",
+      "aspects": [
+        22,
+        16
+      ],
+      "principles": [
+        {
+          "principle": 2,
+          "lv": 2
+        },
+        {
+          "principle": 5,
+          "lv": 6
+        }
+      ],
+      "req": [
+        {
+          "principle": 2,
+          "lv": 3,
+          "skills": [
+            4,
+            7,
+            9,
+            27,
+            34,
+            36
+          ],
+          "add": [
+            "Orichalcum Wire"
+          ]
+        },
+        {
+          "principle": 2,
+          "lv": 3,
+          "skills": [
+            53
+          ],
+          "add": [
+            "Honeyscar Jasmine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Orpiment Exultant",
+      "aspects": [
+        22,
+        16,
+        13,
+        11
+      ],
+      "principles": [
+        {
+          "principle": 2,
+          "lv": 7
+        },
+        {
+          "principle": 4,
+          "lv": 7
+        },
+        {
+          "principle": 12,
+          "lv": 7
+        }
+      ],
+      "req": [
+        {
+          "principle": 2,
+          "lv": 3,
+          "skills": [
+            1,
+            21,
+            59
+          ],
+          "add": [
+            "Iotic Essence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Witching Tisane",
+      "aspects": [
+        27,
+        16,
+        2,
+        24
+      ],
+      "principles": [
+        {
+          "principle": 3,
+          "lv": 2
+        },
+        {
+          "principle": 4,
+          "lv": 1
+        }
+      ],
+      "req": [
+        {
+          "principle": 3,
+          "lv": 1,
+          "skills": [
+            6,
+            24,
+            28,
+            45,
+            58
+          ],
+          "add": []
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Beguiling Melody",
+      "aspects": [
+        19,
+        25
+      ],
+      "principles": [
+        {
+          "principle": 3,
+          "lv": 2
+        },
+        {
+          "principle": 12,
+          "lv": 2
+        }
+      ],
+      "req": [
+        {
+          "principle": 3,
+          "lv": 1,
+          "skills": [
+            2,
+            32,
+            39,
+            60
+          ],
+          "add": []
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Pale Mommet",
+      "aspects": [
+        27,
+        28,
+        5,
+        12,
+        29
+      ],
+      "principles": [
+        {
+          "principle": 3,
+          "lv": 4
+        },
+        {
+          "principle": 4,
+          "lv": 2
+        },
+        {
+          "principle": 8,
+          "lv": 2
+        }
+      ],
+      "req": [
+        {
+          "principle": 3,
+          "lv": 2,
+          "skills": [
+            32,
+            39,
+            45,
+            58,
+            60
+          ],
+          "add": [
+            "Fabric and Fibre"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Rubywise Ruin",
+      "aspects": [
+        27,
+        16,
+        2,
+        24
+      ],
+      "principles": [
+        {
+          "principle": 3,
+          "lv": 4
+        },
+        {
+          "principle": 4,
+          "lv": 2
+        },
+        {
+          "principle": 8,
+          "lv": 2
+        },
+        {
+          "principle": 9,
+          "lv": 2
+        },
+        {
+          "principle": 10,
+          "lv": 2
+        }
+      ],
+      "req": [
+        {
+          "principle": 3,
+          "lv": 2,
+          "skills": [
+            2,
+            6,
+            24,
+            29
+          ],
+          "add": [
+            "Flower"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Flushed Mommet",
+      "aspects": [
+        27,
+        28,
+        5,
+        12,
+        29
+      ],
+      "principles": [
+        {
+          "principle": 3,
+          "lv": 6
+        },
+        {
+          "principle": 4,
+          "lv": 3
+        },
+        {
+          "principle": 8,
+          "lv": 3
+        }
+      ],
+      "req": [
+        {
+          "principle": 3,
+          "lv": 3,
+          "skills": [
+            6,
+            14,
+            32,
+            39,
+            58
+          ],
+          "add": [
+            "Pale Mommet"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Sacrament Calicite",
+      "aspects": [
+        27,
+        16,
+        2,
+        24
+      ],
+      "principles": [
+        {
+          "principle": 3,
+          "lv": 6
+        }
+      ],
+      "req": [
+        {
+          "principle": 3,
+          "lv": 3,
+          "skills": [
+            2,
+            24,
+            28,
+            45,
+            60
+          ],
+          "add": [
+            "Rubywise Ruin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Perhibiate",
+      "aspects": [
+        27,
+        16,
+        13
+      ],
+      "principles": [
+        {
+          "principle": 4,
+          "lv": 2
+        },
+        {
+          "principle": 6,
+          "lv": 2
+        },
+        {
+          "principle": 11,
+          "lv": 2
+        },
+        {
+          "principle": 13,
+          "lv": 1
+        }
+      ],
+      "req": [
+        {
+          "principle": 4,
+          "lv": 1,
+          "skills": [
+            54,
+            62
+          ],
+          "add": []
+        },
+        {
+          "principle": 11,
+          "lv": 1,
+          "skills": [
+            21
+          ],
+          "add": []
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Regensburg Balm",
+      "aspects": [
+        27,
+        16
+      ],
+      "principles": [
+        {
+          "principle": 4,
+          "lv": 2
+        },
+        {
+          "principle": 9,
+          "lv": 2
+        }
+      ],
+      "req": [
+        {
+          "principle": 4,
+          "lv": 1,
+          "skills": [
+            11,
+            17,
+            26,
+            37,
+            57
+          ],
+          "add": []
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Cheerful Ditty",
+      "aspects": [
+        19,
+        25
+      ],
+      "principles": [
+        {
+          "principle": 4,
+          "lv": 2
+        },
+        {
+          "principle": 12,
+          "lv": 1
+        }
+      ],
+      "req": [
+        {
+          "principle": 4,
+          "lv": 1,
+          "skills": [
+            10,
+            56
+          ],
+          "add": []
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Frith-Weft",
+      "aspects": [
+        27,
+        7
+      ],
+      "principles": [
+        {
+          "principle": 4,
+          "lv": 3
+        }
+      ],
+      "req": [
+        {
+          "principle": 4,
+          "lv": 2,
+          "skills": [
+            54,
+            62
+          ],
+          "add": [
+            "Fabric and Fibre"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Gideon's Soaks",
+      "aspects": [
+        27,
+        16
+      ],
+      "principles": [
+        {
+          "principle": 2,
+          "lv": 2
+        },
+        {
+          "principle": 4,
+          "lv": 4
+        },
+        {
+          "principle": 9,
+          "lv": 3
+        },
+        {
+          "principle": 13,
+          "lv": 2
+        }
+      ],
+      "req": [
+        {
+          "principle": 4,
+          "lv": 2,
+          "skills": [
+            11,
+            17,
+            26,
+            37,
+            57
+          ],
+          "add": [
+            "Liquid"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Thunderskin's Paean",
+      "aspects": [
+        19,
+        25,
+        6
+      ],
+      "principles": [
+        {
+          "principle": 3,
+          "lv": 1
+        },
+        {
+          "principle": 4,
+          "lv": 4
+        },
+        {
+          "principle": 11,
+          "lv": 1
+        }
+      ],
+      "req": [
+        {
+          "principle": 4,
+          "lv": 2,
+          "skills": [
+            10,
+            56
+          ],
+          "add": [
+            "Instrument"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "January Sanguinary",
+      "aspects": [
+        27,
+        16
+      ],
+      "principles": [
+        {
+          "principle": 4,
+          "lv": 5
+        },
+        {
+          "principle": 5,
+          "lv": 3
+        },
+        {
+          "principle": 12,
+          "lv": 3
+        }
+      ],
+      "req": [
+        {
+          "principle": 4,
+          "lv": 3,
+          "skills": [
+            11,
+            17,
+            26,
+            57
+          ],
+          "add": [
+            "Gideon's Soaks"
+          ]
+        },
+        {
+          "principle": 4,
+          "lv": 3,
+          "skills": [
+            57
+          ],
+          "add": [
+            "Glassfinger Toxin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Swaddled Thunder",
+      "aspects": [
+        27,
+        7
+      ],
+      "principles": [
+        {
+          "principle": 4,
+          "lv": 6
+        },
+        {
+          "principle": 12,
+          "lv": 4
+        }
+      ],
+      "req": [
+        {
+          "principle": 4,
+          "lv": 3,
+          "skills": [
+            37,
+            54,
+            62
+          ],
+          "add": [
+            "Frith-Weft"
+          ]
+        },
+        {
+          "principle": 4,
+          "lv": 3,
+          "skills": [
+            10,
+            56
+          ],
+          "add": [
+            "Thunderskin's Paean"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Amethyst Ampoule",
+      "aspects": [
+        27,
+        16,
+        10
+      ],
+      "principles": [
+        {
+          "principle": 4,
+          "lv": 2
+        },
+        {
+          "principle": 5,
+          "lv": 2
+        }
+      ],
+      "req": [
+        {
+          "principle": 5,
+          "lv": 1,
+          "skills": [
+            15,
+            25,
+            52,
+            57,
+            58
+          ],
+          "add": []
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Secret Threshold",
+      "aspects": [
+        19
+      ],
+      "principles": [
+        {
+          "principle": 5,
+          "lv": 2
+        },
+        {
+          "principle": 10,
+          "lv": 1
+        }
+      ],
+      "req": [
+        {
+          "principle": 5,
+          "lv": 1,
+          "skills": [
+            9,
+            12,
+            19,
+            33
+          ],
+          "add": []
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Gervinite",
+      "aspects": [
+        27,
+        18,
+        30
+      ],
+      "principles": [
+        {
+          "principle": 5,
+          "lv": 4
+        },
+        {
+          "principle": 10,
+          "lv": 2
+        }
+      ],
+      "req": [
+        {
+          "principle": 5,
+          "lv": 2,
+          "skills": [
+            25
+          ],
+          "add": [
+            "Glass"
+          ]
+        },
+        {
+          "principle": 12,
+          "lv": 2,
+          "skills": [
+            16
+          ],
+          "add": [
+            "Metal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Glassfinger Toxin",
+      "aspects": [
+        27,
+        16
+      ],
+      "principles": [
+        {
+          "principle": 2,
+          "lv": 2
+        },
+        {
+          "principle": 5,
+          "lv": 4
+        },
+        {
+          "principle": 6,
+          "lv": 2
+        }
+      ],
+      "req": [
+        {
+          "principle": 5,
+          "lv": 2,
+          "skills": [
+            9,
+            12,
+            52,
+            57
+          ],
+          "add": [
+            "Liquid"
+          ]
+        },
+        {
+          "principle": 11,
+          "lv": 2,
+          "skills": [
+            46
+          ],
+          "add": [
+            "Liquid"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Chimeric Larva",
+      "aspects": [
+        1,
+        3,
+        4
+      ],
+      "principles": [
+        {
+          "principle": 5,
+          "lv": 2
+        },
+        {
+          "principle": 7,
+          "lv": 2
+        },
+        {
+          "principle": 8,
+          "lv": 4
+        }
+      ],
+      "req": [
+        {
+          "principle": 5,
+          "lv": 2,
+          "skills": [
+            19
+          ],
+          "add": [
+            "Egg"
+          ]
+        },
+        {
+          "principle": 7,
+          "lv": 2,
+          "skills": [
+            18,
+            23
+          ],
+          "add": [
+            "Egg"
+          ]
+        },
+        {
+          "principle": 8,
+          "lv": 2,
+          "skills": [
+            39,
+            59
+          ],
+          "add": [
+            "Egg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Curious Hunch",
+      "aspects": [
+        19,
+        21,
+        20,
+        6
+      ],
+      "principles": [
+        {
+          "principle": 4,
+          "lv": 3
+        },
+        {
+          "principle": 5,
+          "lv": 4
+        },
+        {
+          "principle": 6,
+          "lv": 3
+        },
+        {
+          "principle": 8,
+          "lv": 3
+        }
+      ],
+      "req": [
+        {
+          "principle": 5,
+          "lv": 2,
+          "skills": [
+            33,
+            58
+          ],
+          "add": [
+            "Memory"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Chronsichord",
+      "aspects": [
+        27,
+        5,
+        28
+      ],
+      "principles": [
+        {
+          "principle": 2,
+          "lv": 3
+        },
+        {
+          "principle": 5,
+          "lv": 6
+        },
+        {
+          "principle": 12,
+          "lv": 3
+        },
+        {
+          "principle": 13,
+          "lv": 3
+        }
+      ],
+      "req": [
+        {
+          "principle": 5,
+          "lv": 3,
+          "skills": [
+            15,
+            16,
+            25,
+            33,
+            58
+          ],
+          "add": [
+            "Gervinite"
+          ]
+        },
+        {
+          "principle": 12,
+          "lv": 3,
+          "skills": [
+            25
+          ],
+          "add": [
+            "Silver Wire"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Sacrament Ascite",
+      "aspects": [
+        27,
+        16,
+        2,
+        24
+      ],
+      "principles": [
+        {
+          "principle": 5,
+          "lv": 6
+        }
+      ],
+      "req": [
+        {
+          "principle": 5,
+          "lv": 3,
+          "skills": [
+            9,
+            12,
+            15,
+            19,
+            52
+          ],
+          "add": [
+            "Glassfinger Toxin"
+          ]
+        },
+        {
+          "principle": 7,
+          "lv": 3,
+          "skills": [
+            46
+          ],
+          "add": [
+            "Glassfinger Toxin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Dearday Lens",
+      "aspects": [
+        27,
+        18,
+        5,
+        15,
+        10
+      ],
+      "principles": [
+        {
+          "principle": 6,
+          "lv": 2
+        },
+        {
+          "principle": 12,
+          "lv": 2
+        },
+        {
+          "principle": 1,
+          "lv": 1
+        },
+        {
+          "principle": 2,
+          "lv": 1
+        }
+      ],
+      "req": [
+        {
+          "principle": 6,
+          "lv": 1,
+          "skills": [
+            8,
+            15,
+            16,
+            36
+          ],
+          "add": []
+        },
+        {
+          "principle": 12,
+          "lv": 1,
+          "skills": [
+            15,
+            16
+          ],
+          "add": []
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Eigengrau",
+      "aspects": [
+        27,
+        16,
+        2,
+        24
+      ],
+      "principles": [
+        {
+          "principle": 7,
+          "lv": 1
+        },
+        {
+          "principle": 13,
+          "lv": 1
+        }
+      ],
+      "req": [
+        {
+          "principle": 6,
+          "lv": 1,
+          "skills": [
+            3
+          ],
+          "add": []
+        },
+        {
+          "principle": 7,
+          "lv": 1,
+          "skills": [
+            26,
+            31
+          ],
+          "add": []
+        },
+        {
+          "principle": 13,
+          "lv": 1,
+          "skills": [
+            20,
+            37,
+            49
+          ],
+          "add": []
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Refulgin",
+      "aspects": [
+        27,
+        18,
+        22
+      ],
+      "principles": [
+        {
+          "principle": 6,
+          "lv": 2
+        }
+      ],
+      "req": [
+        {
+          "principle": 6,
+          "lv": 1,
+          "skills": [
+            22,
+            34,
+            43,
+            59
+          ],
+          "add": []
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Tanglebrag",
+      "aspects": [
+        27,
+        18
+      ],
+      "principles": [
+        {
+          "principle": 6,
+          "lv": 1
+        },
+        {
+          "principle": 8,
+          "lv": 2
+        },
+        {
+          "principle": 9,
+          "lv": 1
+        },
+        {
+          "principle": 11,
+          "lv": 1
+        }
+      ],
+      "req": [
+        {
+          "principle": 6,
+          "lv": 1,
+          "skills": [
+            61
+          ],
+          "add": []
+        },
+        {
+          "principle": 8,
+          "lv": 1,
+          "skills": [
+            12,
+            39,
+            41,
+            62
+          ],
+          "add": []
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Ichor Vitreous",
+      "aspects": [
+        27,
+        16,
+        22
+      ],
+      "principles": [
+        {
+          "principle": 6,
+          "lv": 4
+        }
+      ],
+      "req": [
+        {
+          "principle": 6,
+          "lv": 2,
+          "skills": [
+            15,
+            16,
+            22,
+            43,
+            61
+          ],
+          "add": [
+            "Glass"
+          ]
+        },
+        {
+          "principle": 12,
+          "lv": 2,
+          "skills": [
+            15
+          ],
+          "add": [
+            "Glass"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Xanthotic Essence",
+      "aspects": [
+        27,
+        16,
+        22
+      ],
+      "principles": [
+        {
+          "principle": 2,
+          "lv": 2
+        },
+        {
+          "principle": 5,
+          "lv": 2
+        },
+        {
+          "principle": 6,
+          "lv": 5
+        }
+      ],
+      "req": [
+        {
+          "principle": 6,
+          "lv": 2,
+          "skills": [
+            3,
+            34,
+            36,
+            59
+          ],
+          "add": [
+            "Liquid"
+          ]
+        },
+        {
+          "principle": 6,
+          "lv": 3,
+          "skills": [
+            34
+          ],
+          "add": [
+            "Bitterblack Salts",
+            "Iotic Essence"
+          ]
+        },
+        {
+          "principle": 12,
+          "lv": 2,
+          "skills": [
+            1
+          ],
+          "add": [
+            "Liquid"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Old Moment",
+      "aspects": [
+        19,
+        6
+      ],
+      "principles": [
+        {
+          "principle": 6,
+          "lv": 2
+        },
+        {
+          "principle": 8,
+          "lv": 2
+        },
+        {
+          "principle": 11,
+          "lv": 4
+        }
+      ],
+      "req": [
+        {
+          "principle": 6,
+          "lv": 2,
+          "skills": [
+            8
+          ],
+          "add": [
+            "Memory"
+          ]
+        },
+        {
+          "principle": 11,
+          "lv": 2,
+          "skills": [
+            5,
+            19,
+            30,
+            63
+          ],
+          "add": [
+            "Memory"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Ashartine",
+      "aspects": [
+        27,
+        16,
+        13
+      ],
+      "principles": [
+        {
+          "principle": 6,
+          "lv": 6
+        },
+        {
+          "principle": 12,
+          "lv": 2
+        }
+      ],
+      "req": [
+        {
+          "principle": 6,
+          "lv": 3,
+          "skills": [
+            15,
+            16,
+            36,
+            61
+          ],
+          "add": [
+            "Ichor Vitreous"
+          ]
+        },
+        {
+          "principle": 12,
+          "lv": 3,
+          "skills": [
+            1,
+            15
+          ],
+          "add": [
+            "Ichor Vitreous"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Porphyrine",
+      "aspects": [
+        27,
+        16,
+        13,
+        11
+      ],
+      "principles": [
+        {
+          "principle": 5,
+          "lv": 7
+        },
+        {
+          "principle": 7,
+          "lv": 7
+        },
+        {
+          "principle": 10,
+          "lv": 7
+        }
+      ],
+      "req": [
+        {
+          "principle": 6,
+          "lv": 3,
+          "skills": [
+            3
+          ],
+          "add": [
+            "Ichor Auroral"
+          ]
+        },
+        {
+          "principle": 6,
+          "lv": 3,
+          "skills": [
+            3
+          ],
+          "add": [
+            "Ichor Auroral"
+          ]
+        },
+        {
+          "principle": 10,
+          "lv": 3,
+          "skills": [
+            21,
+            22,
+            44
+          ],
+          "add": [
+            "Ichor Auroral"
+          ]
+        },
+        {
+          "principle": 10,
+          "lv": 3,
+          "skills": [
+            31
+          ],
+          "add": [
+            "Lenten Rose"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Uzult",
+      "aspects": [
+        27,
+        16,
+        13,
+        11
+      ],
+      "principles": [
+        {
+          "principle": 6,
+          "lv": 7
+        },
+        {
+          "principle": 8,
+          "lv": 7
+        },
+        {
+          "principle": 12,
+          "lv": 7
+        }
+      ],
+      "req": [
+        {
+          "principle": 6,
+          "lv": 3,
+          "skills": [
+            1,
+            15,
+            22,
+            43,
+            61
+          ],
+          "add": [
+            "Xanthotic Essence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Earthquake Name",
+      "aspects": [
+        19,
+        21,
+        20,
+        6
+      ],
+      "principles": [
+        {
+          "principle": 2,
+          "lv": 3
+        },
+        {
+          "principle": 11,
+          "lv": 6
+        }
+      ],
+      "req": [
+        {
+          "principle": 6,
+          "lv": 3,
+          "skills": [
+            8
+          ],
+          "add": [
+            "Old Moment"
+          ]
+        },
+        {
+          "principle": 11,
+          "lv": 3,
+          "skills": [
+            5,
+            18,
+            55,
+            63
+          ],
+          "add": [
+            "Old Moment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Catwink",
+      "aspects": [
+        27,
+        13,
+        16
+      ],
+      "principles": [
+        {
+          "principle": 7,
+          "lv": 2
+        },
+        {
+          "principle": 11,
+          "lv": 2
+        }
+      ],
+      "req": [
+        {
+          "principle": 7,
+          "lv": 1,
+          "skills": [
+            11,
+            20,
+            34,
+            44,
+            48
+          ],
+          "add": []
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Midnight Mark",
+      "aspects": [
+        27,
+        17
+      ],
+      "principles": [
+        {
+          "principle": 7,
+          "lv": 2
+        },
+        {
+          "principle": 8,
+          "lv": 1
+        }
+      ],
+      "req": [
+        {
+          "principle": 7,
+          "lv": 1,
+          "skills": [
+            6,
+            23,
+            40,
+            46,
+            47,
+            51,
+            63
+          ],
+          "add": []
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Salt-Sign",
+      "aspects": [
+        27,
+        17
+      ],
+      "principles": [
+        {
+          "principle": 7,
+          "lv": 2
+        },
+        {
+          "principle": 10,
+          "lv": 2
+        }
+      ],
+      "req": [
+        {
+          "principle": 7,
+          "lv": 1,
+          "skills": [
+            18,
+            45
+          ],
+          "add": []
+        },
+        {
+          "principle": 10,
+          "lv": 1,
+          "skills": [
+            21,
+            30,
+            31,
+            44
+          ],
+          "add": []
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Bittersweet Certainty",
+      "aspects": [
+        19,
+        25
+      ],
+      "principles": [
+        {
+          "principle": 6,
+          "lv": 1
+        },
+        {
+          "principle": 13,
+          "lv": 2
+        }
+      ],
+      "req": [
+        {
+          "principle": 7,
+          "lv": 1,
+          "skills": [
+            29
+          ],
+          "add": []
+        },
+        {
+          "principle": 13,
+          "lv": 1,
+          "skills": [
+            29,
+            37,
+            40,
+            51
+          ],
+          "add": []
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Confounding Parable",
+      "aspects": [
+        19
+      ],
+      "principles": [
+        {
+          "principle": 7,
+          "lv": 2
+        },
+        {
+          "principle": 10,
+          "lv": 2
+        },
+        {
+          "principle": 12,
+          "lv": 2
+        }
+      ],
+      "req": [
+        {
+          "principle": 7,
+          "lv": 1,
+          "skills": [
+            60
+          ],
+          "add": []
+        },
+        {
+          "principle": 10,
+          "lv": 1,
+          "skills": [
+            33,
+            50
+          ],
+          "add": []
+        },
+        {
+          "principle": 12,
+          "lv": 1,
+          "skills": [
+            2,
+            43
+          ],
+          "add": []
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Old Wound",
+      "aspects": [
+        19,
+        21
+      ],
+      "principles": [
+        {
+          "principle": 1,
+          "lv": 1
+        },
+        {
+          "principle": 7,
+          "lv": 2
+        },
+        {
+          "principle": 13,
+          "lv": 3
+        }
+      ],
+      "req": [
+        {
+          "principle": 7,
+          "lv": 1,
+          "skills": [
+            13
+          ],
+          "add": []
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Asimel",
+      "aspects": [
+        27,
+        16,
+        13
+      ],
+      "principles": [
+        {
+          "principle": 7,
+          "lv": 5
+        },
+        {
+          "principle": 5,
+          "lv": 3
+        }
+      ],
+      "req": [
+        {
+          "principle": 7,
+          "lv": 2,
+          "skills": [
+            31,
+            34,
+            45
+          ],
+          "add": [
+            "Liquid"
+          ]
+        },
+        {
+          "principle": 7,
+          "lv": 2,
+          "skills": [
+            29
+          ],
+          "add": [
+            "Lens"
+          ]
+        },
+        {
+          "principle": 8,
+          "lv": 2,
+          "skills": [
+            22
+          ],
+          "add": [
+            "Liquid"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Essential Periost",
+      "aspects": [
+        27,
+        23
+      ],
+      "principles": [
+        {
+          "principle": 7,
+          "lv": 2
+        },
+        {
+          "principle": 9,
+          "lv": 4
+        },
+        {
+          "principle": 11,
+          "lv": 4
+        },
+        {
+          "principle": 13,
+          "lv": 4
+        }
+      ],
+      "req": [
+        {
+          "principle": 7,
+          "lv": 2,
+          "skills": [
+            47,
+            48,
+            63
+          ],
+          "add": [
+            "Remains"
+          ]
+        },
+        {
+          "principle": 9,
+          "lv": 2,
+          "skills": [
+            55
+          ],
+          "add": [
+            "Remains"
+          ]
+        },
+        {
+          "principle": 13,
+          "lv": 2,
+          "skills": [
+            40,
+            51
+          ],
+          "add": [
+            "Remains"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Leathy",
+      "aspects": [
+        27,
+        16,
+        2,
+        24
+      ],
+      "principles": [
+        {
+          "principle": 8,
+          "lv": 4
+        },
+        {
+          "principle": 9,
+          "lv": 2
+        },
+        {
+          "principle": 11,
+          "lv": 2
+        },
+        {
+          "principle": 3,
+          "lv": 2
+        }
+      ],
+      "req": [
+        {
+          "principle": 7,
+          "lv": 2,
+          "skills": [
+            20
+          ],
+          "add": [
+            "Beverage"
+          ]
+        },
+        {
+          "principle": 9,
+          "lv": 2,
+          "skills": [
+            17,
+            23,
+            28,
+            41
+          ],
+          "add": [
+            "Beverage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Pyrus Auricalcinus",
+      "aspects": [
+        27,
+        26,
+        8
+      ],
+      "principles": [
+        {
+          "principle": 2,
+          "lv": 4
+        },
+        {
+          "principle": 9,
+          "lv": 4
+        }
+      ],
+      "req": [
+        {
+          "principle": 7,
+          "lv": 2,
+          "skills": [
+            6
+          ],
+          "add": [
+            "Wood"
+          ]
+        },
+        {
+          "principle": 9,
+          "lv": 2,
+          "skills": [
+            5,
+            24,
+            53
+          ],
+          "add": [
+            "Wood"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Solomon's Preparation",
+      "aspects": [
+        27,
+        16,
+        2,
+        24
+      ],
+      "principles": [
+        {
+          "principle": 7,
+          "lv": 1
+        },
+        {
+          "principle": 8,
+          "lv": 1
+        },
+        {
+          "principle": 13,
+          "lv": 4
+        }
+      ],
+      "req": [
+        {
+          "principle": 7,
+          "lv": 2,
+          "skills": [
+            11,
+            26
+          ],
+          "add": [
+            "Flower"
+          ]
+        },
+        {
+          "principle": 13,
+          "lv": 2,
+          "skills": [
+            20,
+            37,
+            38,
+            49
+          ],
+          "add": [
+            "Flower"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Stymphling",
+      "aspects": [
+        1,
+        3,
+        4
+      ],
+      "principles": [
+        {
+          "principle": 7,
+          "lv": 3
+        },
+        {
+          "principle": 11,
+          "lv": 3
+        }
+      ],
+      "req": [
+        {
+          "principle": 7,
+          "lv": 2,
+          "skills": [
+            40,
+            44,
+            46,
+            51,
+            60
+          ],
+          "add": [
+            "Egg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Wormwood Dream",
+      "aspects": [
+        19,
+        21,
+        20,
+        6
+      ],
+      "principles": [
+        {
+          "principle": 1,
+          "lv": 3
+        },
+        {
+          "principle": 7,
+          "lv": 6
+        },
+        {
+          "principle": 13,
+          "lv": 6
+        }
+      ],
+      "req": [
+        {
+          "principle": 7,
+          "lv": 2,
+          "skills": [
+            13
+          ],
+          "add": [
+            "Memory"
+          ]
+        },
+        {
+          "principle": 7,
+          "lv": 3,
+          "skills": [
+            11,
+            40,
+            48,
+            51,
+            63
+          ],
+          "add": [
+            "Stymphling"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Black Sapphire Wash",
+      "aspects": [
+        27,
+        16,
+        22
+      ],
+      "principles": [
+        {
+          "principle": 7,
+          "lv": 6
+        }
+      ],
+      "req": [
+        {
+          "principle": 7,
+          "lv": 3,
+          "skills": [
+            6,
+            31,
+            35,
+            45,
+            60
+          ],
+          "add": [
+            "Asimel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Skinshuck Mead",
+      "aspects": [
+        27,
+        16,
+        13,
+        24
+      ],
+      "principles": [
+        {
+          "principle": 8,
+          "lv": 6
+        },
+        {
+          "principle": 9,
+          "lv": 2
+        },
+        {
+          "principle": 11,
+          "lv": 2
+        },
+        {
+          "principle": 4,
+          "lv": 2
+        }
+      ],
+      "req": [
+        {
+          "principle": 7,
+          "lv": 3,
+          "skills": [
+            23
+          ],
+          "add": [
+            "Cuckoo-Honey"
+          ]
+        },
+        {
+          "principle": 8,
+          "lv": 3,
+          "skills": [
+            12,
+            41,
+            42,
+            52,
+            39,
+            59
+          ],
+          "add": [
+            "Cuckoo-Honey"
+          ]
+        },
+        {
+          "principle": 8,
+          "lv": 3,
+          "skills": [
+            12,
+            41,
+            42,
+            52
+          ],
+          "add": [
+            "Honey"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Perilous Imago",
+      "aspects": [
+        1,
+        3,
+        4
+      ],
+      "principles": [
+        {
+          "principle": 5,
+          "lv": 2
+        },
+        {
+          "principle": 7,
+          "lv": 2
+        },
+        {
+          "principle": 8,
+          "lv": 6
+        },
+        {
+          "principle": 11,
+          "lv": 2
+        }
+      ],
+      "req": [
+        {
+          "principle": 7,
+          "lv": 3,
+          "skills": [
+            23
+          ],
+          "add": [
+            "Chimeric Larva"
+          ]
+        },
+        {
+          "principle": 8,
+          "lv": 3,
+          "skills": [
+            39,
+            59
+          ],
+          "add": [
+            "Chimeric Larva"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Didumos",
+      "aspects": [
+        19,
+        21,
+        6
+      ],
+      "principles": [
+        {
+          "principle": 5,
+          "lv": 3
+        },
+        {
+          "principle": 6,
+          "lv": 3
+        },
+        {
+          "principle": 12,
+          "lv": 6
+        },
+        {
+          "principle": 13,
+          "lv": 3
+        }
+      ],
+      "req": [
+        {
+          "principle": 7,
+          "lv": 3,
+          "skills": [
+            29
+          ],
+          "add": [
+            "Asimel"
+          ]
+        },
+        {
+          "principle": 12,
+          "lv": 3,
+          "skills": [
+            2,
+            4,
+            29,
+            42,
+            49
+          ],
+          "add": [
+            "Ascendant Harmony"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Forbidden Epic",
+      "aspects": [
+        19,
+        21,
+        6
+      ],
+      "principles": [
+        {
+          "principle": 1,
+          "lv": 6
+        },
+        {
+          "principle": 7,
+          "lv": 4
+        },
+        {
+          "principle": 10,
+          "lv": 4
+        }
+      ],
+      "req": [
+        {
+          "principle": 7,
+          "lv": 3,
+          "skills": [
+            13
+          ],
+          "add": [
+            "Confounding Parable"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Paint: Moth-Gold",
+      "aspects": [
+        27,
+        16,
+        22
+      ],
+      "principles": [
+        {
+          "principle": 8,
+          "lv": 2
+        }
+      ],
+      "req": [
+        {
+          "principle": 8,
+          "lv": 1,
+          "skills": [
+            22
+          ],
+          "add": []
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Nameday Riddle",
+      "aspects": [
+        19
+      ],
+      "principles": [
+        {
+          "principle": 5,
+          "lv": 2
+        },
+        {
+          "principle": 8,
+          "lv": 3
+        }
+      ],
+      "req": [
+        {
+          "principle": 8,
+          "lv": 2,
+          "skills": [
+            12,
+            41,
+            42,
+            52,
+            62
+          ],
+          "add": [
+            "Memory"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Thirza's Cordials",
+      "aspects": [
+        27,
+        16,
+        2,
+        24
+      ],
+      "principles": [
+        {
+          "principle": 8,
+          "lv": 2
+        },
+        {
+          "principle": 9,
+          "lv": 2
+        }
+      ],
+      "req": [
+        {
+          "principle": 9,
+          "lv": 1,
+          "skills": [
+            5,
+            17,
+            28,
+            53,
+            55
+          ],
+          "add": []
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Yewgall Ink",
+      "aspects": [
+        27,
+        16,
+        13
+      ],
+      "principles": [
+        {
+          "principle": 9,
+          "lv": 2
+        }
+      ],
+      "req": [
+        {
+          "principle": 9,
+          "lv": 1,
+          "skills": [
+            20,
+            21,
+            22,
+            23,
+            24,
+            41
+          ],
+          "add": []
+        },
+        {
+          "principle": 13,
+          "lv": 1,
+          "skills": [
+            34
+          ],
+          "add": []
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Savage Hymn",
+      "aspects": [
+        19,
+        25
+      ],
+      "principles": [
+        {
+          "principle": 11,
+          "lv": 2
+        },
+        {
+          "principle": 12,
+          "lv": 2
+        }
+      ],
+      "req": [
+        {
+          "principle": 9,
+          "lv": 1,
+          "skills": [
+            10
+          ],
+          "add": []
+        },
+        {
+          "principle": 11,
+          "lv": 1,
+          "skills": [
+            10,
+            55
+          ],
+          "add": []
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Hive's Lament",
+      "aspects": [
+        19,
+        21,
+        25,
+        6
+      ],
+      "principles": [
+        {
+          "principle": 8,
+          "lv": 2
+        },
+        {
+          "principle": 9,
+          "lv": 4
+        },
+        {
+          "principle": 13,
+          "lv": 2
+        }
+      ],
+      "req": [
+        {
+          "principle": 9,
+          "lv": 2,
+          "skills": [
+            10
+          ],
+          "add": [
+            "Instrument"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Marakat",
+      "aspects": [
+        27,
+        23,
+        60
+      ],
+      "principles": [
+        {
+          "principle": 3,
+          "lv": 7
+        },
+        {
+          "principle": 5,
+          "lv": 7
+        },
+        {
+          "principle": 9,
+          "lv": 7
+        }
+      ],
+      "req": [
+        {
+          "principle": 9,
+          "lv": 3,
+          "skills": [
+            27,
+            16,
+            13,
+            11
+          ],
+          "add": [
+            "Leathy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Sacrament Malachite",
+      "aspects": [
+        27,
+        16,
+        2,
+        24
+      ],
+      "principles": [
+        {
+          "principle": 9,
+          "lv": 6
+        }
+      ],
+      "req": [
+        {
+          "principle": 9,
+          "lv": 3,
+          "skills": [
+            5,
+            10,
+            17,
+            24,
+            41,
+            53
+          ],
+          "add": [
+            "Pyrus Auricalcinus"
+          ]
+        },
+        {
+          "principle": 9,
+          "lv": 3,
+          "skills": [
+            55
+          ],
+          "add": [
+            "Essential Periost"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Ichor Auroral",
+      "aspects": [
+        27,
+        16,
+        22
+      ],
+      "principles": [
+        {
+          "principle": 6,
+          "lv": 4
+        },
+        {
+          "principle": 10,
+          "lv": 2
+        }
+      ],
+      "req": [
+        {
+          "principle": 10,
+          "lv": 2,
+          "skills": [
+            3,
+            21,
+            44
+          ],
+          "add": [
+            "Light"
+          ]
+        },
+        {
+          "principle": 12,
+          "lv": 2,
+          "skills": [
+            49,
+            61
+          ],
+          "add": [
+            "Light"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Enduring Reflection",
+      "aspects": [
+        19,
+        21,
+        6
+      ],
+      "principles": [
+        {
+          "principle": 4,
+          "lv": 1
+        },
+        {
+          "principle": 5,
+          "lv": 1
+        },
+        {
+          "principle": 10,
+          "lv": 3
+        }
+      ],
+      "req": [
+        {
+          "principle": 10,
+          "lv": 2,
+          "skills": [
+            30,
+            31,
+            33,
+            50
+          ],
+          "add": [
+            "Memory"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Horizon-Sight",
+      "aspects": [
+        19,
+        21,
+        6
+      ],
+      "principles": [
+        {
+          "principle": 10,
+          "lv": 4
+        }
+      ],
+      "req": [
+        {
+          "principle": 10,
+          "lv": 3,
+          "skills": [
+            30,
+            33,
+            44,
+            50
+          ],
+          "add": [
+            "Enduring Reflection"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Bisclavret's Knot",
+      "aspects": [
+        27,
+        17
+      ],
+      "principles": [
+        {
+          "principle": 8,
+          "lv": 1
+        },
+        {
+          "principle": 11,
+          "lv": 2
+        }
+      ],
+      "req": [
+        {
+          "principle": 11,
+          "lv": 1,
+          "skills": [
+            5,
+            14,
+            18,
+            19,
+            30,
+            32,
+            46,
+            63
+          ],
+          "add": []
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Living Relic",
+      "aspects": [
+        1,
+        3,
+        4
+      ],
+      "principles": [
+        {
+          "principle": 4,
+          "lv": 1
+        },
+        {
+          "principle": 11,
+          "lv": 4
+        },
+        {
+          "principle": 12,
+          "lv": 2
+        }
+      ],
+      "req": [
+        {
+          "principle": 11,
+          "lv": 2,
+          "skills": [
+            14,
+            18,
+            32,
+            55
+          ],
+          "add": [
+            "Egg"
+          ]
+        },
+        {
+          "principle": 12,
+          "lv": 2,
+          "skills": [
+            54
+          ],
+          "add": [
+            "Egg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Houndsgall",
+      "aspects": [
+        27,
+        16,
+        13
+      ],
+      "principles": [
+        {
+          "principle": 4,
+          "lv": 2
+        },
+        {
+          "principle": 11,
+          "lv": 5
+        }
+      ],
+      "req": [
+        {
+          "principle": 11,
+          "lv": 3,
+          "skills": [
+            19,
+            20,
+            30,
+            32
+          ],
+          "add": [
+            "Living Relic"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Awakened Feather",
+      "aspects": [
+        27,
+        18,
+        23
+      ],
+      "principles": [
+        {
+          "principle": 11,
+          "lv": 1
+        },
+        {
+          "principle": 12,
+          "lv": 2
+        }
+      ],
+      "req": [
+        {
+          "principle": 12,
+          "lv": 1,
+          "skills": [
+            1,
+            14,
+            25,
+            42,
+            49,
+            54
+          ],
+          "add": []
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Stargall Ink",
+      "aspects": [
+        27,
+        16,
+        13
+      ],
+      "principles": [
+        {
+          "principle": 12,
+          "lv": 2
+        }
+      ],
+      "req": [
+        {
+          "principle": 12,
+          "lv": 1,
+          "skills": [
+            20,
+            21,
+            22
+          ],
+          "add": []
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "name": "Wistful Air",
+      "aspects": [
+        19,
+        25
+      ],
+      "principles": [
+        {
+          "principle": 5,
+          "lv": 2
+        },
+        {
+          "principle": 12,
+          "lv": 2
+        }
+      ],
+      "req": [
+        {
+          "principle": 12,
+          "lv": 1,
+          "skills": [
+            4,
+            29,
+            50,
+            56,
+            61
+          ],
+          "add": []
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "name": "Mazarine Fife",
+      "aspects": [
+        27,
+        28,
+        14
+      ],
+      "principles": [
+        {
+          "principle": 12,
+          "lv": 3
+        }
+      ],
+      "req": [
+        {
+          "principle": 12,
+          "lv": 2,
+          "skills": [
+            29,
+            42,
+            43
+          ],
+          "add": [
+            "Wood"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "name": "Ascendant Harmony",
+      "aspects": [
+        19,
+        25,
+        21,
+        6
+      ],
+      "principles": [
+        {
+          "principle": 6,
+          "lv": 2
+        },
+        {
+          "principle": 12,
+          "lv": 4
+        }
+      ],
+      "req": [
+        {
+          "principle": 12,
+          "lv": 2,
+          "skills": [
+            2,
+            4,
+            14,
+            34,
+            50,
+            56
+          ],
+          "add": [
+            "Instrument"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "name": "Year Tally",
+      "aspects": [
+        27,
+        17
+      ],
+      "principles": [
+        {
+          "principle": 13,
+          "lv": 6
+        }
+      ],
+      "req": [
+        {
+          "principle": 12,
+          "lv": 3,
+          "skills": [
+            29
+          ],
+          "add": [
+            "Essential Periost"
+          ]
+        },
+        {
+          "principle": 13,
+          "lv": 3,
+          "skills": [
+            35,
+            38,
+            40,
+            51
+          ],
+          "add": [
+            "Essential Periost"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "name": "Wind in Waiting",
+      "aspects": [
+        19,
+        21,
+        6
+      ],
+      "principles": [
+        {
+          "principle": 3,
+          "lv": 3
+        },
+        {
+          "principle": 8,
+          "lv": 3
+        },
+        {
+          "principle": 11,
+          "lv": 3
+        },
+        {
+          "principle": 12,
+          "lv": 6
+        }
+      ],
+      "req": [
+        {
+          "principle": 12,
+          "lv": 3,
+          "skills": [
+            14,
+            43,
+            50,
+            56
+          ],
+          "add": [
+            "Mazarine Fife"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "name": "Nillycant",
+      "aspects": [
+        27,
+        16,
+        13,
+        11
+      ],
+      "principles": [
+        {
+          "principle": 1,
+          "lv": 7
+        },
+        {
+          "principle": 11,
+          "lv": 7
+        },
+        {
+          "principle": 13,
+          "lv": 7
+        }
+      ],
+      "req": [
+        {
+          "principle": 13,
+          "lv": 3,
+          "skills": [
+            20,
+            49
+          ],
+          "add": [
+            "Solomon's Preparation"
+          ]
+        },
+        {
+          "principle": 13,
+          "lv": 3,
+          "skills": [
+            38
+          ],
+          "add": [
+            "Glassfinger Toxin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "name": "Wyrd-Weft",
+      "aspects": [
+        27,
+        7
+      ],
+      "principles": [
+        {
+          "principle": 4,
+          "lv": 3
+        },
+        {
+          "principle": 13,
+          "lv": 6
+        }
+      ],
+      "req": [
+        {
+          "principle": 13,
+          "lv": 3,
+          "skills": [
+            54,
+            62
+          ],
+          "add": [
+            "Fabric and Fibre"
+          ]
+        }
+      ]
+    }
+  ]
+}

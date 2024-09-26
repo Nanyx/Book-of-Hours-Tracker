@@ -1,0 +1,7 @@
+.th-table-fit input.rbt-input-main {
+  border-radius: 0.375rem 0.375rem 0px 0px;
+}
+
+.th-table-fit div.dropdown-menu {
+  border-radius: 0px 0px 0.375rem 0.375rem;
+}
