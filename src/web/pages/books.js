@@ -18,7 +18,7 @@ const skills = skillsData.lessons;
 
 const lsName = "books";
 class BookLoc {
-  constructor(id, read = false){
+  constructor(id, read = false) {
     this.id = id;
     this.read = read;
   }
@@ -32,14 +32,21 @@ const Books = () => {
   const [libState, setLibState] = useState([]);
   const typeRef = useRef(null);
 
-  useEffect(() => setLibState(library.map(b => Object.assign(new BookLoc(), b))), []);
+  useEffect(() => { 
+    setLibState(library.map(b => 
+      Object.assign(new BookLoc(), b)
+    ));
+  }, []);
+  
   useEffect(() => {
     ls.set(lsName, libState);
   }, [libState]);
 
   const categorise = (id) => {
     if(!libState.find((b) => b.id === id)) {
+      console.log(new BookLoc(id));
       libState.push(new BookLoc(id));
+      console.log(libState);
       save();
       clearField();
     };
@@ -65,7 +72,7 @@ const Books = () => {
 
   const save = () => setLibState([...libState]);
 
-  let libSorted = libState.map(l => Object.assign(l, {name: completeLib.find(b => b.id === l.id).name}));
+  let libSorted = libState.map(l => {return {name: completeLib.find(b => b.id === l.id).name, ...l}});
   libSorted.sort((a, b) => a.name.toLowerCase() < b.name.toLowerCase() ? -1 : 1);
   bookList.sort((a, b) => a.name.toLowerCase() < b.name.toLowerCase() ? -1 : 1);
   return (
