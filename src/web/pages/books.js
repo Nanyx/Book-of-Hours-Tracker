@@ -31,7 +31,7 @@ completeLib.sort((a, b) => a.name.toLowerCase() < b.name.toLowerCase() ? -1 : 1)
 
 const Books = () => { 
   const [libState, setLibState] = useState([]);
-  const [sortItem, setSortItem] = useState();
+  const [sortItem, setSortItem] = useState("name");
   const typeRef = useRef(null);
 
   useEffect(() => { 
@@ -74,15 +74,23 @@ const Books = () => {
 
   let libSorted = libState.map(l => { 
     let book = completeLib.find(b => b.id === l.id);
-    let mem = memories.find(m => m.id === book.memory);
-    return {name: book.name, memory: mem.name, ...l};
+    let memory = memories.find(m => m.id === book.memory).name;
+    let mastery = principles.find(p => p.id === book.mastery).name;
+    return {name: book.name, memory, mystery: book.mystery, mastery, ...l};
   });
 
   libSorted.sort((a, b) => a.name.toLowerCase() < b.name.toLowerCase() ? -1 : 1);
 
-  if(sortItem === "memory"){
+  if(sortItem === "memory") { 
     libSorted.sort((a, b) => a.memory.toLowerCase() < b.memory.toLowerCase() ? -1 : 1);
     libSorted.sort((a, b) => !b.read ? -1 : 1);
+  } 
+  else if (sortItem === "mastery") {
+    libSorted.sort((a, b) => a.mastery.toLowerCase() < b.mastery.toLowerCase() ? -1 : 1);
+  }
+  else if (sortItem === "mystery") { 
+    libSorted.sort((a, b) => a.mystery - b.mystery); 
+    libSorted.sort((a, b) => b.read ? -1 : 1);
   }
 
   return (
@@ -105,8 +113,8 @@ const Books = () => {
         <thead>
           <tr>
             <th style={{width:"40%", cursor:"pointer"}} onClick={() => setSortItem("name")}>Name</th>
-            <Head>Mastery</Head>
-            <Head>Mystery</Head>
+            <Head style={{cursor:"pointer"}} onClick={() => setSortItem("mastery")}>Mastery</Head>
+            <Head style={{cursor:"pointer"}} onClick={() => setSortItem("mystery")}>Mystery</Head>
             <Head>Skill</Head>
             <Head style={{cursor:"pointer"}} onClick={() => setSortItem("memory")}>Memory</Head>
             <Head>Burn</Head>
