@@ -46,9 +46,7 @@ const Books = () => {
 
   const categorise = (id) => {
     if(!libState.find((b) => b.id === id)) {
-      console.log(new BookLoc(id));
       libState.push(new BookLoc(id));
-      console.log(libState);
       save();
       clearField();
     };
@@ -115,7 +113,6 @@ const Books = () => {
           </tr>
         </thead>
         <tbody>
-          {console.log(libSorted)}
           {libSorted.map(b => <Book key={b.id} learn={learn} burn={burn} {...b}/>)}
         </tbody>
       </Table>
