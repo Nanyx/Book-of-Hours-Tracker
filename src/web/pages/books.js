@@ -27,9 +27,11 @@ class BookLoc {
 /** @type {BookLoc[]} */
 let library = ls.get(lsName) || [];
 
+completeLib.sort((a, b) => a.name.toLowerCase() < b.name.toLowerCase() ? -1 : 1);
+
 const Books = () => { 
-  let bookList = completeLib;
   const [libState, setLibState] = useState([]);
+  const [sortItem, setSortItem] = useState();
   const typeRef = useRef(null);
 
   useEffect(() => { 
@@ -72,9 +74,19 @@ const Books = () => {
 
   const save = () => setLibState([...libState]);
 
-  let libSorted = libState.map(l => {return {name: completeLib.find(b => b.id === l.id).name, ...l}});
+  let libSorted = libState.map(l => { 
+    let book = completeLib.find(b => b.id === l.id);
+    let mem = memories.find(m => m.id === book.memory);
+    return {name: book.name, memory: mem.name, ...l};
+  });
+
   libSorted.sort((a, b) => a.name.toLowerCase() < b.name.toLowerCase() ? -1 : 1);
-  bookList.sort((a, b) => a.name.toLowerCase() < b.name.toLowerCase() ? -1 : 1);
+
+  if(sortItem === "memory"){
+    libSorted.sort((a, b) => a.memory.toLowerCase() < b.memory.toLowerCase() ? -1 : 1);
+    libSorted.sort((a, b) => !b.read ? -1 : 1);
+  }
+
   return (
     <>
       <Typeahead 
@@ -88,21 +100,22 @@ const Books = () => {
         }}
         ref={typeRef}
         onBlur={clearField}
-        options={bookList.map(({id, name}) => ({id, label: name}))}
+        options={completeLib.map(({id, name}) => ({id, label: name}))}
       />
 
       <Table striped bordered hover size="sm" className="align-middle" style={{marginTop:"-1px"}}>
         <thead>
           <tr>
-            <th style={{width:"40%"}}>Name</th>
+            <th style={{width:"40%", cursor:"pointer"}} onClick={() => setSortItem("name")}>Name</th>
             <Head>Mastery</Head>
             <Head>Mystery</Head>
             <Head>Skill</Head>
-            <Head>Memory</Head>
+            <Head style={{cursor:"pointer"}} onClick={() => setSortItem("memory")}>Memory</Head>
             <Head>Burn</Head>
           </tr>
         </thead>
         <tbody>
+          {console.log(libSorted)}
           {libSorted.map(b => <Book key={b.id} learn={learn} burn={burn} {...b}/>)}
         </tbody>
       </Table>
@@ -110,7 +123,7 @@ const Books = () => {
   );
 }
 
-const Head = ({children}) => <th className='text-center'>{children}</th>
+const Head = ({children, style, onClick = () => {}}) => <th className='text-center' style={style} onClick={onClick}>{children}</th>
 
 const Book = ({id, cat, read, learn = () => {}, burn = () => {}}) => {
   const book = completeLib.find(b => b.id === id);
