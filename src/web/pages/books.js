@@ -1,8 +1,10 @@
 import * as React from 'react';
 import { useState, useEffect, useRef } from 'react';
 import * as ls from 'local-storage';
-import { Tooltip, OverlayTrigger, Table } from 'react-bootstrap';
+import { Table } from 'react-bootstrap';
 import {Typeahead} from 'react-bootstrap-typeahead';
+
+import PrincipleTT from './components/principle-tooltip';
 
 import './books.css';
 
@@ -113,24 +115,22 @@ const Books = () => {
         <thead>
           <tr>
             <th style={{width:"40%", cursor:"pointer"}} onClick={() => setSortItem("name")}>Name</th>
-            <Head style={{cursor:"pointer"}} onClick={() => setSortItem("mastery")}>Mastery</Head>
-            <Head style={{cursor:"pointer"}} onClick={() => setSortItem("mystery")}>Mystery</Head>
-            <Head>Skill</Head>
-            <Head style={{cursor:"pointer"}} onClick={() => setSortItem("memory")}>Memory</Head>
-            <Head>Burn</Head>
+            <th className='text-center' style={{cursor:"pointer"}} onClick={() => setSortItem("mastery")}>Mastery</th>
+            <th className='text-center' style={{cursor:"pointer"}} onClick={() => setSortItem("mystery")}>Mystery</th>
+            <th className='text-center'>Skill</th>
+            <th className='text-center' style={{cursor:"pointer"}} onClick={() => setSortItem("memory")}>Memory</th>
+            <th className='text-center'>Burn</th>
           </tr>
         </thead>
         <tbody>
-          {libSorted.map(b => <Book key={b.id} learn={learn} burn={burn} {...b}/>)}
+          {libSorted.map(b => <TableItem key={b.id} learn={learn} burn={burn} {...b}/>)}
         </tbody>
       </Table>
     </>
   );
 }
 
-const Head = ({children, style, onClick = () => {}}) => <th className='text-center' style={style} onClick={onClick}>{children}</th>
-
-const Book = ({id, cat, read, learn = () => {}, burn = () => {}}) => {
+const TableItem = ({id, read, learn = () => {}, burn = () => {}}) => {
   const book = completeLib.find(b => b.id === id);
 
   /**
@@ -147,12 +147,6 @@ const Book = ({id, cat, read, learn = () => {}, burn = () => {}}) => {
     }).join(", ");
   }
 
-  const renderTT = (p, props) => {
-    return <Tooltip {...props}>
-      {principles.filter(pr => p.map(pp => pp.principle).includes(pr.id)).map(pr => `${pr.name} ${p.find(item => item.principle == pr.id).lv}`).join(" / ")}
-    </Tooltip>
-  };
-
   const principle = principles.find((m) => m.id == book.mastery);
   const mem = memories.find((m) => m.id == book.memory);
   return (
@@ -163,11 +157,9 @@ const Book = ({id, cat, read, learn = () => {}, burn = () => {}}) => {
       {!read && <td className='table-primary text-center' style={{cursor:"pointer"}} colSpan={2} onClick={() => learn(id)}>Read</td>}
       {read && <>
         <td className="text-center">{skills.find((s) => s.id == book.skill).name}</td>
-        <OverlayTrigger
-          placement='left'
-          delay={{show:150, hide:500}}
-          overlay={(props) => renderTT(mem.principles, props)}
-        ><td className="text-center" style={{background:`linear-gradient(110deg, ${getGradient(mem.principles.map(p => p.principle))})`}}>{mem.name}</td></OverlayTrigger>
+        <PrincipleTT pos='left' sd={150} hd={500} principleList={mem.principles}>
+        <td className="text-center" style={{background:`linear-gradient(110deg, ${getGradient(mem.principles.map(p => p.principle))})`}}>{mem.name}</td>
+        </PrincipleTT>
       </>}
       <td className='text-center table-danger' style={{cursor:"pointer"}} onClick={() => burn(id)}><i className="bi bi-fire"></i></td>
     </tr>
