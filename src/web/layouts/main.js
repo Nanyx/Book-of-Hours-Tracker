@@ -34,7 +34,7 @@ MainLayout.Content = ({children}) => (
 );
 
 MainLayout.Pane = ({children, ekey}) => (
-  <Tab.Pane eventKey={ekey}>{children}</Tab.Pane>
+  <Tab.Pane unmountOnExit eventKey={ekey}>{children}</Tab.Pane>
 );
 
 export default MainLayout;

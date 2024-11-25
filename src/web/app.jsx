@@ -11,9 +11,11 @@ import Overview from './pages/overview';
 import Books from './pages/books';
 import Crafts from './pages/crafts';
 
+const dkey = "Books";
+
 const App = () => {
   return (
-    <Layout dkey={"Books"}>
+    <Layout dkey={dkey}>
       <Layout.Nav>
         <Overview.Nav/>
         <Books.Nav/>
