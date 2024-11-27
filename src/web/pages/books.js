@@ -5,6 +5,7 @@ import { Table } from 'react-bootstrap';
 import {Typeahead} from 'react-bootstrap-typeahead';
 
 import PrincipleTT from './components/principle-tooltip';
+import GradiantCell from './components/gradiant-cell';
 
 import './books.css';
 
@@ -38,7 +39,6 @@ const Books = () => {
     setLibState((ls.get(lsName) || []).map(b => 
       Object.assign(new BookLoc(), b)
     ));
-    console.log("load books from bd");
   }, []);
   
   useEffect(() => {
@@ -156,8 +156,8 @@ const TableItem = ({id, read, learn = () => {}, burn = () => {}}) => {
       {!read && <td className='table-primary text-center' style={{cursor:"pointer"}} colSpan={2} onClick={() => learn(id)}>Read</td>}
       {read && <>
         <td className="text-center">{skills.find((s) => s.id == book.skill).name}</td>
-        <PrincipleTT pos='left' sd={150} hd={500} principleList={mem.principles}>
-        <td className="text-center" style={{background:`linear-gradient(110deg, ${getGradient(mem.principles.map(p => p.principle))})`}}>{mem.name}</td>
+        <PrincipleTT principleList={mem.principles}>
+          <GradiantCell principles={mem.principles.map(p => p.principle)}>{mem.name}</GradiantCell>
         </PrincipleTT>
       </>}
       <td className='text-center table-danger' style={{cursor:"pointer"}} onClick={() => burn(id)}><i className="bi bi-fire"></i></td>

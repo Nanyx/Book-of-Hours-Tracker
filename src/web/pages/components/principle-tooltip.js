@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Tooltip, OverlayTrigger } from 'react-bootstrap';
 import principles from '../../../data/principles.json';
 
-const PrincipleTooltip = ({children, principleList, pos, sd, hd, ...props}) => {
+const PrincipleTooltip = ({children, principleList, pos="left", sd=150, hd=500, ...props}) => {
 
   const renderTT = (p, props) => {
     return <Tooltip {...props}>

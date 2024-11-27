@@ -12,7 +12,7 @@ const MainLayout = ({dkey, children}) => (
 );
 
 MainLayout.Nav = ({children}) => (
-  <Col xs={3}>
+  <Col xs={2}>
     <Nav variant="pills" className="flex-column">
       {children}
     </Nav>
