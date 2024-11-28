@@ -17,23 +17,19 @@ import principlesDB from '../../data/principles.json';
 
 const lsCrafts = "crafts";
 const lsBooks = "books";
-let reqDS = skillsDB.lessons.map(s => s.crafts.map(c => c.req)).flat().filter(r => r).filter((r, i, a) => a.indexOf(r) === i);
-reqDS.sort();
-reqDS = ["Nothing", ...reqDS];
 
 class CraftLoc {
-  constructor(id, learn = false){
-    this.id = id;
-    this.learn = learn;
+  constructor(sid, pid, lv, rid){
+    this.sid = sid;
+    this.pid = pid;
+    this.lv = lv;
+    this.rid = rid;
   }
 }
 
 const Crafts = () => {
   const [craftsState, setCrafts] = useState([]);
   const [skills, setSkills] = useState([]);
-  const [level, setLevel] = useState(1);
-  const [principle, setPrinciple] = useState();
-  const [req, setReq] = useState("Nothing");
 
   useEffect(() => {
     let knowedSkillsId = booksDB.books.filter(item => 
@@ -51,7 +47,17 @@ const Crafts = () => {
     ls.set(lsCrafts, craftsState);
   }, [craftsState]);
 
-  const learn = (skillID, craftID) => {
+  const learn = (skillID, lv, principle, reqID) => {
+    let skillCraft = skillsDB.lessons.find(s => s.id === skillID).crafts.find(c => 
+      c.level === lv && 
+      c.principle === principle && 
+      c.req === reqID
+    );
+    if(skillCraft && !craftsState.find(c => c.sid === skillID && c.pid === principle && c.rid === reqID)) {
+      craftsState.push(new CraftLoc(skillID, principle, lv, reqID));
+      console.log("should save", craftsState);
+      save();
+    };
   };
 
   const save = () => setCrafts([...craftsState]);
@@ -67,7 +73,7 @@ const Crafts = () => {
           </Col>
           <Col>
             <Tab.Content>
-              {skills.map(s => <SkillPane key={s.id} id={s.id} crafts={s.crafts}/>)}
+              {skills.map(s => <SkillPane key={s.id} id={s.id} craftsState={craftsState.filter(cs => cs.sid === s.id)} learn={learn}/>)}
             </Tab.Content>
           </Col>
         </Row>
@@ -82,56 +88,73 @@ const SkillPill = ({id, name}) => (
   </Nav.Item>
 );
 
-const SkillPane = ({id, crafts}) => { 
+const SkillPane = ({id, craftsState, learn}) => { 
+  const [level, setLevel] = useState(1);
+  const [principle, setPrinciple] = useState();
+  const [req, setReq] = useState(1);
 
   const getPrinciples = () => principlesDB.filter(p => 
-    crafts.map(c => c.principle)
+    skillsDB.lessons.find(s => s.id === id).crafts.map(c => c.principle)
     .filter((c, i, a) => a.indexOf(c) === i).indexOf(p.id) != -1);
+
+  useEffect(() => setPrinciple(getPrinciples()[0].id), []);
+
+  const getCraft = (pid) => {
+    let sc = craftsState.filter(s => s.pid === pid);
+    console.log("sc", sc);
+    let lst = skillsDB.lessons.find(s => s.id === id).crafts.filter(c => c.principle === pid);
+    console.log("pass 1", lst);
+    lst = lst.filter(c => sc.find(elem => elem.lv === c.level && elem.rid === c.req));
+    return lst;
+  }
 
   return (
     <Tab.Pane eventKey={id}>
       <InputGroup className='mb-3'>
         <InputGroup.Text>As a</InputGroup.Text>
-        <Form.Select>
+        <Form.Select value={level} onChange={(e) => setLevel(parseInt(e.target.value))}>
           {craftsDB.level.map(opt => <option key={opt.id} value={opt.id}>{opt.name}</option>)}
         </Form.Select>
         <InputGroup.Text>of</InputGroup.Text>
-        <Form.Select className='principle'>
+        <Form.Select value={principle} onChange={(e) => setPrinciple(parseInt(e.target.value))}>
           {getPrinciples().map(p => <option key={p.id} value={p.id}>{p.name}</option>)}
         </Form.Select>
         <InputGroup.Text>I am using</InputGroup.Text>
-        <Form.Select>
-          {reqDS.map((opt, i) => <option key={i}>{opt}</option>)}
+        <Form.Select value={req} onChange={(e) => setReq(parseInt(e.target.value))}>
+          {craftsDB.reqs.map(r => <option key={r.id} value={r.id}>{r.name}</option>)} 
         </Form.Select>
-        <Button>Craft</Button>
+        <Button onClick={() => learn(id, level, principle, req)}>Craft</Button>
       </InputGroup>
-      {getPrinciples().map(p => <PrincipleTable key={p.id} crafts={crafts.filter(c => c.principle === p.id)} {...p}/>)}
+      {getPrinciples().map(p => <PrincipleTable key={p.id} crafts={getCraft(p.id)} {...p}/>)}
     </Tab.Pane>
   );
 }
 
-const PrincipleTable = ({name, color, crafts}) => (
-  <Card className='mb-2'>
-    <Card.Header style={{backgroundColor:color}}>{name}</Card.Header>
-    <Table className='mb-0' striped bordered hover size="sm">
-      <thead>
-        <tr>
-          <th>Requierment</th>
-          <th className='text-center'>Name</th>
-        </tr>
-      </thead>
-      <tbody>
-        {crafts.map(c => <PrincipleTableRow key={c.id} {...c} />)}
-      </tbody>
-    </Table>
-  </Card>
-);
+const PrincipleTable = ({name, color, crafts}) => {
+
+  return (
+    <Card className='mb-2'>
+      <Card.Header style={{backgroundColor:color}}>{name}</Card.Header>
+      <Table className='mb-0' striped bordered hover size="sm">
+        <thead>
+          <tr>
+            <th>Requierment</th>
+            <th className='text-center'>Name</th>
+          </tr>
+        </thead>
+        <tbody>
+          {crafts.map((c, i) => <PrincipleTableRow key={i} {...c} />)}
+        </tbody>
+      </Table>
+    </Card>
+)
+};
 
 const PrincipleTableRow = ({id, req}) => {
   const craft = craftsDB.crafts.find(c => c.id === id);
   return (
     <tr>
-      <td>{req ? req : ""}</td>
+      <td>{craftsDB.reqs.find(r => r.id === req).name}</td>
       <PrincipleTT principleList={craft.principles}>
         <GradiantCell principles={craft.principles.map(p => p.principle)}>{craft.name}</GradiantCell>
       </PrincipleTT>

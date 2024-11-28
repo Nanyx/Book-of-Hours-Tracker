@@ -12,15 +12,15 @@
         { "wisdom": 2, "elements": 8 }
       ],
       "crafts": [
-        { "principle": 12, "level": 1, "id": 78 },
-        { "principle": 12, "level": 2, "id": 40, "req": "Liquid" },
-        { "principle": 12, "level": 3, "id": 42, "req": "Ichor Vitreous" },
+        { "principle": 12, "level": 1, "id": 78, "req": 1},
+        { "principle": 12, "level": 2, "id": 40, "req": 30 },
+        { "principle": 12, "level": 3, "id": 42, "req": 22 },
 
-        { "principle": 2, "level": 1, "id": 7 },
-        { "principle": 2, "level": 2, "id": 9, "req": "Liquid" },
-        { "principle": 2, "level": 3, "id": 12, "req": "Iotic Essence" },
+        { "principle": 2, "level": 1, "id": 7, "req": 1 },
+        { "principle": 2, "level": 2, "id": 9, "req": 30 },
+        { "principle": 2, "level": 3, "id": 12, "req": 24 },
 
-        { "principle": 6, "level": 3, "id": 44, "req": "Xanthotic Essence" }
+        { "principle": 6, "level": 3, "id": 44, "req": 48 }
       ]
     },
     {
@@ -35,13 +35,13 @@
         { "wisdom": 3, "elements": 6 }
       ],
       "crafts": [
-        { "principle": 12, "level": 1, "id": 50 },
-        { "principle": 12, "level": 2, "id": 82, "req": "Instrument" },
-        { "principle": 12, "level": 3, "id": 62, "req": "Ascendant Harmony" },
+        { "principle": 12, "level": 1, "id": 50, "req": 1 },
+        { "principle": 12, "level": 2, "id": 82, "req": 23 },
+        { "principle": 12, "level": 3, "id": 62, "req": 2 },
 
-        { "principle": 3, "level": 1, "id": 14 },
-        { "principle": 3, "level": 2, "id": 16, "req": "Flower" },
-        { "principle": 3, "level": 3, "id": 18, "req": "Rubywise Ruin" }
+        { "principle": 3, "level": 1, "id": 14, "req": 1 },
+        { "principle": 3, "level": 2, "id": 16, "req": 13 },
+        { "principle": 3, "level": 3, "id": 18, "req": 41 }
       ]
     },
     {
@@ -56,15 +56,15 @@
         { "wisdom": 5, "elements": 3 }
       ],
       "crafts": [
-        { "principle": 6, "level": 1, "id": 36 },
-        { "principle": 6, "level": 2, "id": 40, "req": "Liquid" },
-        { "principle": 6, "level": 3, "id": 43, "req": "Ichor Auroral" },
+        { "principle": 6, "level": 1, "id": 36, "req": 1 },
+        { "principle": 6, "level": 2, "id": 40, "req": 30 },
+        { "principle": 6, "level": 3, "id": 43, "req": 21 },
 
-        { "principle": 1, "level": 1, "id": 2 },
-        { "principle": 1, "level": 2, "id": 4, "req": "Memory" },
-        { "principle": 1, "level": 3, "id": 6, "req": "Winning Move" },
+        { "principle": 1, "level": 1, "id": 2, "req": 1 },
+        { "principle": 1, "level": 2, "id": 4, "req": 33 },
+        { "principle": 1, "level": 3, "id": 6, "req": 46 },
 
-        { "principle": 10, "level": 2, "id": 72, "req": "Light" }
+        { "principle": 10, "level": 2, "id": 72, "req": 29 }
       ]
     },
     {
@@ -79,13 +79,13 @@
         { "wisdom": 2, "elements": 9 }
       ],
       "crafts": [
-        { "principle": 2, "level": 1, "id": 7 },
-        { "principle": 2, "level": 2, "id": 10, "req": "Metal"},
-        { "principle": 2, "level": 3, "id": 11, "req": "Orichalcum Wire" },
+        { "principle": 2, "level": 1, "id": 7, "req": 1 },
+        { "principle": 2, "level": 2, "id": 10, "req": 34 },
+        { "principle": 2, "level": 3, "id": 11, "req": 36 },
 
-        { "principle": 12, "level": 1, "id": 80 },
-        { "principle": 12, "level": 2, "id": 82, "req": "Instrument" },
-        { "principle": 12, "level": 3, "id": 62, "req": "Ascendant Harmony" }
+        { "principle": 12, "level": 1, "id": 80, "req": 1 },
+        { "principle": 12, "level": 2, "id": 82, "req": 23 },
+        { "principle": 12, "level": 3, "id": 62, "req": 2 }
       ]
     },
     {
@@ -100,13 +100,13 @@
         { "wisdom": 6, "elements": 4 }
       ],
       "crafts": [
-        { "principle": 11, "level": 1, "id": 75 },
-        { "principle": 11, "level": 2, "id": 41, "req": "Memory" },
-        { "principle": 11, "level": 3, "id": 45, "req": "Old Moment" },
+        { "principle": 11, "level": 1, "id": 75, "req": 1 },
+        { "principle": 11, "level": 2, "id": 41, "req": 33 },
+        { "principle": 11, "level": 3, "id": 45, "req": 35 },
 
-        { "principle": 9, "level": 1, "id": 66 },
-        { "principle": 9, "level": 2, "id": 55, "req": "Wood" },
-        { "principle": 9, "level": 3, "id": 71, "req": "Pyrus Auricalcinus" }
+        { "principle": 9, "level": 1, "id": 66, "req": 1 },
+        { "principle": 9, "level": 2, "id": 55, "req": 47 },
+        { "principle": 9, "level": 3, "id": 71, "req": 39 }
       ]
     },
     {
@@ -121,13 +121,13 @@
         { "wisdom": 1, "elements": 6 }
       ],
       "crafts": [
-        { "principle": 3, "level": 1, "id": 13 },
-        { "principle": 3, "level": 2, "id": 16, "req": "Flower" },
-        { "principle": 3, "level": 3, "id": 17, "req": "Pale Mommet" },
+        { "principle": 3, "level": 1, "id": 13, "req": 1 },
+        { "principle": 3, "level": 2, "id": 16, "req": 13 },
+        { "principle": 3, "level": 3, "id": 17, "req": 37 },
 
-        { "principle": 7, "level": 1, "id": 47 },
-        { "principle": 7, "level": 2, "id": 55, "req": "Wood" },
-        { "principle": 7, "level": 3, "id": 59, "req": "Asimel" }
+        { "principle": 7, "level": 1, "id": 47, "req": 1 },
+        { "principle": 7, "level": 2, "id": 55, "req": 47 },
+        { "principle": 7, "level": 3, "id": 59, "req": 3 }
       ]
     },
     {
@@ -142,15 +142,15 @@
         { "wisdom": 5, "elements": 2 }
       ],
       "crafts": [
-        { "principle": 1, "level": 1, "id": 1 },
-        { "principle": 1, "level": 2, "id": 4, "req": "Memory" },
-        { "principle": 1, "level": 3, "id": 6, "req": "Winning Move" },
+        { "principle": 1, "level": 1, "id": 1, "req": 1 },
+        { "principle": 1, "level": 2, "id": 4, "req": 33 },
+        { "principle": 1, "level": 3, "id": 6, "req": 46 },
 
-        { "principle": 2, "level": 1, "id": 7 },
-        { "principle": 2, "level": 2, "id": 10, "req": "Metal" },
-        { "principle": 2, "level": 3, "id": 9, "req": "Bitterblack Salts" },
-        { "principle": 2, "level": 3, "id": 11, "req": "Orichalcum Wire" },
-        { "principle": 2, "level": 3, "id": 9, "req": "Xanthotic Essence" }
+        { "principle": 2, "level": 1, "id": 7, "req": 1 },
+        { "principle": 2, "level": 2, "id": 10, "req": 34 },
+        { "principle": 2, "level": 3, "id": 9, "req": 5 },
+        { "principle": 2, "level": 3, "id": 11, "req": 36 },
+        { "principle": 2, "level": 3, "id": 9, "req": 48 }
       ]
     },
     {
@@ -165,13 +165,13 @@
         { "wisdom": 3, "elements": 8 }
       ],
       "crafts": [
-        { "principle": 1, "level": 1, "id": 2 },
-        { "principle": 1, "level": 2, "id": 3, "req": "Leaf" },
-        { "principle": 1, "level": 3, "id": 5, "req": "Perinculate" },
+        { "principle": 1, "level": 1, "id": 2, "req": 1 },
+        { "principle": 1, "level": 2, "id": 3, "req": 25 },
+        { "principle": 1, "level": 3, "id": 5, "req": 38 },
 
-        { "principle": 6, "level": 1, "id": 35 },
-        { "principle": 6, "level": 2, "id": 41, "req": "Memory" },
-        { "principle": 6, "level": 3, "id": 45, "req": "Old Moment" }
+        { "principle": 6, "level": 1, "id": 35, "req": 1 },
+        { "principle": 6, "level": 2, "id": 41, "req": 33 },
+        { "principle": 6, "level": 3, "id": 45, "req": 35 }
       ]
     },
     {
@@ -186,13 +186,13 @@
         { "wisdom": 5, "elements": 2 }
       ],
       "crafts": [
-        { "principle": 5, "level": 1, "id": 28 },
-        { "principle": 5, "level": 2, "id": 30, "req": "Liquid" },
-        { "principle": 5, "level": 3, "id": 34, "req": "Glassfinger Toxin" },
+        { "principle": 5, "level": 1, "id": 28, "req": 1 },
+        { "principle": 5, "level": 2, "id": 30, "req": 30 },
+        { "principle": 5, "level": 3, "id": 34, "req": 18 },
 
-        { "principle": 2, "level": 1, "id": 7 },
-        { "principle": 2, "level": 2, "id": 10, "req": "Metal" },
-        { "principle": 2, "level": 3, "id": 11, "req": "Orichalcum Wire" }
+        { "principle": 2, "level": 1, "id": 7, "req": 1 },
+        { "principle": 2, "level": 2, "id": 10, "req": 34 },
+        { "principle": 2, "level": 3, "id": 11, "req": 36 }
       ]
     },
     {
@@ -207,15 +207,15 @@
         { "wisdom": 1, "elements": 6 }
       ],
       "crafts": [
-        { "principle": 4, "level": 1, "id": 21 },
-        { "principle": 4, "level": 2, "id": 24, "req": "Instrument" },
-        { "principle": 4, "level": 3, "id": 26, "req": "Thunderskin's Paean" },
+        { "principle": 4, "level": 1, "id": 21, "req": 1 },
+        { "principle": 4, "level": 2, "id": 24, "req": 23 },
+        { "principle": 4, "level": 3, "id": 26, "req": 45 },
 
-        { "principle": 9, "level": 1, "id": 68 },
-        { "principle": 9, "level": 2, "id": 69, "req": "Instrument" },
-        { "principle": 9, "level": 3, "id": 71, "req": "Pyrus Auricalcinus" },
+        { "principle": 9, "level": 1, "id": 68, "req": 1 },
+        { "principle": 9, "level": 2, "id": 69, "req": 23 },
+        { "principle": 9, "level": 3, "id": 71, "req": 39 },
 
-        { "principle": 11, "level": 1, "id": 68 }
+        { "principle": 11, "level": 1, "id": 68, "req": 1 }
       ]
     },
     {
@@ -230,13 +230,13 @@
         { "wisdom": 8, "elements": 1 }
       ],
       "crafts": [
-        { "principle": 4, "level": 1, "id": 20 },
-        { "principle": 4, "level": 2, "id": 23, "req": "Liquid" },
-        { "principle": 4, "level": 3, "id": 25, "req": "Gideon's Soaks" },
+        { "principle": 4, "level": 1, "id": 20, "req": 1 },
+        { "principle": 4, "level": 2, "id": 23, "req": 30 },
+        { "principle": 4, "level": 3, "id": 25, "req": 16 },
 
-        { "principle": 7, "level": 1, "id": 46 },
-        { "principle": 7, "level": 2, "id": 56, "req": "Flower" },
-        { "principle": 7, "level": 3, "id": 58, "req": "Stymphling" }
+        { "principle": 7, "level": 1, "id": 46, "req": 1 },
+        { "principle": 7, "level": 2, "id": 56, "req": 13 },
+        { "principle": 7, "level": 3, "id": 58, "req": 44 }
       ]
     },
     {
@@ -251,14 +251,14 @@
         { "wisdom": 6, "elements": 4 }
       ],
       "crafts": [
-        { "principle": 8, "level": 1, "id": 38 },
-        { "principle": 8, "level": 2, "id": 65, "req": "Memory" },
-        { "principle": 8, "level": 3, "id": 60, "req": "Honey" },
-        { "principle": 8, "level": 3, "id": 60, "req": "Cuckoo-Honey" },
+        { "principle": 8, "level": 1, "id": 38, "req": 1 },
+        { "principle": 8, "level": 2, "id": 65, "req": 33 },
+        { "principle": 8, "level": 3, "id": 60, "req": 19 },
+        { "principle": 8, "level": 3, "id": 60, "req": 8 },
 
-        { "principle": 5, "level": 1, "id": 28 },
-        { "principle": 5, "level": 2, "id": 30, "req": "Liquid" },
-        { "principle": 5, "level": 3, "id": 34, "req": "Glassfinger Toxin" }
+        { "principle": 5, "level": 1, "id": 28, "req": 1 },
+        { "principle": 5, "level": 2, "id": 30, "req": 30 },
+        { "principle": 5, "level": 3, "id": 34, "req": 18 }
       ]
     },
     {
@@ -273,13 +273,13 @@
         { "wisdom": 3, "elements": 8 }
       ],
       "crafts": [
-        { "principle": 7, "level": 1, "id": 51 },
-        { "principle": 7, "level": 2, "id": 58, "req": "Memory" },
-        { "principle": 7, "level": 3, "id": 63, "req": "Confounding Parable" },
+        { "principle": 7, "level": 1, "id": 51, "req": 1 },
+        { "principle": 7, "level": 2, "id": 58, "req": 33 },
+        { "principle": 7, "level": 3, "id": 63, "req": 7 },
 
-        { "principle": 1, "level": 1, "id": 1 },
-        { "principle": 1, "level": 2, "id": 3, "req": "Leaf" },
-        { "principle": 1, "level": 3, "id": 6, "req": "Winning Move" }
+        { "principle": 1, "level": 1, "id": 1, "req": 1 },
+        { "principle": 1, "level": 2, "id": 3, "req": 25 },
+        { "principle": 1, "level": 3, "id": 6, "req": 46 }
       ]
     },
     {
@@ -294,14 +294,14 @@
         { "wisdom": 5, "elements": 3 }
       ],
       "crafts": [
-        { "principle": 12, "level": 1, "id": 78 },
-        { "principle": 12, "level": 2, "id": 82, "req": "Instrument" },
-        { "principle": 12, "level": 3, "id": 84, "req": "Mazarine Fife" },
+        { "principle": 12, "level": 1, "id": 78, "req": 1 },
+        { "principle": 12, "level": 2, "id": 82, "req": 23 },
+        { "principle": 12, "level": 3, "id": 84, "req": 32 },
 
-        { "principle": 11, "level": 1, "id": 75 },
-        { "principle": 11, "level": 2, "id": 76, "req": "Egg" },
+        { "principle": 11, "level": 1, "id": 75, "req": 1 },
+        { "principle": 11, "level": 2, "id": 76, "req": 9 },
 
-        { "principle": 3, "level": 3, "id": 17, "req": "Pale Mommet" }
+        { "principle": 3, "level": 3, "id": 17, "req": 37 }
       ]
     },
     {
@@ -316,18 +316,18 @@
         { "wisdom": 2, "elements": 8 }
       ],
       "crafts": [
-        { "principle": 5, "level": 1, "id": 27 },
-        { "principle": 5, "level": 2, "id": 10, "req": "Metal" },
-        { "principle": 5, "level": 3, "id": 33, "req": "Gervinite" },
-        { "principle": 5, "level": 3, "id": 34, "req": "Glassfinger Toxin" },
+        { "principle": 5, "level": 1, "id": 27, "req": 1 },
+        { "principle": 5, "level": 2, "id": 10, "req": 34 },
+        { "principle": 5, "level": 3, "id": 33, "req": 15 },
+        { "principle": 5, "level": 3, "id": 34, "req": 18 },
 
-        { "principle": 12, "level": 1, "id": 35 },
-        { "principle": 12, "level": 2, "id": 39, "req": "Glass" },
-        { "principle": 12, "level": 3, "id": 42, "req": "Ichor Vitreous" },
+        { "principle": 12, "level": 1, "id": 35, "req": 1 },
+        { "principle": 12, "level": 2, "id": 39, "req": 17 },
+        { "principle": 12, "level": 3, "id": 42, "req": 22 },
 
-        { "principle": 6, "level": 1, "id": 35 },
-        { "principle": 6, "level": 2, "id": 39, "req": "Glass" },
-        { "principle": 6, "level": 3, "id": 42, "req": "Ichor Vitreous" }
+        { "principle": 6, "level": 1, "id": 35, "req": 1 },
+        { "principle": 6, "level": 2, "id": 39, "req": 17 },
+        { "principle": 6, "level": 3, "id": 42, "req": 22 }
       ]
     },
     {
@@ -342,15 +342,15 @@
         { "wisdom": 2, "elements": 8 }
       ],
       "crafts": [
-        { "principle": 6, "level": 1, "id": 35 },
-        { "principle": 6, "level": 2, "id": 39, "req": "Glass" },
-        { "principle": 6, "level": 3, "id": 42, "req": "Ichor Vitreous" },
-        { "principle": 6, "level": 3, "id": 44, "req": "Xanthotic Essence" },
+        { "principle": 6, "level": 1, "id": 35, "req": 1 },
+        { "principle": 6, "level": 2, "id": 39, "req": 17 },
+        { "principle": 6, "level": 3, "id": 42, "req": 22 },
+        { "principle": 6, "level": 3, "id": 44, "req": 48 },
 
-        { "principle": 12, "level": 1, "id": 35 },
-        { "principle": 12, "level": 2, "id": 29, "req": "Metal" },
+        { "principle": 12, "level": 1, "id": 35, "req": 1 },
+        { "principle": 12, "level": 2, "id": 29, "req": 34 },
 
-        { "principle": 5, "level": 3, "id": 33, "req": "Gervinite" }
+        { "principle": 5, "level": 3, "id": 33, "req": 15 }
       ]
     },
     {
@@ -365,13 +365,13 @@
         { "wisdom": 8, "elements": 7 }
       ],
       "crafts": [
-        { "principle": 4, "level": 1, "id": 20 },
-        { "principle": 4, "level": 2, "id": 23, "req": "Liquid" },
-        { "principle": 4, "level": 3, "id": 25, "req": "Gideon's Soaks" },
+        { "principle": 4, "level": 1, "id": 20, "req": 1 },
+        { "principle": 4, "level": 2, "id": 23, "req": 30 },
+        { "principle": 4, "level": 3, "id": 25, "req": 16 },
 
-        { "principle": 9, "level": 1, "id": 66 },
-        { "principle": 9, "level": 2, "id": 54, "req": "Beverage" },
-        { "principle": 9, "level": 3, "id": 71, "req": "Pyrus Auricalcinus" }
+        { "principle": 9, "level": 1, "id": 66, "req": 1 },
+        { "principle": 9, "level": 2, "id": 54, "req": 4 },
+        { "principle": 9, "level": 3, "id": 71, "req": 39 }
       ]
     },
     {
@@ -386,12 +386,12 @@
         { "wisdom": 8, "elements": 7 }
       ],
       "crafts": [
-        { "principle": 11, "level": 1, "id": 75 },
-        { "principle": 11, "level": 2, "id": 76, "req": "Egg" },
-        { "principle": 11, "level": 3, "id": 45, "req": "Old Moment" },
+        { "principle": 11, "level": 1, "id": 75, "req": 1 },
+        { "principle": 11, "level": 2, "id": 76, "req": 9 },
+        { "principle": 11, "level": 3, "id": 45, "req": 35 },
 
-        { "principle": 7, "level": 1, "id": 48 },
-        { "principle": 7, "level": 2, "id": 31, "req": "Egg" }
+        { "principle": 7, "level": 1, "id": 48, "req": 1 },
+        { "principle": 7, "level": 2, "id": 31, "req": 9 }
       ]
     },
     {
@@ -406,13 +406,13 @@
         { "wisdom": 6, "elements": 2 }
       ],
       "crafts": [
-        { "principle": 11, "level": 1, "id": 75 },
-        { "principle": 11, "level": 2, "id": 41, "req": "Memory" },
-        { "principle": 11, "level": 3, "id": 77, "req": "Living Relic" },
+        { "principle": 11, "level": 1, "id": 75, "req": 1 },
+        { "principle": 11, "level": 2, "id": 41, "req": 33 },
+        { "principle": 11, "level": 3, "id": 77, "req": 31 },
 
-        { "principle": 5, "level": 1, "id": 28 },
-        { "principle": 5, "level": 2, "id": 31, "req": "Egg" },
-        { "principle": 5, "level": 3, "id": 34, "req": "Glassfinger Toxin" }
+        { "principle": 5, "level": 1, "id": 28, "req": 1 },
+        { "principle": 5, "level": 2, "id": 31, "req": 9 },
+        { "principle": 5, "level": 3, "id": 34, "req": 18 }
       ]
     },
     {
@@ -427,18 +427,18 @@
         { "wisdom": 8, "elements": 7 }
       ],
       "crafts": [
-        { "principle": 13, "level": 1, "id": 36 },
-        { "principle": 13, "level": 2, "id": 56, "req": "Flower" },
-        { "principle": 13, "level": 3, "id": 85, "req": "Solomon's Preparation" },
+        { "principle": 13, "level": 1, "id": 36, "req": 1 },
+        { "principle": 13, "level": 2, "id": 56, "req": 13 },
+        { "principle": 13, "level": 3, "id": 85, "req": 43 },
 
-        { "principle": 7, "level": 1, "id": 46 },
-        { "principle": 7, "level": 2, "id": 54, "req": "Beverage" },
+        { "principle": 7, "level": 1, "id": 46, "req": 1 },
+        { "principle": 7, "level": 2, "id": 54, "req": 4 },
 
-        { "principle": 9, "level": 1, "id": 67 },
+        { "principle": 9, "level": 1, "id": 67, "req": 1 },
 
-        { "principle": 12, "level": 1, "id": 79 },
+        { "principle": 12, "level": 1, "id": 79, "req": 1 },
 
-        { "principle": 11, "level": 3, "id": 77, "req": "Living Relic" }
+        { "principle": 11, "level": 3, "id": 77, "req": 31 }
       ]
     },
     {
@@ -453,19 +453,19 @@
         { "wisdom": 4, "elements": 5 }
       ],
       "crafts": [
-        { "principle": 10, "level": 1, "id": 48 },
-        { "principle": 10, "level": 2, "id": 72, "req": "Light" },
-        { "principle": 10, "level": 3, "id": 43, "req": "Ichor Auroral" },
+        { "principle": 10, "level": 1, "id": 48, "req": 1 },
+        { "principle": 10, "level": 2, "id": 72, "req": 29 },
+        { "principle": 10, "level": 3, "id": 43, "req": 21 },
 
-        { "principle": 11, "level": 1, "id": 19 },
-        { "principle": 11, "level": 2, "id": 3, "req": "Leaf" },
+        { "principle": 11, "level": 1, "id": 19, "req": 1 },
+        { "principle": 11, "level": 2, "id": 3, "req": 25 },
 
-        { "principle": 9, "level": 1, "id": 67 },
-        { "principle": 9, "level": 3, "id": 70, "req": "Leathy" },
+        { "principle": 9, "level": 1, "id": 67, "req": 1 },
+        { "principle": 9, "level": 3, "id": 70, "req": 26 },
 
-        { "principle": 12, "level": 1, "id": 79 },
+        { "principle": 12, "level": 1, "id": 79, "req": 1 },
 
-        { "principle": 2, "level": 3, "id": 12, "req": "Iotic Essence" }
+        { "principle": 2, "level": 3, "id": 12, "req": 24 }
       ]
     },
     {
@@ -480,18 +480,18 @@
         { "wisdom": 2, "elements": 8 }
       ],
       "crafts": [
-        { "principle": 6, "level": 1, "id": 37 },
-        { "principle": 6, "level": 2, "id": 39, "req": "Glass" },
-        { "principle": 6, "level": 3, "id": 44, "req": "Xanthotic Essence" },
+        { "principle": 6, "level": 1, "id": 37, "req": 1 },
+        { "principle": 6, "level": 2, "id": 39, "req": 17 },
+        { "principle": 6, "level": 3, "id": 44, "req": 48 },
 
-        { "principle": 8, "level": 1, "id": 64 },
-        { "principle": 8, "level": 2, "id": 52, "req": "Liquid" },
+        { "principle": 8, "level": 1, "id": 64, "req": 1 },
+        { "principle": 8, "level": 2, "id": 52, "req": 30 },
 
-        { "principle": 9, "level": 1, "id": 67 },
+        { "principle": 9, "level": 1, "id": 67, "req": 1 },
 
-        { "principle": 12, "level": 1, "id": 79 },
+        { "principle": 12, "level": 1, "id": 79, "req": 1 },
 
-        { "principle": 10, "level": 3, "id": 43, "req": "Ichor Auroral" }
+        { "principle": 10, "level": 3, "id": 43, "req": 21 }
       ]
     },
     {
@@ -506,14 +506,14 @@
         { "wisdom": 5, "elements": 3 }
       ],
       "crafts": [
-        { "principle": 9, "level": 1, "id": 67 },
-        { "principle": 9, "level": 2, "id": 54, "req": "Beverage" },
-        { "principle": 9, "level": 3, "id": 70, "req": "Leathy" },
+        { "principle": 9, "level": 1, "id": 67, "req": 1 },
+        { "principle": 9, "level": 2, "id": 54, "req": 4 },
+        { "principle": 9, "level": 3, "id": 70, "req": 26 },
 
-        { "principle": 7, "level": 1, "id": 47 },
-        { "principle": 7, "level": 2, "id": 31, "req": "Egg" },
-        { "principle": 7, "level": 3, "id": 61, "req": "Chimeric Larva" },
-        { "principle": 7, "level": 3, "id": 60, "req": "Cuckoo-Honey" }
+        { "principle": 7, "level": 1, "id": 47, "req": 1 },
+        { "principle": 7, "level": 2, "id": 31, "req": 9 },
+        { "principle": 7, "level": 3, "id": 61, "req": 6 },
+        { "principle": 7, "level": 3, "id": 60, "req": 8 }
       ]
     },
     {
@@ -528,13 +528,13 @@
         { "wisdom": 7, "elements": 7 }
       ],
       "crafts": [
-        { "principle": 9, "level": 1, "id": 67 },
-        { "principle": 9, "level": 2, "id": 55, "req": "Wood" },
-        { "principle": 9, "level": 3, "id": 71, "req": "Pyrus Auricalcinus" },
+        { "principle": 9, "level": 1, "id": 67, "req": 1 },
+        { "principle": 9, "level": 2, "id": 55, "req": 47 },
+        { "principle": 9, "level": 3, "id": 71, "req": 39 },
 
-        { "principle": 3, "level": 1, "id": 13 },
-        { "principle": 3, "level": 2, "id": 16, "req": "Flower" },
-        { "principle": 3, "level": 3, "id": 18, "req": "Rubywise Ruin" }
+        { "principle": 3, "level": 1, "id": 13, "req": 1 },
+        { "principle": 3, "level": 2, "id": 16, "req": 13 },
+        { "principle": 3, "level": 3, "id": 18, "req": 41 }
       ]
     },
     {
@@ -549,13 +549,13 @@
         { "wisdom": 6, "elements": 2 }
       ],
       "crafts": [
-        { "principle": 5, "level": 1, "id": 27 },
-        { "principle": 5, "level": 2, "id": 29, "req": "Glass" },
-        { "principle": 5, "level": 3, "id": 33, "req": "Gervinite" },
+        { "principle": 5, "level": 1, "id": 27, "req": 1 },
+        { "principle": 5, "level": 2, "id": 29, "req": 17 },
+        { "principle": 5, "level": 3, "id": 33, "req": 15 },
 
-        { "principle": 12, "level": 1, "id": 78 },
-        { "principle": 12, "level": 2, "id": 10, "req": "Metal" },
-        { "principle": 12, "level": 3, "id": 33, "req": "Silver Wire" }
+        { "principle": 12, "level": 1, "id": 78, "req": 1 },
+        { "principle": 12, "level": 2, "id": 10, "req": 34 },
+        { "principle": 12, "level": 3, "id": 33, "req": 42 }
       ]
     },
     {
@@ -570,12 +570,12 @@
         { "wisdom": 8, "elements": 7 }
       ],
       "crafts": [
-        { "principle": 7, "level": 1, "id": 36 },
-        { "principle": 7, "level": 2, "id": 56, "req": "Flower" },
+        { "principle": 7, "level": 1, "id": 36, "req": 1 },
+        { "principle": 7, "level": 2, "id": 56, "req": 13 },
 
-        { "principle": 4, "level": 1, "id": 20 },
-        { "principle": 4, "level": 2, "id": 23, "req": "Liquid" },
-        { "principle": 4, "level": 3, "id": 25, "req": "Gideon's Soaks" }
+        { "principle": 4, "level": 1, "id": 20, "req": 1 },
+        { "principle": 4, "level": 2, "id": 23, "req": 30 },
+        { "principle": 4, "level": 3, "id": 25, "req": 16 }
       ]
     },
     {
@@ -590,15 +590,15 @@
         { "wisdom": 8, "elements": 7 }
       ],
       "crafts": [
-        { "principle": 2, "level": 1, "id": 8 },
-        { "principle": 2, "level": 2, "id": 9, "req": "Liquid" },
-        { "principle": 2, "level": 3, "id": 9, "req": "Bitterblack Salts" },
-        { "principle": 2, "level": 3, "id": 9, "req": "Xanthotic Essence" },
-        { "principle": 2, "level": 3, "id": 11, "req": "Orichalcum Wire" },
+        { "principle": 2, "level": 1, "id": 8, "req": 1 },
+        { "principle": 2, "level": 2, "id": 9, "req": 30 },
+        { "principle": 2, "level": 3, "id": 9, "req": 5 },
+        { "principle": 2, "level": 3, "id": 9, "req": 48 },
+        { "principle": 2, "level": 3, "id": 11, "req": 36 },
 
-        { "principle": 1, "level": 1, "id": 2 },
-        { "principle": 1, "level": 2, "id": 4, "req": "Memory" },
-        { "principle": 1, "level": 3, "id": 5, "req": "Perinculate" }
+        { "principle": 1, "level": 1, "id": 2, "req": 1 },
+        { "principle": 1, "level": 2, "id": 4, "req": 33 },
+        { "principle": 1, "level": 3, "id": 5, "req": 38 }
       ]
     },
     {
@@ -613,12 +613,12 @@
         { "wisdom": 6, "elements": 2 }
       ],
       "crafts": [
-        { "principle": 3, "level": 1, "id": 13 },
-        { "principle": 3, "level": 2, "id": 16, "req": "Flower" },
-        { "principle": 3, "level": 3, "id": 18, "req": "Rubywise Ruin" },
+        { "principle": 3, "level": 1, "id": 13, "req": 1 },
+        { "principle": 3, "level": 2, "id": 16, "req": 13 },
+        { "principle": 3, "level": 3, "id": 18, "req": 41 },
 
-        { "principle": 9, "level": 1, "id": 66 },
-        { "principle": 9, "level": 2, "id": 54, "req": "Beverage" }
+        { "principle": 9, "level": 1, "id": 66, "req": 1 },
+        { "principle": 9, "level": 2, "id": 54, "req": 4 }
       ]
     },
     {
@@ -633,16 +633,16 @@
         { "wisdom": 4, "elements": 5 }
       ],
       "crafts": [
-        { "principle": 7, "level": 1, "id": 7 },
-        { "principle": 7, "level": 2, "id": 52, "req": "Lens" },
-        { "principle": 7, "level": 3, "id": 62, "req": "Asimel" },
+        { "principle": 7, "level": 1, "id": 7, "req": 1 },
+        { "principle": 7, "level": 2, "id": 52, "req": 27 },
+        { "principle": 7, "level": 3, "id": 62, "req": 3 },
 
-        { "principle": 12, "level": 1, "id": 80 },
-        { "principle": 12, "level": 2, "id": 81, "req": "Wood" },
-        { "principle": 12, "level": 3, "id": 62, "req": "Ascendant Harmony" },
-        { "principle": 12, "level": 3, "id": 83, "req": "Essential Periost" },
+        { "principle": 12, "level": 1, "id": 80, "req": 1 },
+        { "principle": 12, "level": 2, "id": 81, "req": 47 },
+        { "principle": 12, "level": 3, "id": 62, "req": 2 },
+        { "principle": 12, "level": 3, "id": 83, "req": 11 },
 
-        { "principle": 13, "level": 1, "id": 49 }
+        { "principle": 13, "level": 1, "id": 49, "req": 1 }
       ]
     },
     {
@@ -657,13 +657,13 @@
         { "wisdom": 5, "elements": 3 }
       ],
       "crafts": [
-        { "principle": 10, "level": 1, "id": 48 },
-        { "principle": 10, "level": 2, "id": 73, "req": "Memory" },
-        { "principle": 10, "level": 3, "id": 74, "req": "Enduring Reflection" },
+        { "principle": 10, "level": 1, "id": 48, "req": 1 },
+        { "principle": 10, "level": 2, "id": 73, "req": 33 },
+        { "principle": 10, "level": 3, "id": 74, "req": 10 },
 
-        { "principle": 11, "level": 1, "id": 75 },
-        { "principle": 11, "level": 2, "id": 41, "req": "Memory" },
-        { "principle": 11, "level": 3, "id": 77, "req": "Living Relic" }
+        { "principle": 11, "level": 1, "id": 75, "req": 1 },
+        { "principle": 11, "level": 2, "id": 41, "req": 33 },
+        { "principle": 11, "level": 3, "id": 77, "req": 31 }
       ]
     },
     {
@@ -678,13 +678,13 @@
         { "wisdom": 5, "elements": 3 }
       ],
       "crafts": [
-        { "principle": 10, "level": 1, "id": 48 },
-        { "principle": 10, "level": 2, "id": 73, "req": "Memory" },
-        { "principle": 10, "level": 3, "id": 43, "req": "Lenten Rose" },
+        { "principle": 10, "level": 1, "id": 48, "req": 1 },
+        { "principle": 10, "level": 2, "id": 73, "req": 33 },
+        { "principle": 10, "level": 3, "id": 43, "req": 28 },
 
-        { "principle": 7, "level": 1, "id": 36 },
-        { "principle": 7, "level": 2, "id": 52, "req": "Liquid" },
-        { "principle": 7, "level": 3, "id": 59, "req": "Asimel" }
+        { "principle": 7, "level": 1, "id": 36, "req": 1 },
+        { "principle": 7, "level": 2, "id": 52, "req": 30 },
+        { "principle": 7, "level": 3, "id": 59, "req": 3 }
       ]
     },
     {
@@ -699,13 +699,13 @@
         { "wisdom": 6, "elements": 4 }
       ],
       "crafts": [
-        { "principle": 3, "level": 1, "id": 14 },
-        { "principle": 3, "level": 2, "id": 15, "req": "Fabric" },
-        { "principle": 3, "level": 3, "id": 17, "req": "Pale Mommet" },
+        { "principle": 3, "level": 1, "id": 14, "req": 1 },
+        { "principle": 3, "level": 2, "id": 15, "req": 12 },
+        { "principle": 3, "level": 3, "id": 17, "req": 37 },
 
-        { "principle": 11, "level": 1, "id": 75 },
-        { "principle": 11, "level": 2, "id": 76, "req": "Egg" },
-        { "principle": 11, "level": 3, "id": 77, "req": "Living Relic" }
+        { "principle": 11, "level": 1, "id": 75, "req": 1 },
+        { "principle": 11, "level": 2, "id": 76, "req": 9 },
+        { "principle": 11, "level": 3, "id": 77, "req": 31 }
       ]
     },
     {
@@ -720,13 +720,13 @@
         { "wisdom": 2, "elements": 9 }
       ],
       "crafts": [
-        { "principle": 10, "level": 1, "id": 50 },
-        { "principle": 10, "level": 2, "id": 73, "req": "Memory" },
-        { "principle": 10, "level": 3, "id": 74, "req": "Enduring Reflection" },
+        { "principle": 10, "level": 1, "id": 50, "req": 1 },
+        { "principle": 10, "level": 2, "id": 73, "req": 33 },
+        { "principle": 10, "level": 3, "id": 74, "req": 10 },
 
-        { "principle": 5, "level": 1, "id": 28 },
-        { "principle": 5, "level": 2, "id": 32, "req": "Memory" },
-        { "principle": 5, "level": 3, "id": 33, "req": "Gervinite" }
+        { "principle": 5, "level": 1, "id": 28, "req": 1 },
+        { "principle": 5, "level": 2, "id": 32, "req": 33 },
+        { "principle": 5, "level": 3, "id": 33, "req": 15 }
       ]
     },
     {
@@ -741,13 +741,13 @@
         { "wisdom": 2, "elements": 8 }
       ],
       "crafts": [
-        { "principle": 10, "level": 1, "id": 50 },
-        { "principle": 10, "level": 2, "id": 73, "req": "Memory" },
-        { "principle": 10, "level": 3, "id": 74, "req": "Enduring Reflection" },
+        { "principle": 10, "level": 1, "id": 50, "req": 1 },
+        { "principle": 10, "level": 2, "id": 73, "req": 33 },
+        { "principle": 10, "level": 3, "id": 74, "req": 10 },
 
-        { "principle": 5, "level": 1, "id": 28 },
-        { "principle": 5, "level": 2, "id": 32, "req": "Memory" },
-        { "principle": 5, "level": 3, "id": 33, "req": "Gervinite" }
+        { "principle": 5, "level": 1, "id": 28, "req": 1 },
+        { "principle": 5, "level": 2, "id": 32, "req": 33 },
+        { "principle": 5, "level": 3, "id": 33, "req": 15 }
       ]
     },
     {
@@ -762,15 +762,15 @@
         { "wisdom": 6, "elements": 4 }
       ],
       "crafts": [
-        { "principle": 12, "level": 1, "id": 2 },
-        { "principle": 12, "level": 2, "id": 82, "req": "Instrument" },
+        { "principle": 12, "level": 1, "id": 2, "req": 1 },
+        { "principle": 12, "level": 2, "id": 82, "req": 23 },
 
-        { "principle": 6, "level": 1, "id": 37 },
-        { "principle": 6, "level": 2, "id": 40, "req": "Liquid" },
-        { "principle": 6, "level": 3, "id": 40, "req": "Iotic Essence" },
-        { "principle": 6, "level": 3, "id": 40, "req": "Bitterblack Salts" },
+        { "principle": 6, "level": 1, "id": 37, "req": 1 },
+        { "principle": 6, "level": 2, "id": 40, "req": 30 },
+        { "principle": 6, "level": 3, "id": 40, "req": 24 },
+        { "principle": 6, "level": 3, "id": 40, "req": 5 },
 
-        { "principle": 2, "level": 3, "id": 11, "req": "Orichalcum Wire" }
+        { "principle": 2, "level": 3, "id": 11, "req": 36 }
       ]
     },
     {
@@ -785,13 +785,13 @@
         { "wisdom": 2, "elements": 9 }
       ],
       "crafts": [
-        { "principle": 2, "level": 1, "id": 8 },
-        { "principle": 2, "level": 2, "id": 9, "req": "Liquid" },
-        { "principle": 2, "level": 3, "id": 11, "req": "Orichalcum Wire" },
+        { "principle": 2, "level": 1, "id": 8, "req": 1 },
+        { "principle": 2, "level": 2, "id": 9, "req": 30 },
+        { "principle": 2, "level": 3, "id": 11, "req": 36 },
 
-        { "principle": 6, "level": 1, "id": 35 },
-        { "principle": 6, "level": 2, "id": 40, "req": "Liquid" },
-        { "principle": 6, "level": 3, "id": 42, "req": "Ichor Vitreous" }
+        { "principle": 6, "level": 1, "id": 35, "req": 1 },
+        { "principle": 6, "level": 2, "id": 40, "req": 30 },
+        { "principle": 6, "level": 3, "id": 42, "req": 22 }
       ]
     },
     {
@@ -806,12 +806,12 @@
         { "wisdom": 8, "elements": 7 }
       ],
       "crafts": [
-        { "principle": 13, "level": 1, "id": 36 },
-        { "principle": 13, "level": 2, "id": 56, "req": "Leaf" },
+        { "principle": 13, "level": 1, "id": 36, "req": 1 },
+        { "principle": 13, "level": 2, "id": 56, "req": 25 },
 
-        { "principle": 4, "level": 1, "id": 20 },
-        { "principle": 4, "level": 2, "id": 23, "req": "Liquid" },
-        { "principle": 4, "level": 3, "id": 26, "req": "Frith-Weft" }
+        { "principle": 4, "level": 1, "id": 20, "req": 1 },
+        { "principle": 4, "level": 2, "id": 23, "req": 30 },
+        { "principle": 4, "level": 3, "id": 26, "req": 14 }
       ]
     },
     {
@@ -826,13 +826,13 @@
         { "wisdom": 6, "elements": 2 }
       ],
       "crafts": [
-        { "principle": 1, "level": 1, "id": 1 },
-        { "principle": 1, "level": 2, "id": 4, "req": "Memory" },
+        { "principle": 1, "level": 1, "id": 1, "req": 1 },
+        { "principle": 1, "level": 2, "id": 4, "req": 33 },
 
-        { "principle": 13, "level": 1, "id": 7 },
-        { "principle": 13, "level": 2, "id": 56, "req": "Flower" },
-        { "principle": 13, "level": 3, "id": 83, "req": "Essential Periost" },
-        { "principle": 13, "level": 3, "id": 85, "req": "Glassfinger Toxin" }
+        { "principle": 13, "level": 1, "id": 7, "req": 1 },
+        { "principle": 13, "level": 2, "id": 56, "req": 13 },
+        { "principle": 13, "level": 3, "id": 83, "req": 11 },
+        { "principle": 13, "level": 3, "id": 85, "req": 18 }
       ]
     },
     {
@@ -847,14 +847,14 @@
         { "wisdom": 8, "elements": 1 }
       ],
       "crafts": [
-        { "principle": 8, "level": 1, "id": 38 },
-        { "principle": 8, "level": 2, "id": 31, "req": "Egg" },
-        { "principle": 8, "level": 3, "id": 61, "req": "Chimeric Larva" },
-        { "principle": 8, "level": 3, "id": 60, "req": "Cuckoo-Honey" },
+        { "principle": 8, "level": 1, "id": 38, "req": 1 },
+        { "principle": 8, "level": 2, "id": 31, "req": 9 },
+        { "principle": 8, "level": 3, "id": 61, "req": 6 },
+        { "principle": 8, "level": 3, "id": 60, "req": 8 },
 
-        { "principle": 3, "level": 1, "id": 14 },
-        { "principle": 3, "level": 2, "id": 15, "req": "Fabric" },
-        { "principle": 3, "level": 3, "id": 17, "req": "Pale Mommet" }
+        { "principle": 3, "level": 1, "id": 14, "req": 1 },
+        { "principle": 3, "level": 2, "id": 15, "req": 12 },
+        { "principle": 3, "level": 3, "id": 17, "req": 37 }
       ]
     },
     {
@@ -869,13 +869,13 @@
         { "wisdom": 6, "elements": 4 }
       ],
       "crafts": [
-        { "principle": 13, "level": 1, "id": 49 },
-        { "principle": 13, "level": 2, "id": 53, "req": "Remains" },
-        { "principle": 13, "level": 3, "id": 83, "req": "Essential Periost" },
+        { "principle": 13, "level": 1, "id": 49, "req": 1 },
+        { "principle": 13, "level": 2, "id": 53, "req": 40 },
+        { "principle": 13, "level": 3, "id": 83, "req": 11 },
 
-        { "principle": 7, "level": 1, "id": 47 },
-        { "principle": 7, "level": 2, "id": 57, "req": "Egg" },
-        { "principle": 7, "level": 3, "id": 58, "req": "Stymphling" }
+        { "principle": 7, "level": 1, "id": 47, "req": 1 },
+        { "principle": 7, "level": 2, "id": 57, "req": 9 },
+        { "principle": 7, "level": 3, "id": 58, "req": 44 }
       ]
     },
     {
@@ -890,14 +890,14 @@
         { "wisdom": 8, "elements": 7 }
       ],
       "crafts": [
-        { "principle": 9, "level": 1, "id": 67 },
-        { "principle": 9, "level": 2, "id": 54, "req": "Beverage" },
-        { "principle": 9, "level": 3, "id": 71, "req": "Pyrus Auricalcinus" },
+        { "principle": 9, "level": 1, "id": 67, "req": 1 },
+        { "principle": 9, "level": 2, "id": 54, "req": 4 },
+        { "principle": 9, "level": 3, "id": 71, "req": 39 },
 
-        { "principle": 8, "level": 1, "id": 28 },
-        { "principle": 8, "level": 2, "id": 65, "req": "Memory" },
-        { "principle": 8, "level": 3, "id": 60, "req": "Honey" },
-        { "principle": 8, "level": 3, "id": 60, "req": "Cuckoo-Honey" }
+        { "principle": 8, "level": 1, "id": 28, "req": 1 },
+        { "principle": 8, "level": 2, "id": 65, "req": 33 },
+        { "principle": 8, "level": 3, "id": 60, "req": 19 },
+        { "principle": 8, "level": 3, "id": 60, "req": 8 }
       ]
     },
     {
@@ -912,14 +912,14 @@
         { "wisdom": 4, "elements": 5 }
       ],
       "crafts": [
-        { "principle": 8, "level": 1, "id": 8 },
-        { "principle": 8, "level": 2, "id": 65, "req": "Memory" },
-        { "principle": 8, "level": 3, "id": 60, "req": "Honey" },
-        { "principle": 8, "level": 3, "id": 60, "req": "Cuckoo-Honey" },
+        { "principle": 8, "level": 1, "id": 8, "req": 1 },
+        { "principle": 8, "level": 2, "id": 65, "req": 33 },
+        { "principle": 8, "level": 3, "id": 60, "req": 19 },
+        { "principle": 8, "level": 3, "id": 60, "req": 8 },
 
-        { "principle": 12, "level": 1, "id": 78 },
-        { "principle": 12, "level": 2, "id": 81, "req": "Wood" },
-        { "principle": 12, "level": 3, "id": 62, "req": "Ascendant Harmony" }
+        { "principle": 12, "level": 1, "id": 78, "req": 1 },
+        { "principle": 12, "level": 2, "id": 81, "req": 47 },
+        { "principle": 12, "level": 3, "id": 62, "req": 2 }
       ]
     },
     {
@@ -934,13 +934,13 @@
         { "wisdom": 3, "elements": 8 }
       ],
       "crafts": [
-        { "principle": 6, "level": 1, "id": 37 },
-        { "principle": 6, "level": 2, "id": 39, "req": "Glass" },
-        { "principle": 6, "level": 3, "id": 44, "req": "Xanthotic Essence" },
+        { "principle": 6, "level": 1, "id": 37, "req": 1 },
+        { "principle": 6, "level": 2, "id": 39, "req": 17 },
+        { "principle": 6, "level": 3, "id": 44, "req": 48 },
 
-        { "principle": 12, "level": 1, "id": 50 },
-        { "principle": 12, "level": 2, "id": 81, "req": "Wood" },
-        { "principle": 12, "level": 3, "id": 84, "req": "Mazarine Fife" }
+        { "principle": 12, "level": 1, "id": 50, "req": 1 },
+        { "principle": 12, "level": 2, "id": 81, "req": 47 },
+        { "principle": 12, "level": 3, "id": 84, "req": 32 }
       ]
     },
     {
@@ -955,13 +955,13 @@
         { "wisdom": 6, "elements": 2 }
       ],
       "crafts": [
-        { "principle": 10, "level": 1, "id": 48 },
-        { "principle": 10, "level": 2, "id": 72, "req": "Light" },
-        { "principle": 10, "level": 3, "id": 43, "req": "Ichor Auroral" },
-        { "principle": 10, "level": 3, "id": 74, "req": "Enduring Reflection" },
+        { "principle": 10, "level": 1, "id": 48, "req": 1 },
+        { "principle": 10, "level": 2, "id": 72, "req": 29 },
+        { "principle": 10, "level": 3, "id": 43, "req": 21 },
+        { "principle": 10, "level": 3, "id": 74, "req": 10 },
 
-        { "principle": 7, "level": 1, "id": 46 },
-        { "principle": 7, "level": 2, "id": 57, "req": "Egg" }
+        { "principle": 7, "level": 1, "id": 46, "req": 1 },
+        { "principle": 7, "level": 2, "id": 57, "req": 9 }
       ]
     },
     {
@@ -976,13 +976,13 @@
         { "wisdom": 5, "elements": 2 }
       ],
       "crafts": [
-        { "principle": 7, "level": 1, "id": 48 },
-        { "principle": 7, "level": 2, "id": 52, "req": "Liquid" },
-        { "principle": 7, "level": 3, "id": 59, "req": "Asimel" },
+        { "principle": 7, "level": 1, "id": 48, "req": 1 },
+        { "principle": 7, "level": 2, "id": 52, "req": 30 },
+        { "principle": 7, "level": 3, "id": 59, "req": 3 },
 
-        { "principle": 3, "level": 1, "id": 13 },
-        { "principle": 3, "level": 2, "id": 15, "req": "Fabric" },
-        { "principle": 3, "level": 3, "id": 18, "req": "Rubywise Ruin" }
+        { "principle": 3, "level": 1, "id": 13, "req": 1 },
+        { "principle": 3, "level": 2, "id": 15, "req": 12 },
+        { "principle": 3, "level": 3, "id": 18, "req": 41 }
       ]
     },
     {
@@ -997,13 +997,13 @@
         { "wisdom": 6, "elements": 2 }
       ],
       "crafts": [
-        { "principle": 7, "level": 1, "id": 47 },
-        { "principle": 7, "level": 2, "id": 57, "req": "Egg" },
-        { "principle": 7, "level": 3, "id": 34, "req": "Glassfinger Toxin" },
+        { "principle": 7, "level": 1, "id": 47, "req": 1 },
+        { "principle": 7, "level": 2, "id": 57, "req": 9 },
+        { "principle": 7, "level": 3, "id": 34, "req": 18 },
 
-        { "principle": 11, "level": 1, "id": 75 },
-        { "principle": 11, "level": 2, "id": 30, "req": "Liquid" },
-        { "principle": 11, "level": 3, "id": 5, "req": "Perinculate" }
+        { "principle": 11, "level": 1, "id": 75, "req": 1 },
+        { "principle": 11, "level": 2, "id": 30, "req": 30 },
+        { "principle": 11, "level": 3, "id": 5, "req": 38 }
       ]
     },
     {
@@ -1018,12 +1018,12 @@
         { "wisdom": 6, "elements": 2 }
       ],
       "crafts": [
-        { "principle": 1, "level": 1, "id": 2 },
-        { "principle": 1, "level": 2, "id": 4, "req": "Memory" },
-        { "principle": 1, "level": 3, "id": 5, "req": "Perinculate" },
+        { "principle": 1, "level": 1, "id": 2, "req": 1 },
+        { "principle": 1, "level": 2, "id": 4, "req": 33 },
+        { "principle": 1, "level": 3, "id": 5, "req": 38 },
 
-        { "principle": 7, "level": 1, "id": 47 },
-        { "principle": 7, "level": 2, "id": 53, "req": "Remains" }
+        { "principle": 7, "level": 1, "id": 47, "req": 1 },
+        { "principle": 7, "level": 2, "id": 53, "req": 40 }
       ]
     },
     {
@@ -1038,13 +1038,13 @@
         { "wisdom": 8, "elements": 1 }
       ],
       "crafts": [
-        { "principle": 1, "level": 1, "id": 1 },
-        { "principle": 1, "level": 2, "id": 3, "req": "Leaf" },
-        { "principle": 1, "level": 3, "id": 5, "req": "Perinculate" },
+        { "principle": 1, "level": 1, "id": 1, "req": 1 },
+        { "principle": 1, "level": 2, "id": 3, "req": 25 },
+        { "principle": 1, "level": 3, "id": 5, "req": 38 },
 
-        { "principle": 7, "level": 1, "id": 46 },
-        { "principle": 7, "level": 2, "id": 53, "req": "Remains" },
-        { "principle": 7, "level": 3, "id": 58, "req": "Stymphling" }
+        { "principle": 7, "level": 1, "id": 46, "req": 1 },
+        { "principle": 7, "level": 2, "id": 53, "req": 40 },
+        { "principle": 7, "level": 3, "id": 58, "req": 44 }
       ]
     },
     {
@@ -1059,13 +1059,13 @@
         { "wisdom": 8, "elements": 3 }
       ],
       "crafts": [
-        { "principle": 12, "level": 1, "id": 78 },
-        { "principle": 12, "level": 2, "id": 72, "req": "Light" },
-        { "principle": 12, "level": 3, "id": 62, "req": "Ascendant Harmony" },
+        { "principle": 12, "level": 1, "id": 78, "req": 1 },
+        { "principle": 12, "level": 2, "id": 72, "req": 29 },
+        { "principle": 12, "level": 3, "id": 62, "req": 2 },
 
-        { "principle": 13, "level": 1, "id": 36 },
-        { "principle": 13, "level": 2, "id": 56, "req": "Flower" },
-        { "principle": 13, "level": 3, "id": 85, "req": "Solomon's Preparation" }
+        { "principle": 13, "level": 1, "id": 36, "req": 1 },
+        { "principle": 13, "level": 2, "id": 56, "req": 13 },
+        { "principle": 13, "level": 3, "id": 85, "req": 43 }
       ]
     },
     {
@@ -1080,13 +1080,13 @@
         { "wisdom": 1, "elements": 3 }
       ],
       "crafts": [
-        { "principle": 12, "level": 1, "id": 80 },
-        { "principle": 12, "level": 2, "id": 82, "req": "Instrument" },
-        { "principle": 12, "level": 3, "id": 84, "req": "Mazarine Fife" },
+        { "principle": 12, "level": 1, "id": 80, "req": 1 },
+        { "principle": 12, "level": 2, "id": 82, "req": 23 },
+        { "principle": 12, "level": 3, "id": 84, "req": 32 },
 
-        { "principle": 10, "level": 1, "id": 50 },
-        { "principle": 10, "level": 2, "id": 73, "req": "Memory" },
-        { "principle": 10, "level": 3, "id": 74, "req": "Enduring Reflection" }
+        { "principle": 10, "level": 1, "id": 50, "req": 1 },
+        { "principle": 10, "level": 2, "id": 73, "req": 33 },
+        { "principle": 10, "level": 3, "id": 74, "req": 10 }
       ]
     },
     {
@@ -1101,13 +1101,13 @@
         { "wisdom": 4, "elements": 9 }
       ],
       "crafts": [
-        { "principle": 13, "level": 1, "id": 49 },
-        { "principle": 13, "level": 2, "id": 53, "req": "Remains" },
-        { "principle": 13, "level": 3, "id": 83, "req": "Essential Periost" },
+        { "principle": 13, "level": 1, "id": 49, "req": 1 },
+        { "principle": 13, "level": 2, "id": 53, "req": 40 },
+        { "principle": 13, "level": 3, "id": 83, "req": 11 },
 
-        { "principle": 7, "level": 1, "id": 47 },
-        { "principle": 7, "level": 2, "id": 57, "req": "Egg" },
-        { "principle": 7, "level": 3, "id": 58, "req": "Stymphling" }
+        { "principle": 7, "level": 1, "id": 47, "req": 1 },
+        { "principle": 7, "level": 2, "id": 57, "req": 9 },
+        { "principle": 7, "level": 3, "id": 58, "req": 44 }
       ]
     },
     {
@@ -1122,14 +1122,14 @@
         { "wisdom": 6, "elements": 2 }
       ],
       "crafts": [
-        { "principle": 8, "level": 1, "id": 8 },
-        { "principle": 8, "level": 2, "id": 65, "req": "Memory" },
-        { "principle": 8, "level": 3, "id": 60, "req": "Honey" },
-        { "principle": 8, "level": 3, "id": 60, "req": "Cuckoo-Honey" },
+        { "principle": 8, "level": 1, "id": 8, "req": 1 },
+        { "principle": 8, "level": 2, "id": 65, "req": 33 },
+        { "principle": 8, "level": 3, "id": 60, "req": 19 },
+        { "principle": 8, "level": 3, "id": 60, "req": 8 },
 
-        { "principle": 5, "level": 1, "id": 27 },
-        { "principle": 5, "level": 2, "id": 30, "req": "Liquid" },
-        { "principle": 5, "level": 3, "id": 34, "req": "Glassfinger Toxin" }
+        { "principle": 5, "level": 1, "id": 27, "req": 1 },
+        { "principle": 5, "level": 2, "id": 30, "req": 30 },
+        { "principle": 5, "level": 3, "id": 34, "req": 18 }
       ]
     },
     {
@@ -1144,13 +1144,13 @@
         { "wisdom": 2, "elements": 9 }
       ],
       "crafts": [
-        { "principle": 9, "level": 1, "id": 66 },
-        { "principle": 9, "level": 2, "id": 55, "req": "Wood" },
-        { "principle": 9, "level": 3, "id": 71, "req": "Pyrus Auricalcinus" },
+        { "principle": 9, "level": 1, "id": 66, "req": 1 },
+        { "principle": 9, "level": 2, "id": 55, "req": 47 },
+        { "principle": 9, "level": 3, "id": 71, "req": 39 },
 
-        { "principle": 2, "level": 1, "id": 8 },
-        { "principle": 2, "level": 2, "id": 9, "req": "Liquid" },
-        { "principle": 2, "level": 3, "id": 11, "req": "Honeyscar Jasmine" }
+        { "principle": 2, "level": 1, "id": 8, "req": 1 },
+        { "principle": 2, "level": 2, "id": 9, "req": 30 },
+        { "principle": 2, "level": 3, "id": 11, "req": 20 }
       ]
     },
     {
@@ -1165,14 +1165,14 @@
         { "wisdom": 8, "elements": 1 }
       ],
       "crafts": [
-        { "principle": 4, "level": 1, "id": 19 },
-        { "principle": 4, "level": 2, "id": 22, "req": "Fabric" },
-        { "principle": 4, "level": 3, "id": 26, "req": "Frith-Weft" },
+        { "principle": 4, "level": 1, "id": 19, "req": 1 },
+        { "principle": 4, "level": 2, "id": 22, "req": 12 },
+        { "principle": 4, "level": 3, "id": 26, "req": 14 },
 
-        { "principle": 12, "level": 1, "id": 78 },
-        { "principle": 12, "level": 2, "id": 76, "req": "Egg" },
+        { "principle": 12, "level": 1, "id": 78, "req": 1 },
+        { "principle": 12, "level": 2, "id": 76, "req": 9 },
 
-        { "principle": 13, "level": 3, "id": 86, "req": "Fabric" }
+        { "principle": 13, "level": 3, "id": 86, "req": 12 }
       ]
     },
     {
@@ -1187,13 +1187,13 @@
         { "wisdom": 8, "elements": 1 }
       ],
       "crafts": [
-        { "principle": 11, "level": 1, "id": 68 },
-        { "principle": 11, "level": 2, "id": 76, "req": "Egg" },
-        { "principle": 11, "level": 3, "id": 45, "req": "Old Moment" },
+        { "principle": 11, "level": 1, "id": 68, "req": 1 },
+        { "principle": 11, "level": 2, "id": 76, "req": 9 },
+        { "principle": 11, "level": 3, "id": 45, "req": 35 },
 
-        { "principle": 9, "level": 1, "id": 66 },
-        { "principle": 9, "level": 2, "id": 53, "req": "Remains" },
-        { "principle": 9, "level": 3, "id": 71, "req": "Essential Periost" }
+        { "principle": 9, "level": 1, "id": 66, "req": 1 },
+        { "principle": 9, "level": 2, "id": 53, "req": 40 },
+        { "principle": 9, "level": 3, "id": 71, "req": 11 }
       ]
     },
     {
@@ -1208,13 +1208,13 @@
         { "wisdom": 5, "elements": 2 }
       ],
       "crafts": [
-        { "principle": 4, "level": 1, "id": 21 },
-        { "principle": 4, "level": 2, "id": 24, "req": "Instrument" },
-        { "principle": 4, "level": 3, "id": 26, "req": "Thunderskin's Paean" },
+        { "principle": 4, "level": 1, "id": 21, "req": 1 },
+        { "principle": 4, "level": 2, "id": 24, "req": 23 },
+        { "principle": 4, "level": 3, "id": 26, "req": 45 },
 
-        { "principle": 12, "level": 1, "id": 80 },
-        { "principle": 12, "level": 2, "id": 82, "req": "Instrument" },
-        { "principle": 12, "level": 3, "id": 84, "req": "Mazarine Fife" }
+        { "principle": 12, "level": 1, "id": 80, "req": 1 },
+        { "principle": 12, "level": 2, "id": 82, "req": 23 },
+        { "principle": 12, "level": 3, "id": 84, "req": 32 }
       ]
     },
     {
@@ -1229,13 +1229,13 @@
         { "wisdom": 8, "elements": 1 }
       ],
       "crafts": [
-        { "principle": 4, "level": 1, "id": 20 },
-        { "principle": 4, "level": 2, "id": 23, "req": "Liquid" },
-        { "principle": 4, "level": 3, "id": 25, "req": "Gideon's Soaks" },
+        { "principle": 4, "level": 1, "id": 20, "req": 1 },
+        { "principle": 4, "level": 2, "id": 23, "req": 30 },
+        { "principle": 4, "level": 3, "id": 25, "req": 16 },
 
-        { "principle": 5, "level": 1, "id": 27 },
-        { "principle": 5, "level": 2, "id": 30, "req": "Liquid" },
-        { "principle": 5, "level": 3, "id": 25, "req": "Glassfinger Toxin" }
+        { "principle": 5, "level": 1, "id": 27, "req": 1 },
+        { "principle": 5, "level": 2, "id": 30, "req": 30 },
+        { "principle": 5, "level": 3, "id": 25, "req": 18 }
       ]
     },
     {
@@ -1250,13 +1250,13 @@
         { "wisdom": 4, "elements": 5 }
       ],
       "crafts": [
-        { "principle": 3, "level": 1, "id": 13 },
-        { "principle": 3, "level": 2, "id": 15, "req": "Fabric" },
-        { "principle": 3, "level": 3, "id": 17, "req": "Pale Mommet" },
+        { "principle": 3, "level": 1, "id": 13, "req": 1 },
+        { "principle": 3, "level": 2, "id": 15, "req": 12 },
+        { "principle": 3, "level": 3, "id": 17, "req": 37 },
 
-        { "principle": 5, "level": 1, "id": 27 },
-        { "principle": 5, "level": 2, "id": 32, "req": "Memory" },
-        { "principle": 5, "level": 3, "id": 33, "req": "Gervinite" }
+        { "principle": 5, "level": 1, "id": 27, "req": 1 },
+        { "principle": 5, "level": 2, "id": 32, "req": 33 },
+        { "principle": 5, "level": 3, "id": 33, "req": 15 }
       ]
     },
     {
@@ -1271,18 +1271,18 @@
         { "wisdom": 2, "elements": 8 }
       ],
       "crafts": [
-        { "principle": 2, "level": 1, "id": 49 },
-        { "principle": 2, "level": 2, "id": 9, "req": "Liquid" },
-        { "principle": 2, "level": 3, "id": 12, "req": "Iotic Essence" },
-        { "principle": 2, "level": 3, "id": 9, "req": "Bitterblack Salts" },
-        { "principle": 2, "level": 3, "id": 9, "req": "Xanthotic Essence" },
+        { "principle": 2, "level": 1, "id": 49, "req": 1 },
+        { "principle": 2, "level": 2, "id": 9, "req": 30 },
+        { "principle": 2, "level": 3, "id": 12, "req": 24 },
+        { "principle": 2, "level": 3, "id": 9, "req": 5 },
+        { "principle": 2, "level": 3, "id": 9, "req": 48 },
 
-        { "principle": 8, "level": 2, "id": 31, "req": "Egg" },
-        { "principle": 8, "level": 3, "id": 60, "req": "Cuckoo-Honey" },
-        { "principle": 8, "level": 3, "id": 61, "req": "Chimeric Larva" },
+        { "principle": 8, "level": 2, "id": 31, "req": 9 },
+        { "principle": 8, "level": 3, "id": 60, "req": 8 },
+        { "principle": 8, "level": 3, "id": 61, "req": 6 },
 
-        { "principle": 6, "level": 1, "id": 37 },
-        { "principle": 6, "level": 2, "id": 40, "req": "Liquid" }
+        { "principle": 6, "level": 1, "id": 37, "req": 1 },
+        { "principle": 6, "level": 2, "id": 40, "req": 30 }
       ]
     },
     {
@@ -1297,15 +1297,15 @@
         { "wisdom": 8, "elements": 7 }
       ],
       "crafts": [
-        { "principle": 7, "level": 1, "id": 50 },
-        { "principle": 7, "level": 2, "id": 57, "req": "Egg" },
-        { "principle": 7, "level": 3, "id": 52, "req": "Asimel" },
+        { "principle": 7, "level": 1, "id": 50, "req": 1 },
+        { "principle": 7, "level": 2, "id": 57, "req": 9 },
+        { "principle": 7, "level": 3, "id": 52, "req": 3 },
 
-        { "principle": 3, "level": 1, "id": 14 },
-        { "principle": 3, "level": 2, "id": 15, "req": "Fabric" },
-        { "principle": 3, "level": 3, "id": 18, "req": "Rubywise Ruin" },
+        { "principle": 3, "level": 1, "id": 14, "req": 1 },
+        { "principle": 3, "level": 2, "id": 15, "req": 12 },
+        { "principle": 3, "level": 3, "id": 18, "req": 41 },
 
-        { "principle": 9, "level": 3, "id": 70, "req": "Leathy" }
+        { "principle": 9, "level": 3, "id": 70, "req": 26 }
       ]
     },
     {
@@ -1320,13 +1320,13 @@
         { "wisdom": 5, "elements": 3 }
       ],
       "crafts": [
-        { "principle": 6, "level": 1, "id": 38 },
-        { "principle": 6, "level": 2, "id": 39, "req": "Glass" },
-        { "principle": 6, "level": 3, "id": 44, "req": "Xanthotic Essence" },
-        { "principle": 6, "level": 3, "id": 42, "req": "Ichor Vitreous" },
+        { "principle": 6, "level": 1, "id": 38, "req": 1 },
+        { "principle": 6, "level": 2, "id": 39, "req": 17 },
+        { "principle": 6, "level": 3, "id": 44, "req": 48 },
+        { "principle": 6, "level": 3, "id": 42, "req": 22 },
 
-        { "principle": 12, "level": 1, "id": 80 },
-        { "principle": 12, "level": 2, "id": 42, "req": "Light" }
+        { "principle": 12, "level": 1, "id": 80, "req": 1 },
+        { "principle": 12, "level": 2, "id": 42, "req": 29 }
       ]
     },
     {
@@ -1341,14 +1341,14 @@
         { "wisdom": 7, "elements": 7 }
       ],
       "crafts": [
-        { "principle": 4, "level": 1, "id": 19 },
-        { "principle": 4, "level": 2, "id": 22, "req": "Fabric" },
-        { "principle": 4, "level": 3, "id": 26, "req": "Frith-Weft" },
+        { "principle": 4, "level": 1, "id": 19, "req": 1 },
+        { "principle": 4, "level": 2, "id": 22, "req": 12 },
+        { "principle": 4, "level": 3, "id": 26, "req": 14 },
 
-        { "principle": 8, "level": 1, "id": 38 },
-        { "principle": 8, "level": 2, "id": 65, "req": "Memory" },
+        { "principle": 8, "level": 1, "id": 38, "req": 1 },
+        { "principle": 8, "level": 2, "id": 65, "req": 33 },
 
-        { "principle": 13, "level": 3, "id": 86, "req": "Fabric" }
+        { "principle": 13, "level": 3, "id": 86, "req": 12 }
       ]
     },
     {
@@ -1363,13 +1363,13 @@
         { "wisdom": 6, "elements": 4 }
       ],
       "crafts": [
-        { "principle": 7, "level": 1, "id": 47 },
-        { "principle": 7, "level": 2, "id": 53, "req": "Remains" },
-        { "principle": 7, "level": 3, "id": 58, "req": "Stymphling" },
+        { "principle": 7, "level": 1, "id": 47, "req": 1 },
+        { "principle": 7, "level": 2, "id": 53, "req": 40 },
+        { "principle": 7, "level": 3, "id": 58, "req": 44 },
 
-        { "principle": 11, "level": 1, "id": 75 },
-        { "principle": 11, "level": 2, "id": 41, "req": "Memory" },
-        { "principle": 11, "level": 3, "id": 45, "req": "Old Moment" }
+        { "principle": 11, "level": 1, "id": 75, "req": 1 },
+        { "principle": 11, "level": 2, "id": 41, "req": 33 },
+        { "principle": 11, "level": 3, "id": 45, "req": 35 }
       ]
     }
   ],
