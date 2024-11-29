@@ -17,12 +17,10 @@ const App = () => {
   return (
     <Layout dkey={dkey}>
       <Layout.Nav>
-        <Overview.Nav/>
         <Books.Nav/>
         <Crafts.Nav/>
       </Layout.Nav>
       <Layout.Content>
-        <Overview/>
         <Books/>
         <Crafts/>
       </Layout.Content>

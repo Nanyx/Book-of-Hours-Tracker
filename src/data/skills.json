@@ -741,13 +741,15 @@
         { "wisdom": 2, "elements": 8 }
       ],
       "crafts": [
-        { "principle": 10, "level": 1, "id": 50, "req": 1 },
-        { "principle": 10, "level": 2, "id": 73, "req": 33 },
-        { "principle": 10, "level": 3, "id": 74, "req": 10 },
+        { "principle": 12, "level": 1, "id": 2, "req": 1 },
+        { "principle": 12, "level": 2, "id": 82, "req": 23 },
 
-        { "principle": 5, "level": 1, "id": 28, "req": 1 },
-        { "principle": 5, "level": 2, "id": 32, "req": 33 },
-        { "principle": 5, "level": 3, "id": 33, "req": 15 }
+        { "principle": 6, "level": 1, "id": 37, "req": 1 },
+        { "principle": 6, "level": 2, "id": 40, "req": 30 },
+        { "principle": 6, "level": 3, "id": 40, "req": 24 },
+        { "principle": 6, "level": 3, "id": 40, "req": 5 },
+
+        { "principle": 2, "level": 3, "id": 11, "req": 36 }
       ]
     },
     {
@@ -762,15 +764,13 @@
         { "wisdom": 6, "elements": 4 }
       ],
       "crafts": [
-        { "principle": 12, "level": 1, "id": 2, "req": 1 },
-        { "principle": 12, "level": 2, "id": 82, "req": 23 },
+        { "principle": 7, "level": 1, "id": 48, "req": 1 },
+        { "principle": 7, "level": 2, "id": 52, "req": 30 },
+        { "principle": 7, "level": 3, "id": 59, "req": 3 },
 
-        { "principle": 6, "level": 1, "id": 37, "req": 1 },
-        { "principle": 6, "level": 2, "id": 40, "req": 30 },
-        { "principle": 6, "level": 3, "id": 40, "req": 24 },
-        { "principle": 6, "level": 3, "id": 40, "req": 5 },
-
-        { "principle": 2, "level": 3, "id": 11, "req": 36 }
+        { "principle": 13, "level": 1, "id": 67, "req": 1 },
+        { "principle": 13, "level": 2, "id": 3, "req": 25 },
+        { "principle": 13, "level": 3, "id": 83, "req": 11 }
       ]
     },
     {
