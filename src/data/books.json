@@ -9,7 +9,7 @@
   "books": [
     {
       "id": 1,
-      "name": "The Ascendant",
+      "name": "Ascendant, The",
       "type": 1,
       "mastery": 1,
       "mystery": 10,
@@ -27,7 +27,7 @@
     },
     {
       "id": 3,
-      "name": "The Book of Thrones",
+      "name": "Book of Thrones, The",
       "type": 1,
       "mastery": 1,
       "mystery": 12,
@@ -45,7 +45,7 @@
     },
     {
       "id": 5,
-      "name": "A Child's Treasury of Golden Afternoons",
+      "name": "Child's Treasury of Golden Afternoons, A",
       "type": 1,
       "mastery": 1,
       "mystery": 10,
@@ -63,7 +63,7 @@
     },
     {
       "id": 7,
-      "name": "The Deeds of the Scarred Captain",
+      "name": "Deeds of the Scarred Captain, The",
       "type": 1,
       "mastery": 1,
       "mystery": 12,
@@ -99,7 +99,7 @@
     },
     {
       "id": 11,
-      "name": "The High Traditions of the Noble Endeavour",
+      "name": "High Traditions of the Noble Endeavour, The",
       "type": 1,
       "mastery": 1,
       "mystery": 6,
@@ -117,7 +117,7 @@
     },
     {
       "id": 13,
-      "name": "The Iron Book",
+      "name": "Iron Book, The",
       "type": 1,
       "mastery": 1,
       "mystery": 8,
@@ -126,7 +126,7 @@
     },
     {
       "id": 14,
-      "name": "The Leonine Tantra",
+      "name": "Leonine Tantra, The",
       "type": 3,
       "mastery": 1,
       "mystery": 8,
@@ -144,7 +144,7 @@
     },
     {
       "id": 16,
-      "name": "The Sevenfold Slaying of the Seven-Coiled",
+      "name": "Sevenfold Slaying of the Seven-Coiled, The",
       "type": 1,
       "mastery": 1,
       "mystery": 16,
@@ -162,7 +162,7 @@
     },
     {
       "id": 18,
-      "name": "The Sky in the Scar",
+      "name": "Sky in the Scar, The",
       "type": 1,
       "mastery": 1,
       "mystery": 10,
@@ -171,7 +171,7 @@
     },
     {
       "id": 19,
-      "name": "The Sun's Lament",
+      "name": "Sun's Lament, The",
       "type": 1,
       "mastery": 1,
       "mystery": 4,
@@ -180,7 +180,7 @@
     },
     {
       "id": 20,
-      "name": "The Victory of Crowns",
+      "name": "Victory of Crowns, The",
       "type": 1,
       "mastery": 1,
       "mystery": 4,
@@ -189,7 +189,7 @@
     },
     {
       "id": 21,
-      "name": "The War of the Roads, 1451-1551",
+      "name": "War of the Roads, 1451-1551, The",
       "type": 1,
       "mastery": 1,
       "mystery": 4,
@@ -198,7 +198,7 @@
     },
     {
       "id": 22,
-      "name": "The Wound-Wounds",
+      "name": "Wound-Wounds, The",
       "type": 1,
       "mastery": 1,
       "mystery": 18,
@@ -208,7 +208,7 @@
 
     {
       "id": 23,
-      "name": "The Admonitory Automata Project",
+      "name": "Admonitory Automata Project, The",
       "type": 4,
       "mastery": 2,
       "mystery": 10,
@@ -217,7 +217,7 @@
     },
     {
       "id": 24,
-      "name": "The Amalgam of the Red Rose",
+      "name": "Amalgam of the Red Rose, The",
       "type": 1,
       "mastery": 2,
       "mystery": 8,
@@ -244,7 +244,7 @@
     },
     {
       "id": 27,
-      "name": "The Book of Cinders",
+      "name": "Book of Cinders, The",
       "type": 1,
       "mastery": 2,
       "mystery": 6,
@@ -253,7 +253,7 @@
     },
     {
       "id": 28,
-      "name": "The Book of Dissolution",
+      "name": "Book of Dissolution, The",
       "type": 1,
       "mastery": 2,
       "mystery": 12,
@@ -262,7 +262,7 @@
     },
     {
       "id": 29,
-      "name": "The Burning Woman",
+      "name": "Burning Woman, The",
       "type": 1,
       "mastery": 2,
       "mystery": 14,
@@ -271,7 +271,7 @@
     },
     {
       "id": 30,
-      "name": "The Carmine Petal: Revised",
+      "name": "Carmine Petal: Revised, The",
       "type": 1,
       "mastery": 2,
       "mystery": 12,
@@ -280,7 +280,7 @@
     },
     {
       "id": 31,
-      "name": "The Carmine Petal: Unexpurgated",
+      "name": "Carmine Petal: Unexpurgated, The",
       "type": 1,
       "mastery": 2,
       "mystery": 18,
@@ -289,7 +289,7 @@
     },
     {
       "id": 32,
-      "name": "A Descent of the Shell",
+      "name": "Descent of the Shell, A",
       "type": 1,
       "mastery": 2,
       "mystery": 14,
@@ -307,7 +307,7 @@
     },
     {
       "id": 34,
-      "name": "The Incandescent Tantra",
+      "name": "Incandescent Tantra, The",
       "type": 3,
       "mastery": 2,
       "mystery": 8,
@@ -325,7 +325,7 @@
     },
     {
       "id": 36,
-      "name": "The Manner in which the Alchemist was Spared",
+      "name": "Manner in which the Alchemist was Spared, The",
       "type": 1,
       "mastery": 2,
       "mystery": 14,
@@ -334,7 +334,7 @@
     },
     {
       "id": 37,
-      "name": "The Messenger Awaiting Her Destination",
+      "name": "Messenger Awaiting Her Destination, The",
       "type": 1,
       "mastery": 2,
       "mystery": 16,
@@ -370,7 +370,7 @@
     },
     {
       "id": 41,
-      "name": "A Shape in Smoke",
+      "name": "Shape in Smoke, A",
       "type": 1,
       "mastery": 2,
       "mystery": 8,
@@ -397,7 +397,7 @@
     },
     {
       "id": 44,
-      "name": "The Temptations of Architecture",
+      "name": "Temptations of Architecture, The",
       "type": 1,
       "mastery": 2,
       "mystery": 10,
@@ -406,7 +406,7 @@
     },
     {
       "id": 45,
-      "name": "The Vinzant Inscriptions",
+      "name": "Vinzant Inscriptions, The",
       "type": 1,
       "mastery": 2,
       "mystery": 6,
@@ -434,7 +434,7 @@
     },
     {
       "id": 48,
-      "name": "A Catalogue of Uncharted Pleasures",
+      "name": "Catalogue of Uncharted Pleasures, A",
       "type": 1,
       "mastery": 3,
       "mystery": 12,
@@ -452,7 +452,7 @@
     },
     {
       "id": 50,
-      "name": "The Devoured Tantra",
+      "name": "Devoured Tantra, The",
       "type": 1,
       "mastery": 3,
       "mystery": 6,
@@ -461,7 +461,7 @@
     },
     {
       "id": 51,
-      "name": "The Dream of the Conspiracy of the Lower Skies",
+      "name": "Dream of the Conspiracy of the Lower Skies, The",
       "type": 1,
       "mastery": 3,
       "mystery": 16,
@@ -470,7 +470,7 @@
     },
     {
       "id": 52,
-      "name": "The Geminiad II",
+      "name": "Geminiad II, The",
       "type": 1,
       "mastery": 3,
       "mystery": 10,
@@ -479,7 +479,7 @@
     },
     {
       "id": 53,
-      "name": "An Impertinent Vitulation",
+      "name": "Impertinent Vitulation, An",
       "type": 1,
       "mastery": 3,
       "mystery": 6,
@@ -488,7 +488,7 @@
     },
     {
       "id": 54,
-      "name": "A Journey to the Grove",
+      "name": "Journey to the Grove, A",
       "type": 1,
       "mastery": 3,
       "mystery": 10,
@@ -497,7 +497,7 @@
     },
     {
       "id": 55,
-      "name": "The Intimations of Skin",
+      "name": "Intimations of Skin, The",
       "type": 1,
       "mastery": 3,
       "mystery": 8,
@@ -542,7 +542,7 @@
     },
     {
       "id": 60,
-      "name": "The Orchid Transfigurations: a Birth",
+      "name": "Orchid Transfigurations: a Birth, The",
       "type": 1,
       "mastery": 3,
       "mystery": 8,
@@ -551,7 +551,7 @@
     },
     {
       "id": 61,
-      "name": "The Orchid Transfigurations: a Feast",
+      "name": "Orchid Transfigurations: a Feast, The",
       "type": 1,
       "mastery": 3,
       "mystery": 4,
@@ -560,7 +560,7 @@
     },
     {
       "id": 62,
-      "name": "The Rose of Nuriel",
+      "name": "Rose of Nuriel, The",
       "type": 1,
       "mastery": 3,
       "mystery": 10,
@@ -569,7 +569,7 @@
     },
     {
       "id": 63,
-      "name": "The Skeleton Songs",
+      "name": "Skeleton Songs, The",
       "type": 1,
       "mastery": 3,
       "mystery": 4,
@@ -587,7 +587,7 @@
     },
     {
       "id": 65,
-      "name": "The Sun Disfigured",
+      "name": "Sun Disfigured, The",
       "type": 3,
       "mastery": 3,
       "mystery": 8,
@@ -596,7 +596,7 @@
     },
     {
       "id": 66,
-      "name": "The Thirsting Tantra",
+      "name": "Thirsting Tantra, The",
       "type": 1,
       "mastery": 3,
       "mystery": 8,
@@ -605,7 +605,7 @@
     },
     {
       "id": 67,
-      "name": "The Tripled Heart",
+      "name": "Tripled Heart, The",
       "type": 1,
       "mastery": 3,
       "mystery": 4,
@@ -614,7 +614,7 @@
     },
     {
       "id": 68,
-      "name": "The Wind's Ruin",
+      "name": "Wind's Ruin, The",
       "type": 1,
       "mastery": 3,
       "mystery": 4,
@@ -623,7 +623,7 @@
     },
     {
       "id": 69,
-      "name": "The Wonderful Shape",
+      "name": "Wonderful Shape, The",
       "type": 1,
       "mastery": 3,
       "mystery": 10,
@@ -642,7 +642,7 @@
 
     {
       "id": 71,
-      "name": "A True and Complete Accounting of the Asclepian Mysteries of the Roots of the House",
+      "name": "True and Complete Accounting of the Asclepian Mysteries of the Roots of the House, A",
       "type": 1,
       "mastery": 4,
       "mystery": 4,
@@ -660,7 +660,7 @@
     },
     {
       "id": 73,
-      "name": "The Book of the Extinguished Heart",
+      "name": "Book of the Extinguished Heart, The",
       "type": 1,
       "mastery": 4,
       "mystery": 16,
@@ -669,7 +669,7 @@
     },
     {
       "id": 74,
-      "name": "The Ceaseless Tantra",
+      "name": "Ceaseless Tantra, The",
       "type": 1,
       "mastery": 4,
       "mystery": 6,
@@ -687,7 +687,7 @@
     },
     {
       "id": 76,
-      "name": "The Flayed Tantra",
+      "name": "Flayed Tantra, The",
       "type": 3,
       "mastery": 4,
       "mystery": 8,
@@ -696,7 +696,7 @@
     },
     {
       "id": 77,
-      "name": "The Geminiad I",
+      "name": "Geminiad I, The",
       "type": 1,
       "mastery": 4,
       "mystery": 10,
@@ -705,7 +705,7 @@
     },
     {
       "id": 78,
-      "name": "The Instruments of the Heart",
+      "name": "Instruments of the Heart, The",
       "type": 1,
       "mastery": 4,
       "mystery": 10,
@@ -741,7 +741,7 @@
     },
     {
       "id": 82,
-      "name": "The Orchid Transfigurations: Noon",
+      "name": "Orchid Transfigurations: Noon, The",
       "type": 1,
       "mastery": 4,
       "mystery": 4,
@@ -750,7 +750,7 @@
     },
     {
       "id": 83,
-      "name": "The Other Line",
+      "name": "Other Line, The",
       "type": 1,
       "mastery": 4,
       "mystery": 4,
@@ -777,7 +777,7 @@
     },
     {
       "id": 86,
-      "name": "The Time of Division",
+      "name": "Time of Division, The",
       "type": 1,
       "mastery": 4,
       "mystery": 14,
@@ -823,7 +823,7 @@
     },
     {
       "id": 91,
-      "name": "An Almanac of Entrances",
+      "name": "Almanac of Entrances, An",
       "type": 1,
       "mastery": 5,
       "mystery": 10,
@@ -859,7 +859,7 @@
     },
     {
       "id": 95,
-      "name": "The Elations of Limentinus",
+      "name": "Elations of Limentinus, The",
       "type": 1,
       "mastery": 5,
       "mystery": 6,
@@ -868,7 +868,7 @@
     },
     {
       "id": 96,
-      "name": "The Gospel of Zacchaeus",
+      "name": "Gospel of Zacchaeus, The",
       "type": 1,
       "mastery": 5,
       "mystery": 8,
@@ -877,7 +877,7 @@
     },
     {
       "id": 97,
-      "name": "The Grand Passage of the Hours",
+      "name": "Grand Passage of the Hours, The",
       "type": 1,
       "mastery": 5,
       "mystery": 12,
@@ -886,7 +886,7 @@
     },
     {
       "id": 98,
-      "name": "The Locksmith's Dream: Trespasses",
+      "name": "Locksmith's Dream: Trespasses, The",
       "type": 1,
       "mastery": 5,
       "mystery": 6,
@@ -895,7 +895,7 @@
     },
     {
       "id": 99,
-      "name": "A Manual for Departure",
+      "name": "Manual for Departure, A",
       "type": 1,
       "mastery": 5,
       "mystery": 14,
@@ -940,7 +940,7 @@
     },
     {
       "id": 104,
-      "name": "The Raptures of Forculus",
+      "name": "Raptures of Forculus, The",
       "type": 1,
       "mastery": 5,
       "mystery": 4,
@@ -949,7 +949,7 @@
     },
     {
       "id": 105,
-      "name": "The Road to Janus",
+      "name": "Road to Janus, The",
       "type": 1,
       "mastery": 5,
       "mystery": 18,
@@ -967,7 +967,7 @@
     },
     {
       "id": 107,
-      "name": "A Tower Falls",
+      "name": "Tower Falls, A",
       "type": 5,
       "mastery": 5,
       "mystery": 16,
@@ -976,7 +976,7 @@
     },
     {
       "id": 108,
-      "name": "The Twin-Serpent Tantra",
+      "name": "Twin-Serpent Tantra, The",
       "type": 1,
       "mastery": 5,
       "mystery": 8,
@@ -985,7 +985,7 @@
     },
     {
       "id": 109,
-      "name": "The Treatise on Underplaces",
+      "name": "Treatise on Underplaces, The",
       "type": 1,
       "mastery": 5,
       "mystery": 4,
@@ -1022,7 +1022,7 @@
 
     {
       "id": 113,
-      "name": "The Alloy of the White Rose",
+      "name": "Alloy of the White Rose, The",
       "type": 1,
       "mastery": 6,
       "mystery": 10,
@@ -1040,7 +1040,7 @@
     },
     {
       "id": 115,
-      "name": "The Chandler's Wish",
+      "name": "Chandler's Wish, The",
       "type": 1,
       "mastery": 6,
       "mystery": 12,
@@ -1058,7 +1058,7 @@
     },
     {
       "id": 117,
-      "name": "The High Mysteries of the Innermost Chamber of our Church Solar",
+      "name": "High Mysteries of the Innermost Chamber of our Church Solar, The",
       "type": 1,
       "mastery": 6,
       "mystery": 14,
@@ -1076,7 +1076,7 @@
     },
     {
       "id": 119,
-      "name": "The Known-Unknown Tantra",
+      "name": "Known-Unknown Tantra, The",
       "type": 1,
       "mastery": 6,
       "mystery": 6,
@@ -1094,7 +1094,7 @@
     },
     {
       "id": 121,
-      "name": "A Light in the Inkwell",
+      "name": "Light in the Inkwell, A",
       "type": 1,
       "mastery": 6,
       "mystery": 8,
@@ -1103,7 +1103,7 @@
     },
     {
       "id": 122,
-      "name": "The Locksmith's Dream: a Light through the Keyhole",
+      "name": "Locksmith's Dream: a Light through the Keyhole, The",
       "type": 1,
       "mastery": 6,
       "mystery": 4,
@@ -1112,7 +1112,7 @@
     },
     {
       "id": 123,
-      "name": "The Locksmith's Dream: Incursus",
+      "name": "Locksmith's Dream: Incursus, The",
       "type": 1,
       "mastery": 6,
       "mystery": 6,
@@ -1148,7 +1148,7 @@
     },
     {
       "id": 127,
-      "name": "The Rose of Waznei",
+      "name": "Rose of Waznei, The",
       "type": 1,
       "mastery": 6,
       "mystery": 8,
@@ -1157,7 +1157,7 @@
     },
     {
       "id": 128,
-      "name": "The Sky, the Soul",
+      "name": "Sky, the Soul, The",
       "type": 1,
       "mastery": 6,
       "mystery": 12,
@@ -1175,7 +1175,7 @@
     },
     {
       "id": 130,
-      "name": "The Sun's Design",
+      "name": "Sun's Design, The",
       "type": 2,
       "mastery": 6,
       "mystery": 10,
@@ -1193,7 +1193,7 @@
     },
     {
       "id": 132,
-      "name": "The Watchful Tantra",
+      "name": "Watchful Tantra, The",
       "type": 3,
       "mastery": 6,
       "mystery": 8,
@@ -1212,7 +1212,7 @@
 
     {
       "id": 134,
-      "name": "The Account of Kanishk at the Spider's Door",
+      "name": "Account of Kanishk at the Spider's Door, The",
       "type": 1,
       "mastery": 7,
       "mystery": 6,
@@ -1221,7 +1221,7 @@
     },
     {
       "id": 135,
-      "name": "The Black Book of Brittany",
+      "name": "Black Book of Brittany, The",
       "type": 1,
       "mastery": 7,
       "mystery": 12,
@@ -1257,7 +1257,7 @@
     },
     {
       "id": 139,
-      "name": "The Crossing to Noon",
+      "name": "Crossing to Noon, The",
       "type": 1,
       "mastery": 7,
       "mystery": 8,
@@ -1266,7 +1266,7 @@
     },
     {
       "id": 140,
-      "name": "The Deaths of the Moon",
+      "name": "Deaths of the Moon, The",
       "type": 1,
       "mastery": 7,
       "mystery": 8,
@@ -1284,7 +1284,7 @@
     },
     {
       "id": 142,
-      "name": "An Exorcist's Field Manual",
+      "name": "Exorcist's Field Manual, An",
       "type": 1,
       "mastery": 7,
       "mystery": 6,
@@ -1302,7 +1302,7 @@
     },
     {
       "id": 144,
-      "name": "An Investigation of A Foundered Country",
+      "name": "Investigation of A Foundered Country, An",
       "type": 5,
       "mastery": 7,
       "mystery": 4,
@@ -1311,7 +1311,7 @@
     },
     {
       "id": 145,
-      "name": "The Kerisham Portolan",
+      "name": "Kerisham Portolan, The",
       "type": 1,
       "mastery": 7,
       "mystery": 6,
@@ -1320,7 +1320,7 @@
     },
     {
       "id": 146,
-      "name": "The Larquebine Codex",
+      "name": "Larquebine Codex, The",
       "type": 1,
       "mastery": 7,
       "mystery": 6,
@@ -1338,7 +1338,7 @@
     },
     {
       "id": 148,
-      "name": "The Moon's Egg",
+      "name": "Moon's Egg, The",
       "type": 1,
       "mastery": 7,
       "mystery": 4,
@@ -1347,7 +1347,7 @@
     },
     {
       "id": 149,
-      "name": "The Morphy Codex",
+      "name": "Morphy Codex, The",
       "type": 1,
       "mastery": 7,
       "mystery": 6,
@@ -1374,7 +1374,7 @@
     },
     {
       "id": 152,
-      "name": "A Pale Lady and a Prince of Wines",
+      "name": "Pale Lady and a Prince of Wines, A",
       "type": 1,
       "mastery": 7,
       "mystery": 4,
@@ -1383,7 +1383,7 @@
     },
     {
       "id": 153,
-      "name": "The Queen's Turn",
+      "name": "Queen's Turn, The",
       "type": 1,
       "mastery": 7,
       "mystery": 10,
@@ -1392,7 +1392,7 @@
     },
     {
       "id": 154,
-      "name": "The Sea Does Not Regret",
+      "name": "Sea Does Not Regret, The",
       "type": 1,
       "mastery": 7,
       "mystery": 6,
@@ -1401,7 +1401,7 @@
     },
     {
       "id": 155,
-      "name": "The Secret Colours",
+      "name": "Secret Colours, The",
       "type": 1,
       "mastery": 7,
       "mystery": 14,
@@ -1410,7 +1410,7 @@
     },
     {
       "id": 156,
-      "name": "The Three and the Three (Kerisham Manuscript)",
+      "name": "Three and the Three (Kerisham Manuscript), The",
       "type": 1,
       "mastery": 7,
       "mystery": 10,
@@ -1419,7 +1419,7 @@
     },
     {
       "id": 157,
-      "name": "The Three and the Three (St Chiavi Manuscript)",
+      "name": "Three and the Three (St Chiavi Manuscript), The",
       "type": 1,
       "mastery": 7,
       "mystery": 18,
@@ -1428,7 +1428,7 @@
     },
     {
       "id": 158,
-      "name": "The Three and the Three (Vatican Manuscript)",
+      "name": "Three and the Three (Vatican Manuscript), The",
       "type": 1,
       "mastery": 7,
       "mystery": 14,
@@ -1446,7 +1446,7 @@
     },
     {
       "id": 160,
-      "name": "The Twelve Letters On Consequence",
+      "name": "Twelve Letters On Consequence, The",
       "type": 1,
       "mastery": 7,
       "mystery": 4,
@@ -1455,7 +1455,7 @@
     },
     {
       "id": 161,
-      "name": "The Viennese Conundra",
+      "name": "Viennese Conundra, The",
       "type": 1,
       "mastery": 7,
       "mystery": 4,
@@ -1464,7 +1464,7 @@
     },
     {
       "id": 162,
-      "name": "The Voyages of Ferninshun of Oreol",
+      "name": "Voyages of Ferninshun of Oreol, The",
       "type": 1,
       "mastery": 7,
       "mystery": 18,
@@ -1473,7 +1473,7 @@
     },
     {
       "id": 163,
-      "name": "The World Despoil'd",
+      "name": "World Despoil'd, The",
       "type": 1,
       "mastery": 7,
       "mystery": 6,
@@ -1492,7 +1492,7 @@
 
     {
       "id": 165,
-      "name": "The Book of Masks",
+      "name": "Book of Masks, The",
       "type": 1,
       "mastery": 8,
       "mystery": 14,
@@ -1501,7 +1501,7 @@
     },
     {
       "id": 166,
-      "name": "The Carbonek Schism",
+      "name": "Carbonek Schism, The",
       "type": 1,
       "mastery": 8,
       "mystery": 6,
@@ -1510,7 +1510,7 @@
     },
     {
       "id": 167,
-      "name": "The Debate of Seven Cups",
+      "name": "Debate of Seven Cups, The",
       "type": 1,
       "mastery": 8,
       "mystery": 10,
@@ -1519,7 +1519,7 @@
     },
     {
       "id": 168,
-      "name": "An Echo of Silence",
+      "name": "Echo of Silence, An",
       "type": 1,
       "mastery": 8,
       "mystery": 10,
@@ -1528,7 +1528,7 @@
     },
     {
       "id": 169,
-      "name": "The Fire-Circle Tantra",
+      "name": "Fire-Circle Tantra, The",
       "type": 3,
       "mastery": 8,
       "mystery": 8,
@@ -1555,7 +1555,7 @@
     },
     {
       "id": 172,
-      "name": "The Geminiad III",
+      "name": "Geminiad III, The",
       "type": 1,
       "mastery": 8,
       "mystery": 12,
@@ -1609,7 +1609,7 @@
     },
     {
       "id": 178,
-      "name": "The Rose of Hypatia",
+      "name": "Rose of Hypatia, The",
       "type": 1,
       "mastery": 8,
       "mystery": 8,
@@ -1618,7 +1618,7 @@
     },
     {
       "id": 179,
-      "name": "The Serenity of the Black Wood",
+      "name": "Serenity of the Black Wood, The",
       "type": 1,
       "mastery": 8,
       "mystery": 12,
@@ -1627,7 +1627,7 @@
     },
     {
       "id": 180,
-      "name": "The Shaven Lock Tantra",
+      "name": "Shaven Lock Tantra, The",
       "type": 1,
       "mastery": 8,
       "mystery": 6,
@@ -1636,7 +1636,7 @@
     },
     {
       "id": 181,
-      "name": "The Six Letters on Necessity",
+      "name": "Six Letters on Necessity, The",
       "type": 1,
       "mastery": 8,
       "mystery": 4,
@@ -1645,7 +1645,7 @@
     },
     {
       "id": 183,
-      "name": "The Songs of the Carapace Cross",
+      "name": "Songs of the Carapace Cross, The",
       "type": 1,
       "mastery": 8,
       "mystery": 16,
@@ -1664,7 +1664,7 @@
 
     {
       "id": 185,
-      "name": "The Bee-Keeper's Ends",
+      "name": "Bee-Keeper's Ends, The",
       "type": 1,
       "mastery": 9,
       "mystery": 8,
@@ -1673,7 +1673,7 @@
     },
     {
       "id": 186,
-      "name": "The Berrybook",
+      "name": "Berrybook, The",
       "type": 1,
       "mastery": 9,
       "mystery": 8,
@@ -1745,7 +1745,7 @@
     },
     {
       "id": 194,
-      "name": "The Most Sorrowful End of the Lady Nonna",
+      "name": "Most Sorrowful End of the Lady Nonna, The",
       "type": 1,
       "mastery": 9,
       "mystery": 4,
@@ -1763,7 +1763,7 @@
     },
     {
       "id": 196,
-      "name": "The Shadow in the Stair",
+      "name": "Shadow in the Stair, The",
       "type": 1,
       "mastery": 9,
       "mystery": 6,
@@ -1781,7 +1781,7 @@
     },
     {
       "id": 198,
-      "name": "The Writing on the Wall",
+      "name": "Writing on the Wall, The",
       "type": 1,
       "mastery": 9,
       "mystery": 10,
@@ -1800,7 +1800,7 @@
     },
     {
       "id": 200,
-      "name": "The Book of the Centipede",
+      "name": "Book of the Centipede, The",
       "type": 1,
       "mastery": 10,
       "mystery": 6,
@@ -1809,7 +1809,7 @@
     },
     {
       "id": 201,
-      "name": "The Concursum Diaries",
+      "name": "Concursum Diaries, The",
       "type": 1,
       "mastery": 10,
       "mystery": 8,
@@ -1818,7 +1818,7 @@
     },
     {
       "id": 202,
-      "name": "The History of Inks",
+      "name": "History of Inks, The",
       "type": 1,
       "mastery": 10,
       "mystery": 14,
@@ -1854,7 +1854,7 @@
     },
     {
       "id": 206,
-      "name": "A Novel Method for Invocation & Contrition",
+      "name": "Novel Method for Invocation & Contrition, A",
       "type": 1,
       "mastery": 10,
       "mystery": 14,
@@ -1863,7 +1863,7 @@
     },
     {
       "id": 207,
-      "name": "The Radical Measure (Glossed)",
+      "name": "Radical Measure (Glossed), The",
       "type": 1,
       "mastery": 10,
       "mystery": 12,
@@ -1872,7 +1872,7 @@
     },
     {
       "id": 208,
-      "name": "The Radical Measure",
+      "name": "Radical Measure, The",
       "type": 1,
       "mastery": 10,
       "mystery": 10,
@@ -1881,7 +1881,7 @@
     },
     {
       "id": 209,
-      "name": "The Red Book of Brittany",
+      "name": "Red Book of Brittany, The",
       "type": 1,
       "mastery": 10,
       "mystery": 12,
@@ -1890,7 +1890,7 @@
     },
     {
       "id": 210,
-      "name": "A Tower Rises",
+      "name": "Tower Rises, A",
       "type": 5,
       "mastery": 10,
       "mystery": 18,
@@ -1899,7 +1899,7 @@
     },
     {
       "id": 211,
-      "name": "The Turquoise Hand",
+      "name": "Turquoise Hand, The",
       "type": 1,
       "mastery": 10,
       "mystery": 10,
@@ -1945,7 +1945,7 @@
     },
     {
       "id": 216,
-      "name": "The Encircling Tantra",
+      "name": "Encircling Tantra, The",
       "type": 1,
       "mastery": 11,
       "mystery": 6,
@@ -1954,7 +1954,7 @@
     },
     {
       "id": 217,
-      "name": "The Hissing Key",
+      "name": "Hissing Key, The",
       "type": 1,
       "mastery": 11,
       "mystery": 8,
@@ -2008,7 +2008,7 @@
     },
     {
       "id": 223,
-      "name": "The Queens of the Rivers",
+      "name": "Queens of the Rivers, The",
       "type": 1,
       "mastery": 11,
       "mystery": 4,
@@ -2026,7 +2026,7 @@
     },
     {
       "id": 225,
-      "name": "The Republic of Teeth",
+      "name": "Republic of Teeth, The",
       "type": 1,
       "mastery": 11,
       "mystery": 6,
@@ -2053,7 +2053,7 @@
     },
     {
       "id": 228,
-      "name": "The Tantra of Worms",
+      "name": "Tantra of Worms, The",
       "type": 1,
       "mastery": 11,
       "mystery": 8,
@@ -2090,7 +2090,7 @@
     },
     {
       "id": 232,
-      "name": "The Book of the White Cat",
+      "name": "Book of the White Cat, The",
       "type": 1,
       "mastery": 12,
       "mystery": 16,
@@ -2135,7 +2135,7 @@
     },
     {
       "id": 237,
-      "name": "The Fallen Cross",
+      "name": "Fallen Cross, The",
       "type": 1,
       "mastery": 12,
       "mystery": 6,
@@ -2144,7 +2144,7 @@
     },
     {
       "id": 238,
-      "name": "The Focus of Amber",
+      "name": "Focus of Amber, The",
       "type": 1,
       "mastery": 12,
       "mystery": 16,
@@ -2153,7 +2153,7 @@
     },
     {
       "id": 239,
-      "name": "The Humours of a Gentleman",
+      "name": "Humours of a Gentleman, The",
       "type": 1,
       "mastery": 12,
       "mystery": 4,
@@ -2171,7 +2171,7 @@
     },
     {
       "id": 241,
-      "name": "The Invisible Opera (Unfinished Recording)",
+      "name": "Invisible Opera (Unfinished Recording), The",
       "type": 5,
       "mastery": 12,
       "mystery": 12,
@@ -2189,7 +2189,7 @@
     },
     {
       "id": 243,
-      "name": "The Lion and the Glass",
+      "name": "Lion and the Glass, The",
       "type": 1,
       "mastery": 12,
       "mystery": 12,
@@ -2198,7 +2198,7 @@
     },
     {
       "id": 244,
-      "name": "The Locksmith's Dream: Portions and Proportions",
+      "name": "Locksmith's Dream: Portions and Proportions, The",
       "type": 1,
       "mastery": 12,
       "mystery": 4,
@@ -2207,7 +2207,7 @@
     },
     {
       "id": 245,
-      "name": "The Locksmith's Dream: Stolen Reflections",
+      "name": "Locksmith's Dream: Stolen Reflections, The",
       "type": 1,
       "mastery": 12,
       "mystery": 4,
@@ -2216,7 +2216,7 @@
     },
     {
       "id": 246,
-      "name": "The Mirror of Melancthe",
+      "name": "Mirror of Melancthe, The",
       "type": 1,
       "mastery": 12,
       "mystery": 12,
@@ -2252,7 +2252,7 @@
     },
     {
       "id": 250,
-      "name": "The Origins of Hours",
+      "name": "Origins of Hours, The",
       "type": 1,
       "mastery": 12,
       "mystery": 16,
@@ -2261,7 +2261,7 @@
     },
     {
       "id": 251,
-      "name": "The Other Eye of the Serpent",
+      "name": "Other Eye of the Serpent, The",
       "type": 1,
       "mastery": 12,
       "mystery": 10,
@@ -2288,7 +2288,7 @@
     },
     {
       "id": 254,
-      "name": "A Seventh Voice",
+      "name": "Seventh Voice, A",
       "type": 1,
       "mastery": 12,
       "mystery": 8,
@@ -2324,7 +2324,7 @@
     },
     {
       "id": 258,
-      "name": "A True History of Valentine Dewulf",
+      "name": "True History of Valentine Dewulf, A",
       "type": 1,
       "mastery": 12,
       "mystery": 6,
@@ -2343,7 +2343,7 @@
     },
     {
       "id": 260,
-      "name": "The Barrowchild's Elegies",
+      "name": "Barrowchild's Elegies, The",
       "type": 1,
       "mastery": 13,
       "mystery": 10,
@@ -2379,7 +2379,7 @@
     },
     {
       "id": 264,
-      "name": "The Five Letters On Memory",
+      "name": "Five Letters On Memory, The",
       "type": 1,
       "mastery": 13,
       "mystery": 6,
@@ -2397,7 +2397,7 @@
     },
     {
       "id": 266,
-      "name": "An Introduction to Histories",
+      "name": "Introduction to Histories, An",
       "type": 1,
       "mastery": 13,
       "mystery": 4,
@@ -2406,7 +2406,7 @@
     },
     {
       "id": 267,
-      "name": "The Ivory Book",
+      "name": "Ivory Book, The",
       "type": 1,
       "mastery": 13,
       "mystery": 8,
@@ -2478,7 +2478,7 @@
     },
     {
       "id": 275,
-      "name": "A Second Glory",
+      "name": "Second Glory, A",
       "type": 1,
       "mastery": 13,
       "mystery": 12,
@@ -2487,7 +2487,7 @@
     },
     {
       "id": 276,
-      "name": "The Scar in the Sky",
+      "name": "Scar in the Sky, The",
       "type": 1,
       "mastery": 13,
       "mystery": 14,
@@ -2514,7 +2514,7 @@
     },
     {
       "id": 279,
-      "name": "The White Book of Brittany",
+      "name": "White Book of Brittany, The",
       "type": 1,
       "mastery": 13,
       "mystery": 10,
@@ -2523,7 +2523,7 @@
     },
     {
       "id": 280,
-      "name": "The World Does Not Weep",
+      "name": "World Does Not Weep, The",
       "type": 1,
       "mastery": 13,
       "mystery": 10,
