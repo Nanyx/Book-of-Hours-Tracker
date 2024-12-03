@@ -1,11 +1,11 @@
 import * as React from 'react';
-import { useState, useEffect, useRef } from 'react';
 import * as ls from 'local-storage';
+import { useState, useEffect, useRef } from 'react';
 import { Table } from 'react-bootstrap';
 import {Typeahead} from 'react-bootstrap-typeahead';
 
 import PrincipleTT from './components/principle-tooltip';
-import GradiantCell from './components/gradiant-cell';
+import GradientCell from './components/gradient-cell';
 
 import './books.css';
 
@@ -15,17 +15,14 @@ import booksData from '../../data/books.json';
 import memsData from '../../data/memories.json';
 import skillsData from '../../data/skills.json';
 import principles from '../../data/principles.json';
+
+import BookLoc from '../../models/book';
+
 const completeLib = booksData.books;
 const memories = memsData.list;
 const skills = skillsData.lessons;
 
 const lsName = "books";
-class BookLoc {
-  constructor(id, read = false) {
-    this.id = id;
-    this.read = read;
-  }
-}
 
 /** @type {BookLoc[]} */
 completeLib.sort((a, b) => a.name.toLowerCase() < b.name.toLowerCase() ? -1 : 1);
@@ -130,24 +127,10 @@ const Books = () => {
 }
 
 const TableItem = ({id, read, learn = () => {}, burn = () => {}}) => {
-  const book = completeLib.find(b => b.id === id);
-
-  /**
-   * @param {[]} ids
-   * @return {string} 
-   */
-  const getGradient = (ids) => {
-    let lst = principles.filter(p => ids.includes(p.id));
-    return lst.map((p, i) => {
-      let percent = 100/lst.length;
-      return i == 0 ? 
-        `${p.color} ${percent}%, ${p.color} ${percent}%`:
-        `${p.color} ${percent*i}%, ${p.color} ${percent*(i+1)}%`;
-    }).join(", ");
-  }
-
+  const book = completeLib.find(b => b.id === id); 
   const principle = principles.find((m) => m.id == book.mastery);
   const mem = memories.find((m) => m.id == book.memory);
+
   return (
     <tr>
       <td>{book.name}</td>
@@ -157,7 +140,7 @@ const TableItem = ({id, read, learn = () => {}, burn = () => {}}) => {
       {read && <>
         <td className="text-center">{skills.find((s) => s.id == book.skill).name}</td>
         <PrincipleTT principleList={mem.principles}>
-          <GradiantCell principles={mem.principles.map(p => p.principle)}>{mem.name}</GradiantCell>
+          <GradientCell principles={mem.principles.map(p => p.principle)}>{mem.name}</GradientCell>
         </PrincipleTT>
       </>}
       <td className='text-center table-danger' style={{cursor:"pointer"}} onClick={() => burn(id)}><i className="bi bi-fire"></i></td>

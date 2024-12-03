@@ -1,0 +1,11 @@
+[
+  {"id":1, "name":"Sand-Scarred Journal", "skills":[20, 38, 63]},
+  {"id":2, "name":"Bee-Silk Journal", "skills":[6, 41]},
+  {"id":3, "name":"Serpentskin Journal", "skills":[22, 30]},
+  {"id":4, "name":"Horned Journal", "skills":[48, 57]},
+  {"id":5, "name":"Silver-Bound Journal", "skills":[37, 42]},
+  {"id":6, "name":"Hammered Copper Journal", "skills":[36, 4]},
+  {"id":7, "name":"Ironclad Journal", "skills":[13, 50]},
+  {"id":8, "name":"Feather-Decked Journal", "skills":[40, 50]},
+  {"id":9, "name":"Amber-Flecked Journal", "skills":[3, 16]}
+]

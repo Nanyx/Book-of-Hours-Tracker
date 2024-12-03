@@ -7,23 +7,27 @@ import 'react-bootstrap-typeahead/css/Typeahead.css';
 import 'react-bootstrap-typeahead/css/Typeahead.bs5.css';
 
 import Layout from './layouts/main';
-import Overview from './pages/overview';
+import Overview from './pages/overview/overview';
 import Books from './pages/books';
 import Crafts from './pages/crafts';
+import Onboarding from './pages/components/onboarding';
 
-const dkey = "Books";
+const dkey = "Overview";
 
 const App = () => {
   return (
     <Layout dkey={dkey}>
       <Layout.Nav>
+        <Overview.Nav/>
         <Books.Nav/>
         <Crafts.Nav/>
       </Layout.Nav>
       <Layout.Content>
+        <Overview/>
         <Books/>
         <Crafts/>
       </Layout.Content>
+      <Onboarding/>
     </Layout>
   );
 }

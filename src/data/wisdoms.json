@@ -1,11 +1,18 @@
-[
-  {"id": 1, "name": "Horomachistry"},
-  {"id": 2, "name": "Ithastry"},
-  {"id": 3, "name": "Illumination"},
-  {"id": 4, "name": "Hushery"},
-  {"id": 5, "name": "Nyctodromy"},
-  {"id": 6, "name": "Skolekosophy"},
-  {"id": 7, "name": "The Bosk"},
-  {"id": 8, "name": "Preservation"},
-  {"id": 9, "name": "Birdsong"}
-]
+{
+  "arts":[
+    {"id": 1,"name": "Bright"},
+    {"id": 2,"name": "Night"},
+    {"id": 3,"name": "Unregarded"}
+  ],
+  "list":[
+    {"id": 1, "name": "Horomachistry", "art":1, "elements": [3, 6]},
+    {"id": 2, "name": "Ithastry", "art":1, "elements": [8, 9]},
+    {"id": 3, "name": "Illumination", "art":1, "elements": [6, 8]},
+    {"id": 4, "name": "Hushery", "art":2, "elements": [5, 9]},
+    {"id": 5, "name": "Nyctodromy", "art":2, "elements": [2, 3]},
+    {"id": 6, "name": "Skolekosophy", "art":2, "elements": [2, 4]},
+    {"id": 7, "name": "The Bosk", "art":3, "elements": [4, 7]},
+    {"id": 8, "name": "Preservation", "art":3, "elements": [7, 1]},
+    {"id": 9, "name": "Birdsong", "art":3, "elements": [1, 5]}
+  ]
+}

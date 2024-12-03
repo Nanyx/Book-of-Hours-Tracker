@@ -1,11 +1,11 @@
 [
-  { "id": 1, "name": "Chor", "principles": [4, 3] },
-  { "id": 2, "name": "Shapt", "principles": [5, 2] },
-  { "id": 3, "name": "Fet", "principles": [10, 8] },
-  { "id": 4, "name": "Ereb", "principles": [3, 7] },
-  { "id": 5, "name": "Trist", "principles": [4, 3] },
-  { "id": 6, "name": "Mettle", "principles": [2, 1] },
-  { "id": 7, "name": "Health", "principles": [4, 9, 11] },
-  { "id": 8, "name": "Phost", "principles": [6, 12] },
-  { "id": 9, "name": "Wist", "principles": [13, 6] }
+  { "id": 1, "name": "Chor", "principles": [4, 3], "color":"#EC69B2" },
+  { "id": 2, "name": "Shapt", "principles": [5, 2], "color":"#B7226C" },
+  { "id": 3, "name": "Fet", "principles": [10, 8], "color":"#5D7ED0" },
+  { "id": 4, "name": "Ereb", "principles": [3, 7], "color":"#7A66CC" },
+  { "id": 5, "name": "Trist", "principles": [4, 3], "color":"#7BA2BD" },
+  { "id": 6, "name": "Mettle", "principles": [2, 1], "color":"#F7902C" },
+  { "id": 7, "name": "Health", "principles": [4, 9, 11], "color":"#FF4552" },
+  { "id": 8, "name": "Phost", "principles": [6, 12], "color":"#FFDB47" },
+  { "id": 9, "name": "Wist", "principles": [13, 6], "color":"#A75BD3" }
 ]

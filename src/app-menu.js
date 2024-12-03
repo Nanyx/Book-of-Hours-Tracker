@@ -22,9 +22,8 @@ const saveWindow = () => dialog.showSaveDialog(null, {
 
 const exportSave = () => {
   Promise.all([saveWindow(), getLocalBooks(), getLocalCrafts()]).then((vals) => {
-    let books = JSON.parse(vals[1]).map(b => {return {id:b.id, read: b.read}});
-    try { fs.writeFileSync(vals[0].filePath, JSON.stringify({books: JSON.stringify(books), crafts: vals[2]}), { encoding: 'utf-8' }); }
-    catch (ex) { console.log(ex); }
+    try { fs.writeFileSync(vals[0].filePath, JSON.stringify({books: vals[1], crafts: vals[2]}), { encoding: 'utf-8' }); }
+    catch (ex) { console.error(ex); }
   });
 };
 

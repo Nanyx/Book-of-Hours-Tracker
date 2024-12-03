@@ -17,8 +17,6 @@ export default function Home() {
 
   function createBook() {};
 
-  console.log(books);
-
   return (
     <>
       <Head>

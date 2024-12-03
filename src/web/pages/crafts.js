@@ -1,12 +1,12 @@
 import * as React from 'react';
-import {useEffect, useState, useRef} from 'react';
 import * as ls from 'local-storage';
+import {useEffect, useState} from 'react';
 import { Tab, Row, Col, Nav, Form, InputGroup, Button, Card, Table } from 'react-bootstrap';
 
 import './crafts.css';
 
 import PrincipleTT from './components/principle-tooltip';
-import GradiantCell from './components/gradiant-cell';
+import GradientCell from './components/gradient-cell';
 
 import pageGen from '../layouts/pages';
 
@@ -14,9 +14,11 @@ import booksDB from '../../data/books.json';
 import skillsDB from '../../data/skills.json';
 import craftsDB from '../../data/crafts.json';
 import principlesDB from '../../data/principles.json';
+import journalsDB from '../../data/journals.json';
 
 const lsCrafts = "crafts";
 const lsBooks = "books";
+const lsStart = "begining";
 
 class CraftLoc {
   constructor(sid, pid, lv, rid){
@@ -33,14 +35,21 @@ const Crafts = () => {
 
   useEffect(() => {
     let knowedSkillsId = booksDB.books.filter(item => 
-      ls.get(lsBooks)
+      (ls.get(lsBooks) ?? [])
       .filter(b => b.read)
       .map(b => b.id)
       .indexOf(item.id) != -1
     ).map(b => b.skill).filter((s, i, a) => a.indexOf(s) === i);
+    
+    let start = ls.get(lsStart);
+    if(start) {
+      journalsDB.find(j => j.id === start.bid).skills.forEach(id => {
+        if(!knowedSkillsId.includes(id)) knowedSkillsId.push(id);
+      });
+    }
 
     setSkills(skillsDB.lessons.filter(s => knowedSkillsId.indexOf(s.id) != -1 ));
-    setCrafts((ls.get(lsCrafts) || []).map(c => Object.assign(new CraftLoc(), c)));
+    setCrafts((ls.get(lsCrafts) ?? []).map(c => Object.assign(new CraftLoc(), c)));
   }, []);
 
   useEffect(() => {
@@ -55,7 +64,6 @@ const Crafts = () => {
     );
     if(skillCraft && !craftsState.find(c => c.sid === skillID && c.pid === principle && c.rid === reqID)) {
       craftsState.push(new CraftLoc(skillID, principle, lv, reqID));
-      console.log("should save", craftsState);
       save();
     };
   };
@@ -63,22 +71,20 @@ const Crafts = () => {
   const save = () => setCrafts([...craftsState]);
 
   return (
-    <>
-      <Tab.Container>
-        <Row>
-          <Col sm={3}>
-            <Nav variant="pills" className="flex-column">
-              {skills.map(s => <SkillPill key={s.id} id={s.id} name={s.name}/>)}
-            </Nav>
-          </Col>
-          <Col>
-            <Tab.Content>
-              {skills.map(s => <SkillPane key={s.id} id={s.id} craftsState={craftsState.filter(cs => cs.sid === s.id)} learn={learn}/>)}
-            </Tab.Content>
-          </Col>
-        </Row>
-      </Tab.Container>
-    </>
+    <Tab.Container>
+      <Row>
+        <Col sm={3}>
+          <Nav variant="pills" className="flex-column">
+            {skills.map(s => <SkillPill key={s.id} id={s.id} name={s.name}/>)}
+          </Nav>
+        </Col>
+        <Col>
+          <Tab.Content>
+            {skills.map(s => <SkillPane key={s.id} id={s.id} craftsState={craftsState.filter(cs => cs.sid === s.id)} learn={learn}/>)}
+          </Tab.Content>
+        </Col>
+      </Row>
+    </Tab.Container>
   );
 }
 
@@ -101,9 +107,7 @@ const SkillPane = ({id, craftsState, learn}) => {
 
   const getCraft = (pid) => {
     let sc = craftsState.filter(s => s.pid === pid);
-    console.log("sc", sc);
     let lst = skillsDB.lessons.find(s => s.id === id).crafts.filter(c => c.principle === pid);
-    console.log("pass 1", lst);
     lst = lst.filter(c => sc.find(elem => elem.lv === c.level && elem.rid === c.req));
     return lst;
   }
@@ -156,7 +160,7 @@ const PrincipleTableRow = ({id, req}) => {
     <tr>
       <td>{craftsDB.reqs.find(r => r.id === req).name}</td>
       <PrincipleTT principleList={craft.principles}>
-        <GradiantCell principles={craft.principles.map(p => p.principle)}>{craft.name}</GradiantCell>
+        <GradientCell principles={craft.principles.map(p => p.principle)}>{craft.name}</GradientCell>
       </PrincipleTT>
     </tr>
 );
