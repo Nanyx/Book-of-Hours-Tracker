@@ -9,13 +9,6 @@ import wisdomsDB from '../../../../data/wisdoms.json';
 import elementsDB from '../../../../data/elements.json';
 import journalsDB from '../../../../data/journals.json';
 
-let wisdoms = Array.from(wisdomsDB.list);
-wisdoms.sort((a, b) => a.name < b.name ? -1 : 1);
-
-const lsCommits = "commits";
-const lsBooks = "books";
-const lsStart = "begining";
-
 class CommitLoc {
   constructor (sid, wid, lv) {
     this.sid = sid;
@@ -24,12 +17,27 @@ class CommitLoc {
   }
 }
 
+let wisdoms = Array.from(wisdomsDB.list);
+wisdoms.sort((a, b) => a.name < b.name ? -1 : 1);
+
+const lsCommits = "commits";
+const lsBooks = "books";
+const lsStart = "begining";
+const lsSecrets = "secrets";
+
+let defaultYouKnow = [{id:7, val:false}, {id:9, val: false}];
+let secrets = ls.get(lsSecrets) ?? {};
+
 const Planner = () => {
   const [commits, setCommits] = useState([]);
   const [skillsKnowed, setSK] = useState([]);
+
   const [sSkill, setSkill] = useState(0);
-  const [sWisdom, setWisdom] = useState(1);
+  const [sWisdom, setWisdom] = useState(9);
   const [sLv, setLv] = useState(1);
+
+  const [youKnow, setYK] = useState(defaultYouKnow);
+
   const start = ls.get(lsStart);
 
   useEffect(() => {
@@ -49,12 +57,20 @@ const Planner = () => {
     }
 
     setSK(sk);
+    setYK(secrets?.elements ?? youKnow);
     setCommits((ls.get(lsCommits) ?? []).map(c => Object.assign(new CommitLoc(), c)));
   }, []);
 
-  useEffect(() => { ls.set(lsCommits, commits); }, [commits]);
+  useEffect(() => {
+    secrets.elements = youKnow;
+    ls.set(lsSecrets, secrets);
+    ls.set(lsCommits, commits); 
+  }, [commits, youKnow]);
 
-  const save = () => setCommits([...commits]);
+  const save = () => {
+    setYK([...youKnow]);
+    setCommits([...commits]);    
+  }
 
   const changeSelectWisdom = (id) => {
     setSkill(0);
@@ -71,12 +87,22 @@ const Planner = () => {
     save();
   }
 
+  const checkSecret = (id) => {
+    let index = youKnow.findIndex(y => y.id === id);
+    youKnow[index].val = !youKnow[index].val;
+    save();
+  }
+
   const optimalEvolve = () => {
     const skills = commits.map(c => skillsDB.lessons.find(s => s.id === c.sid));
     let elemIDs = skills.map(s => s.wisdoms.find(w => w.wisdom === commits.find(c => c.sid === s.id).wid).element);
     let optim = elementsDB.map(e => ({eid: e.id, name:e.name, qte: elemIDs.filter(ids => ids === e.id).length}));
+    optim[optim.findIndex(o => o.eid === 5)].qte += 1;
 
-    if(start) { optim = optim.map(o => ({...o, qte: start.eids.includes(o.eid) ? o.qte + 1 : o.qte})); }
+    if(start) { 
+      optim = optim.map(o => ({...o, qte: start.eids.includes(o.eid) ? o.qte + 1 : o.qte}));
+      optim[optim.findIndex(o => o.eid === journalsDB.find(j => j.id === start.bid).element)].qte += 1;
+    }
 
     optim.sort((a, b) => a.name < b.name ? -1 : 1);
     return optim;
@@ -125,23 +151,23 @@ const Planner = () => {
             {commits.map((c, i) => <TableItem key={i} {...c}/>)}
           </tbody>
         </Table>
-        <Card.Footer style={{padding: "0px"}}>
-          <Table className='text-center mb-0' striped bordered size='sm'>
+      </Card>
+      <Table className='text-center' striped bordered size='sm'>
             <thead>
               <tr>
                 <th>Element</th>
-                <th className='col-2'>+++</th>
-                <th className='col-2'>++</th>
-                <th className='col-2'>+</th>
-                <th className='col-2'></th>
+                <th className='col-1'>+++</th>
+                <th className='col-1'>++</th>
+                <th className='col-1'>+</th>
+                <th className='col-1'></th>
+                <th>Total</th>
+                <th className='col-2'>You Know</th>
               </tr>
             </thead>
             <tbody>
-              {optimalEvolve().map((elem, i) => <EvolveSection key={i} {...elem}/>)}
+              {optimalEvolve().map((elem, i) => <EvolveSection key={i} secret={youKnow.find(y => y.id === elem.eid)?.val ?? null} {...elem} save={checkSecret}/>)}
             </tbody>
           </Table>
-        </Card.Footer>
-      </Card>
     </section>
   );
 }
@@ -161,8 +187,9 @@ const TableItem = ({sid, wid, lv}) => {
   );
 };
 
-const EvolveSection = ({eid, qte}) => {
+const EvolveSection = ({eid, qte, secret, save}) => {
   const elem = elementsDB.find(e => e.id === eid);
+  if(secret) { qte += 1; }
   return (
     <tr>
       <td style={{backgroundColor: elem.color}}>{elem.name}</td>
@@ -170,6 +197,10 @@ const EvolveSection = ({eid, qte}) => {
       <td>{Math.floor((qte % 8) / 4)}</td>
       <td>{Math.floor(((qte % 8) % 4) / 2)}</td>
       <td>{Math.floor(((qte % 8) % 4) % 2)}</td>
+      <td>{qte}</td>
+      { typeof(secret) === "boolean" ? 
+      <td><Form.Check onChange={() => save(eid)} checked={secret}/></td> : 
+      <td></td>}
     </tr>
   );
 }

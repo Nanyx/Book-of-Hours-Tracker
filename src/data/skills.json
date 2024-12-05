@@ -1056,7 +1056,7 @@
       },
       "wisdoms": [
         { "wisdom": 4, "element": 9 },
-        { "wisdom": 8, "element": 3 }
+        { "wisdom": 5, "element": 3 }
       ],
       "crafts": [
         { "principle": 12, "level": 1, "id": 78, "req": 1 },

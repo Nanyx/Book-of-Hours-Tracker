@@ -1,18 +1,25 @@
 const { shell, dialog, BrowserWindow } = require('electron');
 const fs = require('fs');
 
-const isMac = process.platform === 'darwin'
+const isMac = process.platform === 'darwin';
+
 const books = "books";
 const crafts = "crafts";
+const commits = "commits";
+const secrets = "secrets";
+const start = "begining";
 
 const getWindow = () => BrowserWindow.getFocusedWindow();
 
+const getLocalStart = () => getWindow().webContents.executeJavaScript(`localStorage.getItem("${start}") || "[]";`, true);
 const getLocalBooks = () => getWindow().webContents.executeJavaScript(`localStorage.getItem("${books}") || "[]";`, true);
 const getLocalCrafts = () => getWindow().webContents.executeJavaScript(`localStorage.getItem("${crafts}") || "[]";`, true);
+const getLocalCommits = () => getWindow().webContents.executeJavaScript(`localStorage.getItem("${commits}") || "{}";`, true);
+const getLocalSecrets = () => getWindow().webContents.executeJavaScript(`localStorage.getItem("${secrets}") || "{}";`, true);
 
 const saveWindow = () => dialog.showSaveDialog(null, {
   title: 'Export library',
-  defaultPath: 'Book_of_Hours_library.bh',
+  defaultPath: 'Book_of_Hours_library',
   buttonLabel: 'Export',
   filters: [
     { name: 'Book of Hours Tracker', extensions: ['bht'] },
@@ -21,8 +28,14 @@ const saveWindow = () => dialog.showSaveDialog(null, {
 });
 
 const exportSave = () => {
-  Promise.all([saveWindow(), getLocalBooks(), getLocalCrafts()]).then((vals) => {
-    try { fs.writeFileSync(vals[0].filePath, JSON.stringify({books: vals[1], crafts: vals[2]}), { encoding: 'utf-8' }); }
+  Promise.all([saveWindow(), getLocalStart(), getLocalBooks(), getLocalCrafts(), getLocalCommits(), getLocalSecrets()]).then((vals) => {
+    try { fs.writeFileSync(vals[0].filePath, JSON.stringify({
+      begining: vals[1],
+      books: vals[2], 
+      crafts: vals[3], 
+      commits: vals[4],
+      secrets: vals[5]
+    }), { encoding: 'utf-8' }); }
     catch (ex) { console.error(ex); }
   });
 };
@@ -36,8 +49,11 @@ const importSave = () => {
   let save = JSON.parse(fs.readFileSync(filePath.join("/"), { encoding: "utf-8" }));
 
   getWindow().webContents.executeJavaScript(`
+    localStorage.setItem("${start}", '${save[start]}');
     localStorage.setItem("${books}", '${save[books]}');
     localStorage.setItem("${crafts}", '${save[crafts]}');
+    localStorage.setItem("${commits}", '${save[commits]}');
+    localStorage.setItem("${secrets}", '${save[secrets]}');
     location.reload();
   `, true);
 };
