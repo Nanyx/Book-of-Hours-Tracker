@@ -11,8 +11,9 @@ import Overview from './pages/overview/overview';
 import Books from './pages/books';
 import Crafts from './pages/crafts';
 import Onboarding from './pages/components/onboarding';
+import Visitors from './pages/visitors';
 
-const dkey = "Overview";
+const dkey = "Books";
 
 const App = () => {
   return (
@@ -21,11 +22,13 @@ const App = () => {
         <Overview.Nav/>
         <Books.Nav/>
         <Crafts.Nav/>
+        <Visitors.Nav/>
       </Layout.Nav>
       <Layout.Content>
         <Overview/>
         <Books/>
         <Crafts/>
+        <Visitors/>
       </Layout.Content>
       <Onboarding/>
     </Layout>

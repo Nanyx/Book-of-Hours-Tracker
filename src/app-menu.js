@@ -8,14 +8,10 @@ const crafts = "crafts";
 const commits = "commits";
 const secrets = "secrets";
 const start = "begining";
+const visitors = 'visitors';
 
 const getWindow = () => BrowserWindow.getFocusedWindow();
-
-const getLocalStart = () => getWindow().webContents.executeJavaScript(`localStorage.getItem("${start}") || "[]";`, true);
-const getLocalBooks = () => getWindow().webContents.executeJavaScript(`localStorage.getItem("${books}") || "[]";`, true);
-const getLocalCrafts = () => getWindow().webContents.executeJavaScript(`localStorage.getItem("${crafts}") || "[]";`, true);
-const getLocalCommits = () => getWindow().webContents.executeJavaScript(`localStorage.getItem("${commits}") || "{}";`, true);
-const getLocalSecrets = () => getWindow().webContents.executeJavaScript(`localStorage.getItem("${secrets}") || "{}";`, true);
+const getLocal = (id, template = "[]") => getWindow().webContents.executeJavaScript(`localStorage.getItem("${id}") || "${template}";`, true);
 
 const saveWindow = () => dialog.showSaveDialog(null, {
   title: 'Export library',
@@ -28,13 +24,22 @@ const saveWindow = () => dialog.showSaveDialog(null, {
 });
 
 const exportSave = () => {
-  Promise.all([saveWindow(), getLocalStart(), getLocalBooks(), getLocalCrafts(), getLocalCommits(), getLocalSecrets()]).then((vals) => {
+  Promise.all([
+    saveWindow(), 
+    getLocal(start),
+    getLocal(books),
+    getLocal(crafts),
+    getLocal(commits),
+    getLocal(visitors),
+    getLocal(secrets, "{}")
+  ]).then((vals) => {
     try { fs.writeFileSync(vals[0].filePath, JSON.stringify({
       begining: vals[1],
       books: vals[2], 
       crafts: vals[3], 
       commits: vals[4],
-      secrets: vals[5]
+      visitors: vals[5],
+      secrets: vals[6]
     }), { encoding: 'utf-8' }); }
     catch (ex) { console.error(ex); }
   });
@@ -46,14 +51,17 @@ const importSave = () => {
     buttonLabel: 'Import',
     filters: [{ name: 'Book of Hours Tracker', extensions: ['bht'] }]
   });
-  let save = JSON.parse(fs.readFileSync(filePath.join("/"), { encoding: "utf-8" }));
+
+  const save = JSON.parse(fs.readFileSync(filePath.join("/"), { encoding: "utf-8" }));
+  const setLocal = (id) => `localStorage.setItem("${id}", '${save[id]}');`
 
   getWindow().webContents.executeJavaScript(`
-    localStorage.setItem("${start}", '${save[start]}');
-    localStorage.setItem("${books}", '${save[books]}');
-    localStorage.setItem("${crafts}", '${save[crafts]}');
-    localStorage.setItem("${commits}", '${save[commits]}');
-    localStorage.setItem("${secrets}", '${save[secrets]}');
+    ${setLocal(start)}
+    ${setLocal(books)}
+    ${setLocal(crafts)}
+    ${setLocal(commits)}
+    ${setLocal(visitors)}
+    ${setLocal(secrets)}
     location.reload();
   `, true);
 };
@@ -66,19 +74,10 @@ const destroySave = () => getWindow().webContents.executeJavaScript(`
 const saveMenu = {
   label: 'Save',
   submenu: [
-    {
-      label: 'Export',
-      click: exportSave
-    },
-    {
-      label: 'Import',
-      click: importSave
-    },
+    { label: 'Export', click: exportSave },
+    { label: 'Import', click: importSave },
     { type: 'separator' },
-    {
-      label: 'Destroy',
-      click: destroySave
-    }
+    { label: 'Destroy', click: destroySave }
   ]
 };
 

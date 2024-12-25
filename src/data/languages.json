@@ -1,0 +1,17 @@
+[
+  {"id": 1, "name": "Aramaic", "toLearn": false},
+  {"id": 2, "name": "Cracktrack", "toLearn": true},
+  {"id": 3, "name": "Deep Mandaic", "toLearn": true},
+  {"id": 4, "name": "Ericapeean", "toLearn": true},
+  {"id": 5, "name": "Fucine", "toLearn": true},
+  {"id": 6, "name": "Greek", "toLearn": false},
+  {"id": 7, "name": "Henavek", "toLearn": true},
+  {"id": 8, "name": "Hyksos", "toLearn": true},
+  {"id": 9, "name": "Killasimi", "toLearn": true},
+  {"id": 10, "name": "Latin", "toLearn": false},
+  {"id": 11, "name": "Phrygian", "toLearn": false},
+  {"id": 12, "name": "Ramsund", "toLearn": true},
+  {"id": 13, "name": "Sabazine", "toLearn": true},
+  {"id": 14, "name": "Sandskrit", "toLearn": false},
+  {"id": 15, "name": "Vak", "toLearn": true}
+]

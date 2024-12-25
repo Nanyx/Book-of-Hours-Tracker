@@ -136,13 +136,12 @@ const TableItem = ({id, read, learn = () => {}, burn = () => {}}) => {
       <td>{book.name}</td>
       <td className="text-center" style={{backgroundColor:principle.color}}>{principle.name}</td>
       <td className='text-center'>{book.mystery}</td>
-      {!read && <td className='table-primary text-center' style={{cursor:"pointer"}} colSpan={2} onClick={() => learn(id)}>Read</td>}
-      {read && <>
-        <td className="text-center">{skills.find((s) => s.id == book.skill).name}</td>
-        <PrincipleTT principleList={mem.principles}>
-          <GradientCell principles={mem.principles.map(p => p.principle)}>{mem.name}</GradientCell>
-        </PrincipleTT>
-      </>}
+      <td className="text-center">{skills.find((s) => s.id == book.skill).name}</td>
+      {!read && <td className='table-primary text-center' style={{cursor:"pointer"}} onClick={() => learn(id)}>Read</td>}
+      {read && 
+      <PrincipleTT principleList={mem.principles}>
+        <GradientCell principles={mem.principles.map(p => p.principle)}>{mem.name}</GradientCell>
+      </PrincipleTT>}
       <td className='text-center table-danger' style={{cursor:"pointer"}} onClick={() => burn(id)}><i className="bi bi-fire"></i></td>
     </tr>
   );
