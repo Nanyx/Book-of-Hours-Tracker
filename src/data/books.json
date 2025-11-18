@@ -2543,8 +2543,8 @@
       "id": 282,
       "name": "Journal of Sir David Greene, 1903",
       "type": 1,
-      "mastery": 14,
-      "mystery": 1,
+      "mastery": 1,
+      "mystery": 14,
       "memory": 27,
       "skill": 47
     }
