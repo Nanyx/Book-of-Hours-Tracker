@@ -2529,6 +2529,24 @@
       "mystery": 10,
       "memory": 29,
       "skill": 35
+    },
+    {
+      "id": 281,
+      "name": "Silver Book, The",
+      "type": 1,
+      "mastery": 8,
+      "mystery": 8,
+      "memory": 23,
+      "skill": 12
+    },
+    {
+      "id": 282,
+      "name": "Journal of Sir David Greene, 1903",
+      "type": 1,
+      "mastery": 14,
+      "mystery": 1,
+      "memory": 27,
+      "skill": 47
     }
   ]
 }
