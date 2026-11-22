@@ -4,14 +4,17 @@ import { Tabs, Tab } from "react-bootstrap";
 import "./crafts.css";
 
 import PageGen from "../../layouts/pages";
+import CraftsAspects from "./crafts-aspects";
 import CraftsSkills from "./crafts-skills";
 
 const name = "Crafts";
 
 const Crafts = ({ craftSave }) => (
   <PageGen name={name}>
-    <Tabs defaultActiveKey="aspects" className="mb-3">
-      <Tab eventKey="aspects" title="By Aspect"></Tab>
+    <Tabs defaultActiveKey="aspects" className="mb-3" justify>
+      <Tab eventKey="aspects" title="By Aspect">
+        <CraftsAspects craftSave={craftSave} />
+      </Tab>
       <Tab eventKey="skills" title="By Skill">
         <CraftsSkills craftSave={craftSave} />
       </Tab>
