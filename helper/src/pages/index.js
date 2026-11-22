@@ -1,13 +1,15 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
-import {useEffect, useState} from 'react';
-import { Container, Col, Row } from 'react-bootstrap';
+import { useEffect, useState } from "react";
+import { Container, Col, Row } from "react-bootstrap";
 
-import BookList from './components/book-list';
+import BookList from "./components/book-list";
 import Form from "./components/form";
+//import TomeConverter from "./components/tome-conversion";
+import CraftConverter from "./components/craft-converter";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,7 +17,7 @@ export default function Home() {
   const [books, setBooks] = useState();
   const [selectedBook, setSelectedBook] = useState(null);
 
-  function createBook() {};
+  function createBook() {}
 
   return (
     <>
@@ -27,16 +29,26 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <Container>
-          <Row>
-            <Col xs="3">
-              <BookList list={books} newBook={createBook} selected={selectedBook} click={(id) => setSelectedBook(id)}/>
-            </Col>
-            <Col>
-              <Form/>
-            </Col>
-          </Row>
+          <CraftConverter />
+          {/*<TomeConverter />*/}
         </Container>
       </main>
     </>
   );
 }
+
+const Old = () => (
+  <Row>
+    <Col xs="3">
+      <BookList
+        list={books}
+        newBook={createBook}
+        selected={selectedBook}
+        click={(id) => setSelectedBook(id)}
+      />
+    </Col>
+    <Col>
+      <Form />
+    </Col>
+  </Row>
+);

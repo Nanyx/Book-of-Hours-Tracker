@@ -14,789 +14,847 @@
     }
   ],
   "reqs": [
-    {"id": 1, "name": "Nothing"},
-    {"id": 2, "name": "Ascendant Harmony"},
-    {"id": 3, "name": "Asimel"},
-    {"id": 4, "name": "Beverage"},
-    {"id": 5, "name": "Bitterblack Salts"},
-    {"id": 6, "name": "Chimeric Larva"},
-    {"id": 7, "name": "Confounding Parable"},
-    {"id": 8, "name": "Cuckoo-Honey"},
-    {"id": 9, "name": "Egg"},
-    {"id": 10, "name": "Enduring Reflection"},
-    {"id": 11, "name": "Essential Periost"},
-    {"id": 12, "name": "Fabric"},
-    {"id": 13, "name": "Flower"},
-    {"id": 14, "name": "Frith-Weft"},
-    {"id": 15, "name": "Gervinite"},
-    {"id": 16, "name": "Gideon's Soaks"},
-    {"id": 17, "name": "Glass"},
-    {"id": 18, "name": "Glassfinger Toxin"},
-    {"id": 19, "name": "Honey"},
-    {"id": 20, "name": "Honeyscar Jasmine"},
-    {"id": 21, "name": "Ichor Auroral"},
-    {"id": 22, "name": "Ichor Vitreous"},
-    {"id": 23, "name": "Instrument"},
-    {"id": 24, "name": "Iotic Essence"},
-    {"id": 25, "name": "Leaf"},
-    {"id": 26, "name": "Leathy"},
-    {"id": 27, "name": "Lens"},
-    {"id": 28, "name": "Lenten Rose"},
-    {"id": 29, "name": "Light"},
-    {"id": 30, "name": "Liquid"},
-    {"id": 31, "name": "Living Relic"},
-    {"id": 32, "name": "Mazarine Fife"},
-    {"id": 33, "name": "Memory"},
-    {"id": 34, "name": "Metal"},
-    {"id": 35, "name": "Old Moment"},
-    {"id": 36, "name": "Orichalcum Wire"},
-    {"id": 37, "name": "Pale Mommet"},
-    {"id": 38, "name": "Perinculate"},
-    {"id": 39, "name": "Pyrus Auricalcinus"},
-    {"id": 40, "name": "Remains"},
-    {"id": 41, "name": "Rubywise Ruin"},
-    {"id": 42, "name": "Silver Wire"},
-    {"id": 43, "name": "Solomon's Preparation"},
-    {"id": 44, "name": "Stymphling"},
-    {"id": 45, "name": "Thunderskin's Paean"},
-    {"id": 46, "name": "Winning Move"},
-    {"id": 47, "name": "Wood"},
-    {"id": 48, "name": "Xanthotic Essence"}
+    { "id": 1, "name": "Nothing" },
+    { "id": 2, "name": "Ascendant Harmony" },
+    { "id": 3, "name": "Asimel" },
+    { "id": 4, "name": "Beverage" },
+    { "id": 5, "name": "Bitterblack Salts" },
+    { "id": 6, "name": "Chimeric Larva" },
+    { "id": 7, "name": "Confounding Parable" },
+    { "id": 8, "name": "Cuckoo-Honey" },
+    { "id": 9, "name": "Egg" },
+    { "id": 10, "name": "Enduring Reflection" },
+    { "id": 11, "name": "Essential Periost" },
+    { "id": 12, "name": "Fabric" },
+    { "id": 13, "name": "Flower" },
+    { "id": 14, "name": "Frith-Weft" },
+    { "id": 15, "name": "Gervinite" },
+    { "id": 16, "name": "Gideon's Soaks" },
+    { "id": 17, "name": "Glass" },
+    { "id": 18, "name": "Glassfinger Toxin" },
+    { "id": 19, "name": "Honey" },
+    { "id": 20, "name": "Honeyscar Jasmine" },
+    { "id": 21, "name": "Ichor Auroral" },
+    { "id": 22, "name": "Ichor Vitreous" },
+    { "id": 23, "name": "Instrument" },
+    { "id": 24, "name": "Iotic Essence" },
+    { "id": 25, "name": "Leaf" },
+    { "id": 26, "name": "Leathy" },
+    { "id": 27, "name": "Lens" },
+    { "id": 28, "name": "Lenten Rose" },
+    { "id": 29, "name": "Light" },
+    { "id": 30, "name": "Liquid" },
+    { "id": 31, "name": "Living Relic" },
+    { "id": 32, "name": "Mazarine Fife" },
+    { "id": 33, "name": "Memory" },
+    { "id": 34, "name": "Metal" },
+    { "id": 35, "name": "Old Moment" },
+    { "id": 36, "name": "Orichalcum Wire" },
+    { "id": 37, "name": "Pale Mommet" },
+    { "id": 38, "name": "Perinculate" },
+    { "id": 39, "name": "Pyrus Auricalcinus" },
+    { "id": 40, "name": "Remains" },
+    { "id": 41, "name": "Rubywise Ruin" },
+    { "id": 42, "name": "Silver Wire" },
+    { "id": 43, "name": "Solomon's Preparation" },
+    { "id": 44, "name": "Stymphling" },
+    { "id": 45, "name": "Thunderskin's Paean" },
+    { "id": 46, "name": "Winning Move" },
+    { "id": 47, "name": "Wood" },
+    { "id": 48, "name": "Xanthotic Essence" }
   ],
   "crafts": [
     {
       "id": 1,
+      "cid": "tincture.labhitic",
       "name": "Labhitic Tincture",
       "principles": [
-        {"principle":1, "lv":2},
-        {"principle":6, "lv":1}
+        { "principle": 1, "lv": 2 },
+        { "principle": 6, "lv": 1 }
       ]
     },
     {
       "id": 2,
+      "cid": "torgues.cleansing",
       "name": "Torgue's Cleansing",
-      "principles": [
-        {"principle":1, "lv":2}
-      ]
+      "principles": [{ "principle": 1, "lv": 2 }]
     },
     {
       "id": 3,
+      "cid": "perinculate",
       "name": "Perinculate",
       "principles": [
-        {"principle":1, "lv":4},
-        {"principle":3, "lv":1},
-        {"principle":11, "lv":4}
+        { "principle": 1, "lv": 4 },
+        { "principle": 3, "lv": 1 },
+        { "principle": 11, "lv": 4 }
       ]
     },
     {
       "id": 4,
+      "cid": "winning.move",
       "name": "Winning Move",
-      "principles": [
-        {"principle":1, "lv":3}
-      ]
+      "principles": [{ "principle": 1, "lv": 3 }]
     },
     {
       "id": 5,
+      "cid": "serpent-milk",
       "name": "Serpent-Milk",
       "principles": [
-        {"principle":1, "lv":6},
-        {"principle":5, "lv":2},
-        {"principle":11, "lv":3}
+        { "principle": 1, "lv": 6 },
+        { "principle": 5, "lv": 2 },
+        { "principle": 11, "lv": 3 }
       ]
     },
     {
       "id": 6,
+      "cid": "invincible.audacity",
       "name": "Invincible Audacity",
       "principles": [
-        {"principle":1, "lv":6},
-        {"principle":2, "lv":3},
-        {"principle":6, "lv":3}
+        { "principle": 1, "lv": 6 },
+        { "principle": 2, "lv": 3 },
+        { "principle": 6, "lv": 3 }
       ]
     },
     {
       "id": 7,
+      "cid": "salts.bitterblack",
       "name": "Bitterblack Salts",
-      "principles": [
-        {"principle":2, "lv":1}
-      ]
+      "principles": [{ "principle": 2, "lv": 1 }]
     },
     {
       "id": 8,
+      "cid": "material.westcott",
       "name": "Westcott's Compounds",
       "principles": [
-        {"principle":2, "lv":2},
-        {"principle":3, "lv":1},
-        {"principle":6, "lv":1},
-        {"principle":8, "lv":1},
-        {"principle":9, "lv":1}
+        { "principle": 2, "lv": 2 },
+        { "principle": 3, "lv": 1 },
+        { "principle": 6, "lv": 1 },
+        { "principle": 8, "lv": 1 },
+        { "principle": 9, "lv": 1 }
       ]
     },
     {
       "id": 9,
+      "cid": "essence.iotic",
       "name": "Iotic Essence",
       "principles": [
-        {"principle":2, "lv":5},
-        {"principle":6, "lv":3}
+        { "principle": 2, "lv": 5 },
+        { "principle": 6, "lv": 3 }
       ]
     },
     {
       "id": 10,
+      "cid": "wire.orichalcum",
       "name": "Orichalcum Wire",
       "principles": [
-        {"principle":2, "lv":4},
-        {"principle":6, "lv":1}
+        { "principle": 2, "lv": 4 },
+        { "principle": 6, "lv": 1 }
       ]
     },
     {
       "id": 11,
+      "cid": "azoth",
       "name": "Azoth",
       "principles": [
-        {"principle":2, "lv":2},
-        {"principle":5, "lv":6}
+        { "principle": 2, "lv": 2 },
+        { "principle": 5, "lv": 6 }
       ]
     },
     {
       "id": 12,
+      "cid": "orpiment.exultant",
       "name": "Orpiment Exultant",
       "principles": [
-        {"principle":2, "lv":7},
-        {"principle":4, "lv":7},
-        {"principle":12, "lv":7}
+        { "principle": 2, "lv": 7 },
+        { "principle": 4, "lv": 7 },
+        { "principle": 12, "lv": 7 }
       ]
     },
     {
       "id": 13,
+      "cid": "witching.tisane",
       "name": "Witching Tisane",
       "principles": [
-        {"principle":3, "lv":2},
-        {"principle":4, "lv":1}
+        { "principle": 3, "lv": 2 },
+        { "principle": 4, "lv": 1 }
       ]
     },
     {
       "id": 14,
+      "cid": "music.beguiling",
       "name": "Beguiling Melody",
       "principles": [
-        {"principle":3, "lv":2},
-        {"principle":12, "lv":2}
+        { "principle": 3, "lv": 2 },
+        { "principle": 12, "lv": 2 }
       ]
     },
     {
       "id": 15,
+      "cid": "pale.mommet",
       "name": "Pale Mommet",
       "principles": [
-        {"principle":3, "lv":4},
-        {"principle":4, "lv":2},
-        {"principle":8, "lv":2}
+        { "principle": 3, "lv": 4 },
+        { "principle": 4, "lv": 2 },
+        { "principle": 8, "lv": 2 }
       ]
     },
     {
       "id": 16,
+      "cid": "rubywise.ruin",
       "name": "Rubywise Ruin",
       "principles": [
-        {"principle":3, "lv":4},
-        {"principle":4, "lv":2},
-        {"principle":8, "lv":2},
-        {"principle":9, "lv":2},
-        {"principle":10, "lv":2}
+        { "principle": 3, "lv": 4 },
+        { "principle": 4, "lv": 2 },
+        { "principle": 8, "lv": 2 },
+        { "principle": 9, "lv": 2 },
+        { "principle": 10, "lv": 2 }
       ]
     },
     {
       "id": 17,
+      "cid": "flushed.mommet",
       "name": "Flushed Mommet",
       "principles": [
-        {"principle":3, "lv":6},
-        {"principle":4, "lv":3},
-        {"principle":8, "lv":3}
+        { "principle": 3, "lv": 6 },
+        { "principle": 4, "lv": 3 },
+        { "principle": 8, "lv": 3 }
       ]
     },
     {
       "id": 18,
+      "cid": "sacrament.calicite",
       "name": "Sacrament Calicite",
-      "principles": [
-        {"principle":3, "lv":6}
-      ]
+      "principles": [{ "principle": 3, "lv": 6 }]
     },
     {
       "id": 19,
+      "cid": "perhibiate",
       "name": "Perhibiate",
       "principles": [
-        {"principle":4, "lv":2},
-        {"principle":6, "lv":2},
-        {"principle":11, "lv":2},
-        {"principle":13, "lv":1}
+        { "principle": 4, "lv": 2 },
+        { "principle": 6, "lv": 2 },
+        { "principle": 11, "lv": 2 },
+        { "principle": 13, "lv": 1 }
       ]
     },
     {
       "id": 20,
+      "cid": "liquid.regensburg",
       "name": "Regensburg Balm",
       "principles": [
-        {"principle":4, "lv":2},
-        {"principle":9, "lv":2}
+        { "principle": 4, "lv": 2 },
+        { "principle": 9, "lv": 2 }
       ]
     },
     {
       "id": 21,
+      "cid": "music.cheerful",
       "name": "Cheerful Ditty",
       "principles": [
-        {"principle":4, "lv":2},
-        {"principle":12, "lv":1}
+        { "principle": 4, "lv": 2 },
+        { "principle": 12, "lv": 1 }
       ]
     },
     {
       "id": 22,
+      "cid": "frithweft",
       "name": "Frith-Weft",
-      "principles": [
-        {"principle":4, "lv":3}
-      ]
+      "principles": [{ "principle": 4, "lv": 3 }]
     },
     {
       "id": 23,
+      "cid": "liquid.gideon",
       "name": "Gideon's Soaks",
       "principles": [
-        {"principle":2, "lv":2},
-        {"principle":4, "lv":4},
-        {"principle":9, "lv":3},
-        {"principle":13, "lv":2}
+        { "principle": 2, "lv": 2 },
+        { "principle": 4, "lv": 4 },
+        { "principle": 9, "lv": 3 },
+        { "principle": 13, "lv": 2 }
       ]
     },
     {
       "id": 24,
+      "cid": "music.thunderskin",
       "name": "Thunderskin's Paean",
       "principles": [
-        {"principle":3, "lv":1},
-        {"principle":4, "lv":4},
-        {"principle":11, "lv":1}
+        { "principle": 3, "lv": 1 },
+        { "principle": 4, "lv": 4 },
+        { "principle": 11, "lv": 1 }
       ]
     },
     {
       "id": 25,
+      "cid": "january.sanguinary",
       "name": "January Sanguinary",
       "principles": [
-        {"principle":4, "lv":5},
-        {"principle":5, "lv":3},
-        {"principle":12, "lv":3}
+        { "principle": 4, "lv": 5 },
+        { "principle": 5, "lv": 3 },
+        { "principle": 12, "lv": 3 }
       ]
     },
     {
       "id": 26,
+      "cid": "swaddled.thunder",
       "name": "Swaddled Thunder",
       "principles": [
-        {"principle":4, "lv":6},
-        {"principle":12, "lv":4}
+        { "principle": 4, "lv": 6 },
+        { "principle": 12, "lv": 4 }
       ]
     },
     {
       "id": 27,
+      "cid": "ampoule.amethyst",
       "name": "Amethyst Ampoule",
       "principles": [
-        {"principle":4, "lv":2},
-        {"principle":5, "lv":2}
+        { "principle": 4, "lv": 2 },
+        { "principle": 5, "lv": 2 }
       ]
     },
     {
       "id": 28,
+      "cid": "secret.threshold",
       "name": "Secret Threshold",
       "principles": [
-        {"principle":5, "lv":2},
-        {"principle":10, "lv":1}
+        { "principle": 5, "lv": 2 },
+        { "principle": 10, "lv": 1 }
       ]
     },
     {
       "id": 29,
+      "cid": "gervinite",
       "name": "Gervinite",
       "principles": [
-        {"principle":5, "lv":4},
-        {"principle":10, "lv":2}
+        { "principle": 5, "lv": 4 },
+        { "principle": 10, "lv": 2 }
       ]
     },
     {
       "id": 30,
+      "cid": "toxin.glassfinger",
       "name": "Glassfinger Toxin",
       "principles": [
-        {"principle":2, "lv":2},
-        {"principle":5, "lv":4},
-        {"principle":6, "lv":2}
+        { "principle": 2, "lv": 2 },
+        { "principle": 5, "lv": 4 },
+        { "principle": 6, "lv": 2 }
       ]
     },
     {
       "id": 31,
+      "cid": "larva.chimeric",
       "name": "Chimeric Larva",
       "principles": [
-        {"principle":5, "lv":2},
-        {"principle":7, "lv":2},
-        {"principle":8, "lv":4}
+        { "principle": 5, "lv": 2 },
+        { "principle": 7, "lv": 2 },
+        { "principle": 8, "lv": 4 }
       ]
     },
     {
       "id": 32,
+      "cid": "curious.hunch",
       "name": "Curious Hunch",
       "principles": [
-        {"principle":4, "lv":3},
-        {"principle":5, "lv":4},
-        {"principle":6, "lv":3},
-        {"principle":8, "lv":3}
+        { "principle": 4, "lv": 3 },
+        { "principle": 5, "lv": 4 },
+        { "principle": 6, "lv": 3 },
+        { "principle": 8, "lv": 3 }
       ]
     },
     {
       "id": 33,
+      "cid": "chronsichord",
       "name": "Chronsichord",
       "principles": [
-        {"principle":2, "lv":3},
-        {"principle":5, "lv":6},
-        {"principle":12, "lv":3},
-        {"principle":13, "lv":3}
+        { "principle": 2, "lv": 3 },
+        { "principle": 5, "lv": 6 },
+        { "principle": 12, "lv": 3 },
+        { "principle": 13, "lv": 3 }
       ]
     },
     {
       "id": 34,
+      "cid": "sacrament.ascite",
       "name": "Sacrament Ascite",
-      "principles": [
-        {"principle":5, "lv":6}
-      ]
+      "principles": [{ "principle": 5, "lv": 6 }]
     },
     {
       "id": 35,
+      "cid": "dearday.lens",
       "name": "Dearday Lens",
       "principles": [
-        {"principle":1, "lv":1},
-        {"principle":2, "lv":1},
-        {"principle":6, "lv":2},
-        {"principle":12, "lv":2}
+        { "principle": 1, "lv": 1 },
+        { "principle": 2, "lv": 1 },
+        { "principle": 6, "lv": 2 },
+        { "principle": 12, "lv": 2 }
       ]
     },
     {
       "id": 36,
+      "cid": "eigengrau",
       "name": "Eigengrau",
       "principles": [
-        {"principle":7, "lv":1},
-        {"principle":13, "lv":1}
+        { "principle": 7, "lv": 1 },
+        { "principle": 13, "lv": 1 }
       ]
     },
     {
       "id": 37,
+      "cid": "pigment.refulgin",
       "name": "Refulgin",
-      "principles": [
-        {"principle":6, "lv":2}
-      ]
+      "principles": [{ "principle": 6, "lv": 2 }]
     },
     {
       "id": 38,
+      "cid": "tanglebrag",
       "name": "Tanglebrag",
       "principles": [
-        {"principle":6, "lv":1},
-        {"principle":7, "lv":2},
-        {"principle":9, "lv":1},
-        {"principle":11, "lv":1}
+        { "principle": 6, "lv": 1 },
+        { "principle": 7, "lv": 2 },
+        { "principle": 9, "lv": 1 },
+        { "principle": 11, "lv": 1 }
       ]
     },
     {
       "id": 39,
+      "cid": "ichor.vitreous",
       "name": "Ichor Vitreous",
-      "principles": [
-        {"principle":6, "lv":4}
-      ]
+      "principles": [{ "principle": 6, "lv": 4 }]
     },
     {
       "id": 40,
+      "cid": "essence.xanthotic",
       "name": "Xanthotic Essence",
       "principles": [
-        {"principle":2, "lv":2},
-        {"principle":5, "lv":2},
-        {"principle":6, "lv":5}
+        { "principle": 2, "lv": 2 },
+        { "principle": 5, "lv": 2 },
+        { "principle": 6, "lv": 5 }
       ]
     },
     {
       "id": 41,
+      "cid": "old.moment",
       "name": "Old Moment",
       "principles": [
-        {"principle":6, "lv":2},
-        {"principle":8, "lv":2},
-        {"principle":11, "lv":4}
+        { "principle": 6, "lv": 2 },
+        { "principle": 8, "lv": 2 },
+        { "principle": 11, "lv": 4 }
       ]
     },
     {
       "id": 42,
+      "cid": "ashartine",
       "name": "Ashartine",
       "principles": [
-        {"principle":2, "lv":1},
-        {"principle":6, "lv":6},
-        {"principle":12, "lv":2}
+        { "principle": 2, "lv": 1 },
+        { "principle": 6, "lv": 6 },
+        { "principle": 12, "lv": 2 }
       ]
     },
     {
       "id": 43,
+      "cid": "porphyrine",
       "name": "Porphyrine",
       "principles": [
-        {"principle":5, "lv":7},
-        {"principle":7, "lv":7},
-        {"principle":10, "lv":7}
+        { "principle": 5, "lv": 7 },
+        { "principle": 7, "lv": 7 },
+        { "principle": 10, "lv": 7 }
       ]
     },
     {
       "id": 44,
+      "cid": "uzult",
       "name": "Uzult",
       "principles": [
-        {"principle":6, "lv":7},
-        {"principle":8, "lv":7},
-        {"principle":12, "lv":7}
+        { "principle": 6, "lv": 7 },
+        { "principle": 8, "lv": 7 },
+        { "principle": 12, "lv": 7 }
       ]
     },
     {
       "id": 45,
+      "cid": "earthquake.name",
       "name": "Earthquake Name",
       "principles": [
-        {"principle":2, "lv":3},
-        {"principle":11, "lv":6}
+        { "principle": 2, "lv": 3 },
+        { "principle": 11, "lv": 6 }
       ]
     },
     {
       "id": 46,
+      "cid": "catwink",
       "name": "Catwink",
       "principles": [
-        {"principle":1, "lv":1},
-        {"principle":3, "lv":1},
-        {"principle":7, "lv":2},
-        {"principle":11, "lv":2}
+        { "principle": 1, "lv": 1 },
+        { "principle": 3, "lv": 1 },
+        { "principle": 7, "lv": 2 },
+        { "principle": 11, "lv": 2 }
       ]
     },
     {
       "id": 47,
+      "cid": "midnight.mark",
       "name": "Midnight Mark",
       "principles": [
-        {"principle":7, "lv":2},
-        {"principle":8, "lv":1}
+        { "principle": 7, "lv": 2 },
+        { "principle": 8, "lv": 1 }
       ]
     },
     {
       "id": 48,
+      "cid": "sign.salt",
       "name": "Salt-Sign",
       "principles": [
-        {"principle":7, "lv":2},
-        {"principle":10, "lv":2}
+        { "principle": 7, "lv": 2 },
+        { "principle": 10, "lv": 2 }
       ]
     },
     {
       "id": 49,
+      "cid": "bittersweet.certainty",
       "name": "Bittersweet Certainty",
       "principles": [
-        {"principle":6, "lv":1},
-        {"principle":13, "lv":2}
+        { "principle": 6, "lv": 1 },
+        { "principle": 13, "lv": 2 }
       ]
     },
     {
       "id": 50,
+      "cid": "confounding.parable",
       "name": "Confounding Parable",
       "principles": [
-        {"principle":7, "lv":2},
-        {"principle":10, "lv":2},
-        {"principle":12, "lv":2}
+        { "principle": 7, "lv": 2 },
+        { "principle": 10, "lv": 2 },
+        { "principle": 12, "lv": 2 }
       ]
     },
     {
       "id": 51,
+      "cid": "old.wound",
       "name": "Old Wound",
       "principles": [
-        {"principle":1, "lv":1},
-        {"principle":7, "lv":2},
-        {"principle":13, "lv":3}
+        { "principle": 1, "lv": 1 },
+        { "principle": 7, "lv": 2 },
+        { "principle": 13, "lv": 3 }
       ]
     },
     {
       "id": 52,
+      "cid": "asimel",
       "name": "Asimel",
       "principles": [
-        {"principle":5, "lv":3},
-        {"principle":7, "lv":5},
-        {"principle":8, "lv":1},
-        {"principle":10, "lv":1}
+        { "principle": 5, "lv": 3 },
+        { "principle": 7, "lv": 5 },
+        { "principle": 8, "lv": 1 },
+        { "principle": 10, "lv": 1 }
       ]
     },
     {
       "id": 53,
+      "cid": "essential.periost",
       "name": "Essential Periost",
       "principles": [
-        {"principle":7, "lv":2},
-        {"principle":9, "lv":4},
-        {"principle":11, "lv":4},
-        {"principle":13, "lv":4}
+        { "principle": 7, "lv": 2 },
+        { "principle": 9, "lv": 4 },
+        { "principle": 11, "lv": 4 },
+        { "principle": 13, "lv": 4 }
       ]
     },
     {
       "id": 54,
+      "cid": "leathy",
       "name": "Leathy",
       "principles": [
-        {"principle":8, "lv":4},
-        {"principle":9, "lv":2},
-        {"principle":11, "lv":2},
-        {"principle":3, "lv":2}
+        { "principle": 8, "lv": 4 },
+        { "principle": 9, "lv": 2 },
+        { "principle": 11, "lv": 2 },
+        { "principle": 3, "lv": 2 }
       ]
     },
     {
       "id": 55,
+      "cid": "pyrus.auricalcinus",
       "name": "Pyrus Auricalcinus",
       "principles": [
-        {"principle":2, "lv":4},
-        {"principle":9, "lv":4}
+        { "principle": 2, "lv": 4 },
+        { "principle": 9, "lv": 4 }
       ]
     },
     {
       "id": 56,
+      "cid": "liquid.solomon",
       "name": "Solomon's Preparation",
       "principles": [
-        {"principle":7, "lv":1},
-        {"principle":8, "lv":1},
-        {"principle":13, "lv":4}
+        { "principle": 7, "lv": 1 },
+        { "principle": 8, "lv": 1 },
+        { "principle": 13, "lv": 4 }
       ]
     },
     {
       "id": 57,
+      "cid": "stymphling",
       "name": "Stymphling",
       "principles": [
-        {"principle":7, "lv":3},
-        {"principle":11, "lv":3}
+        { "principle": 7, "lv": 3 },
+        { "principle": 11, "lv": 3 }
       ]
     },
     {
       "id": 58,
+      "cid": "wormwood.dream",
       "name": "Wormwood Dream",
       "principles": [
-        {"principle":1, "lv":3},
-        {"principle":7, "lv":6},
-        {"principle":13, "lv":6}
+        { "principle": 1, "lv": 3 },
+        { "principle": 7, "lv": 6 },
+        { "principle": 13, "lv": 6 }
       ]
     },
     {
       "id": 59,
+      "cid": "black.sapphire.wash",
       "name": "Black Sapphire Wash",
-      "principles": [
-        {"principle":7, "lv":6}
-      ]
+      "principles": [{ "principle": 7, "lv": 6 }]
     },
     {
       "id": 60,
+      "cid": "skinshuck.mead",
       "name": "Skinshuck Mead",
       "principles": [
-        {"principle":8, "lv":6},
-        {"principle":9, "lv":2},
-        {"principle":11, "lv":2},
-        {"principle":4, "lv":2}
+        { "principle": 8, "lv": 6 },
+        { "principle": 9, "lv": 2 },
+        { "principle": 11, "lv": 2 },
+        { "principle": 4, "lv": 2 }
       ]
     },
     {
       "id": 61,
+      "cid": "perilous.imago",
       "name": "Perilous Imago",
       "principles": [
-        {"principle":5, "lv":2},
-        {"principle":7, "lv":2},
-        {"principle":8, "lv":6},
-        {"principle":11, "lv":2}
+        { "principle": 5, "lv": 2 },
+        { "principle": 7, "lv": 2 },
+        { "principle": 8, "lv": 6 },
+        { "principle": 11, "lv": 2 }
       ]
     },
     {
       "id": 62,
+      "cid": "didumos",
       "name": "Didumos",
       "principles": [
-        {"principle":5, "lv":3},
-        {"principle":6, "lv":3},
-        {"principle":12, "lv":6},
-        {"principle":13, "lv":3}
+        { "principle": 5, "lv": 3 },
+        { "principle": 6, "lv": 3 },
+        { "principle": 12, "lv": 6 },
+        { "principle": 13, "lv": 3 }
       ]
     },
     {
       "id": 63,
+      "cid": "forbidden.epic",
       "name": "Forbidden Epic",
       "principles": [
-        {"principle":1, "lv":6},
-        {"principle":7, "lv":4},
-        {"principle":10, "lv":4}
+        { "principle": 1, "lv": 6 },
+        { "principle": 7, "lv": 4 },
+        { "principle": 10, "lv": 4 }
       ]
     },
     {
       "id": 64,
+      "cid": "paint.moth",
       "name": "Paint: Moth-Gold",
-      "principles": [
-        {"principle":8, "lv":2}
-      ]
+      "principles": [{ "principle": 8, "lv": 2 }]
     },
     {
       "id": 65,
+      "cid": "riddle.nameday",
       "name": "Nameday Riddle",
       "principles": [
-        {"principle":5, "lv":2},
-        {"principle":8, "lv":3}
+        { "principle": 5, "lv": 2 },
+        { "principle": 8, "lv": 3 }
       ]
     },
     {
       "id": 66,
+      "cid": "liquid.thirza",
       "name": "Thirza's Cordials",
       "principles": [
-        {"principle":8, "lv":2},
-        {"principle":9, "lv":2}
+        { "principle": 8, "lv": 2 },
+        { "principle": 9, "lv": 2 }
       ]
     },
     {
       "id": 67,
+      "cid": "yewgall.ink",
       "name": "Yewgall Ink",
       "principles": [
-        {"principle":8, "lv":1},
-        {"principle":9, "lv":2}
+        { "principle": 8, "lv": 1 },
+        { "principle": 9, "lv": 2 }
       ]
     },
     {
       "id": 68,
+      "cid": "music.savage",
       "name": "Savage Hymn",
       "principles": [
-        {"principle":11, "lv":2},
-        {"principle":12, "lv":2}
+        { "principle": 11, "lv": 2 },
+        { "principle": 12, "lv": 2 }
       ]
     },
     {
       "id": 69,
+      "cid": "music.hive",
       "name": "Hive's Lament",
       "principles": [
-        {"principle":8, "lv":2},
-        {"principle":9, "lv":4},
-        {"principle":13, "lv":2}
+        { "principle": 8, "lv": 2 },
+        { "principle": 9, "lv": 4 },
+        { "principle": 13, "lv": 2 }
       ]
     },
     {
       "id": 70,
+      "cid": "marakat",
       "name": "Marakat",
       "principles": [
-        {"principle":3, "lv":7},
-        {"principle":5, "lv":7},
-        {"principle":9, "lv":7}
+        { "principle": 3, "lv": 7 },
+        { "principle": 5, "lv": 7 },
+        { "principle": 9, "lv": 7 }
       ]
     },
     {
       "id": 71,
+      "cid": "sacrament.malachite",
       "name": "Sacrament Malachite",
-      "principles": [
-        {"principle":9, "lv":6}
-      ]
+      "principles": [{ "principle": 9, "lv": 6 }]
     },
     {
       "id": 72,
+      "cid": "ichor.auroral",
       "name": "Ichor Auroral",
       "principles": [
-        {"principle":6, "lv":4},
-        {"principle":10, "lv":2}
+        { "principle": 6, "lv": 4 },
+        { "principle": 10, "lv": 2 }
       ]
     },
     {
       "id": 73,
+      "cid": "enduring.reflection",
       "name": "Enduring Reflection",
       "principles": [
-        {"principle":4, "lv":1},
-        {"principle":5, "lv":1},
-        {"principle":10, "lv":3}
+        { "principle": 4, "lv": 1 },
+        { "principle": 5, "lv": 1 },
+        { "principle": 10, "lv": 3 }
       ]
     },
     {
       "id": 74,
+      "cid": "horizon-sight",
       "name": "Horizon-Sight",
-      "principles": [
-        {"principle":10, "lv":4}
-      ]
+      "principles": [{ "principle": 10, "lv": 4 }]
     },
     {
       "id": 75,
+      "cid": "bisclavrets.knot",
       "name": "Bisclavret's Knot",
       "principles": [
-        {"principle":8, "lv":1},
-        {"principle":11, "lv":2}
+        { "principle": 8, "lv": 1 },
+        { "principle": 11, "lv": 2 }
       ]
     },
     {
       "id": 76,
+      "cid": "relic.living",
       "name": "Living Relic",
       "principles": [
-        {"principle":4, "lv":1},
-        {"principle":11, "lv":4},
-        {"principle":12, "lv":3}
+        { "principle": 4, "lv": 1 },
+        { "principle": 11, "lv": 4 },
+        { "principle": 12, "lv": 3 }
       ]
     },
     {
       "id": 77,
+      "cid": "houndsgall",
       "name": "Houndsgall",
       "principles": [
-        {"principle":1, "lv":1},
-        {"principle":4, "lv":2},
-        {"principle":11, "lv":5}
+        { "principle": 1, "lv": 1 },
+        { "principle": 4, "lv": 2 },
+        { "principle": 11, "lv": 5 }
       ]
     },
     {
       "id": 78,
+      "cid": "awakened.feather",
       "name": "Awakened Feather",
       "principles": [
-        {"principle":11, "lv":1},
-        {"principle":12, "lv":2}
+        { "principle": 11, "lv": 1 },
+        { "principle": 12, "lv": 2 }
       ]
     },
     {
       "id": 79,
+      "cid": "stargall.ink",
       "name": "Stargall Ink",
       "principles": [
-        {"principle":2, "lv":1},
-        {"principle":10, "lv":1},
-        {"principle":12, "lv":2}
+        { "principle": 2, "lv": 1 },
+        { "principle": 10, "lv": 1 },
+        { "principle": 12, "lv": 2 }
       ]
     },
     {
       "id": 80,
+      "cid": "music.wistful",
       "name": "Wistful Air",
       "principles": [
-        {"principle":10, "lv":2},
-        {"principle":12, "lv":2}
+        { "principle": 10, "lv": 2 },
+        { "principle": 12, "lv": 2 }
       ]
     },
     {
       "id": 81,
+      "cid": "mazarine.fife",
       "name": "Mazarine Fife",
-      "principles": [
-        {"principle":12, "lv":3}
-      ]
+      "principles": [{ "principle": 12, "lv": 3 }]
     },
     {
       "id": 82,
+      "cid": "ascendant.harmony",
       "name": "Ascendant Harmony",
       "principles": [
-        {"principle":6, "lv":2},
-        {"principle":12, "lv":4}
+        { "principle": 6, "lv": 2 },
+        { "principle": 12, "lv": 4 }
       ]
     },
     {
       "id": 83,
+      "cid": "year-tally",
       "name": "Year Tally",
-      "principles": [
-        {"principle":13, "lv":6}
-      ]
+      "principles": [{ "principle": 13, "lv": 6 }]
     },
     {
       "id": 84,
+      "cid": "wind-in-waiting",
       "name": "Wind in Waiting",
       "principles": [
-        {"principle":3, "lv":3},
-        {"principle":8, "lv":3},
-        {"principle":11, "lv":3},
-        {"principle":12, "lv":6}
+        { "principle": 3, "lv": 3 },
+        { "principle": 8, "lv": 3 },
+        { "principle": 11, "lv": 3 },
+        { "principle": 12, "lv": 6 }
       ]
     },
     {
       "id": 85,
+      "cid": "nillycant",
       "name": "Nillycant",
       "principles": [
-        {"principle":1, "lv":7},
-        {"principle":11, "lv":7},
-        {"principle":13, "lv":7}
+        { "principle": 1, "lv": 7 },
+        { "principle": 11, "lv": 7 },
+        { "principle": 13, "lv": 7 }
       ]
     },
     {
       "id": 86,
+      "cid": "wyrd-weft",
       "name": "Wyrd-Weft",
       "principles": [
-        {"principle":4, "lv":3},
-        {"principle":13, "lv":6}
+        { "principle": 4, "lv": 3 },
+        { "principle": 13, "lv": 6 }
       ]
     }
   ]

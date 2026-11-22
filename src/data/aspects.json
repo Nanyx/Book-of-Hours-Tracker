@@ -1,0 +1,319 @@
+[
+  {
+    "id": "beverage",
+    "label": "Beverage",
+    "desc": "There are some things it's wiser to drink in the morning... and others it's wiser to drink in the evening.",
+    "isAspect": true
+  },
+  {
+    "id": "carcass",
+    "label": "Carcass",
+    "desc": "Something that once moved without my assistance. [Take this to a Necropsy Table to render it into Animal Bones.]",
+    "isAspect": true
+  },
+  {
+    "id": "course.first",
+    "label": "First Course",
+    "desc": "Generally eaten as a light snack, or before a Main Course.",
+    "isAspect": true
+  },
+  {
+    "id": "course.main",
+    "label": "Main Course",
+    "desc": "The heart and mainstay of a good meal.",
+    "isAspect": true
+  },
+
+  {
+    "id": "course.side",
+    "label": "Side Dish",
+    "desc": "Generally eaten as a light snack, or alongside a Main Course.",
+    "isAspect": true
+  },
+
+  {
+    "id": "course.pudding",
+    "label": "Pudding",
+    "desc": "'If you don't eat yer meat, you can't have any pudding. How can you have any pudding if you don't eat yer meat?' - Waters",
+    "isAspect": true
+  },
+  {
+    "id": "ductile",
+    "label": "Ductile",
+    "desc": "[Take this to a Workbench to render it into Wire.]",
+    "isAspect": true
+  },
+  {
+    "id": "instrument",
+    "label": "Instrument",
+    "desc": "Music waits here.",
+    "isAspect": true,
+    "sort": "workstation"
+  },
+  {
+    "id": "beast",
+    "label": "Beast",
+    "desc": "When it moves, and it's not the wind, and it's not a person.",
+    "isAspect": true
+  },
+  {
+    "id": "egg",
+    "label": "Egg",
+    "desc": "'When an egg is not dead, something may emerge. When an egg is dead, something may be placed within.' - Thirza Blake, seventh Librarian of Hush House",
+    "isAspect": true
+  },
+  {
+    "id": "fabric",
+    "label": "Fabric and Fibre",
+    "desc": "Killasimi, the 'woven language', is written with thread, not ink. There are of course other, more prosaic uses for fibre too. Upholstery can be more adventurous than it sounds.",
+    "isAspect": true
+  },
+  {
+    "id": "flower",
+    "label": "Flower",
+    "desc": "The hair of a plant.",
+    "isAspect": true
+  },
+  {
+    "id": "bread",
+    "label": "Bread",
+    "isAspect": true,
+    "desc": "The grains suffer so, that they may enter into us and be one with us."
+  },
+  {
+    "id": "candle",
+    "label": "Candle",
+    "desc": "They generally burn brighter, but we generally burn longer.",
+    "isAspect": true
+  },
+  {
+    "id": "device",
+    "label": "Device",
+    "desc": "A machine that will only operate once. If it's an <i>infernal</i> device, that means it'll explode, so be careful.",
+    "isAspect": true
+  },
+  {
+    "id": "fruit",
+    "label": "Fruit",
+    "desc": "The womb of a plant?",
+    "isAspect": true
+  },
+  {
+    "id": "fuel",
+    "label": "Fuel",
+    "desc": "'Each hour has its colour. Each flame has its fuel. Don't trust your dreams.' - George Collers, first and last Governor of Brancrug Gaol",
+    "isAspect": true
+  },
+  {
+    "id": "gem",
+    "label": "Gem",
+    "desc": "Sometimes shiny; always precious.",
+    "isAspect": true
+  },
+  {
+    "id": "glass",
+    "label": "Glass",
+    "desc": "Lucent and fragile. Even sand may some day be the eye of rock.",
+    "isAspect": true
+  },
+  {
+    "id": "ingredient",
+    "label": "Cooking Ingredient",
+    "desc": "This will be part of something greater. [When you have HOUSE OF LIGHT, Cooking Ingredients can be used for cooking and making food in the kitchen.]",
+    "isAspect": true
+  },
+  {
+    "id": "inert",
+    "label": "Inert",
+    "desc": "A device; but not one that can be activated by casual handling. [This can survive Consider without being used up, although it'll still be used up in crafting.]",
+    "isAspect": true
+  },
+  {
+    "id": "ink",
+    "label": "Ink",
+    "desc": "If it scrawls, mix it.",
+    "isAspect": true
+  },
+  {
+    "id": "intoxicating",
+    "label": "Intoxicating",
+    "desc": "'Quick, bring me a beaker of wine, so that I may wet my mind and say something clever.' - Aristophanes",
+    "isAspect": true
+  },
+  {
+    "id": "kitchenware",
+    "label": "Kitchenware",
+    "desc": "This won't look wildly out of place beside a saucepan.",
+    "isAspect": true
+  },
+  {
+    "id": "knife",
+    "label": "Knife",
+    "desc": "'This is the line of division.' - Wolfe",
+    "isAspect": true
+  },
+  {
+    "id": "leaf",
+    "label": "Leaf",
+    "desc": "The hands of a plant.",
+    "isAspect": true
+  },
+  {
+    "id": "lesson",
+    "label": "Lesson",
+    "desc": "One step on Wisdom's staircase. [Use this to gain or improve a Skill.]",
+    "isAspect": true
+  },
+  {
+    "id": "liquid",
+    "label": "Liquid",
+    "desc": "'What seeks the depths, flees the heights, and cannot be constrained by any chain ever forged?'",
+    "isAspect": true
+  },
+  {
+    "id": "lens",
+    "label": "Lens",
+    "desc": "Thomas Dewulf, called Baron Silence, built the observatory at Brancrug. He was known to pay well, but his requirements were so exacting that no lensgrinder would work with him twice.",
+    "isAspect": true
+  },
+  {
+    "id": "light",
+    "label": "Light",
+    "desc": "So we can see, or so we can celebrate.",
+    "isAspect": true
+  },
+  {
+    "id": "mark",
+    "label": "Mark",
+    "desc": "A fragile, unstable trace.",
+    "isAspect": true
+  },
+  {
+    "id": "material",
+    "label": "Material",
+    "desc": "Something with the potential to become something. If I put it in something.",
+    "isAspect": true
+  },
+  {
+    "id": "memory",
+    "label": "Memory",
+    "desc": "Something remembered might be something understood. [Memories can be used to help with crafting and to upgrade Skills. Memories disappear each dawn - except Persistent ones.]",
+    "isAspect": true
+  },
+  {
+    "id": "metal",
+    "label": "Metal",
+    "desc": "This is what happens when stone gets serious.",
+    "isAspect": true
+  },
+  {
+    "id": "numen",
+    "label": "Numen",
+    "desc": "Write a truth in a book that no-one reads. Then drop dead. No-one knows what you wrote. Unless the truth is <i>numen</i>. [Numina are truths so powerful that they, tentatively, believe themselves. You can use a Numen to write a new History at a suitable Desk... if you can assemble 25 of a matching Aspect.]",
+    "sort": "group7_histories.numen",
+    "isAspect": true
+  },
+  {
+    "id": "omen",
+    "label": "Omen",
+    "desc": "Those who know, see; those who see, know.",
+    "isAspect": true
+  },
+  {
+    "id": "persistent",
+    "label": "Persistent",
+    "desc": "Persistent Memories survive the dawn, but when the season called Numa passes, they will depart with it. Numa comes to Brancrug in one season out of every nine - but exactly when is never certain, and years may pass without any sign of Numa's mists.",
+    "isAspect": true
+  },
+  {
+    "id": "pigment",
+    "label": "Pigment",
+    "desc": "Call it a colour, call it a stain, call it a jewel-in-waiting.",
+    "isAspect": true
+  },
+  {
+    "id": "raw",
+    "label": "Raw",
+    "desc": "This might be edible, but you wouldn't serve it on a plate to a guest.",
+    "isAspect": true
+  },
+  {
+    "id": "remains",
+    "label": "Remains",
+    "desc": "This is how you know who was mortal.",
+    "isAspect": true
+  },
+  {
+    "id": "restorative",
+    "label": "Restorative",
+    "desc": "For rest and recovery. [Something that will help you recover from Maladies if you use it in bed with sufficient suitable Power aspects - especially, but not exclusively, if it has useful Power aspects itself.]",
+    "isAspect": true
+  },
+  {
+    "id": "root",
+    "label": "Root",
+    "desc": "The feet of a plant.",
+    "isAspect": true
+  },
+  {
+    "id": "seed",
+    "label": "Seed",
+    "desc": "A seed may grow worse in one garden than another, and better in one season than another.",
+    "isAspect": true
+  },
+  {
+    "id": "sound",
+    "label": "Sound",
+    "desc": "Before silence, and after.",
+    "isAspect": true
+  },
+  {
+    "id": "stone",
+    "label": "Stone",
+    "desc": "'Ye who seek patience, here is your tutor.'",
+    "isAspect": true
+  },
+  {
+    "id": "sustenance",
+    "label": "Sustenance",
+    "desc": "'The bad live that they may eat and drink; the good eat and drink that they may live.' - Socrates",
+    "isAspect": true
+  },
+  {
+    "id": "thing",
+    "label": "Thing",
+    "desc": "'The gentleman makes things his servants. The petty man is servant to things.' - Master Xun",
+    "isAspect": true
+  },
+  {
+    "id": "tool",
+    "label": "Tool",
+    "desc": "One reason the apes beat the beetles.",
+    "isAspect": true
+  },
+  {
+    "id": "wrapping",
+    "label": "Wrapping",
+    "desc": "Turns an order form back into a delivery",
+    "isAspect": true,
+    "noartneeded": true
+  },
+  {
+    "id": "wood",
+    "label": "Wood",
+    "desc": "The pillars of the sky, to some; to others, paper in waiting.",
+    "isAspect": true
+  },
+  {
+    "id": "wooden",
+    "label": "Made of Wood",
+    "desc": "[Take this to a Workbench to render it into Wooden Scraps.]",
+    "isAspect": true
+  },
+  {
+    "id": "woven",
+    "label": "Woven",
+    "desc": "[Take this to a Workbench to render it into Rags.]",
+    "isAspect": true
+  }
+]

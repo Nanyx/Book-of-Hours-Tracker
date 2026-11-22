@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "1ovQQyx/MKc=",
+  "success": true,
+  "projectFilePath": "D:\\project\\helper\\boht\\Book-of-Hours-Tracker\\modtracker\\modtracker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yannr\\.nuget\\packages\\lib.harmony\\2.4.3\\lib.harmony.2.4.3.nupkg.sha512",
+    "C:\\Users\\yannr\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

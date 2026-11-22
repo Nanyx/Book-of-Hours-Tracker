@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Aramaic",
+    "short": "Ar",
+    "learn": false
+  },
+  {
+    "id": 2,
+    "name": "Cracktrack",
+    "short": "Cr",
+    "learn": true
+  },
+  {
+    "id": 3,
+    "name": "Deep Mandaic",
+    "short": "DM",
+    "learn": true
+  },
+  {
+    "id": 4,
+    "name": "Ericapaean",
+    "short": "Er",
+    "learn": true
+  },
+  {
+    "id": 5,
+    "name": "Fucine",
+    "short": "Fu",
+    "learn": true
+  },
+  {
+    "id": 6,
+    "name": "Greek",
+    "short": "Gr",
+    "learn": false
+  },
+  {
+    "id": 7,
+    "name": "Henavek",
+    "short": "He",
+    "learn": true
+  },
+  {
+    "id": 8,
+    "name": "Hyksos",
+    "short": "Hy",
+    "learn": true
+  },
+  {
+    "id": 9,
+    "name": "Killasimi",
+    "short": "Ki",
+    "learn": true
+  },
+  {
+    "id": 10,
+    "name": "Latin",
+    "short": "La",
+    "learn": false
+  },
+  {
+    "id": 11,
+    "name": "Phrygian",
+    "short": "Ph",
+    "learn": false
+  },
+  {
+    "id": 12,
+    "name": "Ramsund",
+    "short": "Ra",
+    "learn": true
+  },
+  {
+    "id": 13,
+    "name": "Sabazine",
+    "short": "Sa",
+    "learn": true
+  },
+  {
+    "id": 14,
+    "name": "Sanskrit",
+    "short": "Sn",
+    "learn": false
+  },
+  {
+    "id": 15,
+    "name": "Vak",
+    "short": "Va",
+    "learn": true
+  }
+]

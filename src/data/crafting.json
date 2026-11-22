@@ -1,0 +1,2444 @@
+[
+  {
+    "id": "craft.edictsmartial_tincture.labhitic_edge",
+    "name": "Labhitic Tincture",
+    "req": null,
+    "principle": "edge"
+  },
+  {
+    "id": "craft.disciplines.thehammer_tincture.labhitic_edge",
+    "name": "Labhitic Tincture",
+    "req": null,
+    "principle": "edge"
+  },
+  {
+    "id": "craft.raggedcrossroads_tincture.labhitic_edge",
+    "name": "Labhitic Tincture",
+    "req": null,
+    "principle": "edge"
+  },
+  {
+    "id": "craft.sickle.eclipse_tincture.labhitic_edge",
+    "name": "Labhitic Tincture",
+    "req": null,
+    "principle": "edge"
+  },
+  {
+    "id": "craft.sharps_midnight.mark_moon",
+    "name": "Midnight Mark",
+    "req": null,
+    "principle": "moon"
+  },
+  {
+    "id": "craft.disciplines.thescar_torgues.cleansing_edge",
+    "name": "Torgue's Cleansing",
+    "req": null,
+    "principle": "edge"
+  },
+  {
+    "id": "craft.auroralcontemplations_torgues.cleansing_edge",
+    "name": "Torgue's Cleansing",
+    "req": null,
+    "principle": "edge"
+  },
+  {
+    "id": "craft.sharps_torgues.cleansing_edge",
+    "name": "Torgue's Cleansing",
+    "req": null,
+    "principle": "edge"
+  },
+  {
+    "id": "craft.meniscatereflections_torgues.cleansing_edge",
+    "name": "Torgue's Cleansing",
+    "req": null,
+    "principle": "edge"
+  },
+  {
+    "id": "craft.purifications.exaltations_torgues.cleansing_sky",
+    "name": "Torgue's Cleansing",
+    "req": null,
+    "principle": "sky"
+  },
+  {
+    "id": "craft.bells.brazieries_salts.bitterblack_forge",
+    "name": "Bitterblack Salts",
+    "req": null,
+    "principle": "forge"
+  },
+  {
+    "id": "craft.transformations.liberations_salts.bitterblack_forge",
+    "name": "Bitterblack Salts",
+    "req": null,
+    "principle": "forge"
+  },
+  {
+    "id": "craft.disciplines.thehammer_salts.bitterblack_forge",
+    "name": "Bitterblack Salts",
+    "req": null,
+    "principle": "forge"
+  },
+  {
+    "id": "craft.door.wall_salts.bitterblack_forge",
+    "name": "Bitterblack Salts",
+    "req": null,
+    "principle": "forge"
+  },
+  {
+    "id": "craft.anbary.lapidary_salts.bitterblack_forge",
+    "name": "Bitterblack Salts",
+    "req": null,
+    "principle": "forge"
+  },
+  {
+    "id": "craft.sacralimiae_material.westcott_moth",
+    "name": "Westcott's Compounds",
+    "req": null,
+    "principle": "moth"
+  },
+  {
+    "id": "craft.solutions.separations_material.westcott_moth",
+    "name": "Westcott's Compounds",
+    "req": null,
+    "principle": "moth"
+  },
+  {
+    "id": "craft.pyroglyphics_material.westcott_forge",
+    "name": "Westcott's Compounds",
+    "req": null,
+    "principle": "forge"
+  },
+  {
+    "id": "craft.meniscatereflections_material.westcott_forge",
+    "name": "Westcott's Compounds",
+    "req": null,
+    "principle": "forge"
+  },
+  {
+    "id": "craft.spices.savours_material.westcott_forge",
+    "name": "Westcott's Compounds",
+    "req": null,
+    "principle": "forge"
+  },
+  {
+    "id": "craft.applebrighteuphonies_music.beguiling_grail",
+    "name": "Beguiling Melody",
+    "req": null,
+    "principle": "grail"
+  },
+  {
+    "id": "craft.resurgences.emergences_music.beguiling_grail",
+    "name": "Beguiling Melody",
+    "req": null,
+    "principle": "grail"
+  },
+  {
+    "id": "craft.pentiments.precursors_music.beguiling_grail",
+    "name": "Beguiling Melody",
+    "req": null,
+    "principle": "grail"
+  },
+  {
+    "id": "craft.tridesmahiera_music.beguiling_grail",
+    "name": "Beguiling Melody",
+    "req": null,
+    "principle": "grail"
+  },
+  {
+    "id": "craft.orchids.narcotics_witching.tisane_grail",
+    "name": "Witching Tisane",
+    "req": null,
+    "principle": "grail"
+  },
+  {
+    "id": "craft.leaves.thorns_witching.tisane_grail",
+    "name": "Witching Tisane",
+    "req": null,
+    "principle": "grail"
+  },
+  {
+    "id": "craft.desires.dissolutions_witching.tisane_grail",
+    "name": "Witching Tisane",
+    "req": null,
+    "principle": "grail"
+  },
+  {
+    "id": "craft.thegreatsignsandthegreatscars_witching.tisane_grail",
+    "name": "Witching Tisane",
+    "req": null,
+    "principle": "grail"
+  },
+  {
+    "id": "craft.seastories_witching.tisane_grail",
+    "name": "Witching Tisane",
+    "req": null,
+    "principle": "grail"
+  },
+  {
+    "id": "craft.strings.songs_music.cheerful_heart",
+    "name": "Cheerful Ditty",
+    "req": null,
+    "principle": "heart"
+  },
+  {
+    "id": "craft.drums.dances_music.cheerful_heart",
+    "name": "Cheerful Ditty",
+    "req": null,
+    "principle": "heart"
+  },
+  {
+    "id": "craft.stitching.binding_perhibiate_heart",
+    "name": "Perhibiate",
+    "req": null,
+    "principle": "heart"
+  },
+  {
+    "id": "craft.weaving.knotworking_perhibiate_heart",
+    "name": "Perhibiate",
+    "req": null,
+    "principle": "heart"
+  },
+  {
+    "id": "craft.inks.power_perhibiate_scale",
+    "name": "Perhibiate",
+    "req": null,
+    "principle": "scale"
+  },
+  {
+    "id": "craft.herbs.infusions_liquid.regensburg_heart",
+    "name": "Regensburg Balm",
+    "req": null,
+    "principle": "heart"
+  },
+  {
+    "id": "craft.quenchings.quellings_liquid.regensburg_heart",
+    "name": "Regensburg Balm",
+    "req": null,
+    "principle": "heart"
+  },
+  {
+    "id": "craft.surgeries.exsanguinations_liquid.regensburg_heart",
+    "name": "Regensburg Balm",
+    "req": null,
+    "principle": "heart"
+  },
+  {
+    "id": "craft.maggephenemysteries_liquid.regensburg_heart",
+    "name": "Regensburg Balm",
+    "req": null,
+    "principle": "heart"
+  },
+  {
+    "id": "craft.edictsinviolable_liquid.regensburg_heart",
+    "name": "Regensburg Balm",
+    "req": null,
+    "principle": "heart"
+  },
+  {
+    "id": "craft.edictsliminal_secret.threshold_knock",
+    "name": "Secret Threshold",
+    "req": null,
+    "principle": "knock"
+  },
+  {
+    "id": "craft.door.wall_secret.threshold_knock",
+    "name": "Secret Threshold",
+    "req": null,
+    "principle": "knock"
+  },
+  {
+    "id": "craft.horns.ivories_secret.threshold_knock",
+    "name": "Secret Threshold",
+    "req": null,
+    "principle": "knock"
+  },
+  {
+    "id": "craft.preliminalmeter_secret.threshold_knock",
+    "name": "Secret Threshold",
+    "req": null,
+    "principle": "knock"
+  },
+  {
+    "id": "craft.glassblowing.vesselcrafting_ampoule.amethyst_knock",
+    "name": "Amethyst Ampoule",
+    "req": null,
+    "principle": "knock"
+  },
+  {
+    "id": "craft.surgeries.exsanguinations_ampoule.amethyst_knock",
+    "name": "Amethyst Ampoule",
+    "req": null,
+    "principle": "knock"
+  },
+  {
+    "id": "craft.solutions.separations_ampoule.amethyst_knock",
+    "name": "Amethyst Ampoule",
+    "req": null,
+    "principle": "knock"
+  },
+  {
+    "id": "craft.lockworks.clockworks_ampoule.amethyst_knock",
+    "name": "Amethyst Ampoule",
+    "req": null,
+    "principle": "knock"
+  },
+  {
+    "id": "craft.thegreatsignsandthegreatscars_ampoule.amethyst_knock",
+    "name": "Amethyst Ampoule",
+    "req": null,
+    "principle": "knock"
+  },
+  {
+    "id": "craft.purifications.exaltations_pigment.refulgin_lantern",
+    "name": "Refulgin",
+    "req": null,
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.transformations.liberations_pigment.refulgin_lantern",
+    "name": "Refulgin",
+    "req": null,
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.sacrasolisinvicti_pigment.refulgin_lantern",
+    "name": "Refulgin",
+    "req": null,
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.inks.revelation_pigment.refulgin_lantern",
+    "name": "Refulgin",
+    "req": null,
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.glaziery.lightsmithing_dearday.lens_lantern",
+    "name": "Dearday Lens",
+    "req": null,
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.glassblowing.vesselcrafting_dearday.lens_lantern",
+    "name": "Dearday Lens",
+    "req": null,
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.pyroglyphics_dearday.lens_lantern",
+    "name": "Dearday Lens",
+    "req": null,
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.disciplines.thescar_dearday.lens_lantern",
+    "name": "Dearday Lens",
+    "req": null,
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.desires.dissolutions_midnight.mark_moon",
+    "name": "Midnight Mark",
+    "req": null,
+    "principle": "moon"
+  },
+  {
+    "id": "craft.snowstories_midnight.mark_moon",
+    "name": "Midnight Mark",
+    "req": null,
+    "principle": "moon"
+  },
+  {
+    "id": "craft.serpents.venoms_midnight.mark_moon",
+    "name": "Midnight Mark",
+    "req": null,
+    "principle": "moon"
+  },
+  {
+    "id": "craft.insects.nectars_midnight.mark_moon",
+    "name": "Midnight Mark",
+    "req": null,
+    "principle": "moon"
+  },
+  {
+    "id": "craft.wolfstories_midnight.mark_moon",
+    "name": "Midnight Mark",
+    "req": null,
+    "principle": "moon"
+  },
+  {
+    "id": "craft.rhyme.remembrance_midnight.mark_moon",
+    "name": "Midnight Mark",
+    "req": null,
+    "principle": "moon"
+  },
+  {
+    "id": "craft.inks.containment_catwink_moon",
+    "name": "Catwink",
+    "req": null,
+    "principle": "moon"
+  },
+  {
+    "id": "craft.sickle.eclipse_catwink_moon",
+    "name": "Catwink",
+    "req": null,
+    "principle": "moon"
+  },
+  {
+    "id": "craft.sandstories_catwink_moon",
+    "name": "Catwink",
+    "req": null,
+    "principle": "moon"
+  },
+  {
+    "id": "craft.putrefactions.calcinations_catwink_moon",
+    "name": "Catwink",
+    "req": null,
+    "principle": "moon"
+  },
+  {
+    "id": "craft.edictsinviolable_catwink_moon",
+    "name": "Catwink",
+    "req": null,
+    "principle": "moon"
+  },
+  {
+    "id": "craft.inks.revelation_paint.moth_moth",
+    "name": "Paint: Moth-Gold",
+    "req": null,
+    "principle": "moth"
+  },
+  {
+    "id": "craft.edictsliminal_tanglebrag_moth",
+    "name": "Tanglebrag",
+    "req": null,
+    "principle": "moth"
+  },
+  {
+    "id": "craft.resurgences.emergences_tanglebrag_moth",
+    "name": "Tanglebrag",
+    "req": null,
+    "principle": "moth"
+  },
+  {
+    "id": "craft.watchmansparadoxes_tanglebrag_lantern",
+    "name": "Tanglebrag",
+    "req": null,
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.rites.theroots_tanglebrag_moth",
+    "name": "Tanglebrag",
+    "req": null,
+    "principle": "moth"
+  },
+  {
+    "id": "craft.weaving.knotworking_tanglebrag_moth",
+    "name": "Tanglebrag",
+    "req": null,
+    "principle": "moth"
+  },
+  {
+    "id": "craft.herbs.infusions_liquid.thirza_nectar",
+    "name": "Thirza's Cordials",
+    "req": null,
+    "principle": "nectar"
+  },
+  {
+    "id": "craft.coil.chasm_liquid.thirza_nectar",
+    "name": "Thirza's Cordials",
+    "req": null,
+    "principle": "nectar"
+  },
+  {
+    "id": "craft.spices.savours_liquid.thirza_nectar",
+    "name": "Thirza's Cordials",
+    "req": null,
+    "principle": "nectar"
+  },
+  {
+    "id": "craft.orchids.narcotics_liquid.thirza_nectar",
+    "name": "Thirza's Cordials",
+    "req": null,
+    "principle": "nectar"
+  },
+  {
+    "id": "craft.stonestories_liquid.thirza_nectar",
+    "name": "Thirza's Cordials",
+    "req": null,
+    "principle": "nectar"
+  },
+  {
+    "id": "craft.insects.nectars_yewgall.ink_nectar",
+    "name": "Yewgall Ink",
+    "req": null,
+    "principle": "nectar"
+  },
+  {
+    "id": "craft.rites.theroots_yewgall.ink_nectar",
+    "name": "Yewgall Ink",
+    "req": null,
+    "principle": "nectar"
+  },
+  {
+    "id": "craft.leaves.thorns_yewgall.ink_nectar",
+    "name": "Yewgall Ink",
+    "req": null,
+    "principle": "nectar"
+  },
+  {
+    "id": "craft.putrefactions.calcinations_yewgall.ink_winter",
+    "name": "Yewgall Ink",
+    "req": null,
+    "principle": "winter"
+  },
+  {
+    "id": "craft.preliminalmeter_confounding.parable_rose",
+    "name": "Confounding Parable",
+    "req": null,
+    "principle": "rose"
+  },
+  {
+    "id": "craft.skystories_confounding.parable_rose",
+    "name": "Confounding Parable",
+    "req": null,
+    "principle": "rose"
+  },
+  {
+    "id": "craft.tridesmahiera_confounding.parable_moon",
+    "name": "Confounding Parable",
+    "req": null,
+    "principle": "moon"
+  },
+  {
+    "id": "craft.applebrighteuphonies_confounding.parable_sky",
+    "name": "Confounding Parable",
+    "req": null,
+    "principle": "sky"
+  },
+  {
+    "id": "craft.sacrasolisinvicti_confounding.parable_sky",
+    "name": "Confounding Parable",
+    "req": null,
+    "principle": "sky"
+  },
+  {
+    "id": "craft.pearl.tide_sign.salt_rose",
+    "name": "Salt-Sign",
+    "req": null,
+    "principle": "rose"
+  },
+  {
+    "id": "craft.seastories_sign.salt_moon",
+    "name": "Salt-Sign",
+    "req": null,
+    "principle": "moon"
+  },
+  {
+    "id": "craft.path.pilgrim_sign.salt_rose",
+    "name": "Salt-Sign",
+    "req": null,
+    "principle": "rose"
+  },
+  {
+    "id": "craft.sandstories_sign.salt_rose",
+    "name": "Salt-Sign",
+    "req": null,
+    "principle": "rose"
+  },
+  {
+    "id": "craft.inks.power_sign.salt_rose",
+    "name": "Salt-Sign",
+    "req": null,
+    "principle": "rose"
+  },
+  {
+    "id": "craft.hill.hollow_sign.salt_moon",
+    "name": "Salt-Sign",
+    "req": null,
+    "principle": "moon"
+  },
+  {
+    "id": "craft.path.pilgrim_bisclavrets.knot_scale",
+    "name": "Bisclavret's Knot",
+    "req": null,
+    "principle": "scale"
+  },
+  {
+    "id": "craft.serpents.venoms_bisclavrets.knot_scale",
+    "name": "Bisclavret's Knot",
+    "req": null,
+    "principle": "scale"
+  },
+  {
+    "id": "craft.coil.chasm_bisclavrets.knot_scale",
+    "name": "Bisclavret's Knot",
+    "req": null,
+    "principle": "scale"
+  },
+  {
+    "id": "craft.stonestories_music.savage_scale",
+    "name": "Savage Hymn",
+    "req": null,
+    "principle": "scale"
+  },
+  {
+    "id": "craft.drums.dances_music.savage_scale",
+    "name": "Savage Hymn",
+    "req": null,
+    "principle": "scale"
+  },
+  {
+    "id": "craft.horns.ivories_bisclavrets.knot_scale",
+    "name": "Bisclavret's Knot",
+    "req": null,
+    "principle": "scale"
+  },
+  {
+    "id": "craft.furs.feathers_bisclavrets.knot_scale",
+    "name": "Bisclavret's Knot",
+    "req": null,
+    "principle": "scale"
+  },
+  {
+    "id": "craft.wolfstories_bisclavrets.knot_scale",
+    "name": "Bisclavret's Knot",
+    "req": null,
+    "principle": "scale"
+  },
+  {
+    "id": "craft.pentiments.precursors_bisclavrets.knot_scale",
+    "name": "Bisclavret's Knot",
+    "req": null,
+    "principle": "scale"
+  },
+  {
+    "id": "craft.hill.hollow_bisclavrets.knot_scale",
+    "name": "Bisclavret's Knot",
+    "req": null,
+    "principle": "scale"
+  },
+  {
+    "id": "craft.anbary.lapidary_awakened.feather_sky",
+    "name": "Awakened Feather",
+    "req": null,
+    "principle": "sky"
+  },
+  {
+    "id": "craft.lockworks.clockworks_awakened.feather_sky",
+    "name": "Awakened Feather",
+    "req": null,
+    "principle": "sky"
+  },
+  {
+    "id": "craft.stitching.binding_awakened.feather_sky",
+    "name": "Awakened Feather",
+    "req": null,
+    "principle": "sky"
+  },
+  {
+    "id": "craft.sights.sensations_awakened.feather_sky",
+    "name": "Awakened Feather",
+    "req": null,
+    "principle": "sky"
+  },
+  {
+    "id": "craft.sacralimiae_awakened.feather_sky",
+    "name": "Awakened Feather",
+    "req": null,
+    "principle": "sky"
+  },
+  {
+    "id": "craft.strings.songs_music.wistful_sky",
+    "name": "Wistful Air",
+    "req": null,
+    "principle": "sky"
+  },
+  {
+    "id": "craft.bells.brazieries_music.wistful_sky",
+    "name": "Wistful Air",
+    "req": null,
+    "principle": "sky"
+  },
+  {
+    "id": "craft.ouranoscopy_music.wistful_sky",
+    "name": "Wistful Air",
+    "req": null,
+    "principle": "sky"
+  },
+  {
+    "id": "craft.watchmansparadoxes_music.wistful_sky",
+    "name": "Wistful Air",
+    "req": null,
+    "principle": "sky"
+  },
+  {
+    "id": "craft.skystories_music.wistful_sky",
+    "name": "Wistful Air",
+    "req": null,
+    "principle": "sky"
+  },
+  {
+    "id": "craft.ouranoscopy_bittersweet.certainty_moon",
+    "name": "Bittersweet Certainty",
+    "req": null,
+    "principle": "moon"
+  },
+  {
+    "id": "craft.rhyme.remembrance_bittersweet.certainty_winter",
+    "name": "Bittersweet Certainty",
+    "req": null,
+    "principle": "winter"
+  },
+  {
+    "id": "craft.raggedcrossroads_bittersweet.certainty_winter",
+    "name": "Bittersweet Certainty",
+    "req": null,
+    "principle": "winter"
+  },
+  {
+    "id": "craft.snowstories_bittersweet.certainty_winter",
+    "name": "Bittersweet Certainty",
+    "req": null,
+    "principle": "winter"
+  },
+  {
+    "id": "craft.auroralcontemplations_eigengrau_lantern",
+    "name": "Eigengrau",
+    "req": null,
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.sights.sensations_eigengrau_winter",
+    "name": "Eigengrau",
+    "req": null,
+    "principle": "winter"
+  },
+  {
+    "id": "craft.quenchings.quellings_eigengrau_winter",
+    "name": "Eigengrau",
+    "req": null,
+    "principle": "winter"
+  },
+  {
+    "id": "craft.inks.containment_eigengrau_winter",
+    "name": "Eigengrau",
+    "req": null,
+    "principle": "winter"
+  },
+  {
+    "id": "craft.maggephenemysteries_eigengrau_moon",
+    "name": "Eigengrau",
+    "req": null,
+    "principle": "moon"
+  },
+  {
+    "id": "craft.pearl.tide_eigengrau_moon",
+    "name": "Eigengrau",
+    "req": null,
+    "principle": "moon"
+  },
+  {
+    "id": "craft.glaziery.lightsmithing_dearday.lens_sky",
+    "name": "Dearday Lens",
+    "req": null,
+    "principle": "sky"
+  },
+  {
+    "id": "craft.edictsmartial_old.wound_moon",
+    "name": "Old Wound",
+    "req": null,
+    "principle": "moon"
+  },
+  {
+    "id": "craft.furs.feathers_awakened.feather_sky",
+    "name": "Awakened Feather",
+    "req": null,
+    "principle": "sky"
+  },
+  {
+    "id": "craft.inks.power_yewgall.ink_nectar",
+    "name": "Yewgall Ink",
+    "req": null,
+    "principle": "nectar"
+  },
+  {
+    "id": "craft.inks.power_stargall.ink_sky",
+    "name": "Stargall Ink",
+    "req": null,
+    "principle": "sky"
+  },
+  {
+    "id": "craft.inks.revelation_yewgall.ink_nectar",
+    "name": "Yewgall Ink",
+    "req": null,
+    "principle": "nectar"
+  },
+  {
+    "id": "craft.inks.revelation_stargall.ink_sky",
+    "name": "Stargall Ink",
+    "req": null,
+    "principle": "sky"
+  },
+  {
+    "id": "craft.inks.containment_yewgall.ink_nectar",
+    "name": "Yewgall Ink",
+    "req": null,
+    "principle": "nectar"
+  },
+  {
+    "id": "craft.inks.containment_stargall.ink_sky",
+    "name": "Stargall Ink",
+    "req": null,
+    "principle": "sky"
+  },
+  {
+    "id": "craft.drums.dances_music.savage_nectar",
+    "name": "Savage Hymn",
+    "req": null,
+    "principle": "nectar"
+  },
+  {
+    "id": "craft.glassblowing.vesselcrafting_dearday.lens_sky",
+    "name": "Dearday Lens",
+    "req": null,
+    "principle": "sky"
+  },
+  {
+    "id": "craft.ouranoscopy_bittersweet.certainty_winter",
+    "name": "Bittersweet Certainty",
+    "req": null,
+    "principle": "winter"
+  },
+  {
+    "id": "craft.scholar.disciplines.thescar_leaf_perinculate_edge",
+    "name": "Perinculate",
+    "req": "leaf",
+    "principle": "edge"
+  },
+  {
+    "id": "craft.scholar.edictsmartial_leaf_perinculate_edge",
+    "name": "Perinculate",
+    "req": "leaf",
+    "principle": "edge"
+  },
+  {
+    "id": "craft.scholar.inks.power_leaf_perinculate_scale",
+    "name": "Perinculate",
+    "req": "leaf",
+    "principle": "scale"
+  },
+  {
+    "id": "craft.scholar.sickle.eclipse_leaf_perinculate_edge",
+    "name": "Perinculate",
+    "req": "leaf",
+    "principle": "edge"
+  },
+  {
+    "id": "craft.scholar.putrefactions.calcinations_leaf_perinculate_winter",
+    "name": "Perinculate",
+    "req": "leaf",
+    "principle": "winter"
+  },
+  {
+    "id": "craft.scholar.disciplines.thehammer_memory_winning.move_edge",
+    "name": "Winning Move",
+    "req": "memory",
+    "principle": "edge"
+  },
+  {
+    "id": "craft.scholar.auroralcontemplations_memory_winning.move_edge",
+    "name": "Winning Move",
+    "req": "memory",
+    "principle": "edge"
+  },
+  {
+    "id": "craft.scholar.meniscatereflections_memory_winning.move_edge",
+    "name": "Winning Move",
+    "req": "memory",
+    "principle": "edge"
+  },
+  {
+    "id": "craft.scholar.sharps_memory_winning.move_edge",
+    "name": "Winning Move",
+    "req": "memory",
+    "principle": "edge"
+  },
+  {
+    "id": "craft.scholar.raggedcrossroads_memory_winning.move_edge",
+    "name": "Winning Move",
+    "req": "memory",
+    "principle": "edge"
+  },
+  {
+    "id": "craft.scholar.transformations.liberations_liquid_essence.iotic_forge",
+    "name": "Iotic Essence",
+    "req": "liquid",
+    "principle": "forge"
+  },
+  {
+    "id": "craft.scholar.anbary.lapidary_liquid_essence.iotic_forge",
+    "name": "Iotic Essence",
+    "req": "liquid",
+    "principle": "forge"
+  },
+  {
+    "id": "craft.scholar.pyroglyphics_liquid_essence.iotic_forge",
+    "name": "Iotic Essence",
+    "req": "liquid",
+    "principle": "forge"
+  },
+  {
+    "id": "craft.scholar.spices.savours_liquid_essence.iotic_forge",
+    "name": "Iotic Essence",
+    "req": "liquid",
+    "principle": "forge"
+  },
+  {
+    "id": "craft.scholar.meniscatereflections_liquid_essence.iotic_forge",
+    "name": "Iotic Essence",
+    "req": "liquid",
+    "principle": "forge"
+  },
+  {
+    "id": "craft.scholar.bells.brazieries_metal_wire.orichalcum_forge",
+    "name": "Wire (Orichalcum)",
+    "req": "metal",
+    "principle": "forge"
+  },
+  {
+    "id": "craft.scholar.door.wall_metal_wire.orichalcum_forge",
+    "name": "Wire (Orichalcum)",
+    "req": "metal",
+    "principle": "forge"
+  },
+  {
+    "id": "craft.scholar.disciplines.thehammer_metal_wire.orichalcum_forge",
+    "name": "Wire (Orichalcum)",
+    "req": "metal",
+    "principle": "forge"
+  },
+  {
+    "id": "craft.scholar.glassblowing.vesselcrafting_metal_wire.orichalcum_knock",
+    "name": "Wire (Orichalcum)",
+    "req": "metal",
+    "principle": "knock"
+  },
+  {
+    "id": "craft.scholar.lockworks.clockworks_metal_wire.orichalcum_sky",
+    "name": "Wire (Orichalcum)",
+    "req": "metal",
+    "principle": "sky"
+  },
+  {
+    "id": "craft.scholar.desires.dissolutions_flower_rubywise.ruin_grail",
+    "name": "Rubywise Ruin",
+    "req": "flower",
+    "principle": "grail"
+  },
+  {
+    "id": "craft.scholar.orchids.narcotics_flower_rubywise.ruin_grail",
+    "name": "Rubywise Ruin",
+    "req": "flower",
+    "principle": "grail"
+  },
+  {
+    "id": "craft.scholar.applebrighteuphonies_flower_rubywise.ruin_grail",
+    "name": "Rubywise Ruin",
+    "req": "flower",
+    "principle": "grail"
+  },
+  {
+    "id": "craft.scholar.leaves.thorns_flower_rubywise.ruin_grail",
+    "name": "Rubywise Ruin",
+    "req": "flower",
+    "principle": "grail"
+  },
+  {
+    "id": "craft.scholar.seastories_fabric_pale.mommet_grail",
+    "name": "Pale Mommet",
+    "req": "fabric",
+    "principle": "grail"
+  },
+  {
+    "id": "craft.scholar.pentiments.precursors_fabric_pale.mommet_grail",
+    "name": "Pale Mommet",
+    "req": "fabric",
+    "principle": "grail"
+  },
+  {
+    "id": "craft.scholar.resurgences.emergences_fabric_pale.mommet_grail",
+    "name": "Pale Mommet",
+    "req": "fabric",
+    "principle": "grail"
+  },
+  {
+    "id": "craft.scholar.thegreatsignsandthegreatscars_fabric_pale.mommet_grail",
+    "name": "Pale Mommet",
+    "req": "fabric",
+    "principle": "grail"
+  },
+  {
+    "id": "craft.scholar.tridesmahiera_fabric_pale.mommet_grail",
+    "name": "Pale Mommet",
+    "req": "fabric",
+    "principle": "grail"
+  },
+  {
+    "id": "craft.scholar.weaving.knotworking_fabric_frithweft_heart",
+    "name": "Frith-Weft",
+    "req": "fabric",
+    "principle": "heart"
+  },
+  {
+    "id": "craft.scholar.stitching.binding_fabric_frithweft_heart",
+    "name": "Frith-Weft",
+    "req": "fabric",
+    "principle": "heart"
+  },
+  {
+    "id": "craft.scholar.quenchings.quellings_liquid_liquid.gideon_heart",
+    "name": "Gideon's Soaks",
+    "req": "liquid",
+    "principle": "heart"
+  },
+  {
+    "id": "craft.scholar.edictsinviolable_liquid_liquid.gideon_heart",
+    "name": "Gideon's Soaks",
+    "req": "liquid",
+    "principle": "heart"
+  },
+  {
+    "id": "craft.scholar.drums.dances_instrument_music.thunderskin_heart",
+    "name": "Thunderskin's Paean",
+    "req": "instrument",
+    "principle": "heart"
+  },
+  {
+    "id": "craft.scholar.surgeries.exsanguinations_liquid_liquid.gideon_heart",
+    "name": "Gideon's Soaks",
+    "req": "liquid",
+    "principle": "heart"
+  },
+  {
+    "id": "craft.scholar.maggephenemysteries_liquid_liquid.gideon_heart",
+    "name": "Gideon's Soaks",
+    "req": "liquid",
+    "principle": "heart"
+  },
+  {
+    "id": "craft.scholar.herbs.infusions_liquid_liquid.gideon_heart",
+    "name": "Gideon's Soaks",
+    "req": "liquid",
+    "principle": "heart"
+  },
+  {
+    "id": "craft.scholar.lockworks.clockworks_glass_gervinite_knock",
+    "name": "Gervinite",
+    "req": "glass",
+    "principle": "knock"
+  },
+  {
+    "id": "craft.scholar.thegreatsignsandthegreatscars_memory_curious.hunch_knock",
+    "name": "Curious Hunch",
+    "req": "memory",
+    "principle": "knock"
+  },
+  {
+    "id": "craft.scholar.edictsliminal_liquid_toxin.glassfinger_knock",
+    "name": "Glassfinger Toxin",
+    "req": "liquid",
+    "principle": "knock"
+  },
+  {
+    "id": "craft.scholar.preliminalmeter_memory_curious.hunch_knock",
+    "name": "Curious Hunch",
+    "req": "memory",
+    "principle": "knock"
+  },
+  {
+    "id": "craft.scholar.glaziery.lightsmithing_metal_gervinite_sky",
+    "name": "Gervinite",
+    "req": "metal",
+    "principle": "sky"
+  },
+  {
+    "id": "craft.scholar.solutions.separations_liquid_toxin.glassfinger_knock",
+    "name": "Glassfinger Toxin",
+    "req": "liquid",
+    "principle": "knock"
+  },
+  {
+    "id": "craft.scholar.serpents.venoms_liquid_toxin.glassfinger_scale",
+    "name": "Glassfinger Toxin",
+    "req": "liquid",
+    "principle": "scale"
+  },
+  {
+    "id": "craft.scholar.surgeries.exsanguinations_liquid_toxin.glassfinger_knock",
+    "name": "Glassfinger Toxin",
+    "req": "liquid",
+    "principle": "knock"
+  },
+  {
+    "id": "craft.scholar.stonestories_remains_essential.periost_nectar",
+    "name": "Essential Periost",
+    "req": "remains",
+    "principle": "nectar"
+  },
+  {
+    "id": "craft.scholar.door.wall_liquid_toxin.glassfinger_knock",
+    "name": "Glassfinger Toxin",
+    "req": "liquid",
+    "principle": "knock"
+  },
+  {
+    "id": "craft.scholar.purifications.exaltations_liquid_essence.xanthotic_lantern",
+    "name": "Xanthotic Essence",
+    "req": "liquid",
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.scholar.transformations.liberations_liquid_essence.xanthotic_lantern",
+    "name": "Xanthotic Essence",
+    "req": "liquid",
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.scholar.auroralcontemplations_liquid_essence.xanthotic_lantern",
+    "name": "Xanthotic Essence",
+    "req": "liquid",
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.scholar.pyroglyphics_liquid_essence.xanthotic_lantern",
+    "name": "Xanthotic Essence",
+    "req": "liquid",
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.scholar.anbary.lapidary_liquid_essence.xanthotic_sky",
+    "name": "Xanthotic Essence",
+    "req": "liquid",
+    "principle": "sky"
+  },
+  {
+    "id": "craft.scholar.glassblowing.vesselcrafting_glass_ichor.vitreous_lantern",
+    "name": "Ichor Vitreous",
+    "req": "glass",
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.scholar.watchmansparadoxes_glass_ichor.vitreous_lantern",
+    "name": "Ichor Vitreous",
+    "req": "glass",
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.scholar.glaziery.lightsmithing_glass_ichor.vitreous_lantern",
+    "name": "Ichor Vitreous",
+    "req": "glass",
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.scholar.sacrasolisinvicti_glass_ichor.vitreous_lantern",
+    "name": "Ichor Vitreous",
+    "req": "glass",
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.scholar.inks.revelation_glass_ichor.vitreous_lantern",
+    "name": "Ichor Vitreous",
+    "req": "glass",
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.scholar.rhyme.remembrance_egg_stymphling_moon",
+    "name": "Stymphling",
+    "req": "egg",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.scholar.sandstories_egg_stymphling_moon",
+    "name": "Stymphling",
+    "req": "egg",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.scholar.tridesmahiera_egg_stymphling_moon",
+    "name": "Stymphling",
+    "req": "egg",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.scholar.snowstories_egg_stymphling_moon",
+    "name": "Stymphling",
+    "req": "egg",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.scholar.serpents.venoms_egg_stymphling_moon",
+    "name": "Stymphling",
+    "req": "egg",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.scholar.inks.revelation_liquid_asimel_moth",
+    "name": "Asimel",
+    "req": "liquid",
+    "principle": "moth"
+  },
+  {
+    "id": "craft.scholar.putrefactions.calcinations_liquid_asimel_moon",
+    "name": "Asimel",
+    "req": "liquid",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.scholar.seastories_liquid_asimel_moon",
+    "name": "Asimel",
+    "req": "liquid",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.scholar.ouranoscopy_lens_asimel_moon",
+    "name": "Asimel",
+    "req": "lens",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.scholar.pearl.tide_liquid_asimel_moon",
+    "name": "Asimel",
+    "req": "liquid",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.scholar.sacralimiae_memory_riddle.nameday_moth",
+    "name": "Nameday Riddle",
+    "req": "memory",
+    "principle": "moth"
+  },
+  {
+    "id": "craft.scholar.edictsliminal_memory_riddle.nameday_moth",
+    "name": "Nameday Riddle",
+    "req": "memory",
+    "principle": "moth"
+  },
+  {
+    "id": "craft.scholar.solutions.separations_memory_riddle.nameday_moth",
+    "name": "Nameday Riddle",
+    "req": "memory",
+    "principle": "moth"
+  },
+  {
+    "id": "craft.scholar.rites.theroots_memory_riddle.nameday_moth",
+    "name": "Nameday Riddle",
+    "req": "memory",
+    "principle": "moth"
+  },
+  {
+    "id": "craft.scholar.weaving.knotworking_memory_riddle.nameday_moth",
+    "name": "Nameday Riddle",
+    "req": "memory",
+    "principle": "moth"
+  },
+  {
+    "id": "craft.scholar.insects.nectars_egg_larva.chimeric_moon",
+    "name": "Chimeric Larva",
+    "req": "egg",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.scholar.resurgences.emergences_egg_larva.chimeric_moth",
+    "name": "Chimeric Larva",
+    "req": "egg",
+    "principle": "moth"
+  },
+  {
+    "id": "craft.scholar.transformations.liberations_egg_larva.chimeric_moth",
+    "name": "Chimeric Larva",
+    "req": "egg",
+    "principle": "moth"
+  },
+  {
+    "id": "craft.scholar.horns.ivories_egg_larva.chimeric_knock",
+    "name": "Chimeric Larva",
+    "req": "egg",
+    "principle": "knock"
+  },
+  {
+    "id": "craft.scholar.hill.hollow_egg_larva.chimeric_moon",
+    "name": "Chimeric Larva",
+    "req": "egg",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.scholar.leaves.thorns_wood_pyrus.auricalcinus_nectar",
+    "name": "Pyrus Auricalcinus",
+    "req": "wood",
+    "principle": "nectar"
+  },
+  {
+    "id": "craft.scholar.spices.savours_wood_pyrus.auricalcinus_nectar",
+    "name": "Pyrus Auricalcinus",
+    "req": "wood",
+    "principle": "nectar"
+  },
+  {
+    "id": "craft.scholar.drums.dances_instrument_music.hive_nectar",
+    "name": "Hive's Lament",
+    "req": "instrument",
+    "principle": "nectar"
+  },
+  {
+    "id": "craft.scholar.coil.chasm_wood_pyrus.auricalcinus_nectar",
+    "name": "Pyrus Auricalcinus",
+    "req": "wood",
+    "principle": "nectar"
+  },
+  {
+    "id": "craft.scholar.desires.dissolutions_wood_pyrus.auricalcinus_moon",
+    "name": "Pyrus Auricalcinus",
+    "req": "wood",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.scholar.inks.containment_beverage_leathy_moon",
+    "name": "Leathy",
+    "req": "beverage",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.scholar.rites.theroots_beverage_leathy_nectar",
+    "name": "Leathy",
+    "req": "beverage",
+    "principle": "nectar"
+  },
+  {
+    "id": "craft.scholar.orchids.narcotics_beverage_leathy_nectar",
+    "name": "Leathy",
+    "req": "beverage",
+    "principle": "nectar"
+  },
+  {
+    "id": "craft.scholar.herbs.infusions_beverage_leathy_nectar",
+    "name": "Leathy",
+    "req": "beverage",
+    "principle": "nectar"
+  },
+  {
+    "id": "craft.scholar.insects.nectars_beverage_leathy_nectar",
+    "name": "Leathy",
+    "req": "beverage",
+    "principle": "nectar"
+  },
+  {
+    "id": "craft.scholar.auroralcontemplations_light_ichor.auroral_rose",
+    "name": "Ichor Auroral",
+    "req": "light",
+    "principle": "rose"
+  },
+  {
+    "id": "craft.scholar.sandstories_light_ichor.auroral_rose",
+    "name": "Ichor Auroral",
+    "req": "light",
+    "principle": "rose"
+  },
+  {
+    "id": "craft.scholar.sights.sensations_light_ichor.auroral_sky",
+    "name": "Ichor Auroral",
+    "req": "light",
+    "principle": "sky"
+  },
+  {
+    "id": "craft.scholar.watchmansparadoxes_light_ichor.auroral_sky",
+    "name": "Ichor Auroral",
+    "req": "light",
+    "principle": "sky"
+  },
+  {
+    "id": "craft.scholar.inks.power_light_ichor.auroral_rose",
+    "name": "Ichor Auroral",
+    "req": "light",
+    "principle": "rose"
+  },
+  {
+    "id": "craft.scholar.preliminalmeter_memory_enduring.reflection_rose",
+    "name": "Enduring Reflection",
+    "req": "memory",
+    "principle": "rose"
+  },
+  {
+    "id": "craft.scholar.pearl.tide_memory_enduring.reflection_rose",
+    "name": "Enduring Reflection",
+    "req": "memory",
+    "principle": "rose"
+  },
+  {
+    "id": "craft.scholar.path.pilgrim_memory_enduring.reflection_rose",
+    "name": "Enduring Reflection",
+    "req": "memory",
+    "principle": "rose"
+  },
+  {
+    "id": "craft.scholar.skystories_memory_enduring.reflection_rose",
+    "name": "Enduring Reflection",
+    "req": "memory",
+    "principle": "rose"
+  },
+  {
+    "id": "craft.scholar.strings.songs_instrument_music.thunderskin_heart",
+    "name": "Thunderskin's Paean",
+    "req": "instrument",
+    "principle": "heart"
+  },
+  {
+    "id": "craft.scholar.hill.hollow_egg_relic.living_scale",
+    "name": "Living Relic",
+    "req": "egg",
+    "principle": "scale"
+  },
+  {
+    "id": "craft.scholar.furs.feathers_egg_relic.living_scale",
+    "name": "Living Relic",
+    "req": "egg",
+    "principle": "scale"
+  },
+  {
+    "id": "craft.scholar.stonestories_egg_relic.living_scale",
+    "name": "Living Relic",
+    "req": "egg",
+    "principle": "scale"
+  },
+  {
+    "id": "craft.scholar.pentiments.precursors_egg_relic.living_scale",
+    "name": "Living Relic",
+    "req": "egg",
+    "principle": "scale"
+  },
+  {
+    "id": "craft.scholar.stitching.binding_egg_relic.living_sky",
+    "name": "Living Relic",
+    "req": "egg",
+    "principle": "sky"
+  },
+  {
+    "id": "craft.scholar.horns.ivories_memory_old.moment_scale",
+    "name": "Old Moment",
+    "req": "memory",
+    "principle": "scale"
+  },
+  {
+    "id": "craft.scholar.path.pilgrim_memory_old.moment_scale",
+    "name": "Old Moment",
+    "req": "memory",
+    "principle": "scale"
+  },
+  {
+    "id": "craft.scholar.coil.chasm_memory_old.moment_scale",
+    "name": "Old Moment",
+    "req": "memory",
+    "principle": "scale"
+  },
+  {
+    "id": "craft.scholar.disciplines.thescar_memory_old.moment_lantern",
+    "name": "Old Moment",
+    "req": "memory",
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.scholar.wolfstories_memory_old.moment_scale",
+    "name": "Old Moment",
+    "req": "memory",
+    "principle": "scale"
+  },
+  {
+    "id": "craft.scholar.ouranoscopy_wood_mazarine.fife_sky",
+    "name": "Mazarine Fife",
+    "req": "wood",
+    "principle": "sky"
+  },
+  {
+    "id": "craft.scholar.sacralimiae_wood_mazarine.fife_sky",
+    "name": "Mazarine Fife",
+    "req": "wood",
+    "principle": "sky"
+  },
+  {
+    "id": "craft.scholar.sacrasolisinvicti_wood_mazarine.fife_sky",
+    "name": "Mazarine Fife",
+    "req": "wood",
+    "principle": "sky"
+  },
+  {
+    "id": "craft.scholar.applebrighteuphonies_instrument_ascendant.harmony_sky",
+    "name": "Ascendant Harmony",
+    "req": "instrument",
+    "principle": "sky"
+  },
+  {
+    "id": "craft.scholar.skystories_instrument_ascendant.harmony_sky",
+    "name": "Ascendant Harmony",
+    "req": "instrument",
+    "principle": "sky"
+  },
+  {
+    "id": "craft.scholar.furs.feathers_instrument_ascendant.harmony_sky",
+    "name": "Ascendant Harmony",
+    "req": "instrument",
+    "principle": "sky"
+  },
+  {
+    "id": "craft.scholar.strings.songs_instrument_ascendant.harmony_sky",
+    "name": "Ascendant Harmony",
+    "req": "instrument",
+    "principle": "sky"
+  },
+  {
+    "id": "craft.scholar.bells.brazieries_instrument_ascendant.harmony_sky",
+    "name": "Ascendant Harmony",
+    "req": "instrument",
+    "principle": "sky"
+  },
+  {
+    "id": "craft.scholar.maggephenemysteries_flower_liquid.solomon_moon",
+    "name": "Solomon's Preparation",
+    "req": "flower",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.scholar.sights.sensations_flower_liquid.solomon_winter",
+    "name": "Solomon's Preparation",
+    "req": "flower",
+    "principle": "winter"
+  },
+  {
+    "id": "craft.scholar.raggedcrossroads_flower_liquid.solomon_winter",
+    "name": "Solomon's Preparation",
+    "req": "flower",
+    "principle": "winter"
+  },
+  {
+    "id": "craft.scholar.edictsinviolable_flower_liquid.solomon_moon",
+    "name": "Solomon's Preparation",
+    "req": "flower",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.scholar.quenchings.quellings_flower_liquid.solomon_winter",
+    "name": "Solomon's Preparation",
+    "req": "flower",
+    "principle": "winter"
+  },
+  {
+    "id": "craft.scholar.inks.containment_flower_liquid.solomon_winter",
+    "name": "Solomon's Preparation",
+    "req": "flower",
+    "principle": "winter"
+  },
+  {
+    "id": "craft.scholar.rhyme.remembrance_remains_essential.periost_winter",
+    "name": "Essential Periost",
+    "req": "remains",
+    "principle": "winter"
+  },
+  {
+    "id": "craft.scholar.snowstories_remains_essential.periost_winter",
+    "name": "Essential Periost",
+    "req": "remains",
+    "principle": "winter"
+  },
+  {
+    "id": "craft.scholar.sickle.eclipse_remains_essential.periost_moon",
+    "name": "Essential Periost",
+    "req": "remains",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.scholar.sharps_remains_essential.periost_moon",
+    "name": "Essential Periost",
+    "req": "remains",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.scholar.wolfstories_remains_essential.periost_moon",
+    "name": "Essential Periost",
+    "req": "remains",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.scholar.purifications.exaltations_instrument_ascendant.harmony_sky",
+    "name": "Ascendant Harmony",
+    "req": "instrument",
+    "principle": "sky"
+  },
+  {
+    "id": "craft.scholar.edictsmartial_memory_wormwood.dream_moon",
+    "name": "Wormwood Dream",
+    "req": "memory",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.scholar.glassblowing.vesselcrafting_glass_ichor.vitreous_sky",
+    "name": "Ichor Vitreous",
+    "req": "glass",
+    "principle": "sky"
+  },
+  {
+    "id": "craft.keeper.sickle.eclipse_edge_perinculate_serpent-milk",
+    "name": "Serpent-Milk",
+    "req": "perinculate",
+    "principle": "edge"
+  },
+  {
+    "id": "craft.keeper.edictsmartial_moon_confounding.parable_forbidden epic",
+    "name": "Forbidden Epic",
+    "req": "confounding.parable",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.keeper.sharps_edge_perinculate_serpent-milk",
+    "name": "Serpent-Milk",
+    "req": "perinculate",
+    "principle": "edge"
+  },
+  {
+    "id": "craft.keeper.meniscatereflections_edge_perinculate_serpent-milk",
+    "name": "Serpent-Milk",
+    "req": "perinculate",
+    "principle": "edge"
+  },
+  {
+    "id": "craft.keeper.disciplines.thescar_edge_perinculate_serpent-milk",
+    "name": "Serpent-Milk",
+    "req": "perinculate",
+    "principle": "edge"
+  },
+  {
+    "id": "craft.keeper.serpents.venoms_moon_toxin.glassfinger_sacrament ascite",
+    "name": "Sacrament Ascite",
+    "req": "toxin.glassfinger",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.keeper.disciplines.thehammer_edge_winning.move_invincible audacity",
+    "name": "Invincible Audacity",
+    "req": "winning.move",
+    "principle": "edge"
+  },
+  {
+    "id": "craft.keeper.edictsmartial_edge_winning.move_invincible audacity",
+    "name": "Invincible Audacity",
+    "req": "winning.move",
+    "principle": "edge"
+  },
+  {
+    "id": "craft.keeper.auroralcontemplations_edge_winning.move_invincible audacity",
+    "name": "Invincible Audacity",
+    "req": "winning.move",
+    "principle": "edge"
+  },
+  {
+    "id": "craft.keeper.transformations.liberations_forge_essence.iotic_orpiment exultant",
+    "name": "Orpiment Exultant",
+    "req": "essence.iotic",
+    "principle": "forge"
+  },
+  {
+    "id": "craft.keeper.inks.power_forge_essence.iotic_orpiment exultant",
+    "name": "Orpiment Exultant",
+    "req": "essence.iotic",
+    "principle": "forge"
+  },
+  {
+    "id": "craft.keeper.anbary.lapidary_forge_essence.iotic_orpiment exultant",
+    "name": "Orpiment Exultant",
+    "req": "essence.iotic",
+    "principle": "forge"
+  },
+  {
+    "id": "craft.keeper.pyroglyphics_forge_wire.orichalcum_azoth",
+    "name": "Azoth",
+    "req": "wire.orichalcum",
+    "principle": "forge"
+  },
+  {
+    "id": "craft.keeper.bells.brazieries_forge_wire.orichalcum_azoth",
+    "name": "Azoth",
+    "req": "wire.orichalcum",
+    "principle": "forge"
+  },
+  {
+    "id": "craft.keeper.meniscatereflections_forge_wire.orichalcum_azoth",
+    "name": "Azoth",
+    "req": "wire.orichalcum",
+    "principle": "forge"
+  },
+  {
+    "id": "craft.keeper.purifications.exaltations_forge_wire.orichalcum_azoth",
+    "name": "Azoth",
+    "req": "wire.orichalcum",
+    "principle": "forge"
+  },
+  {
+    "id": "craft.keeper.disciplines.thehammer_forge_wire.orichalcum_azoth",
+    "name": "Azoth",
+    "req": "wire.orichalcum",
+    "principle": "forge"
+  },
+  {
+    "id": "craft.keeper.door.wall_forge_wire.orichalcum_azoth",
+    "name": "Azoth",
+    "req": "wire.orichalcum",
+    "principle": "forge"
+  },
+  {
+    "id": "craft.keeper.orchids.narcotics_grail_rubywise.ruin_sacrament calicite",
+    "name": "Sacrament Calicite",
+    "req": "rubywise.ruin",
+    "principle": "grail"
+  },
+  {
+    "id": "craft.keeper.applebrighteuphonies_grail_rubywise.ruin_sacrament calicite",
+    "name": "Sacrament Calicite",
+    "req": "rubywise.ruin",
+    "principle": "grail"
+  },
+  {
+    "id": "craft.keeper.leaves.thorns_grail_rubywise.ruin_sacrament calicite",
+    "name": "Sacrament Calicite",
+    "req": "rubywise.ruin",
+    "principle": "grail"
+  },
+  {
+    "id": "craft.keeper.seastories_grail_rubywise.ruin_sacrament calicite",
+    "name": "Sacrament Calicite",
+    "req": "rubywise.ruin",
+    "principle": "grail"
+  },
+  {
+    "id": "craft.keeper.tridesmahiera_grail_rubywise.ruin_sacrament calicite",
+    "name": "Sacrament Calicite",
+    "req": "rubywise.ruin",
+    "principle": "grail"
+  },
+  {
+    "id": "craft.keeper.resurgences.emergences_grail_pale.mommet_flushed mommet",
+    "name": "Flushed Mommet",
+    "req": "pale.mommet",
+    "principle": "grail"
+  },
+  {
+    "id": "craft.keeper.furs.feathers_grail_pale.mommet_flushed mommet",
+    "name": "Flushed Mommet",
+    "req": "pale.mommet",
+    "principle": "grail"
+  },
+  {
+    "id": "craft.keeper.thegreatsignsandthegreatscars_grail_pale.mommet_flushed mommet",
+    "name": "Flushed Mommet",
+    "req": "pale.mommet",
+    "principle": "grail"
+  },
+  {
+    "id": "craft.keeper.pentiments.precursors_grail_pale.mommet_flushed mommet",
+    "name": "Flushed Mommet",
+    "req": "pale.mommet",
+    "principle": "grail"
+  },
+  {
+    "id": "craft.keeper.desires.dissolutions_grail_pale.mommet_flushed mommet",
+    "name": "Flushed Mommet",
+    "req": "pale.mommet",
+    "principle": "grail"
+  },
+  {
+    "id": "craft.keeper.weaving.knotworking_heart_frithweft_swaddled thunder",
+    "name": "Swaddled Thunder",
+    "req": "frithweft",
+    "principle": "heart"
+  },
+  {
+    "id": "craft.keeper.stitching.binding_heart_frithweft_swaddled thunder",
+    "name": "Swaddled Thunder",
+    "req": "frithweft",
+    "principle": "heart"
+  },
+  {
+    "id": "craft.keeper.quenchings.quellings_heart_frithweft_swaddled thunder",
+    "name": "Swaddled Thunder",
+    "req": "frithweft",
+    "principle": "heart"
+  },
+  {
+    "id": "craft.keeper.drums.dances_heart_music.thunderskin_swaddled thunder",
+    "name": "Swaddled Thunder",
+    "req": "music.thunderskin",
+    "principle": "heart"
+  },
+  {
+    "id": "craft.keeper.strings.songs_heart_music.thunderskin_swaddled thunder",
+    "name": "Swaddled Thunder",
+    "req": "music.thunderskin",
+    "principle": "heart"
+  },
+  {
+    "id": "craft.keeper.maggephenemysteries_heart_liquid.gideon_january sanguinary",
+    "name": "January Sanguinary",
+    "req": "liquid.gideon",
+    "principle": "heart"
+  },
+  {
+    "id": "craft.keeper.surgeries.exsanguinations_heart_liquid.gideon_january sanguinary",
+    "name": "January Sanguinary",
+    "req": "liquid.gideon",
+    "principle": "heart"
+  },
+  {
+    "id": "craft.keeper.herbs.infusions_heart_liquid.gideon_january sanguinary",
+    "name": "January Sanguinary",
+    "req": "liquid.gideon",
+    "principle": "heart"
+  },
+  {
+    "id": "craft.keeper.surgeries.exsanguinations_knock_toxin.glassfinger_january sanguinary",
+    "name": "January Sanguinary",
+    "req": "toxin.glassfinger",
+    "principle": "knock"
+  },
+  {
+    "id": "craft.keeper.edictsinviolable_heart_liquid.gideon_january sanguinary",
+    "name": "January Sanguinary",
+    "req": "liquid.gideon",
+    "principle": "heart"
+  },
+  {
+    "id": "craft.keeper.glassblowing.vesselcrafting_knock_gervinite_chronsichord",
+    "name": "Chronsichord",
+    "req": "gervinite",
+    "principle": "knock"
+  },
+  {
+    "id": "craft.keeper.lockworks.clockworks_knock_gervinite_chronsichord",
+    "name": "Chronsichord",
+    "req": "gervinite",
+    "principle": "knock"
+  },
+  {
+    "id": "craft.keeper.preliminalmeter_knock_gervinite_chronsichord",
+    "name": "Chronsichord",
+    "req": "gervinite",
+    "principle": "knock"
+  },
+  {
+    "id": "craft.keeper.thegreatsignsandthegreatscars_knock_gervinite_chronsichord",
+    "name": "Chronsichord",
+    "req": "gervinite",
+    "principle": "knock"
+  },
+  {
+    "id": "craft.keeper.spices.savours_forge_honeyscar.jasmine_azoth",
+    "name": "Azoth",
+    "req": "honeyscar.jasmine",
+    "principle": "forge"
+  },
+  {
+    "id": "craft.keeper.glassblowing.vesselcrafting_knock_toxin.glassfinger_sacrament ascite",
+    "name": "Sacrament Ascite",
+    "req": "toxin.glassfinger",
+    "principle": "knock"
+  },
+  {
+    "id": "craft.keeper.door.wall_knock_toxin.glassfinger_sacrament ascite",
+    "name": "Sacrament Ascite",
+    "req": "toxin.glassfinger",
+    "principle": "knock"
+  },
+  {
+    "id": "craft.keeper.solutions.separations_knock_toxin.glassfinger_sacrament ascite",
+    "name": "Sacrament Ascite",
+    "req": "toxin.glassfinger",
+    "principle": "knock"
+  },
+  {
+    "id": "craft.keeper.horns.ivories_knock_toxin.glassfinger_sacrament ascite",
+    "name": "Sacrament Ascite",
+    "req": "toxin.glassfinger",
+    "principle": "knock"
+  },
+  {
+    "id": "craft.keeper.edictsliminal_knock_toxin.glassfinger_sacrament ascite",
+    "name": "Sacrament Ascite",
+    "req": "toxin.glassfinger",
+    "principle": "knock"
+  },
+  {
+    "id": "craft.keeper.inks.revelation_lantern_essence.xanthotic_uzult",
+    "name": "Uzult",
+    "req": "essence.xanthotic",
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.keeper.sacrasolisinvicti_lantern_essence.xanthotic_uzult",
+    "name": "Uzult",
+    "req": "essence.xanthotic",
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.keeper.pyroglyphics_lantern_ichor.vitreous_ashartine",
+    "name": "Ashartine",
+    "req": "ichor.vitreous",
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.keeper.watchmansparadoxes_lantern_ichor.vitreous_ashartine",
+    "name": "Ashartine",
+    "req": "ichor.vitreous",
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.keeper.glaziery.lightsmithing_lantern_ichor.vitreous_ashartine",
+    "name": "Ashartine",
+    "req": "ichor.vitreous",
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.keeper.watchmansparadoxes_lantern_essence.xanthotic_uzult",
+    "name": "Uzult",
+    "req": "essence.xanthotic",
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.keeper.anbary.lapidary_sky_ichor.vitreous_ashartine",
+    "name": "Ashartine",
+    "req": "ichor.vitreous",
+    "principle": "sky"
+  },
+  {
+    "id": "craft.keeper.desires.dissolutions_moon_asimel_black sapphire wash",
+    "name": "Black Sapphire Wash",
+    "req": "asimel",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.keeper.putrefactions.calcinations_moon_asimel_black sapphire wash",
+    "name": "Black Sapphire Wash",
+    "req": "asimel",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.keeper.seastories_moon_asimel_black sapphire wash",
+    "name": "Black Sapphire Wash",
+    "req": "asimel",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.keeper.pearl.tide_moon_asimel_black sapphire wash",
+    "name": "Black Sapphire Wash",
+    "req": "asimel",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.keeper.tridesmahiera_moon_asimel_black sapphire wash",
+    "name": "Black Sapphire Wash",
+    "req": "asimel",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.keeper.wolfstories_moon_stymphling_wormwood dream",
+    "name": "Wormwood Dream",
+    "req": "stymphling",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.keeper.edictsinviolable_moon_stymphling_wormwood dream",
+    "name": "Wormwood Dream",
+    "req": "stymphling",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.keeper.rhyme.remembrance_moon_stymphling_wormwood dream",
+    "name": "Wormwood Dream",
+    "req": "stymphling",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.keeper.sickle.eclipse_moon_stymphling_wormwood dream",
+    "name": "Wormwood Dream",
+    "req": "stymphling",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.keeper.snowstories_moon_stymphling_wormwood dream",
+    "name": "Wormwood Dream",
+    "req": "stymphling",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.keeper.solutions.separations_moth_honey_skinshuck mead",
+    "name": "Skinshuck Mead",
+    "req": "honey",
+    "principle": "moth"
+  },
+  {
+    "id": "craft.keeper.edictsliminal_moth_honey_skinshuck mead",
+    "name": "Skinshuck Mead",
+    "req": "honey",
+    "principle": "moth"
+  },
+  {
+    "id": "craft.keeper.sacralimiae_moth_honey_skinshuck mead",
+    "name": "Skinshuck Mead",
+    "req": "honey",
+    "principle": "moth"
+  },
+  {
+    "id": "craft.keeper.rites.theroots_moth_honey_skinshuck mead",
+    "name": "Skinshuck Mead",
+    "req": "honey",
+    "principle": "moth"
+  },
+  {
+    "id": "craft.keeper.pearl.tide_rose_lenten.rose_porphyrine",
+    "name": "Porphyrine",
+    "req": "lenten.rose",
+    "principle": "rose"
+  },
+  {
+    "id": "craft.keeper.insects.nectars_moon_larva.chimeric_perilous imago",
+    "name": "Perilous Imago",
+    "req": "larva.chimeric",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.keeper.resurgences.emergences_moth_larva.chimeric_perilous imago",
+    "name": "Perilous Imago",
+    "req": "larva.chimeric",
+    "principle": "moth"
+  },
+  {
+    "id": "craft.keeper.transformations.liberations_moth_larva.chimeric_perilous imago",
+    "name": "Perilous Imago",
+    "req": "larva.chimeric",
+    "principle": "moth"
+  },
+  {
+    "id": "craft.keeper.drums.dances_nectar_pyrus.auricalcinus_sacrament malachite",
+    "name": "Sacrament Malachite",
+    "req": "pyrus.auricalcinus",
+    "principle": "nectar"
+  },
+  {
+    "id": "craft.keeper.insects.nectars_nectar_leathy_marakat",
+    "name": "Marakat",
+    "req": "leathy",
+    "principle": "nectar"
+  },
+  {
+    "id": "craft.keeper.inks.power_nectar_leathy_marakat",
+    "name": "Marakat",
+    "req": "leathy",
+    "principle": "nectar"
+  },
+  {
+    "id": "craft.keeper.tridesmahiera_nectar_leathy_marakat",
+    "name": "Marakat",
+    "req": "leathy",
+    "principle": "nectar"
+  },
+  {
+    "id": "craft.keeper.spices.savours_nectar_pyrus.auricalcinus_sacrament malachite",
+    "name": "Sacrament Malachite",
+    "req": "pyrus.auricalcinus",
+    "principle": "nectar"
+  },
+  {
+    "id": "craft.keeper.leaves.thorns_nectar_pyrus.auricalcinus_sacrament malachite",
+    "name": "Sacrament Malachite",
+    "req": "pyrus.auricalcinus",
+    "principle": "nectar"
+  },
+  {
+    "id": "craft.keeper.rites.theroots_nectar_pyrus.auricalcinus_sacrament malachite",
+    "name": "Sacrament Malachite",
+    "req": "pyrus.auricalcinus",
+    "principle": "nectar"
+  },
+  {
+    "id": "craft.keeper.herbs.infusions_nectar_pyrus.auricalcinus_sacrament malachite",
+    "name": "Sacrament Malachite",
+    "req": "pyrus.auricalcinus",
+    "principle": "nectar"
+  },
+  {
+    "id": "craft.keeper.coil.chasm_nectar_pyrus.auricalcinus_sacrament malachite",
+    "name": "Sacrament Malachite",
+    "req": "pyrus.auricalcinus",
+    "principle": "nectar"
+  },
+  {
+    "id": "craft.keeper.inks.revelation_rose_ichor.auroral_porphyrine",
+    "name": "Porphyrine",
+    "req": "ichor.auroral",
+    "principle": "rose"
+  },
+  {
+    "id": "craft.keeper.auroralcontemplations_lantern_ichor.auroral_porphyrine",
+    "name": "Porphyrine",
+    "req": "ichor.auroral",
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.keeper.preliminalmeter_rose_enduring.reflection_horizon-sight",
+    "name": "Horizon-Sight",
+    "req": "enduring.reflection",
+    "principle": "rose"
+  },
+  {
+    "id": "craft.keeper.sandstories_rose_enduring.reflection_horizon-sight",
+    "name": "Horizon-Sight",
+    "req": "enduring.reflection",
+    "principle": "rose"
+  },
+  {
+    "id": "craft.keeper.skystories_rose_enduring.reflection_horizon-sight",
+    "name": "Horizon-Sight",
+    "req": "enduring.reflection",
+    "principle": "rose"
+  },
+  {
+    "id": "craft.keeper.path.pilgrim_rose_enduring.reflection_horizon-sight",
+    "name": "Horizon-Sight",
+    "req": "enduring.reflection",
+    "principle": "rose"
+  },
+  {
+    "id": "craft.keeper.sandstories_rose_ichor.auroral_porphyrine",
+    "name": "Porphyrine",
+    "req": "ichor.auroral",
+    "principle": "rose"
+  },
+  {
+    "id": "craft.keeper.stonestories_scale_old.moment_earthquake name",
+    "name": "Earthquake Name",
+    "req": "old.moment",
+    "principle": "scale"
+  },
+  {
+    "id": "craft.keeper.coil.chasm_scale_old.moment_earthquake name",
+    "name": "Earthquake Name",
+    "req": "old.moment",
+    "principle": "scale"
+  },
+  {
+    "id": "craft.keeper.hill.hollow_scale_old.moment_earthquake name",
+    "name": "Earthquake Name",
+    "req": "old.moment",
+    "principle": "scale"
+  },
+  {
+    "id": "craft.keeper.disciplines.thescar_lantern_old.moment_earthquake name",
+    "name": "Earthquake Name",
+    "req": "old.moment",
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.keeper.wolfstories_scale_old.moment_earthquake name",
+    "name": "Earthquake Name",
+    "req": "old.moment",
+    "principle": "scale"
+  },
+  {
+    "id": "craft.keeper.inks.containment_scale_relic.living_houndsgall",
+    "name": "Houndsgall",
+    "req": "relic.living",
+    "principle": "scale"
+  },
+  {
+    "id": "craft.keeper.horns.ivories_scale_relic.living_houndsgall",
+    "name": "Houndsgall",
+    "req": "relic.living",
+    "principle": "scale"
+  },
+  {
+    "id": "craft.keeper.path.pilgrim_scale_relic.living_houndsgall",
+    "name": "Houndsgall",
+    "req": "relic.living",
+    "principle": "scale"
+  },
+  {
+    "id": "craft.keeper.pentiments.precursors_scale_relic.living_houndsgall",
+    "name": "Houndsgall",
+    "req": "relic.living",
+    "principle": "scale"
+  },
+  {
+    "id": "craft.keeper.serpents.venoms_scale_perinculate_serpent-milk",
+    "name": "Serpent-Milk",
+    "req": "perinculate",
+    "principle": "scale"
+  },
+  {
+    "id": "craft.keeper.strings.songs_sky_mazarine.fife_wind-in-waiting",
+    "name": "Wind-in-Waiting",
+    "req": "mazarine.fife",
+    "principle": "sky"
+  },
+  {
+    "id": "craft.keeper.skystories_sky_mazarine.fife_wind-in-waiting",
+    "name": "Wind-in-Waiting",
+    "req": "mazarine.fife",
+    "principle": "sky"
+  },
+  {
+    "id": "craft.keeper.sacrasolisinvicti_sky_mazarine.fife_wind-in-waiting",
+    "name": "Wind-in-Waiting",
+    "req": "mazarine.fife",
+    "principle": "sky"
+  },
+  {
+    "id": "craft.keeper.furs.feathers_sky_mazarine.fife_wind-in-waiting",
+    "name": "Wind-in-Waiting",
+    "req": "mazarine.fife",
+    "principle": "sky"
+  },
+  {
+    "id": "craft.keeper.lockworks.clockworks_sky_wire.silver_chronsichord",
+    "name": "Chronsichord",
+    "req": "wire.silver",
+    "principle": "sky"
+  },
+  {
+    "id": "craft.keeper.ouranoscopy_sky_ascendant.harmony_didumos",
+    "name": "Didumos",
+    "req": "ascendant.harmony",
+    "principle": "sky"
+  },
+  {
+    "id": "craft.keeper.sights.sensations_sky_ascendant.harmony_didumos",
+    "name": "Didumos",
+    "req": "ascendant.harmony",
+    "principle": "sky"
+  },
+  {
+    "id": "craft.keeper.bells.brazieries_sky_ascendant.harmony_didumos",
+    "name": "Didumos",
+    "req": "ascendant.harmony",
+    "principle": "sky"
+  },
+  {
+    "id": "craft.keeper.applebrighteuphonies_sky_ascendant.harmony_didumos",
+    "name": "Didumos",
+    "req": "ascendant.harmony",
+    "principle": "sky"
+  },
+  {
+    "id": "craft.keeper.sacralimiae_sky_ascendant.harmony_didumos",
+    "name": "Didumos",
+    "req": "ascendant.harmony",
+    "principle": "sky"
+  },
+  {
+    "id": "craft.keeper.inks.containment_winter_liquid.solomon_nillycant",
+    "name": "Nillycant",
+    "req": "liquid.solomon",
+    "principle": "winter"
+  },
+  {
+    "id": "craft.keeper.sights.sensations_winter_liquid.solomon_nillycant",
+    "name": "Nillycant",
+    "req": "liquid.solomon",
+    "principle": "winter"
+  },
+  {
+    "id": "craft.keeper.snowstories_winter_essential.periost_year-tally",
+    "name": "Year-Tally",
+    "req": "essential.periost",
+    "principle": "winter"
+  },
+  {
+    "id": "craft.keeper.raggedcrossroads_winter_essential.periost_year-tally",
+    "name": "Year-Tally",
+    "req": "essential.periost",
+    "principle": "winter"
+  },
+  {
+    "id": "craft.keeper.rhyme.remembrance_winter_essential.periost_year-tally",
+    "name": "Year-Tally",
+    "req": "essential.periost",
+    "principle": "winter"
+  },
+  {
+    "id": "craft.keeper.ouranoscopy_moon_asimel_didumos",
+    "name": "Didumos",
+    "req": "asimel",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.keeper.putrefactions.calcinations_winter_essential.periost_year-tally",
+    "name": "Year-Tally",
+    "req": "essential.periost",
+    "principle": "winter"
+  },
+  {
+    "id": "craft.keeper.raggedcrossroads_winter_toxin.glassfinger_nillycant",
+    "name": "Nillycant",
+    "req": "toxin.glassfinger",
+    "principle": "winter"
+  },
+  {
+    "id": "craft.keeper.stitching.binding_winter_fabric_wyrd-weft",
+    "name": "Wyrd-Weft",
+    "req": "fabric",
+    "principle": "winter"
+  },
+  {
+    "id": "craft.keeper.weaving.knotworking_winter_fabric_wyrd-weft",
+    "name": "Wyrd-Weft",
+    "req": "fabric",
+    "principle": "winter"
+  },
+  {
+    "id": "craft.keeper.glaziery.lightsmithing_lantern_essence.xanthotic_uzult",
+    "name": "Uzult",
+    "req": "essence.xanthotic",
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.keeper.transformations.liberations_forge_salts.bitterblack_iotic essence",
+    "name": "Iotic Essence",
+    "req": "salts.bitterblack",
+    "principle": "forge"
+  },
+  {
+    "id": "craft.keeper.meniscatereflections_forge_salts.bitterblack_iotic essence",
+    "name": "Iotic Essence",
+    "req": "salts.bitterblack",
+    "principle": "forge"
+  },
+  {
+    "id": "craft.keeper.disciplines.thehammer_forge_salts.bitterblack_iotic essence",
+    "name": "Iotic Essence",
+    "req": "salts.bitterblack",
+    "principle": "forge"
+  },
+  {
+    "id": "craft.keeper.purifications.exaltations_lantern_salts.bitterblack_xanthotic essence",
+    "name": "Xanthotic Essence",
+    "req": "salts.bitterblack",
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.keeper.transformations.liberations_forge_essence.xanthotic_iotic essence",
+    "name": "Iotic Essence",
+    "req": "essence.xanthotic",
+    "principle": "forge"
+  },
+  {
+    "id": "craft.keeper.meniscatereflections_forge_essence.xanthotic_iotic essence",
+    "name": "Iotic Essence",
+    "req": "essence.xanthotic",
+    "principle": "forge"
+  },
+  {
+    "id": "craft.keeper.disciplines.thehammer_forge_essence.xanthotic_iotic essence",
+    "name": "Iotic Essence",
+    "req": "essence.xanthotic",
+    "principle": "forge"
+  },
+  {
+    "id": "craft.keeper.purifications.exaltations_lantern_essence.iotic_xanthotic essence",
+    "name": "Xanthotic Essence",
+    "req": "essence.iotic",
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.keeper.glassblowing.vesselcrafting_sky_ichor.vitreous_ashartine",
+    "name": "Ashartine",
+    "req": "ichor.vitreous",
+    "principle": "sky"
+  },
+  {
+    "id": "craft.keeper.glassblowing.vesselcrafting_lantern_ichor.vitreous_ashartine",
+    "name": "Ashartine",
+    "req": "ichor.vitreous",
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.keeper.solutions.separations_moth_honey.cuckoo_skinshuck mead",
+    "name": "Skinshuck Mead",
+    "req": "honey.cuckoo",
+    "principle": "moth"
+  },
+  {
+    "id": "craft.keeper.edictsliminal_moth_honey.cuckoo_skinshuck mead",
+    "name": "Skinshuck Mead",
+    "req": "honey.cuckoo",
+    "principle": "moth"
+  },
+  {
+    "id": "craft.keeper.sacralimiae_moth_honey.cuckoo_skinshuck mead",
+    "name": "Skinshuck Mead",
+    "req": "honey.cuckoo",
+    "principle": "moth"
+  },
+  {
+    "id": "craft.keeper.rites.theroots_moth_honey.cuckoo_skinshuck mead",
+    "name": "Skinshuck Mead",
+    "req": "honey.cuckoo",
+    "principle": "moth"
+  },
+  {
+    "id": "craft.keeper.insects.nectars_moon_honey.cuckoo_skinshuck mead",
+    "name": "Skinshuck Mead",
+    "req": "honey.cuckoo",
+    "principle": "moon"
+  },
+  {
+    "id": "craft.keeper.resurgences.emergences_moth_honey.cuckoo_skinshuck mead",
+    "name": "Skinshuck Mead",
+    "req": "honey.cuckoo",
+    "principle": "moth"
+  },
+  {
+    "id": "craft.keeper.transformations.liberations_moth_honey.cuckoo_skinshuck mead",
+    "name": "Skinshuck Mead",
+    "req": "honey.cuckoo",
+    "principle": "moth"
+  },
+  {
+    "id": "craft.keeper.glaziery.lightsmithing_knock_gervinite_chronsichord",
+    "name": "Chronsichord",
+    "req": "gervinite",
+    "principle": "knock"
+  },
+  {
+    "id": "craft.keeper.anbary.lapidary_lantern_essence.xanthotic_uzult",
+    "name": "Uzult",
+    "req": "essence.xanthotic",
+    "principle": "lantern"
+  },
+  {
+    "id": "craft.keeper.inks.power_rose_ichor.auroral_porphyrine",
+    "name": "Porphyrine",
+    "req": "ichor.auroral",
+    "principle": "rose"
+  },
+  {
+    "id": "craft.keeper.ouranoscopy_sky_essential.periost_year-tally",
+    "name": "Year-Tally",
+    "req": "essential.periost",
+    "principle": "sky"
+  },
+  {
+    "id": "craft.keeper.stonestories_nectar_essential.periost_sacrament malachite",
+    "name": "Sacrament Malachite",
+    "req": "essential.periost",
+    "principle": "nectar"
+  },
+  {
+    "id": "craft.keeper.insects.nectars_moth_larva.chimeric_perilous imago",
+    "name": "Perilous Imago",
+    "req": "larva.chimeric",
+    "principle": "moth"
+  }
+]

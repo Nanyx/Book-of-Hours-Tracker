@@ -1,25 +1,34 @@
-import * as React from 'react';
-import {Tab, Col, Row, Nav} from 'react-bootstrap';
+import * as React from "react";
+import { Tab, Col, Row, Nav } from "react-bootstrap";
 
-import TreeOfWisdoms from './tree-of-wisdom/tree-of-wisdoms';
+import TreeOfWisdoms from "./tree-of-wisdom/tree-of-wisdoms";
+import Test from "./test/test";
 
-import pageGen from '../../layouts/pages';
+import PageGen from "../../layouts/pages";
 
-const Overview = () => (
-  <Tab.Container>
-    <Row>
-      <Col sm={3}>
-        <Nav variant="pills" className="flex-column">
-          <TreeOfWisdoms.Nav/>
-        </Nav>
-      </Col>
-      <Col>
-        <Tab.Content>
-          <TreeOfWisdoms/>
-        </Tab.Content>
-      </Col>
-    </Row>
-  </Tab.Container>
+const name = "Overview";
+
+const Overview = ({ autosave }) => (
+  <PageGen name={name}>
+    <Tab.Container>
+      <Row>
+        <Col sm={3}>
+          <Nav variant="pills" className="flex-column">
+            <TreeOfWisdoms.Nav />
+            <Test.Nav />
+          </Nav>
+        </Col>
+        <Col>
+          <Tab.Content>
+            <TreeOfWisdoms save={autosave} />
+            <Test autosave={autosave} />
+          </Tab.Content>
+        </Col>
+      </Row>
+    </Tab.Container>
+  </PageGen>
 );
 
-export default pageGen("Overview", <Overview/>);
+const NavItem = () => <PageGen.Nav name={name} />;
+
+export default Object.assign(Overview, { Nav: NavItem, Name: name });

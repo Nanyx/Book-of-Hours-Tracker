@@ -1,12 +1,11 @@
-import * as React from 'react';
-import Layout from '../layouts/main';
+import * as React from "react";
+import Layout from "../layouts/main";
 
-const generate = (name, content, ...rest) => {
+const Page = ({ name, children, rest }) => (
+  <Layout.Pane ekey={name} {...rest}>
+    {children}
+  </Layout.Pane>
+);
+const Nav = ({ name }) => <Layout.NavItem ekey={name}>{name}</Layout.NavItem>;
 
-  const Page = () => <Layout.Pane ekey={name} {...rest}>{content}</Layout.Pane>;
-  Page.Nav = () => <Layout.NavItem ekey={name}>{name}</Layout.NavItem>;
-
-  return Page;
-};
-
-export default generate;
+export default Object.assign(Page, { Nav });

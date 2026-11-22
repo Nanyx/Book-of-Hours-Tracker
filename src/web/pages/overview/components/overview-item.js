@@ -1,12 +1,16 @@
-import * as React from 'react';
-import {Nav, Tab} from 'react-bootstrap';
+import * as React from "react";
+import { Nav, Tab } from "react-bootstrap";
 
-const generate = (ek, name, content, ...rest) => {
+const Page = ({ ek, children, rest }) => (
+  <Tab.Pane eventKey={ek} {...rest}>
+    {children}
+  </Tab.Pane>
+);
 
-  const Page = () => <Tab.Pane eventKey={ek} {...rest}>{content}</Tab.Pane>;
-  Page.Nav = () => <Nav.Item><Nav.Link eventKey={ek}>{name}</Nav.Link></Nav.Item>;
+const NavItem = ({ ek, children }) => (
+  <Nav.Item>
+    <Nav.Link eventKey={ek}>{children}</Nav.Link>
+  </Nav.Item>
+);
 
-  return Page;
-};
-
-export default generate;
+export default Object.assign(Page, { Nav: NavItem });

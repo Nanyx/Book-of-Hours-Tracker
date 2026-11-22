@@ -2,6 +2,7 @@
   "lessons": [
     {
       "id": 1,
+      "rid": "r.anbary.lapidary",
       "name": "Anbary & Lapidary",
       "principles": {
         "primary": 12,
@@ -12,7 +13,7 @@
         { "wisdom": 2, "element": 8 }
       ],
       "crafts": [
-        { "principle": 12, "level": 1, "id": 78, "req": 1},
+        { "principle": 12, "level": 1, "id": 78, "req": 1 },
         { "principle": 12, "level": 2, "id": 40, "req": 30 },
         { "principle": 12, "level": 3, "id": 42, "req": 22 },
 
@@ -25,6 +26,7 @@
     },
     {
       "id": 2,
+      "rid": "r.applebrighteuphonies",
       "name": "Applebright Euphonies",
       "principles": {
         "primary": 12,
@@ -46,6 +48,7 @@
     },
     {
       "id": 3,
+      "rid": "r.auroralcontemplations",
       "name": "Auroral Contemplations",
       "principles": {
         "primary": 6,
@@ -69,6 +72,7 @@
     },
     {
       "id": 4,
+      "rid": "r.bells.brazieries",
       "name": "Bells & Brazieries",
       "principles": {
         "primary": 2,
@@ -90,6 +94,7 @@
     },
     {
       "id": 5,
+      "rid": "r.coil.chasm",
       "name": "Coil & Chasm",
       "principles": {
         "primary": 11,
@@ -111,6 +116,7 @@
     },
     {
       "id": 6,
+      "rid": "r.desires.dissolutions",
       "name": "Desires & Dissolutions",
       "principles": {
         "primary": 3,
@@ -132,6 +138,7 @@
     },
     {
       "id": 7,
+      "rid": "r.disciplines.thehammer",
       "name": "Disciplines of the Hammer",
       "principles": {
         "primary": 1,
@@ -155,6 +162,7 @@
     },
     {
       "id": 8,
+      "rid": "r.disciplines.thescar",
       "name": "Disciplines of the Scar",
       "principles": {
         "primary": 1,
@@ -176,6 +184,7 @@
     },
     {
       "id": 9,
+      "rid": "r.door.wall",
       "name": "Door & Wall",
       "principles": {
         "primary": 5,
@@ -197,6 +206,7 @@
     },
     {
       "id": 10,
+      "rid": "r.drums.dances",
       "name": "Drums & Dances",
       "principles": {
         "primary": 4,
@@ -220,6 +230,7 @@
     },
     {
       "id": 11,
+      "rid": "r.edictsinviolable",
       "name": "Edicts Inviolable",
       "principles": {
         "primary": 4,
@@ -241,6 +252,7 @@
     },
     {
       "id": 12,
+      "rid": "r.edictsliminal",
       "name": "Edicts Liminal",
       "principles": {
         "primary": 8,
@@ -263,6 +275,7 @@
     },
     {
       "id": 13,
+      "rid": "r.edictsmartial",
       "name": "Edicts Martial",
       "principles": {
         "primary": 7,
@@ -284,6 +297,7 @@
     },
     {
       "id": 14,
+      "rid": "r.furs.feathers",
       "name": "Furs & Feathers",
       "principles": {
         "primary": 12,
@@ -306,6 +320,7 @@
     },
     {
       "id": 15,
+      "rid": "r.glassblowing.vesselcrafting",
       "name": "Glassblowing & Vesselcrafting",
       "principles": {
         "primary": 5,
@@ -332,6 +347,7 @@
     },
     {
       "id": 16,
+      "rid": "r.glaziery.lightsmithing",
       "name": "Glaziery & Lightsmithing",
       "principles": {
         "primary": 6,
@@ -355,6 +371,7 @@
     },
     {
       "id": 17,
+      "rid": "r.herbs.infusions",
       "name": "Herbs & Infusions",
       "principles": {
         "primary": 4,
@@ -376,6 +393,7 @@
     },
     {
       "id": 18,
+      "rid": "r.hill.hollow",
       "name": "Hill & Hollow",
       "principles": {
         "primary": 7,
@@ -396,6 +414,7 @@
     },
     {
       "id": 19,
+      "rid": "r.horns.ivories",
       "name": "Horns & Ivories",
       "principles": {
         "primary": 11,
@@ -417,6 +436,7 @@
     },
     {
       "id": 20,
+      "rid": "r.inks.containment",
       "name": "Inks of Containment",
       "principles": {
         "primary": 13,
@@ -443,6 +463,7 @@
     },
     {
       "id": 21,
+      "rid": "r.inks.power",
       "name": "Inks of Power",
       "principles": {
         "primary": 10,
@@ -470,6 +491,7 @@
     },
     {
       "id": 22,
+      "rid": "r.inks.revelation",
       "name": "Inks of Revelation",
       "principles": {
         "primary": 6,
@@ -496,6 +518,7 @@
     },
     {
       "id": 23,
+      "rid": "r.insects.nectars",
       "name": "Insects & Nectars",
       "principles": {
         "primary": 9,
@@ -518,6 +541,7 @@
     },
     {
       "id": 24,
+      "rid": "r.leaves.thorns",
       "name": "Leaves & Thorns",
       "principles": {
         "primary": 9,
@@ -539,6 +563,7 @@
     },
     {
       "id": 25,
+      "rid": "r.lockworks.clockworks",
       "name": "Lockworks & Clockworks",
       "principles": {
         "primary": 5,
@@ -560,6 +585,7 @@
     },
     {
       "id": 26,
+      "rid": "r.maggephenemysteries",
       "name": "Maggephene Mysteries",
       "principles": {
         "primary": 7,
@@ -580,6 +606,7 @@
     },
     {
       "id": 27,
+      "rid": "r.meniscatereflections",
       "name": "Meniscate Reflections",
       "principles": {
         "primary": 2,
@@ -603,6 +630,7 @@
     },
     {
       "id": 28,
+      "rid": "r.orchids.narcotics",
       "name": "Orchids & Narcotics",
       "principles": {
         "primary": 3,
@@ -623,6 +651,7 @@
     },
     {
       "id": 29,
+      "rid": "r.ouranoscopy",
       "name": "Ouranoscopy",
       "principles": {
         "primary": 12,
@@ -647,6 +676,7 @@
     },
     {
       "id": 30,
+      "rid": "r.path.pilgrim",
       "name": "Path & Pilgrim",
       "principles": {
         "primary": 10,
@@ -668,6 +698,7 @@
     },
     {
       "id": 31,
+      "rid": "r.pearl.tide",
       "name": "Pearl & Tide",
       "principles": {
         "primary": 10,
@@ -689,6 +720,7 @@
     },
     {
       "id": 32,
+      "rid": "r.pentiments.precursors",
       "name": "Pentiments & Precursors",
       "principles": {
         "primary": 11,
@@ -710,13 +742,14 @@
     },
     {
       "id": 33,
+      "rid": "r.preliminalmeter",
       "name": "Preliminal Meter",
       "principles": {
         "primary": 5,
         "secondary": 10
       },
       "wisdoms": [
-        { "wisdom": 3, "element": 8},
+        { "wisdom": 3, "element": 8 },
         { "wisdom": 2, "element": 9 }
       ],
       "crafts": [
@@ -731,6 +764,7 @@
     },
     {
       "id": 34,
+      "rid": "r.purifications.exaltations",
       "name": "Purifications & Exaltations",
       "principles": {
         "primary": 12,
@@ -754,6 +788,7 @@
     },
     {
       "id": 35,
+      "rid": "r.putrefactions.calcinations",
       "name": "Putrefactions & Calcinations",
       "principles": {
         "primary": 13,
@@ -775,6 +810,7 @@
     },
     {
       "id": 36,
+      "rid": "r.pyroglyphics",
       "name": "Pyroglyphics",
       "principles": {
         "primary": 2,
@@ -796,6 +832,7 @@
     },
     {
       "id": 37,
+      "rid": "r.quenchings.quellings",
       "name": "Quenchings & Quellings",
       "principles": {
         "primary": 13,
@@ -816,6 +853,7 @@
     },
     {
       "id": 38,
+      "rid": "r.raggedcrossroads",
       "name": "Ragged Crossroads",
       "principles": {
         "primary": 1,
@@ -837,6 +875,7 @@
     },
     {
       "id": 39,
+      "rid": "r.resurgences.emergences",
       "name": "Resurgences & Emergences",
       "principles": {
         "primary": 8,
@@ -859,6 +898,7 @@
     },
     {
       "id": 40,
+      "rid": "r.rhyme.remembrance",
       "name": "Rhyme & Remembrance",
       "principles": {
         "primary": 13,
@@ -880,6 +920,7 @@
     },
     {
       "id": 41,
+      "rid": "r.rites.theroots",
       "name": "Rites of the Roots",
       "principles": {
         "primary": 9,
@@ -902,6 +943,7 @@
     },
     {
       "id": 42,
+      "rid": "r.sacralimiae",
       "name": "Sacra Limiae",
       "principles": {
         "primary": 8,
@@ -924,6 +966,7 @@
     },
     {
       "id": 43,
+      "rid": "r.sacrasolisinvicti",
       "name": "Sacra Solis Invicti",
       "principles": {
         "primary": 6,
@@ -945,6 +988,7 @@
     },
     {
       "id": 44,
+      "rid": "r.sandstories",
       "name": "Sand Stories",
       "principles": {
         "primary": 10,
@@ -966,6 +1010,7 @@
     },
     {
       "id": 45,
+      "rid": "r.seastories",
       "name": "Sea Stories",
       "principles": {
         "primary": 7,
@@ -987,6 +1032,7 @@
     },
     {
       "id": 46,
+      "rid": "r.serpents.venoms",
       "name": "Serpents & Venoms",
       "principles": {
         "primary": 11,
@@ -1008,6 +1054,7 @@
     },
     {
       "id": 47,
+      "rid": "r.sharps",
       "name": "Sharps",
       "principles": {
         "primary": 1,
@@ -1028,6 +1075,7 @@
     },
     {
       "id": 48,
+      "rid": "r.sickle.eclipse",
       "name": "Sickle & Eclipse",
       "principles": {
         "primary": 1,
@@ -1049,6 +1097,7 @@
     },
     {
       "id": 49,
+      "rid": "r.sights.sensations",
       "name": "Sights & Sensations",
       "principles": {
         "primary": 12,
@@ -1070,6 +1119,7 @@
     },
     {
       "id": 50,
+      "rid": "r.skystories",
       "name": "Sky Stories",
       "principles": {
         "primary": 12,
@@ -1091,6 +1141,7 @@
     },
     {
       "id": 51,
+      "rid": "r.snowstories",
       "name": "Snow Stories",
       "principles": {
         "primary": 13,
@@ -1112,6 +1163,7 @@
     },
     {
       "id": 52,
+      "rid": "r.solutions.separations",
       "name": "Solutions & Separations",
       "principles": {
         "primary": 8,
@@ -1134,6 +1186,7 @@
     },
     {
       "id": 53,
+      "rid": "r.spices.savours",
       "name": "Spices & Savours",
       "principles": {
         "primary": 9,
@@ -1155,6 +1208,7 @@
     },
     {
       "id": 54,
+      "rid": "r.stitching.binding",
       "name": "Stitching & Binding",
       "principles": {
         "primary": 12,
@@ -1177,6 +1231,7 @@
     },
     {
       "id": 55,
+      "rid": "r.stonestories",
       "name": "Stone Stories",
       "principles": {
         "primary": 11,
@@ -1198,6 +1253,7 @@
     },
     {
       "id": 56,
+      "rid": "r.strings.songs",
       "name": "Strings & Songs",
       "principles": {
         "primary": 12,
@@ -1219,6 +1275,7 @@
     },
     {
       "id": 57,
+      "rid": "r.surgeries.exsanguinations",
       "name": "Surgeries & Exsanguinations",
       "principles": {
         "primary": 4,
@@ -1240,6 +1297,7 @@
     },
     {
       "id": 58,
+      "rid": "r.thegreatsignsandthegreatscars",
       "name": "The Great Signs and the Great Scars",
       "principles": {
         "primary": 3,
@@ -1261,6 +1319,7 @@
     },
     {
       "id": 59,
+      "rid": "r.transformations.liberations",
       "name": "Transformations & Liberations",
       "principles": {
         "primary": 2,
@@ -1287,6 +1346,7 @@
     },
     {
       "id": 60,
+      "rid": "r.tridesmahiera",
       "name": "Tridesma Hiera",
       "principles": {
         "primary": 7,
@@ -1310,6 +1370,7 @@
     },
     {
       "id": 61,
+      "rid": "r.watchmansparadoxes",
       "name": "Watchman's Paradoxes",
       "principles": {
         "primary": 6,
@@ -1331,6 +1392,7 @@
     },
     {
       "id": 62,
+      "rid": "r.weaving.knotworking",
       "name": "Weaving & Knotworking",
       "principles": {
         "primary": 4,
@@ -1353,6 +1415,7 @@
     },
     {
       "id": 63,
+      "rid": "r.wolfstories",
       "name": "Wolf Stories",
       "principles": {
         "primary": 7,

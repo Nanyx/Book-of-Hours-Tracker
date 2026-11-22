@@ -1,10 +1,14 @@
-const { app, BrowserWindow, Menu } = require('electron');
-const path = require('node:path');
+const { app, BrowserWindow, Menu } = require("electron");
+const path = require("node:path");
+const fs = require("fs");
+const os = require("os");
 
-const mainMenu = require('./app-menu');
+let rid;
+
+const mainMenu = require("./app-menu");
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
-if (require('electron-squirrel-startup')) {
+if (require("electron-squirrel-startup")) {
   app.quit();
 }
 
@@ -15,29 +19,43 @@ const createWindow = () => {
     height: 1200,
     webPreferences: {
       preload: MAIN_WINDOW_PRELOAD_WEBPACK_ENTRY,
+      contextIsolation: true,
+      sandbox: false,
     },
   });
-  
+
   Menu.setApplicationMenu(Menu.buildFromTemplate(mainMenu));
 
   // and load the index.html of the app.
   mainWindow.loadURL(MAIN_WINDOW_WEBPACK_ENTRY);
 
   // Open the DevTools.
-  if (process.argv.indexOf("dev") != -1) { mainWindow.webContents.openDevTools(); }
+  if (process.argv.indexOf("dev") != -1) {
+    mainWindow.webContents.openDevTools();
+  }
 };
 
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
 app.whenReady().then(() => {
+  const crawler = () => {
+    rid = setInterval(() => {
+      //rid = setTimeout(() => {
+      saveRunner();
+    }, 1000);
+  };
+
   createWindow();
+  crawler();
 
   // On OS X it's common to re-create a window in the app when the
   // dock icon is clicked and there are no other windows open.
-  app.on('activate', () => {
+  app.on("activate", () => {
     if (BrowserWindow.getAllWindows().length === 0) {
+      clearInterval(rid);
       createWindow();
+      crawler();
     }
   });
 });
@@ -45,11 +63,38 @@ app.whenReady().then(() => {
 // Quit when all windows are closed, except on macOS. There, it's common
 // for applications and their menu bar to stay active until the user quits
 // explicitly with Cmd + Q.
-app.on('window-all-closed', () => {
-  if (process.platform !== 'darwin') {
+app.on("window-all-closed", () => {
+  if (process.platform !== "darwin") {
     app.quit();
   }
 });
 
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and import them here.
+
+app.on("will-quit", () => {});
+
+readSave = (filePath) => {
+  try {
+    let w = BrowserWindow.getFocusedWindow();
+    if (!w) return;
+
+    w.webContents.send(
+      "save-check-event",
+      JSON.parse(fs.readFileSync(filePath, { encoding: "utf-8" })),
+    );
+  } catch (ex) {
+    console.error(ex);
+  }
+};
+
+saveRunner = () => {
+  let savefile = path.join(
+    path.resolve(process.env.APPDATA, ".."),
+    "LocalLow",
+    "Weather Factory",
+    "Book of Hours",
+    "AUTOSAVE.json",
+  );
+  readSave(savefile);
+};
