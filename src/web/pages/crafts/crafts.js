@@ -11,10 +11,12 @@ const name = "Crafts";
 
 const Crafts = ({ craftSave }) => (
   <PageGen name={name}>
-    <Tabs defaultActiveKey="aspects" className="mb-3" justify>
+    <Tabs defaultActiveKey="skills" className="mb-3" justify>
+      {/*
       <Tab eventKey="aspects" title="By Aspect">
         <CraftsAspects craftSave={craftSave} />
       </Tab>
+      */}
       <Tab eventKey="skills" title="By Skill">
         <CraftsSkills craftSave={craftSave} />
       </Tab>
