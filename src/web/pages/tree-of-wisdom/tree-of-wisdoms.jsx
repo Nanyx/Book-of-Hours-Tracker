@@ -1,5 +1,3 @@
-import * as React from "react";
-
 import "./tree-of-wisdom.css";
 
 import Matrix from "./wisdoms-matrix";

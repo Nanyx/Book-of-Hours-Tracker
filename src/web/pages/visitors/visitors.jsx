@@ -1,5 +1,3 @@
-import * as React from "react";
-
 import PageGen from "../../layouts/pages";
 
 import visitorDB from "../../../data/visitors.json";
@@ -10,6 +8,7 @@ import Diet from "./diet";
 const name = "Visitors";
 
 const Visitors = ({ visitorSave }) => {
+  console.log(visitorSave);
   let visitors = visitorDB.filter((v) =>
     visitorSave.map((wcid) => wcid.split(".").reverse()[0]).includes(v.wcid),
   );

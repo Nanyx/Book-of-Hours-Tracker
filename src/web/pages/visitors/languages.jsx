@@ -1,4 +1,3 @@
-import * as React from "react";
 import { Table, Col, Row } from "react-bootstrap";
 
 import langDB from "../../../data/lang.json";

@@ -1,5 +1,4 @@
-import * as React from "react";
-import Layout from "../layouts/main";
+import Layout from "./main";
 
 const Page = ({ name, children, rest }) => (
   <Layout.Pane ekey={name} {...rest}>

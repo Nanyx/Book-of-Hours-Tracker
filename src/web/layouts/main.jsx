@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { Container, Tab, Row, Col, Nav } from 'react-bootstrap';
 
 const MainLayout = ({dkey, children}) => (

@@ -1,4 +1,3 @@
-import * as React from "react";
 import { Card, Table } from "react-bootstrap";
 
 import PrincipleTT from "../../components/principle-tooltip";

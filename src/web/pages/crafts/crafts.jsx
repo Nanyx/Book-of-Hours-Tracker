@@ -1,4 +1,3 @@
-import * as React from "react";
 import { Tabs, Tab } from "react-bootstrap";
 
 import "./crafts.css";

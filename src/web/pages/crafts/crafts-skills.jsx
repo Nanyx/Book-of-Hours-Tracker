@@ -1,5 +1,4 @@
-import * as React from "react";
-import { Tab, Row, Col, Nav, Card, Table } from "react-bootstrap";
+import { Tab, Row, Col, Nav } from "react-bootstrap";
 
 import PrincipleTable from "./components/principle-table";
 import { getSkillLearned } from "../../../helpers/skills";

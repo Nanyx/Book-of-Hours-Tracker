@@ -1,4 +1,3 @@
-import * as React from "react";
 import { Tab, Row, Col, Nav } from "react-bootstrap";
 
 import { getSkillLearned } from "../../../helpers/skills";

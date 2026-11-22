@@ -1,4 +1,3 @@
-import * as React from "react";
 import { Table, Row, Col } from "react-bootstrap";
 
 import principleDB from "../../../data/principles.json";

@@ -1,4 +1,3 @@
-import * as React from "react";
 import { Table } from "react-bootstrap";
 
 import wisdomsDB from "../../../data/wisdoms.json";
