@@ -10,7 +10,7 @@ import Layout from "./layouts/main";
 import Books from "./pages/books";
 import Crafts from "./pages/crafts/crafts";
 import TW from "./pages/tree-of-wisdom/tree-of-wisdoms";
-import Visitors from "./pages/visitors/visitors";
+import Visitors from "./pages/visitors";
 //import Onboarding from "./pages/components/onboarding";
 
 import { BookParser } from "../helpers/save-trimmer";
