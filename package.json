@@ -1,7 +1,7 @@
 {
   "name": "book-of-hours-tracker",
   "productName": "book-of-hours-tracker",
-  "version": "2.0.5",
+  "version": "2.1.6",
   "private": true,
   "description": "My Electron application description",
   "keywords": [],
