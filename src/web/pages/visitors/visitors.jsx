@@ -1,46 +1,31 @@
+import { Tabs, Tab } from "react-bootstrap";
+
+import "./visitors.css";
+
 import PageGen from "../../layouts/pages";
+import DietTable from "./diet";
+import Languages from './languages'
 
-import visitorDB from "../../../data/visitors.json";
-
-import Languages from "./languages";
-import Diet from "./diet";
+import visitorsDB from "../../../data/visitors.json";
 
 const name = "Visitors";
 
 const Visitors = ({ visitorSave }) => {
-  console.log(visitorSave);
-  let visitors = visitorDB.filter((v) =>
-    visitorSave.map((wcid) => wcid.split(".").reverse()[0]).includes(v.wcid),
+  let visitors = visitorsDB.filter((v) =>
+    visitorSave.map((vs) => vs.split(".").reverse()[0]).includes(v.wid),
   );
-  visitors.sort((a, b) =>
-    a.name.toLowerCase() < b.name.toLowerCase() ? -1 : 1,
-  );
+  visitors.sort((a, b) => (a.name < b.name ? -1 : 1));
 
   return (
     <PageGen name={name}>
-      {visitorSave.length == 0 ? (
-        <></>
-      ) : (
-        <>
-          <h4>Languages</h4>
-          <Languages.ReferenceTable />
-          <Languages>
-            {visitors.map((v) => (
-              <Languages.Visitor key={v.id} {...v} />
-            ))}
-          </Languages>
-
-          <h4>Diet</h4>
-          <Diet
-            visitors={visitors.filter((v) => v.diet)}
-            max={visitorDB.filter((vdb) => vdb.diet).length}
-          />
-        </>
-      )}
+        <Tabs defaultActiveKey="diet" className="mb-3" justify>
+          <Tab eventKey="diet" title="Diet"><DietTable visitors={visitors} /></Tab>
+          <Tab eventKey="lang" title="Languages"><Languages visitors={visitors}/></Tab>
+        </Tabs>
     </PageGen>
   );
 };
 
-const Nav = () => <PageGen.Nav name={name} />;
+const NavItem = () => <PageGen.Nav name={name} />;
 
-export default Object.assign(Visitors, { Nav });
+export default Object.assign(Visitors, { Nav: NavItem });

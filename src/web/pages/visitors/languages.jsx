@@ -1,69 +1,92 @@
-import { Table, Col, Row } from "react-bootstrap";
+import { Table } from "react-bootstrap";
 
-import langDB from "../../../data/lang.json";
+import languagesDB from "../../../data/languages.json";
 
-const RefTables = () => {
-  let group = [];
-  for (let i = 0; i < Math.ceil(langDB.length / 3); i++) {
-    group.push(langDB.slice(i * 3, i * 3 + 3));
-  }
+const Check = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 448 512"
+    width={25}
+    height={25}
+  >
+    <path
+      fill="whitesmoke"
+      d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"
+    />
+  </svg>
+);
 
-  return (
-    <Row>
-      {group.map((g, i) => (
-        <RefTable key={i} list={g} />
-      ))}
-    </Row>
-  );
-};
-
-const RefTable = ({ list = [] }) => (
-  <Col>
-    <Table bordered striped size="sm">
+const VisitorsLanguages = ({ visitors }) => (
+  <>
+    <h4>Can be learn</h4>
+    <Table bordered striped hover>
+      <thead>
+        <tr>
+          <th rowSpan={2} className="align-middle text-center">
+            Name
+          </th>
+          <th colSpan={10} className="text-center">
+            languages
+          </th>
+        </tr>
+        <tr>
+          {languagesDB
+            .filter((l) => l.toLearn)
+            .map((l) => (
+              <th className="text-center" key={l.id}>
+                {l.name}
+              </th>
+            ))}
+        </tr>
+      </thead>
       <tbody>
-        {list.map((l) => (
-          <RefTableRow key={l.id} {...l} />
+        {visitors.map((v) => (
+          <LangTableItem key={v.id} visitor={v} toLearn={true} />
         ))}
       </tbody>
     </Table>
-  </Col>
-);
 
-const RefTableRow = ({ name, short }) => (
-  <tr>
-    <td>{name}</td>
-    <td>{short}</td>
-  </tr>
-);
-
-const Loc = ({ children }) => (
-  <Table bordered striped hover size="sm" className="align-middle">
-    <thead>
-      <tr>
-        <th></th>
-        {langDB.map((l) => (
-          <th key={l.id} className="text-center">
-            {`${l.short}${l.learn ? "*" : ""}`}
+    <h4>Known</h4>
+    <Table bordered striped hover>
+      <thead>
+        <tr>
+          <th rowSpan={2} className="align-middle text-center">
+            Name
           </th>
+          <th colSpan={5} className="text-center">
+            languages
+          </th>
+        </tr>
+        <tr>
+          {languagesDB
+            .filter((l) => !l.toLearn)
+            .map((l) => (
+              <th className="text-center" key={l.id}>
+                {l.name}
+              </th>
+            ))}
+        </tr>
+      </thead>
+      <tbody>
+        {visitors.map((v) => (
+          <LangTableItem key={v.id} visitor={v} toLearn={false} />
         ))}
-      </tr>
-    </thead>
-    <tbody>{children}</tbody>
-  </Table>
+      </tbody>
+    </Table>
+  </>
 );
 
-const LocRow = ({ name, lang }) => (
+const LangTableItem = ({ visitor, toLearn }) => (
   <tr>
-    <td>{name}</td>
-    {langDB.map((l) => (
-      <td key={l.id} className="text-center">
-        {lang.includes(l.id) && "X"}
-      </td>
-    ))}
+    <td>{visitor.name}</td>
+    {languagesDB
+      .filter((l) => l.toLearn === toLearn)
+      .map((l) => (
+        <td key={l.id} className="text-center align-middle">
+          {visitor.languages.includes(l.id) ? <Check /> : ""}
+        </td>
+      ))}
   </tr>
 );
 
-export default Object.assign(Loc, {
-  Visitor: LocRow,
-  ReferenceTable: RefTables,
-});
+export default VisitorsLanguages;
